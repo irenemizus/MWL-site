@@ -1,0 +1,46 @@
+.page {
+  max-width: 600pt;
+  margin: auto;
+}
+
+.page h1 {
+  margin: 25pt 30pt;
+  font-size: 200%;
+  font-weight: normal;
+}
+
+.page h2 {
+  margin: 35pt 30pt 0pt 30pt;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.article_item {
+  margin: 0 0 18pt 0;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.article_span_space {
+  width: 5pt;
+  display: inline-block;
+}
+
+.article_title {
+  font-size: 110%;
+  padding: 3pt 0 3pt 0;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+.article_journal_title {
+  font-style: italic;
+}
+
+.article_language {
+  font-size: 90%;
+}
+
+.article_data {
+  font-size: 90%;
+  font-weight: bold;
+}

@@ -1,0 +1,19 @@
+.article_pages_list {
+  padding: 10pt;
+}
+
+.page_button a {
+  background: rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  padding: 2pt 4pt;
+}
+
+.page_button a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.page_button {
+  display: inline-block;
+  margin: 4pt 2pt;
+}
