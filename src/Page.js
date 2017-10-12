@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
-import { Link } from 'react-router-dom';
-import { withRouter } from 'react-router-dom';
-
-import License from './License'
+import queryString from 'query-string';
+import { Link, withRouter } from 'react-router-dom';
 
 import './Page.css';
+
+import License from './License'
 
 class ArticleAuthor extends Component {
 	render() {		
@@ -39,14 +39,11 @@ class Article extends Component {
 		    ]
 		}
 		
-		const { history, location } = this.props;
-		const search = location.search;
-		
 		let language;
 		if (this.props.article.url && this.props.article.url_trans && this.props.article.language) {
 			language = [
 				<span className="article_span_space" />,
-				<span className="article_language"><Link to={location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url}>[{renderHTML(this.props.article.language)}]</Link></span>
+				<span className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url}>[{renderHTML(this.props.article.language)}]</Link></span>
 			]
 		}
 		else if (this.props.article.language) {
@@ -67,7 +64,7 @@ class Article extends Component {
 				<span className="article_span_space" />,
 				<span>({renderHTML(this.props.article.year_trans)})</span>,
 				<span className="article_span_space" />,
-				<span className="article_language"><Link to={location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>[{renderHTML(this.props.article.language_trans)}]</Link></span>
+				<span className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>[{renderHTML(this.props.article.language_trans)}]</Link></span>
 				]
 		}
 		else if (this.props.article.language_trans) {
@@ -88,13 +85,13 @@ class Article extends Component {
 		if (this.props.article.url) {
 			article_title = 
 				<div className="article_title">
-					<Link to={location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url} >{renderHTML(this.props.article.title)}</Link>
+					<Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url} >{renderHTML(this.props.article.title)}</Link>
 				</div>;
 		}
 		else if (this.props.article.url_trans) {
 			article_title = 
 				<div className="article_title">
-					<Link to={location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>{renderHTML(this.props.article.title)}</Link>
+					<Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>{renderHTML(this.props.article.title)}</Link>
 				</div>;
 		}
 		else {
@@ -146,10 +143,12 @@ class Page extends Component {
 	render() {
   		const { location } = this.props;
 		const search = location.search;
-		const params = new URLSearchParams(search);
+		//const params = new URLSearchParams(search);
+		const params = queryString.parse(search);
+		
 		this.state = {	
-			showlicense: params.get('showlicense'),
-			url: params.get('url')
+			showlicense: params['showlicense'],
+			url: params['url']
 		}
 
 		let paragraphsList = [];
@@ -160,7 +159,7 @@ class Page extends Component {
 		}
 		
 		let license;
-			if (this.state.showlicense == 'true') {
+			if (this.state.showlicense === 'true') {
 				license = <License url={this.state.url} backUrl={location.pathname}/>;
 			}
 			

@@ -1,9 +1,9 @@
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
-import App from './App';
+import { HashRouter } from 'react-router-dom';
 
 import './App.css';
 
+import App from './App';
 
 const Root = (props) => (
 	<HashRouter>

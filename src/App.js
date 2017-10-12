@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Switch, Route } from 'react-router-dom';
-import ArticlePagesList from './ArticlePagesList';
+import { Switch, Route, withRouter } from 'react-router-dom';
+
 import logo from './logo.svg';
 import './App.css';
 
+import ArticlePagesList from './ArticlePagesList';
 import Page from './Page'
 
 const DataState = {
@@ -12,6 +13,8 @@ const DataState = {
 	SUCCESS: 2,
 	FAIL: 3
 };
+
+var PageWithHistory = withRouter(Page);
 
 class App extends Component {
 	constructor() {
@@ -75,7 +78,7 @@ class App extends Component {
 				  } />
 				  <Route path='/page/:index' render={ 
 					(props) => ( 
-						<Page location={props.location} page={json.pages[props.match.params.index]} />
+						<PageWithHistory page={json.pages[props.match.params.index]} />
 					)
 				  } />
 				</Switch>
