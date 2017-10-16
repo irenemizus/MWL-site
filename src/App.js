@@ -58,7 +58,7 @@ class App extends Component {
 	
 		if (this.state.dataState === DataState.LOADING) {
 			content = <p className="App-intro">
-			  Loading...
+			  Loading..
 			</p>;
 		} else if (this.state.dataState === DataState.FAIL) {
 			content = <p className="App-intro">
@@ -97,8 +97,9 @@ class App extends Component {
 		return (
 		  <div className="App">
 			<div className="App-header">
-			  <img src={logo} className="App-logo" alt="logo" />
-			  <h2>Welcome to React</h2>
+			  <img src="img/index.jpg" alt="MicroWave Spectroscopy Laboratory" />
+			  <br />
+			  <img src="img/line1.jpg" />
 			</div>
 			
 			<div className="left_pane">

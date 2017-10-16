@@ -18,11 +18,13 @@ class License extends Component {
 	render() {
 	  	
 		return (
-			<div>
-				<p>By clicking “Download” or “Open” you will gain access to the electronic version of the published journal article, which is placed here exclusively for personal and internal institutional use. If it is not your case press “Back” button and/or contact administrator.</p>
-				<p><a target="_blank" href={this.state.url} onClick={this.downloadLinkClick.bind(this)}>Open</a></p>
-				<p><a download={true} href={this.state.url} onClick={this.downloadLinkClick.bind(this)}>Download</a></p>
-				<p><button onClick={this.downloadLinkClick.bind(this)}>Back</button></p>
+			<div className="license_alert_background">
+				<div className="license_alert">
+					<p>By clicking “Download” or “Open” you will gain access to the electronic version of the published journal article, which is placed here exclusively for personal and internal institutional use. If it is not your case press “Back” button and/or contact administrator.</p>
+					<p><a target="_blank" href={this.state.url} onClick={this.downloadLinkClick.bind(this)}>Open</a></p>
+					<p><a download={true} href={this.state.url} onClick={this.downloadLinkClick.bind(this)}>Download</a></p>
+					<p><button onClick={this.downloadLinkClick.bind(this)}>Back</button></p>
+				</div>
 			</div>
 		);
 	  }
