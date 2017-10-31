@@ -19,65 +19,66 @@ class ArticleAuthor extends Component {
 class Article extends Component {
 	render() {		
 		let authorsList = [];
+		let key = 0;
 		for (let i in this.props.article.authors) {
 			authorsList.push(
-				<ArticleAuthor key={i} author={this.props.article.authors[i]} />
+				<ArticleAuthor key={key++} author={this.props.article.authors[i]} />
 			);
 			
 			if (i < this.props.article.authors.length - 1) {
 				authorsList.push(
-					<span>, </span>
-				)			
+					<span key={key++}>, </span>
+				)
 			}
 		}
 		
 		let journal_title;
 		if (this.props.article.journal) {
 		    journal_title = [
-		        <span className="article_journal_title">{renderHTML(this.props.article.journal)}</span>,
-		        <span>, </span>
+		        <span key={key++} className="article_journal_title">{renderHTML(this.props.article.journal)}</span>,
+		        <span key={key++}>, </span>
 		    ]
 		}
 		
 		let language;
 		if (this.props.article.url && this.props.article.url_trans && this.props.article.language) {
 			language = [
-				<span className="article_span_space" />,
-				<span className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url}>[{renderHTML(this.props.article.language)}]</Link></span>
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=' + this.props.article.url}>[{renderHTML(this.props.article.language)}]</Link></span>
 			]
 		}
 		else if (this.props.article.language) {
 			language = [
-				<span className="article_span_space" />,
-				<span className="article_language">[{renderHTML(this.props.article.language)}]</span>
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_language">[{renderHTML(this.props.article.language)}]</span>
 			]
 		};
 		
 		let translation;
 		if (this.props.article.url && this.props.article.url_trans && this.props.article.language_trans) {
 			translation = [
-				<br />,
-				<span className="article_journal_title">{renderHTML(this.props.article.journal_trans)}</span>,
-				<span>, </span>,
-				<span className="article_span_space" />,
-				<span className="article_data">{renderHTML(this.props.article.data_trans)}</span>,
-				<span className="article_span_space" />,
-				<span>({renderHTML(this.props.article.year_trans)})</span>,
-				<span className="article_span_space" />,
-				<span className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>[{renderHTML(this.props.article.language_trans)}]</Link></span>
+				<br key={key++} />,
+				<span key={key++} className="article_journal_title">{renderHTML(this.props.article.journal_trans)}</span>,
+				<span key={key++}>, </span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_data">{renderHTML(this.props.article.data_trans)}</span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++}>({renderHTML(this.props.article.year_trans)})</span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_language"><Link to={this.props.location.pathname + '?showlicense=true&url=' + this.props.article.url_trans}>[{renderHTML(this.props.article.language_trans)}]</Link></span>
 				]
 		}
 		else if (this.props.article.language_trans) {
 		translation = [
-				<br />,
-				<span className="article_journal_title">{renderHTML(this.props.article.journal_trans)}</span>,
-				<span>, </span>,
-				<span className="article_span_space" />,
-				<span className="article_data">{renderHTML(this.props.article.data_trans)}</span>,
-				<span className="article_span_space" />,
-				<span>({renderHTML(this.props.article.year_trans)})</span>,
-				<span className="article_span_space" />,
-				<span className="article_language">[{renderHTML(this.props.article.language_trans)}]</span>
+				<br key={key++} />,
+				<span key={key++} className="article_journal_title">{renderHTML(this.props.article.journal_trans)}</span>,
+				<span key={key++}>, </span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_data">{renderHTML(this.props.article.data_trans)}</span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++}>({renderHTML(this.props.article.year_trans)})</span>,
+				<span key={key++} className="article_span_space" />,
+				<span key={key++} className="article_language">[{renderHTML(this.props.article.language_trans)}]</span>
 				]
 		};
 		
@@ -85,13 +86,13 @@ class Article extends Component {
 		if (this.props.article.url) {
 			article_title = 
 				<div className="article_title">
-					<Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url} >{renderHTML(this.props.article.title)}</Link>
+					<Link to={this.props.location.pathname + '?showlicense=true&url=' + this.props.article.url} >{renderHTML(this.props.article.title)}</Link>
 				</div>;
 		}
 		else if (this.props.article.url_trans) {
 			article_title = 
 				<div className="article_title">
-					<Link to={this.props.location.pathname + '?showlicense=true&url=/Papers_pdf/' + this.props.article.url_trans}>{renderHTML(this.props.article.title)}</Link>
+					<Link to={this.props.location.pathname + '?showlicense=true&url=' + this.props.article.url_trans}>{renderHTML(this.props.article.title)}</Link>
 				</div>;
 		}
 		else {
@@ -141,6 +142,7 @@ class Paragraph extends Component {
 
 class Page extends Component {
 	render() {
+		window.scrollTo(0, 0);
   		const { location } = this.props;
 		const search = location.search;
 		//const params = new URLSearchParams(search);
@@ -160,7 +162,7 @@ class Page extends Component {
 		
 		let license;
 			if (this.state.showlicense === 'true') {
-				license = <License url={this.state.url} backUrl={location.pathname}/>;
+				license = <License url={this.state.url} backUrl={location.pathname} page={this.props.page} />;
 			}
 			
 		return (

@@ -1,3 +1,17 @@
+nb {
+  white-space: nowrap;
+}
+
+a {
+  color: rgba(0, 25, 150, 0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  /*color: rgba(255, 170, 100, 1.0);*/
+  color: rgba(0, 25, 150, 0.6);
+}
+
 .page {
   max-width: 600pt;
   margin: auto;
@@ -5,13 +19,14 @@
 
 .page h1 {
   margin: 25pt 30pt;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: normal;
+  color: #546279;
 }
 
 .page h2 {
   margin: 35pt 30pt 0pt 30pt;
-  font-size: 150%;
+  font-size: 120%;
   font-weight: bold;
 }
 
@@ -32,12 +47,28 @@
   color: rgba(0, 0, 0, 1.0);
 }
 
+.article_title a {
+  color: rgba(0, 25, 150, 0.8);
+  text-decoration: none;
+}
+
+.article_title a:hover {
+  /*color: rgba(255, 170, 100, 1.0);*/
+  color: rgba(0, 25, 150, 0.6);
+
+}
+
 .article_journal_title {
   font-style: italic;
 }
 
 .article_language {
   font-size: 90%;
+}
+
+.article_language a {
+  font-size: 95%;
+  font-weight: bold;
 }
 
 .article_data {

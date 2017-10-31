@@ -2,18 +2,39 @@
   padding: 10pt;
 }
 
-.page_button a {
-  background: rgba(0, 0, 0, 0.12);
-  color: rgba(0, 0, 0, 0.9);
+.page_button_dark a {
+  background: rgba(200, 200, 255, 0.25);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   padding: 2pt 4pt;
+  border-radius: 2pt;
 }
 
-.page_button a:hover {
-  background: rgba(0, 0, 0, 0.3);
+.page_button_light a {
+  color: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 50, 0.05);
+  text-decoration: none;
+  padding: 2pt 4pt;
+  border-radius: 2pt;
 }
 
-.page_button {
+.page_button_light a:hover,
+.page_button_dark a:hover {
+  background: #D8DFE9;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.page_button_active div {
+  color: rgba(255, 170, 100, 1.0);
+  background: rgba(255, 170, 100, 0.3);
+  text-decoration: none;
+  padding: 2pt 4pt;
+  border-radius: 2pt;
+}
+
+.page_button_light,
+.page_button_dark,
+.page_button_active {
   display: inline-block;
   margin: 4pt 2pt;
 }

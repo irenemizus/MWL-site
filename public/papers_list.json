@@ -1,7 +1,7 @@
 {
     "pages": {
         "1959-1977": {
-            "title": "Scientific articles from some of laboratory member lists (1959&ndash;1977)",
+            "title": "Scientific articles from some of laboratory member lists <nb>(1959&ndash;1977)</nb>",
             "paragraphs": [
                 {
                     "articles": [
@@ -547,7 +547,7 @@
                             "journal_trans": "Preprint #24",
                             "language": "in Russian",
                             "language_trans": "in English",
-                            "title": "Millimeter and Submillimeter Wave Wid-Range Gas Radio Spektroskopy",
+                            "title": "Millimeter and Submillimeter Wave Wid-Range Gas Radio Spectroskopy",
                             "url": "1972Krupnov.pdf",
                             "url_trans": "1972Krupnov-1.pdf",
                             "year": "1972",
@@ -844,7 +844,7 @@
             ]
         },
         "1978-1989": {
-            "title": "Scientific articles from some of laboratory member lists (1978&ndash;1989)",
+            "title": "Scientific articles from some of laboratory member lists <nb>(1978&ndash;1989)</nb>",
             "paragraphs": [
                 {
                     "articles": [
@@ -2167,7 +2167,7 @@
                             ],
                             "data": "161, 312&ndash;316",
                             "journal": "J. Mol. Spectrosc.",
-                            "title": "Electric-Resonance Optothermal Spektrum of the <em>K<sub>s</sub></em>&nbsp;=&nbsp;1&nbsp;&larr;&nbsp;0 Band of DHO&ndash;DOD: Direct Observation of the 1&nbsp;&rarr;&nbsp;4 Tunneling Spitting",
+                            "title": "Electric-Resonance Optothermal Spectrum of the <em>K<sub>s</sub></em>&nbsp;=&nbsp;1&nbsp;&larr;&nbsp;0 Band of DHO&ndash;DOD: Direct Observation of the 1&nbsp;&rarr;&nbsp;4 Tunneling Spitting",
                             "url": "1993Karyakin-1.pdf",
                             "year": "1993"
                         },

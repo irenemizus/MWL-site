@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { Switch, Route, withRouter } from 'react-router-dom';
 
-import logo from './logo.svg';
 import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
@@ -15,6 +15,22 @@ const DataState = {
 };
 
 var PageWithHistory = withRouter(Page);
+var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
+
+class Footer extends Component {
+	render() {
+		return (
+			<div className="App-footer">
+			    <img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
+				<div className="contacts">
+					<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
+						Institute of Applied Physics of the Russian Academy of Sciences</a><br />
+						contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+				</div>
+			</div>
+		);
+	}
+}
 
 class App extends Component {
 	constructor() {
@@ -29,9 +45,6 @@ class App extends Component {
     
     	axios.get('/papers_list.json')
 			.then(function (response) {
-				console.log(response);
-				
-	  			//
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
@@ -56,9 +69,39 @@ class App extends Component {
 	render() {
 		let content, leftPane;
 	
+		var header = (
+			<div className="App-header">
+			  <div style={{"minWidth": "2000px"}}>
+			  	<img src="img/index.jpg" alt="MicroWave Spectroscopy Laboratory" />
+			  	<img style={{"width": "1000px", "height": "139px"}} src="img/index-right.jpg" alt="" />
+			  </div>
+			  <img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
+			</div>
+		)
+		
+		var line = (
+			  <svg width="20" height="7">
+  				<rect width="15" height="4" className="menu_item" style={{"strokeWidth": "0"}} />
+  				-
+			  </svg>
+		)
+		
+		var menu = (
+			<div className="App-menu">
+				<div className="menu_item"><Link to={"/index.html"}>{line}Main directions of activity</Link></div>
+				<div className="menu_item"><Link to={"/people.html"}>{line}People</Link></div>
+				<div className="menu_item"><Link to={"/instrum.html"}>{line}Instruments</Link></div>
+
+				<div className="menu_item_active"><span>{line}List of publications</span></div>
+
+				<div className="menu_item"><Link to={"/about.html"}>{line}About</Link></div>
+				<div className="menu_item"><Link to={"/interest.html"}>{line}Интересующимся</Link></div>
+			</div>
+		)
+	
 		if (this.state.dataState === DataState.LOADING) {
 			content = <p className="App-intro">
-			  Loading..
+			  Loading...
 			</p>;
 		} else if (this.state.dataState === DataState.FAIL) {
 			content = <p className="App-intro">
@@ -72,42 +115,59 @@ class App extends Component {
 			content = (
 				<Switch>
 				  <Route exact path='/' render={ 
-					(props) => ( 
-						<ArticlePagesList pageTitles={pageTitles} />
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<ArticlePagesListWithHistory colors="light" pageTitles={pageTitles} />
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
 					)
 				  } />
 				  <Route path='/page/:index' render={ 
-					(props) => ( 
-						<PageWithHistory page={json.pages[props.match.params.index]} />
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<PageWithHistory page={json.pages[props.match.params.index]} />
+							</div>
+							<Footer />
+						</div>
 					)
 				  } />
 				</Switch>
 			)
 			
 			leftPane = (
-				  <Route path='/page/:index' render={ 
-					(props) => ( 
-						<ArticlePagesList pageTitles={pageTitles} />
+				<Switch>
+				  <Route exact path='/' render={ 
+					(props) => (
+						<div className="left_pane">
+							{menu}			
+						</div>
 					)
 				  } />
+				  <Route path='/page/:index' render={ 
+					(props) => (
+						<div className="left_pane">
+							{menu}
+							<ArticlePagesListWithHistory colors="dark" pageTitles={pageTitles} />
+						</div>
+					)
+				  } />
+				</Switch>
 			)
-
 	  	}
 	  	
 		return (
 		  <div className="App">
-			<div className="App-header">
-			  <img src="img/index.jpg" alt="MicroWave Spectroscopy Laboratory" />
-			  <br />
-			  <img src="img/line1.jpg" />
-			</div>
+			{header}
+
+			{leftPane}
 			
-			<div className="left_pane">
-				{leftPane}
-			</div>
-			<div className="main_pane">
-			    {content}
-			</div>
+		    {content}
+			
 		  </div>
 		);
 	  }
