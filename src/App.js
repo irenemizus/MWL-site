@@ -88,14 +88,14 @@ class App extends Component {
 		
 		var menu = (
 			<div className="App-menu">
-				<div className="menu_item"><Link to={"/index.html"}>{line}Main directions of activity</Link></div>
-				<div className="menu_item"><Link to={"/people.html"}>{line}People</Link></div>
-				<div className="menu_item"><Link to={"/instrum.html"}>{line}Instruments</Link></div>
+				<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
+				<div className="menu_item"><a href="/people.html">{line}People</a></div>
+				<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
 
 				<div className="menu_item_active"><span>{line}List of publications</span></div>
 
-				<div className="menu_item"><Link to={"/about.html"}>{line}About</Link></div>
-				<div className="menu_item"><Link to={"/interest.html"}>{line}Интересующимся</Link></div>
+				<div className="menu_item"><a href="/about.html">{line}About</a></div>
+				<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 			</div>
 		)
 	
