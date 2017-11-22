@@ -16,4 +16,4 @@ done
 IFS="$OIFS"
 
 echo Building react part...
-./node_modules/.bin/webpack
+./node_modules/.bin/webpack --optimize-minimize

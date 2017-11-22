@@ -61,7 +61,8 @@
   width: 180pt;
   height: 100vh;
   top: 120pt;
-  background-color: rgba(30,60,100,0.7);
+  /*background-color: rgba(30,60,100,0.7);*/
+  background-color: #546279;
 }
 
 .main_pane {
