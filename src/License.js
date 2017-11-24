@@ -36,7 +36,13 @@ class License extends Component {
 	}
 
 	render() {
-		var fullURL = '/Papers_pdf/' + this.state.url;
+		var fullURL; 
+		if (this.state.url.startsWith("http")) {
+			fullURL = this.state.url;
+		}
+		else {
+			fullURL = "/Papers_pdf/" + this.state.url;
+		}
 	
 		return (
 			<div className="license_alert_background">
