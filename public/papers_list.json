@@ -7515,6 +7515,23 @@
                             "title": "Definitive Ideal-Gas Thermochemical Functions of the H<sub>2</sub><sup>16</sup>O Molecule",
                             "url": "2016Furtenbacher.pdf",
                             "year": "2016"
+                        },
+                        {
+                            "authors": [
+                                "E.&nbsp;Fasci",
+                                "T.A.&nbsp;Odintsova", 
+                                "A.&nbsp;Castrillo", 
+                                "M.D.&nbsp;De&nbsp;Vizia", 
+                                "A.&nbsp;Merlone", 
+                                "F.&nbsp;Bertiglia", 
+                                "L.&nbsp;Moretti", 
+                                "L. Gianfrani"
+                            ],
+                            "data": "93, 042513",
+                            "journal": "Phys. Rev. A",
+                            "title": "Dual-Laser Absorption Spectroscopy of C<sub>2</sub>H<sub>2</sub> at 1.4&nbsp;&mu;m",
+                            "url": "2016Fasci.pdf",
+                            "year": "2016"
                         }
                     ],
                     "title": "2016"
@@ -7738,11 +7755,51 @@
                             "title": "Accurate Line Intensities for Water Transitions in the Infrared: Comparison of Theory and Experiment",
                             "url": "2017Birk.pdf",
                             "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "T.A.&nbsp;Odintsova", 
+                                "E.&nbsp;Fasci", 
+                                "L.&nbsp;Moretti", 
+                                "E.J.&nbsp;Zak", 
+                                "O.L.&nbsp;Polyansky", 
+                                "J.&nbsp;Tennyson", 
+                                "L.&nbsp;Gianfrani", 
+                                "A.&nbsp;Castrillo"
+                            ],
+                            "data": "146, 244309",
+                            "journal": "J. Chem. Phys.",
+                            "title": "Highly Accurate Intensity Factors of Pure CO<sub>2</sub> Lines Near 2&nbsp;&mu;m",
+                            "url": "2017Odintsova-1.pdf",
+                            "year": "2017"
                         }
                     ],
                     "title": "2017"
                 }
             ]
-        }
+        },
+        "2018": {
+            "title": "Our scientific articles (2018)",
+            "paragraphs": [
+                {
+                    "articles": [
+                    	{
+                            "authors": [
+                            	"M.A.&nbsp;Koshelev", 
+                            	"G.Yu.&nbsp;Golubyatnikov", 
+                            	"I.N.&nbsp;Vilkov", 
+                            	"M.Yu.&nbsp;Tretyakov"
+                            ],
+                            "data": "205, 51&ndash;58",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Line Shape Parameters of the 22-GHz Water Line for Accurate Modeling in Atmospheric Applications",
+                            "url": "2018Koshelev.pdf",
+                            "year": "2018"
+                        }
+					],
+					"title": "2018"
+				}
+			]
+		}
     }
 }

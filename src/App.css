@@ -71,6 +71,8 @@
   background-color: white;
   max-width: 600pt;
   margin-top: 150pt;
+  margin-bottom: 0pt;
+  min-height: 60vh;
 }
 
 .article_pages_list {
