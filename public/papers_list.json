@@ -6021,7 +6021,7 @@
                                 "V.A.&nbsp;Kamensky",
                                 "G.Yu.&nbsp;Golubyatnikov",
                                 "A.V.&nbsp;Maslennikova",
-                                "V.I.&nbsp;Plechanov",
+                                "V.I.&nbsp;Plekhanov",
                                 "N.M.&nbsp;Shakhova",
                                 "M.S.&nbsp;Kleshnin",
                                 "I.V.&nbsp;Turchin"
@@ -7302,11 +7302,16 @@
                                 "A.V.&nbsp;Lapinov"
                             ],
                             "data": "59(8&ndash;9), 798&ndash;810",
+                            "data_trans": "59(8&ndash;9), 715&ndash;726",
                             "journal": "Izv. VUZov. Radiofizika",
+                            "journal_trans": "Radiophysics and Quantum Electronics",
                             "language": "in Russian",
-                            "title": "Frequency Modulation Technique Peculiarity of Detection of Nonlinear Absorption Spectral Line Shape",
+                            "language_trans": "in English",
+                            "title": "The Features of the Frequency-Modulation Method when Studying the Shapes of the Spectral Lines of Nonlinear Absorption",
                             "url": "2016Golubyatnikov.pdf",
-                            "year": "2016"
+                            "url_trans": "2016Golubyatnikov-1.pdf",
+                            "year": "2016",
+                            "year_trans": "2017"
                         },
                         {
                             "authors": [
@@ -7525,7 +7530,7 @@
                                 "A.&nbsp;Merlone", 
                                 "F.&nbsp;Bertiglia", 
                                 "L.&nbsp;Moretti", 
-                                "L. Gianfrani"
+                                "L.&nbsp;Gianfrani"
                             ],
                             "data": "93, 042513",
                             "journal": "Phys. Rev. A",
@@ -7678,7 +7683,7 @@
                                 "S.A.&nbsp;Tashkun",
                                 "V.I.&nbsp;Perevalov"
                             ],
-                            "data": "doi: 10.1016/j.jqsrt.2017.01.037",
+                            "data": "203, 265&ndash;281",
                             "journal": "J. Quant. Spectrosc. Rad. Trans.",
                             "title": "Room Temperature Linelists for CO<sub>2</sub> Asymmetric Isotopologues with <em>ab initio</em> Computed Intensities",
                             "url": "2017Zak-1.pdf",
@@ -7772,6 +7777,211 @@
                             "title": "Highly Accurate Intensity Factors of Pure CO<sub>2</sub> Lines Near 2&nbsp;&mu;m",
                             "url": "2017Odintsova-1.pdf",
                             "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "A.A.&nbsp;Kyuberis",
+                                "N.F.&nbsp;Zobov",
+                                "O.V.&nbsp;Naumenko",
+                                "B.A.&nbsp;Voronin",
+                                "O.L.&nbsp;Polyansky",
+                                "L.&nbsp;Lodi",
+                                "A.&nbsp;Liu",
+                                "S.&#8209;M.&nbsp;Hu",
+                                "J.&nbsp;Tennyson"
+                            ],
+                            "data": "203, 175&ndash;185",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Room Temperature Line Lists for Deuterated Water",
+                            "url": "2017Kyuberis.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "R.R.&nbsp;Gamache",
+                                "Ch.&nbsp;Roller",
+                                "E.&nbsp;Lopes",
+                                "I.E.&nbsp;Gordon",
+                                "L.S.&nbsp;Rothman",
+                                "O.L.&nbsp;Polyansky",
+                                "N.F.&nbsp;Zobov",
+                                "A.A.&nbsp;Kyuberis",
+                                "J.&nbsp;Tennyson",
+                                "S.N.&nbsp;Yurchenko",
+                                "A.G.&nbsp;Csaszar",
+                                "T.&nbsp;Furtenbacher",
+                                "X.&nbsp;Huang",
+                                "D.W.&nbsp;Schwenke",
+                                "T.J.&nbsp;Lee",
+                                "B.J.&nbsp;Drouin",
+                                "S.A.&nbsp;Tashkun",
+                                "V.I.&nbsp;Perevalov",
+                                "R.V.&nbsp;Kochanov"
+                            ],
+                            "data": "203, 70&ndash;87",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Total Internal Partition Sums for 166 Isotopologues of 51 Molecules Important in Planetary Atmospheres: Application to HITRAN2016 and Beyond",
+                            "url": "2017Gamache.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "I.E.&nbsp;Gordon",
+                                "L.S.&nbsp;Rothman",
+                                "C.&nbsp;Hill",
+                                "R.V.&nbsp;Kochanov",
+                                "Y.&nbsp;Tan",
+                                "P.F.&nbsp;Bernath",
+                                "M.&nbsp;Birk",
+                                "V.&nbsp;Boudon",
+                                "A.&nbsp;Campargue",
+                                "K.V.&nbsp;Chance",
+                                "B.J.&nbsp;Drouin",
+                                "J.&#8209;M.&nbsp;Flaud",
+                                "R.R.&nbsp;Gamache",
+                                "J.T.&nbsp;Hodges",
+                                "D.&nbsp;Jacquemart",
+                                "V.I.&nbsp;Perevalov",
+                                "A.&nbsp;Perrin",
+                                "K.P.&nbsp;Shine",
+                                "M.&#8209;A.H.&nbsp;Smith",
+                                "J.&nbsp;Tennyson",
+                                "G.C.&nbsp;Toon",
+                                "H.&nbsp;Tran",
+                                "V.G.&nbsp;Tyuterev",
+                                "A.&nbsp;Barbe",
+                                "A.G.&nbsp;Csaszar",
+                                "V.M.&nbsp;Devi",
+                                "T.&nbsp;Furtenbacher",
+                                "J.J.&nbsp;Harrison",
+                                "J.&#8209;M.&nbsp;Hartman",
+                                "A.&nbsp;Jolly",
+                                "J.T.&nbsp;Johnson",
+                                "T.&nbsp;Karman",
+                                "I.&nbsp;Kleiner",
+                                "A.A.&nbsp;Kyuberis",
+                                "J.&nbsp;Loos",
+                                "O.M.&nbsp;Lyulin",
+                                "S.T.&nbsp;Massie",
+                                "S.N.&nbsp;Mikhailenko",
+                                "N.&nbsp;Moazzen&#8209;Ahmadi",
+                                "H.S.P.&nbsp;Muller",
+                                "O.V.&nbsp;Naumenko",
+                                "A.V.&nbsp;Nikitin",
+                                "O.L.&nbsp;Polyansky",
+                                "M.&nbsp;Rey",
+                                "M.&nbsp;Rotger",
+                                "S.W.&nbsp;Sharpe",
+                                "K.&nbsp;Sung",
+                                "E.&nbsp;Starikova",
+                                "S.A.&nbsp;Tashkun",
+                                "J.&nbsp;Vander&nbsp;Auwera",
+                                "G.&nbsp;Wagner",
+                                "J.&nbsp;Wilzewski",
+                                "P.&nbsp;Wcislo",
+                                "S.&nbsp;Yu",
+                                "E.J.&nbsp;Zak"
+                            ],
+                            "data": "203, 3&ndash;69",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "The HITRAN2016 Molecular Spectroscopic Database",
+                            "url": "2017Gordon.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "T.I.&nbsp;Kalganova",
+                                "A.G.&nbsp;Orlova",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "A.V.&nbsp;Maslennikova",
+                                "I.V.&nbsp;Turchin"
+                            ],
+                            "data": "10(3), 317&ndash;322",
+                            "journal": "Front. Optoelectron.",
+                            "title": "Dynamic Influence of Pentoxifylline on the Oxygen Status of Pliss's Lymph Sarcoma in Rat",
+                            "url": "2017Kalganova.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "M.S.&nbsp;Kleshnin",
+                                "A.G.&nbsp;Orlova",
+                                "M.Yu.&nbsp;Kirillin",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "I.V.&nbsp;Turchin"
+                            ],
+                            "data": "47(4), 355&ndash;360",
+                            "journal": "Quant. Electron.",
+                            "title": "Method of Measuring Blood Oxygenation Based on Spectroscopy of Diffusely Scattered Light",
+                            "url": "2017Kleshnin.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "A.G.&nbsp;Orlova",
+                                "M.Yu.&nbsp;Kirillin",
+                                "A.B.&nbsp;Volovetsky",
+                                "N.Yu.&nbsp;Shilyagina",
+                                "E.A.&nbsp;Sergeeva",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "I.V.&nbsp;Turchin"
+                            ],
+                            "data": "14, 015601",
+                            "journal": "Laser Phys. Lett.",
+                            "title": "Diffuse Optical Spectroscopy Monitoring of Oxygen State and Hemoglobin Concentration During SKBR-3 Tumor Model Growth",
+                            "url": "2017Orlova.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "M.V.&nbsp;Pavlov",
+                                "P.V.&nbsp;Subochev",
+                                "T.I.&nbsp;Kalganova",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "V.I.&nbsp;Plekhanov",
+                                "O.E.&nbsp;Ilyinskaya",
+                                "A.G.&nbsp;Orlova",
+                                "N.M.&nbsp;Shakhova",                                
+                                "A.V.&nbsp;Maslennikova"
+                            ],
+                            "data": "B.J. Tromberg, A.G. Yodh, E.M. Sevick-Muraca, R.R. Alfano, Eds, v.&nbsp;10059, pp.&nbsp;100590P1&ndash;100590P7, Proc. of SPIE",
+                            "journal": "Optical Tomography and Spectroscopy of Tissue XII",
+                            "title": "The Complex Evaluation of Tumor Oxygen State and Vasculature During Preoperative Chemotherapy in Patients with Breast Cancer",
+                            "url": "2017Pavlov.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "I.&nbsp;Simko",
+                                "T.&nbsp;Furtenbacher",
+                                "J.&nbsp;Hruby",
+                                "N.F.&nbsp;Zobov",
+                                "O.L.&nbsp;Polyansky",
+                                "J.&nbsp;Tennyson",
+                                "R.R.&nbsp;Gamache",
+                                "T.&nbsp;Szidarovszky",
+                                "N.&nbsp;Denes",
+                                "A.G.&nbsp;Csaszar"
+                            ],
+                            "data": "46(2), 023104",
+                            "journal": "J. Phys. Chem. Ref. Data",
+                            "title": "Recommended Ideal-Gas Thermochemical Functions for Heavy Water and its Substituent Isotopologues",
+                            "url": "2017Simko.pdf",
+                            "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "J.&nbsp;Tennyson",
+                                "O.L.&nbsp;Polyansky",
+                                "N.F.&nbsp;Zobov",
+                                "A.&nbsp;Alijah",
+                                "A.G.&nbsp;Csaszar"
+                            ],
+                            "data": "50, 232001",
+                            "journal": "J. Phys. B",
+                            "title": "High-Accuracy Calculations of the Rotation-Vibration Spectrum of H<sub>3</sub><sup>+</sup>",
+                            "url": "2017Tennyson.pdf",
+                            "year": "2017"
                         }
                     ],
                     "title": "2017"
@@ -7794,6 +8004,24 @@
                             "journal": "J. Quant. Spectrosc. Rad. Trans.",
                             "title": "Line Shape Parameters of the 22-GHz Water Line for Accurate Modeling in Atmospheric Applications",
                             "url": "2018Koshelev.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"O.N.&nbsp;Ulenikov",
+                            	"O.V.&nbsp;Gromova",
+                            	"E.S.&nbsp;Bekhtereva",
+                            	"N.I.&nbsp;Raspopova",
+                            	"P.G.&nbsp;Sennikov",     
+                            	"M.A.&nbsp;Koshelev", 
+                            	"I.A.&nbsp;Velmuzhova", 
+                            	"A.P.&nbsp;Velmuzhov", 
+                            	"S.A.&nbsp;Adamchik" 
+                            ],
+                            "data": "205, 96&ndash;104",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "High Resolution Study of Strongly Interacting 2<em>&nu;</em><sub>1</sub>(<em>A</em><sub>1</sub>)/<em>&nu;</em><sub>1</sub> + <em>&nu;</em><sub>3</sub>(<em>F</em><sub>2</sub>) Bands of <em><sup>M</sup></em>GeH<sub>4</sub> (<em>M</em>&nbsp;=&nbsp;76, 74)",
+                            "url": "2018Ulenikov.pdf",
                             "year": "2018"
                         }
 					],
