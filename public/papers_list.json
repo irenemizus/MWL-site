@@ -8008,21 +8008,6 @@
                             "title": "High-Accuracy Calculations of the Rotation-Vibration Spectrum of H<sub>3</sub><sup>+</sup>",
                             "url": "2017Tennyson.pdf",
                             "year": "2017"
-                        },
-                        {
-                            "authors": [
-                                "I.I.&nbsp;Mizus",
-                                "A.A.&nbsp;Kyuberis",
-                                "N.F.&nbsp;Zobov",
-                                "V.Yu.&nbsp;Makhnev",
-                                "O.L.&nbsp;Polyansky",
-                                "J.&nbsp;Tennyson"
-                            ],
-                            "data": "doi:10.1098/rsta.2017.0149",
-                            "journal": "Phil. Trans. R. Soc. Lond. A",
-                            "title": "High-Accuracy Water Potential Energy Surface for the Calculation of Infrared Spectra",
-                            "url": "2017Mizus-1.pdf",
-                            "year": "2017"
                         }
                     ],
                     "title": "2017"
@@ -8063,6 +8048,36 @@
                             "journal": "J. Quant. Spectrosc. Rad. Trans.",
                             "title": "High Resolution Study of Strongly Interacting 2<em>&nu;</em><sub>1</sub>(<em>A</em><sub>1</sub>)/<em>&nu;</em><sub>1</sub> + <em>&nu;</em><sub>3</sub>(<em>F</em><sub>2</sub>) Bands of <em><sup>M</sup></em>GeH<sub>4</sub> (<em>M</em>&nbsp;=&nbsp;76, 74)",
                             "url": "2018Ulenikov.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "I.I.&nbsp;Mizus",
+                                "A.A.&nbsp;Kyuberis",
+                                "N.F.&nbsp;Zobov",
+                                "V.Yu.&nbsp;Makhnev",
+                                "O.L.&nbsp;Polyansky",
+                                "J.&nbsp;Tennyson"
+                            ],
+                            "data": "doi:10.1098/rsta.2017.0149",
+                            "journal": "Phil. Trans. R. Soc. Lond. A",
+                            "title": "High-Accuracy Water Potential Energy Surface for the Calculation of Infrared Spectra",
+                            "url": "2018Mizus.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "O.L.&nbsp;Polyansky",
+                                "N.F.&nbsp;Zobov",
+                                "I.I.&nbsp;Mizus",
+                                "A.A.&nbsp;Kyuberis",
+                                "L.&nbsp;Lodi",
+                                "J.&nbsp;Tennyson"
+                            ],
+                            "data": "doi:10.1016/j.jqsrt.2018.02.018",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Potential Energy Surface, Dipole Moment Surface and the Intensity Calculations for the 10&nbsp;&mu;m, 5&nbsp;&mu;m and 3&nbsp;&mu;m Bands of Ozone",
+                            "url": "2018Polyansky.pdf",
                             "year": "2018"
                         }
 					],
