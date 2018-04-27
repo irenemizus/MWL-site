@@ -124,9 +124,12 @@ class Paragraph extends Component {
 	render() {
 		let articlesList = [];
 		for (let i in this.props.paragraph.articles) {
-			articlesList.push(
-				<ArticleWithHistory key={i} article={this.props.paragraph.articles[i]} />
-			)
+			var arti = this.props.paragraph.articles[i];
+			if (arti.status == null) {
+				articlesList.push(
+					<ArticleWithHistory key={i} article={arti} />
+				)
+			}	
 		}
 		
 		return (
