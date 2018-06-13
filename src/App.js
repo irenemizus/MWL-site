@@ -19,6 +19,54 @@ var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var StaffListWithHistory = withRouter(StaffList);
 
+class Menu extends Component {
+	render() {
+		var line = (
+			<svg width="20" height="7">
+  				<rect width="15" height="4" className="menu_item" style={{"strokeWidth": "0"}} />
+  					-
+			</svg>
+		)
+
+		var menu_var = (
+			<Switch>
+				<Route path='/list' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+
+							<div className="menu_item_active"><span>{line}List of publications</span></div>			
+		
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/people' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
+							<div className="menu_item_active"><span>{line}People</span></div>
+							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+			</Switch>
+		)
+	
+		return (
+			<div>{menu_var}</div>
+		);
+	}
+}
+
 class Footer extends Component {
 	render() {
 		return (
@@ -94,40 +142,7 @@ class App extends Component {
 			  <img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
 			</div>
 		)
-		
-		var line = (
-			  <svg width="20" height="7">
-  				<rect width="15" height="4" className="menu_item" style={{"strokeWidth": "0"}} />
-  				-
-			  </svg>
-		)
-		
-		var menu = (
-			<div className="App-menu">
-				<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
-				<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
-				<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-
-				<div className="menu_item_active"><span>{line}List of publications</span></div>
-
-				<div className="menu_item"><a href="/about.html">{line}About</a></div>
-				<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
-			</div>
-		)
-		
-		var menuPeople = (
-			<div className="App-menu">
-				<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
-				
-				<div className="menu_item_active"><span>{line}People</span></div>
-				
-				<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-				<div className="menu_item"><a href="/">{line}List of publications</a></div>
-				<div className="menu_item"><a href="/about.html">{line}About</a></div>
-				<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
-			</div>
-		)
-	
+							
 		if (this.state.dataState === DataState.LOADING) {
 			content = <p className="App-intro">
 			  Loading...
@@ -145,7 +160,7 @@ class App extends Component {
 			
 			content = (
 				<Switch>
-				  <Route exact path='/' render={ 
+				  <Route exact path='/list' render={ 
 					(props) => (
 						<div>
 							<div className="main_pane">
@@ -157,7 +172,7 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/page/:index' render={ 
+				  <Route path='/list/page/:index' render={ 
 					(props) => (
 						<div>
 							<div className="main_pane">
@@ -184,18 +199,25 @@ class App extends Component {
 			
 			leftPane = (
 				<Switch>
-				  <Route exact path='/' render={ 
+				  <Route exact path='/list' render={ 
 					(props) => (
 						<div className="left_pane">
-							{menu}			
+							<Menu />			
 						</div>
 					)
 				  } />
-				  <Route path='/page/:index' render={ 
+				  <Route path='/list/page/:index' render={ 
 					(props) => (
 						<div className="left_pane">
-							{menu}
+							<Menu />
 							<ArticlePagesListWithHistory colors="dark" pageTitles={pageTitles} />
+						</div>
+					)
+				  } />
+				  <Route exact path='/people' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />			
 						</div>
 					)
 				  } />

@@ -43,7 +43,7 @@ class PageButton extends Component {
 		} else {
 			return (
 				<div style={boxStyle} className={buttonStyle}>
-					<Link style={linkStyle} to={'/page/' + renderHTML(this.state.index)}>{title}</Link>
+					<Link style={linkStyle} to={'/list/page/' + renderHTML(this.state.index)}>{title}</Link>
 				</div>
 			)
 		}		
@@ -66,7 +66,7 @@ export default class ArticlePagesList extends Component {
     		let curPageTitle = this.state.pageTitles[i].replace('-', '–');
     		let buttonView;
     		
-    		if (this.props.location.pathname === '/page/' + this.state.pageTitles[i]) {
+    		if (this.props.location.pathname === '/list/page/' + this.state.pageTitles[i]) {
    				buttonView = <PageButton active={true} key={i} index={this.state.pageTitles[i]} title={curPageTitle} />;
    			} else {
     			buttonView = <PageButton colors={this.props.colors} key={i} index={this.state.pageTitles[i]} title={curPageTitle} />;
