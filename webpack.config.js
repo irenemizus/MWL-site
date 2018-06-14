@@ -6,7 +6,7 @@ module.exports = {
   // Output our app to the dist/ directory
   output: {
   	path: __dirname + '/dist',
-    filename: 'index.list.js'
+    filename: 'index.js'
   },
   // Emit source maps so we can debug our code in the browser
   devtool: 'source-map',
@@ -29,7 +29,7 @@ module.exports = {
     // Check out https://github.com/jantimon/html-webpack-plugin
     // for the full list of options.
     new HtmlPlugin({
-      filename: 'list.html',
+      filename: 'index.html',
       template: 'public/index.html'
     })
   ]

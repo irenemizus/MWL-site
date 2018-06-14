@@ -7,6 +7,7 @@ import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
 import StaffList from './StaffList';
+import IndexPage from './IndexPage';
 import Page from './Page'
 
 const DataState = {
@@ -18,6 +19,7 @@ const DataState = {
 var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var StaffListWithHistory = withRouter(StaffList);
+var IndexWithHistory = withRouter(IndexPage);
 
 class Menu extends Component {
 	render() {
@@ -33,12 +35,10 @@ class Menu extends Component {
 				<Route path='/list' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
+							<div className="menu_item"><a href="/">{line}Main directions of activity</a></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-
-							<div className="menu_item_active"><span>{line}List of publications</span></div>			
-		
+							<div className="menu_item_active"><span>{line}List of publications</span></div>					
 							<div className="menu_item"><a href="/about.html">{line}About</a></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
@@ -47,12 +47,22 @@ class Menu extends Component {
 				<Route path='/people' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item"><a href="/index.html">{line}Main directions of activity</a></div>
+							<div className="menu_item"><a href="/">{line}Main directions of activity</a></div>
 							<div className="menu_item_active"><span>{line}People</span></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route exact path='/' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><a href="/about.html">{line}About</a></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
@@ -69,15 +79,40 @@ class Menu extends Component {
 
 class Footer extends Component {
 	render() {
+		var footer_var = (
+			<Switch>
+				<Route exact path='/' render={ 
+					(props) => (
+						<div className="App-footer">
+			    			<img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
+							<div className="contacts">
+								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
+									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
+									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+							</div>
+							<div className="contacts">
+								Last update 25.01.18
+							</div>
+						</div>
+					)
+				} />
+				<Route path='/' render={ 
+					(props) => (
+						<div className="App-footer">
+			    			<img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
+							<div className="contacts">
+								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
+									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
+									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+							</div>
+						</div>
+					)
+				} />
+			</Switch>
+		)
+
 		return (
-			<div className="App-footer">
-			    <img style={{"width": "100vw", "height": "13px"}} src="img/line1.jpg" alt=''/>
-				<div className="contacts">
-					<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
-						Institute of Applied Physics of the Russian Academy of Sciences</a><br />
-						contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
-				</div>
-			</div>
+			<div>{footer_var}</div>
 		);
 	}
 }
@@ -194,6 +229,18 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route exact path='/' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<IndexWithHistory />
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				</Switch>
 			)
 			
@@ -215,6 +262,13 @@ class App extends Component {
 					)
 				  } />
 				  <Route exact path='/people' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />			
+						</div>
+					)
+				  } />
+				  <Route exact path='/' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />			
