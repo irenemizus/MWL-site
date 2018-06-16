@@ -75,3 +75,13 @@ a:hover {
   font-size: 90%;
   font-weight: bold;
 }
+
+.leftimg {
+    float:left;
+    margin: 7px 7px 7px 0;
+   }
+   
+.rightimg  {
+    float: right;
+    margin: 7px 0 7px 7px;
+   }

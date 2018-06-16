@@ -8,7 +8,8 @@ import './App.css';
 import ArticlePagesList from './ArticlePagesList';
 import StaffList from './StaffList';
 import IndexPage from './IndexPage';
-import Page from './Page'
+import Page from './Page';
+import AssociatePage from './AssociatePage'
 
 const DataState = {
 	LOADING: 1,
@@ -20,6 +21,7 @@ var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var StaffListWithHistory = withRouter(StaffList);
 var IndexWithHistory = withRouter(IndexPage);
+var AssociatePageWithHistory = withRouter(AssociatePage);
 
 class Menu extends Component {
 	render() {
@@ -35,7 +37,7 @@ class Menu extends Component {
 				<Route path='/list' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item"><a href="/">{line}Main directions of activity</a></div>
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
 							<div className="menu_item_active"><span>{line}List of publications</span></div>					
@@ -47,7 +49,7 @@ class Menu extends Component {
 				<Route path='/people' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item"><a href="/">{line}Main directions of activity</a></div>
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
 							<div className="menu_item_active"><span>{line}People</span></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
@@ -59,7 +61,7 @@ class Menu extends Component {
 				<Route exact path='/' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
+							<div className="menu_item_active"><Link to={"/"}><span>{line}Main directions of activity</span></Link></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
@@ -191,7 +193,6 @@ class App extends Component {
 			const jsonPeople = this.state.jsonPeople;
 	
 			let pageTitles = Object.keys(json.pages).sort();
-			//let staffCategory = Object.keys(jsonPeople.category);
 			
 			content = (
 				<Switch>
@@ -222,6 +223,18 @@ class App extends Component {
 						<div>
 							<div className="main_pane">
 								<StaffListWithHistory colors="light" staff={jsonPeople.category} />
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/people/:category/:id' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} />
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -261,7 +274,7 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route exact path='/people' render={ 
+				  <Route path='/people' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />			
