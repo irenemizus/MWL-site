@@ -31,6 +31,16 @@ export default class AssociatePage extends Component {
 		if (this.props.associate.photo) {
 			image = <img src={'/img/foto/' + this.props.associate.photo} height="185" className="leftimg"></img>
 		}
+		
+		let selected_papers;
+  		if (this.props.associate.selected_papers) {
+  			selected_papers = <div><Link to={'/people/' + renderHTML(this.props.category) + '/select_' + renderHTML(this.props.page_id)}>Selected papers</Link></div>;
+  		}
+  		
+  		let plenary_lect;
+  		if (this.props.associate.plenary_lectures) {
+  			plenary_lect = <div><Link to={'/people/' + renderHTML(this.props.category) + '/plenary_' + renderHTML(this.props.page_id)}>Plenary lectures</Link></div>;
+  		}
   		
 		return (
 			<div className="page">
@@ -40,6 +50,9 @@ export default class AssociatePage extends Component {
 					 <div className="article_language">{email}</div>
 					 <div className="article_language">{tel}</div>
 					 <div>{image}{renderHTML(this.props.associate.biography)}</div>
+					 {selected_papers}
+					 {plenary_lect}
+					 <div><br></br><br></br><br></br><br></br></div>
 				</div>
 			</div>
 		);

@@ -66,14 +66,6 @@ class StaffCategory extends Component {
 
 
 export default class StaffList extends Component {
-	constructor(props) {
-		super(props);
-    
-	    this.state = {
-	    	staff: props.staff
-    	};
-    }
-    
   	render() {
     	let staffCategoryList = [];
 		let key = 0;

@@ -9,7 +9,8 @@ import ArticlePagesList from './ArticlePagesList';
 import StaffList from './StaffList';
 import IndexPage from './IndexPage';
 import Page from './Page';
-import AssociatePage from './AssociatePage'
+import AssociatePage from './AssociatePage';
+import PageButton from './PageButton'
 
 const DataState = {
 	LOADING: 1,
@@ -117,6 +118,26 @@ class Footer extends Component {
 			<div>{footer_var}</div>
 		);
 	}
+}
+
+class StaffCatButtons extends Component {
+  	render() {
+    	let categoryButtons = [];
+    	for (let i in this.props.staff) {
+    		let buttonView;
+    		let prefix = '/people/';
+    		
+   			buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
+    				 
+    		categoryButtons.push(buttonView);
+    	}
+
+		return (
+			<div className="article_pages_list">
+				{categoryButtons}
+			</div>
+		);
+  	}
 }
 
 class App extends Component {
@@ -234,7 +255,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">
-								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} />
+								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} category={props.match.params.category} page_id={props.match.params.id} />
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -274,10 +295,18 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/people' render={ 
+				  <Route exact path='/people' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />			
+						</div>
+					)
+				  } />
+				  <Route path='/people/:category/:id' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<StaffCatButtons colors="dark" staff={jsonPeople.category} />
 						</div>
 					)
 				  } />
