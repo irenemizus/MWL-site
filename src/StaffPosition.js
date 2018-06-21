@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
-import { Link } from 'react-router-dom';
 
 import './ArticlePagesList.css';
 import './Page.css';

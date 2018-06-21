@@ -7,10 +7,12 @@ import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
 import StaffList from './StaffList';
+import StaffCategory from './StaffCategory';
 import IndexPage from './IndexPage';
 import Page from './Page';
 import AssociatePage from './AssociatePage';
 import PageButton from './PageButton'
+
 
 const DataState = {
 	LOADING: 1,
@@ -21,6 +23,7 @@ const DataState = {
 var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var StaffListWithHistory = withRouter(StaffList);
+var StaffCategoryWithHistory = withRouter(StaffCategory);
 var IndexWithHistory = withRouter(IndexPage);
 var AssociatePageWithHistory = withRouter(AssociatePage);
 
@@ -127,8 +130,12 @@ class StaffCatButtons extends Component {
     		let buttonView;
     		let prefix = '/people/';
     		
-   			buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
-    				 
+    		if (this.props.location.pathname === prefix + this.props.categoryId && i === this.props.categoryId) {
+   				buttonView = <PageButton active={true} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
+   			} else {    		
+   				buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
+    		}		 
+    		
     		categoryButtons.push(buttonView);
     	}
 
@@ -139,6 +146,8 @@ class StaffCatButtons extends Component {
 		);
   	}
 }
+
+var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
 
 class App extends Component {
 	constructor() {
@@ -255,7 +264,19 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">
-								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} category={props.match.params.category} page_id={props.match.params.id} />
+								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} category={props.match.params.category} page_id={props.match.params.id} data={json}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/people/:category' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<StaffCategoryWithHistory colors="light" categoryId={props.match.params.category} category={jsonPeople.category[props.match.params.category]} />
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -306,7 +327,15 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtons colors="dark" staff={jsonPeople.category} />
+							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} />
+						</div>
+					)
+				  } />
+				  <Route path='/people/:category' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} categoryId={props.match.params.category}/>
 						</div>
 					)
 				  } />

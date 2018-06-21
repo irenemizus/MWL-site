@@ -1,14 +1,28 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
 import { Link } from 'react-router-dom';
+import queryString from 'query-string';
 
 import StaffPosition from './StaffPosition';
+import searchArticleByURL from './searchUtils';
+import Paragraph from './Paragraph';
+import License from './License';
 
 import './ArticlePagesList.css';
 import './Page.css';
 
 export default class AssociatePage extends Component {    
   	render() {
+  		window.scrollTo(0, 0);
+  		const { location } = this.props;
+		const search = location.search;
+		const params = queryString.parse(search);
+		
+		this.state = {	
+			showlicense: params['showlicense'],
+			url: params['url']
+		}
+
   		let title;
   		if (this.props.associate.full_name) {
   			title = this.props.associate.full_name;
@@ -32,9 +46,30 @@ export default class AssociatePage extends Component {
 			image = <img src={'/img/foto/' + this.props.associate.photo} height="185" className="leftimg"></img>
 		}
 		
-		let selected_papers;
-  		if (this.props.associate.selected_papers) {
-  			selected_papers = <div><Link to={'/people/' + renderHTML(this.props.category) + '/select_' + renderHTML(this.props.page_id)}>Selected papers</Link></div>;
+		let paragraph_sel;
+  		let license;
+		if (this.props.associate.selected_papers) {
+			let selected_papers = [];
+
+  			var papi, arti;
+  			for (papi in this.props.associate.selected_papers) {
+  				var pagei;
+  				for (pagei in this.props.data.pages) {
+  					arti = searchArticleByURL(this.props.associate.selected_papers[papi], this.props.data.pages[pagei]);
+  					if (arti !== null) selected_papers.push(arti);
+  				}
+  			}
+  			
+  			var paragraph;
+  			paragraph = {title: "Selected papers", articles: selected_papers};
+  			var page;
+  			page = {title: title, paragraphs: [paragraph]};
+  			paragraph_sel = <Paragraph paragraph={paragraph} show_tp={true} />
+  			
+			if (this.state.showlicense === 'true') {
+				license = <License url={this.state.url} backUrl={location.pathname} page={page} />;
+			}
+
   		}
   		
   		let plenary_lect;
@@ -50,7 +85,8 @@ export default class AssociatePage extends Component {
 					 <div className="article_language">{email}</div>
 					 <div className="article_language">{tel}</div>
 					 <div>{image}{renderHTML(this.props.associate.biography)}</div>
-					 {selected_papers}
+					 {license}
+					 {paragraph_sel}
 					 {plenary_lect}
 					 <div><br></br><br></br><br></br><br></br></div>
 				</div>

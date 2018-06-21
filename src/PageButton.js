@@ -29,8 +29,10 @@ export default class PageButton extends Component {
 		var boxStyle = { }
 		if (title.length <= 4) {
 			boxStyle.width = "35pt";
-		} else {
+		} else if (title.length === 9) {
 			boxStyle.width = "74pt";
+		} else {
+			boxStyle.width = "150pt";
 		}		
 		
 		var linkStyle = {"display": "block", "textAlign": "center"}

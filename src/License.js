@@ -1,27 +1,14 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import renderHTML from 'react-render-html';
+import searchArticleByURL from './searchUtils';
 
 class License extends Component {
-
-  	searchTitleByURL(url) {
-		for (let pari in this.props.page.paragraphs) {
-			var par = this.props.page.paragraphs[pari];
-			for (let arti in par.articles) {
-				var art = par.articles[arti];
-				
-				if (url === art.url || url === art.url_trans) {
-					return art.title;
-				}
-			}
-		}
-	  	return null;
-	}
 
 	constructor(props) {
 		super(props);
 		
-		var lTitle = this.searchTitleByURL(props.url);
+		var lTitle = searchArticleByURL(props.url, props.page).title;
 		
 		this.state = {
 			url: props.url,
@@ -32,7 +19,7 @@ class License extends Component {
   	
 
 	downloadLinkClick() {
-		this.props.history.goBack(); //push(this.state.backUrl);
+		this.props.history.goBack();
 	}
 
 	render() {
