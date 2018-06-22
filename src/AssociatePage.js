@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
-import { Link } from 'react-router-dom';
 import queryString from 'query-string';
 
 import StaffPosition from './StaffPosition';
 import searchArticleByURL from './searchUtils';
 import Paragraph from './Paragraph';
+import ParagraphPlen from './ParagraphPlen';
 import License from './License';
 
 import './ArticlePagesList.css';
@@ -72,9 +72,11 @@ export default class AssociatePage extends Component {
 
   		}
   		
-  		let plenary_lect;
-  		if (this.props.associate.plenary_lectures) {
-  			plenary_lect = <div><Link to={'/people/' + renderHTML(this.props.category) + '/plenary_' + renderHTML(this.props.page_id)}>Plenary lectures</Link></div>;
+  		let paragraph_plen;
+		if (this.props.associate.plenary_lectures) {
+  			var paragraphPlen;
+  			paragraphPlen = {title: "Plenary talks at the major conferences", lectures: this.props.associate.plenary_lectures};
+  			paragraph_plen = <ParagraphPlen paragraph={paragraphPlen} show_tp={true} />
   		}
   		
 		return (
@@ -87,7 +89,7 @@ export default class AssociatePage extends Component {
 					 <div>{image}{renderHTML(this.props.associate.biography)}</div>
 					 {license}
 					 {paragraph_sel}
-					 {plenary_lect}
+					 {paragraph_plen}
 					 <div><br></br><br></br><br></br><br></br></div>
 				</div>
 			</div>

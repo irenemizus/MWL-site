@@ -4,6 +4,7 @@ mkdir -p dist
 echo Copying public...
 cp public/papers_list.json dist/
 cp public/people_list.json dist/
+cp public/one_fig_template.json dist/
 cp -r public/Papers_pdf dist/
 
 echo Copying assets...

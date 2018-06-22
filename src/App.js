@@ -11,7 +11,8 @@ import StaffCategory from './StaffCategory';
 import IndexPage from './IndexPage';
 import Page from './Page';
 import AssociatePage from './AssociatePage';
-import PageButton from './PageButton'
+import PageButton from './PageButton';
+import OneFigPage from './OneFigPage';
 
 
 const DataState = {
@@ -26,6 +27,7 @@ var StaffListWithHistory = withRouter(StaffList);
 var StaffCategoryWithHistory = withRouter(StaffCategory);
 var IndexWithHistory = withRouter(IndexPage);
 var AssociatePageWithHistory = withRouter(AssociatePage);
+var OneFigPageWithHistory = withRouter(OneFigPage);
 
 class Menu extends Component {
 	render() {
@@ -62,10 +64,10 @@ class Menu extends Component {
 						</div>
 					)
 				} />
-				<Route exact path='/' render={ 
+				<Route path='/' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item_active"><Link to={"/"}><span>{line}Main directions of activity</span></Link></div>
+							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
@@ -156,35 +158,43 @@ class App extends Component {
 		this.state = {
 			dataState: DataState.LOADING,
 			dataStatePeople: DataState.LOADING,
+			dataStateOneFigPage: DataState.LOADING,
 			json: null,
-			jsonPeople: null
+			jsonPeople: null,
+			jsonOneFigPage: null
 		};
 		
 		let app = this;
     
         Promise.all([
     		axios.get('/papers_list.json'),
-    		axios.get('/people_list.json')
+    		axios.get('/people_list.json'),
+    		axios.get('/one_fig_template.json')
     	])
-			.then(([papersResp, peopleResp]) => {
+			.then(([papersResp, peopleResp, oneFigPageResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
 					dataStatePeople: DataState.SUCCESS,
+					dataStateOneFigPage: DataState.SUCCESS,
 					json: papersResp.data,
-					jsonPeople: peopleResp.data
+					jsonPeople: peopleResp.data,
+					jsonOneFigPage:oneFigPageResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople]) => {
+	  		.catch(([error, errorPeople, errorOneFigPage]) => {
 				console.log(error);
 				console.log(errorPeople);
+				console.log(errorOneFigPage);
 
 	    		app.setState({
 	    			dataState: DataState.FAIL,
 	    			dataStatePeople: DataState.FAIL,
+	    			dataStateOneFigPage: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
+	    			jsonOneFigPage: null,
 	    			error: {
 	    				code: error.papersResp.status,
 	    				text: error.papersResp.statusText
@@ -192,6 +202,10 @@ class App extends Component {
 	    			errorPeople: {
 	    				code: errorPeople.peopleResp.status,
 	    				text: errorPeople.peopleResp.statusText
+	    			},
+	    			errorOneFigPage: {
+	    				code: errorOneFigPage.oneFigPageResp.status,
+	    				text: errorOneFigPage.oneFigPageResp.statusText
 	    			}
 	    		});
 		});
@@ -221,6 +235,7 @@ class App extends Component {
 		} else {
 			const json = this.state.json;
 			const jsonPeople = this.state.jsonPeople;
+			const jsonOneFigPage = this.state.jsonOneFigPage;
 	
 			let pageTitles = Object.keys(json.pages).sort();
 			
@@ -288,7 +303,19 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">
-								<IndexWithHistory />
+								<IndexWithHistory dirs={jsonOneFigPage.url}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/:ofpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<OneFigPageWithHistory ofpage={jsonOneFigPage.url[props.match.params.ofpage]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -340,6 +367,13 @@ class App extends Component {
 					)
 				  } />
 				  <Route exact path='/' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />			
+						</div>
+					)
+				  } />
+				  <Route path='/:ofpage' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />			

@@ -166,16 +166,14 @@
                         },
 						{
                             "data": "University of Marne la Vallee, Paris, France, June 21–24, 1998",
-                            "conference": "International Conference \"Water in the Gas Phase\"",
+                            "conference": "International Conference &ldquo;Water in the Gas Phase&rdquo;",
                             "title": "Analysis of Rovibrational Water Spectra",
-							"url": "http://alpha.univ-mlv.fr/conferences/waterconference.html",
                             "year": "1998"
                         },
                         {
                             "data": "University College London, UK, March 2003",
                             "conference": "International Conference on High Accuracy Potentials for Quantum Dynamics",
                             "title": "High Accuracy <em>ab initio</em> Rotation Vibration Transitions of Water",
-							"url": "http://eprints.ucl.ac.uk/1281/1/booklet2.pdf",
                             "year": "2003"
                         },
                         {
@@ -186,14 +184,14 @@
                         },
                         {
                             "position": "An invited talk",
-                            "conference": "Royal Society Meeting on \"Water in the Gas Phase\"",
+                            "conference": "Royal Society Meeting on &ldquo;Water in the Gas Phase&rdquo;",
                             "title": "Global Spectroscopy of Water Monomer",
                             "url": "http://royalsociety.org/events/2011/water-gas-phase/",
                             "year": "2011"
                         },
                         {
                             "position": "An invited talk",
-                            "conference": "Royal Society Meeting on \"Chemistry, Astronomy and Physics of H<sub>3</sub><sup>+</sup>\"",
+                            "conference": "Royal Society Meeting on &ldquo;Chemistry, Astronomy and Physics of H<sub>3</sub><sup>+</sup>&rdquo;",
                             "title": "Spectroscopy of H<sub>3</sub><sup>+</sup> Based on a New High Accuracy Global PES and DMS",
                             "url": "http://royalsociety.org/events/2012/chemistry-astronomy-physics-h3/",
                             "year": "2012"

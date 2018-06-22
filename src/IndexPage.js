@@ -7,6 +7,14 @@ import './Page.css';
 
 export default class IndexPage extends Component {
   	render() {
+		let list_elem = [];
+		var i;
+		for (i in this.props.dirs) {
+			if (this.props.dirs[i].link_from === "IndexPage") {
+				list_elem.push(<li><Link to={'/' + i}>{renderHTML(this.props.dirs[i].title)}</Link></li>);
+			}
+		}
+
 		return (
 			<table>
 				<tr>
@@ -14,15 +22,7 @@ export default class IndexPage extends Component {
 						<div  className="page">	
 							<h1>Main directions of activity:</h1>
   							<div className="article_title"><ul><ol type="1">
-  								<li>
-  									<a href="devel.html">Development of methods and technique</a> of microwave spectroscopy in millimeter and submillimeter wave range.
-  								</li>
-  								<li>
-  									<a href="stud.html">Studies of the molecular spectra</a> by the developed experimental and theoretical methods.
-  								</li>
-  								<li>
-  									<a href="interact.html">Studies of manifestations of molecular collisional interactions</a> through lineshape, broadening, shifting and coupling of spectral lines.
-  								</li>
+								{list_elem}
   							</ol></ul></div>
   						</div>
   					</td>
@@ -30,7 +30,7 @@ export default class IndexPage extends Component {
   				<tr>
     				<td>
     					<div  className="page">
-    						<h1>We  can supply  spectroscopic data and perform  equipment testing for planetary and interstellar remote sensing by millimeter and submillimeter waves</h1>
+    						<h2>We  can supply  spectroscopic data and perform  equipment testing for planetary and interstellar remote sensing by millimeter and submillimeter waves</h2>
     					</div>
     				</td>
   				</tr>
