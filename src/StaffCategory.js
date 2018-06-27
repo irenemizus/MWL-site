@@ -1,45 +1,89 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
 import { Link } from 'react-router-dom';
+import AvatarEditor from 'react-avatar-editor';
 
 import StaffPosition from './StaffPosition';
 
-import './ArticlePagesList.css';
 import './Page.css';
 
 class Staff extends Component {
 	render() {	
 		let image;
 		if (this.props.associate.photo) {
-			image = <img src={'/img/foto/' + this.props.associate.photo} height="85"></img>
+//			image = <img url={'/img/foto/' + this.props.associate.photo} height="85"></img>
+			image = <AvatarEditor
+						image={'/img/foto/' + this.props.associate.photo.filename}
+						width={120}
+						height={120}
+						border={0}
+						position={this.props.associate.photo.position}
+						color={[255, 255, 255, 1]}
+						scale={this.props.associate.photo.scale}
+						rotate={0}
+					/>
 		}
+		
+		var image_title_style = {
+		    "display": "inline-block",
+		    "verticalAlign": "middle",
+		    "marginTop": "5pt",
+		    "marginBottom": "5pt",
+		    "marginRight": "10pt",
+		    "width": "120px",
+		    "height": "120px",
+		    "borderStyle": "solid",
+		    "borderWidth": "1px",
+    		"borderColor": "rgba(0, 0, 0, 0.2)"
+    	}
+
+		var title_style = {
+		    "display": "inline-block",
+		    "verticalAlign": "middle",
+		    "marginBottom": "15pt"
+    	}
+
+		var image_link_style = {
+		    "display": "inline-block"
+    	}
 				
 		let data;
+		let key = 0;
 		if (this.props.associate.no_page) {
-			data = [<td>{image}</td>, 
-					<td valign="top">
-						<div className="article_title">
-							{renderHTML(this.props.associate.short_name)}
-						</div>
-						<StaffPosition  associate={this.props.associate}/>						
-					</td>]
+			data = [
+				<div style={image_title_style} key={key++}>
+					{image}
+				</div>, 
+				<div style={title_style} key={key++}>
+					<div className="associate_name">
+						{renderHTML(this.props.associate.short_name)}
+					</div>
+					<StaffPosition associate={this.props.associate} />
+				</div>
+			]
 		}
 		else {
-			data = [<td><Link to={'/people/' + this.props.category + '/' + this.props.page_id}>{image}</Link></td>, 
-					<td valign="top">
-						<div className="article_title">
-							<Link to={'/people/' + this.props.category + '/' +  this.props.page_id}>{renderHTML(this.props.associate.short_name)}</Link>
-						</div>
-						<StaffPosition associate={this.props.associate}/>						
-					</td>]
+			data = [
+				<div style={image_title_style} key={key++}>
+					<Link style={image_link_style} to={'/people/' + this.props.category + '/' + this.props.page_id}>
+						{image}
+					</Link>
+				</div>, 
+				<div style={title_style} key={key++}>
+					<div className="associate_name">
+						<Link to={'/people/' + this.props.category + '/' + this.props.page_id}>
+							{renderHTML(this.props.associate.short_name)}
+						</Link>
+					</div>
+					<StaffPosition associate={this.props.associate}/>						
+				</div>
+			]
 		}
 		
 		return (
-			<table border="0" cellpadding="3" cellspacing="0">
-				<tr>
-					{data}
-				</tr>
-			</table>
+			<div>
+				{data}
+			</div>
 		);
 	}
 }

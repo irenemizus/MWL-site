@@ -4,8 +4,6 @@ import { withRouter } from 'react-router-dom';
 
 import PlenLecture from './PlenLecture';
 
-import './Page.css';
-
 var PlenLectureWithHistory = withRouter(PlenLecture);
 
 class ParagraphPlen extends Component {

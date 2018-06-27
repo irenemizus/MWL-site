@@ -4,8 +4,6 @@ import { withRouter } from 'react-router-dom';
 
 import Article from './Article';
 
-import './Page.css';
-
 var ArticleWithHistory = withRouter(Article);
 
 class Paragraph extends Component {

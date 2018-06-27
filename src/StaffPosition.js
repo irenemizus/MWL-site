@@ -1,63 +1,37 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
 
-import './ArticlePagesList.css';
 import './Page.css';
 
 export default class StaffPosition extends Component {
 	render() {	
-		let position;
+		let position_list = [];
 		let key = 0;
-		if (this.props.associate.position && this.props.associate.acad_degree && this.props.associate.acad_title) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.position)}</span>,
-		        <span key={key++}>, </span>,
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_degree)}</span>,
-		        <span key={key++}>, </span>,
-		        <span key={key++}
-		        className="article_journal_title">{renderHTML(this.props.associate.acad_title)}</span>
-		    ]
+		
+		if (this.props.associate.position) {
+			position_list.push(
+				<span key={key++} className="associate_position">{renderHTML(this.props.associate.position)}</span>,
+		        <span key={key++}>, </span>
+		    )
 		}
-		else if (this.props.associate.position && this.props.associate.acad_degree) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.position)}</span>,
-		        <span key={key++}>, </span>,
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_degree)}</span>
-		    ]
+		if (this.props.associate.acad_degree) {
+			position_list.push(
+				<span key={key++} className="associate_acad_degree">{renderHTML(this.props.associate.acad_degree)}</span>,
+		        <span key={key++}>, </span>
+		    )
 		}
-		else if (this.props.associate.position && this.props.associate.acad_title) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.position)}</span>,
-		        <span key={key++}>, </span>,
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_title)}</span>
-		    ]
+		if (this.props.associate.acad_title) {
+			position_list.push(
+				<span key={key++} className="associate_acad_title">{renderHTML(this.props.associate.acad_title)}</span>,
+		        <span key={key++}>, </span>
+		    )
 		}
-		else if (this.props.associate.acad_degree && this.props.associate.acad_title) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_degree)}</span>,
-		        <span key={key++}>, </span>,
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_title)}</span>
-		    ]
-		}
-		else if (this.props.associate.position) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.position)}</span>
-			]
-		}
-		else if (this.props.associate.acad_degree) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_degree)}</span>
-			]
-		}
-		else if (this.props.associate.acad_title) {
-			position = [
-		        <span key={key++} className="article_journal_title">{renderHTML(this.props.associate.acad_title)}</span>
-			]
-		}	
+		
+		let last_comma = position_list.pop();	
 		
 		return (
-			<div>
-				{position}
+			<div className={this.props.className}>
+				{position_list}
 			</div>
 		);
 	}

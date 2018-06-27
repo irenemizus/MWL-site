@@ -149,7 +149,35 @@ class StaffCatButtons extends Component {
   	}
 }
 
+class MainDirButtons extends Component {
+  	render() {
+    	let directionsButtons = [];
+    	for (let i in this.props.dir) {
+    		let buttonView;
+    		let prefix = '/';
+    		
+    		if (this.props.dir[i].link_from === "IndexPage") {
+    			if (this.props.location.pathname === prefix + this.props.url && i === this.props.url) {
+   					buttonView = <PageButton active={true} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
+   				} else {    		
+   					buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
+ 	   			}		 
+    		
+    			directionsButtons.push(buttonView);
+    		}
+    	}
+
+		return (
+			<div className="article_pages_list">
+				{directionsButtons}
+			</div>
+		);
+  	}
+}
+
+
 var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
+var MainDirButtonsWithHistory = withRouter(MainDirButtons);
 
 class App extends Component {
 	constructor() {
@@ -253,7 +281,7 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/list/page/:index' render={ 
+				  <Route path='/list/:index' render={ 
 					(props) => (
 						<div>
 							<div className="main_pane">
@@ -335,7 +363,7 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/list/page/:index' render={ 
+				  <Route path='/list/:index' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />
@@ -376,7 +404,8 @@ class App extends Component {
 				  <Route path='/:ofpage' render={ 
 					(props) => (
 						<div className="left_pane">
-							<Menu />			
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonOneFigPage.url} url={props.match.params.ofpage}/>			
 						</div>
 					)
 				  } />

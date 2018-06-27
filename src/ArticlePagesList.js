@@ -18,7 +18,7 @@ export default class ArticlePagesList extends Component {
     	for (let i in this.state.pageTitles) {
     		let curPageTitle = this.state.pageTitles[i].replace('-', '–');
     		let buttonView;
-    		let prefix = '/list/page/';
+    		let prefix = '/list/';
     		
     		if (this.props.location.pathname === prefix + this.state.pageTitles[i]) {
    				buttonView = <PageButton active={true} key={i} index={this.state.pageTitles[i]} title={curPageTitle} prefix={prefix}/>;

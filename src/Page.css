@@ -7,6 +7,14 @@ a {
   text-decoration: none;
 }
 
+ul {
+  padding: 0
+}
+
+li {
+  padding: 5pt 0
+}
+
 a:hover {
   /*color: rgba(255, 170, 100, 1.0);*/
   color: rgba(0, 25, 150, 0.6);
@@ -17,22 +25,26 @@ a:hover {
   margin: auto;
 }
 
+.page ol {
+  padding-left: 17pt;
+}
+
 .page h1 {
-  margin: 25pt 30pt;
+  margin: 35pt 10pt 20pt 0pt;
   font-size: 150%;
   font-weight: normal;
   color: #546279;
 }
 
 .page h2 {
-  margin: 35pt 30pt 0pt 30pt;
+  margin: 35pt 15pt 0pt 25pt;
   font-size: 120%;
   font-weight: bold;
 }
 
 .article_item {
   margin: 0 0 18pt 0;
-  line-height: 1.3;
+/*  line-height: 1.3;*/
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -41,7 +53,7 @@ a:hover {
   display: inline-block;
 }
 
-.article_title {
+.article_title, .associate_name {
   font-size: 110%;
   padding: 3pt 0 3pt 0;
   color: rgba(0, 0, 0, 1.0);
@@ -58,7 +70,7 @@ a:hover {
 
 }
 
-.article_journal_title {
+.article_journal_title, .associate_position, .associate_acad_degree, .associate_acad_title {
   font-style: italic;
 }
 
@@ -76,12 +88,26 @@ a:hover {
   font-weight: bold;
 }
 
-.leftimg {
-    float:left;
-    margin: 7px 7px 7px 0;
-   }
-   
-.rightimg  {
-    float: right;
-    margin: 7px 0 7px 7px;
-   }
+.big_text {
+  padding: 5pt 10pt 7pt 10pt;
+  border: solid;
+  border-color: rgba(200, 220, 255, 0.8);
+}
+
+.associate_portrait {
+  float: left;
+  margin: 0 10pt 5pt 0;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.associate_email, .associate_tel {
+  font-size: 90%;
+  display: block;
+}
+
+.associate_staff_position {
+  display: block;
+  margin-bottom: 5pt;
+}

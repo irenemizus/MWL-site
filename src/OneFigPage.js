@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import renderHTML from 'react-render-html';
 
-import './ArticlePagesList.css';
 import './Page.css';
 
 export default class OneFigPage extends Component {    
@@ -26,7 +25,6 @@ export default class OneFigPage extends Component {
 				<div>
 					 <h1>{renderHTML(title)}</h1>
 					 <div>{image}{main_text}</div>
-					 <div><br></br><br></br><br></br><br></br></div>
 				</div>
 			</div>
 		);
