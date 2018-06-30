@@ -8038,6 +8038,25 @@
                             "title": "High-Accuracy Calculations of the Rotation-Vibration Spectrum of H<sub>3</sub><sup>+</sup>",
                             "url": "2017Tennyson.pdf",
                             "year": "2017"
+                        },
+                        {
+                            "authors": [
+                                "D.S.&nbsp;Makarov",
+                                "I.N.&nbsp;Vilkov",
+                                "M.A.&nbsp;Koshelev",
+                                "A.A.&nbsp;Aderkina",
+                                "M.Yu.&nbsp;Tretyakov"
+                            ],
+                            "data": "60(10), 904&ndash;921",
+                            "data_trans": "60(10), 808&ndash;823",
+                            "journal": "Izv. VUZov. Radiofizika",
+                            "journal_trans": "Radiophysics and Quantum Electronics",
+                            "language": "in Russian",
+                            "language_trans": "in English",
+                            "title": "Сollisional Coupling of the Molecular Oxygen <sup>16</sup>O<sub>2</sub> Fine-Structure Lines Under Low Pressures",                            
+                            "url_trans": "2017Makarov.pdf",
+                            "year": "2017",
+                            "year_trans": "2018"
                         }
                     ],
                     "title": "2017"
@@ -8123,6 +8142,54 @@
                             "journal": "J. Phys. Chem. A",
                             "title": "High Accuracy <em>ab initio</em> Calculations of Rotational−Vibrational Levels of the HCN/HNC System",
                             "url": "2018Makhnev.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "N.F.&nbsp;Zobov",
+                                "P.A.&nbsp;Coles",
+                                "R.I.&nbsp;Ovsyannikov",
+                                "A.A.&nbsp;Kyuberis",
+                        		"R.J.&nbsp;Hargreaves",
+                                "P.F.&nbsp;Bernath",
+                                "J.&nbsp;Tennyson",
+                                "S.N.&nbsp;Yurchenko",
+                                "O.L.&nbsp;Polyansky"
+                            ],
+                            "data": "209, 224&ndash;231",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Analysis of the Red and Green Optical Absorption Spectrum of Gas Phase Ammonia",
+                            "url": "2018Zobov.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "L.&nbsp;Rutkowski",
+                                "A.&nbsp;Foltynowicz",
+                                "F.M.&nbsp;Schmidt",
+                                "A.C.&nbsp;Johansson",
+                                "A.&nbsp;Khodabakhsh",
+                                "A.A.&nbsp;Kyuberis",
+                                "N.F.&nbsp;Zobov",
+                                "O.L.&nbsp;Polyansky",
+                                "S.N.&nbsp;Yurchenko",
+                                "J.&nbsp;Tennyson"
+                            ],
+                            "data": "205, 213&ndash;219",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "An Experimental Water Line List at 1950&nbsp;K in the 6250&ndash;6670&nbsp;cm<sup>−1</sup> Region",
+                            "url": "2018Rutkowski.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"M.Yu.&nbsp;Tretyakov",
+                            	"A.O.&nbsp;Zibarova"
+                            ],
+                            "data": "216, 70&ndash;75",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "On the Problem of High-Accuracy Modeling of the Dry Air Absorption Spectrum in the Millimeter Wavelength Range",
+                            "url": "2018Tretyakov.pdf",
                             "year": "2018"
                         }
 					],

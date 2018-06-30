@@ -12,9 +12,9 @@ import './Page.css';
 
 export default class AssociatePage extends Component {
  	associateIsEmpty() {
-		return this.props.associate.position == "" &&
-		       this.props.associate.acad_degree == "" &&
-		       this.props.associate.acad_title == "";
+		return this.props.associate.position === "" &&
+		       this.props.associate.acad_degree === "" &&
+		       this.props.associate.acad_title === "";
 	}
 
   	render() {
@@ -48,7 +48,7 @@ export default class AssociatePage extends Component {
   		
   		let image;
 		if (this.props.associate.photo) {
-			image = <img src={'/img/foto/' + this.props.associate.photo.filename} height="185" className="associate_portrait"></img>
+			image = <img alt="" src={'/img/foto/' + this.props.associate.photo.filename} height="185" className="associate_portrait"></img>
 		}
 		
 		let paragraph_sel;
@@ -90,11 +90,11 @@ export default class AssociatePage extends Component {
 			staff_desc.push(<StaffPosition className="associate_staff_position" associate={this.props.associate} key={key++}/>)
 		}
 		
-		if (email != "") {
+		if (email !== "") {
 			staff_desc.push(<div className="associate_email" key={key++}>{email}</div>)
 		}
 
-		if (tel != "") {
+		if (tel !== "") {
 			staff_desc.push(<div className="associate_tel" key={key++}>{tel}</div>)
 		}
 

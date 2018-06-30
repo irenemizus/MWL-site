@@ -3,8 +3,6 @@ import renderHTML from 'react-render-html';
 import { Link } from 'react-router-dom';
 import AvatarEditor from 'react-avatar-editor';
 
-import StaffPosition from './StaffPosition';
-
 import './Page.css';
 
 class Staff extends Component {
@@ -46,6 +44,13 @@ class Staff extends Component {
 		var image_link_style = {
 		    "display": "inline-block"
     	}
+    	
+    	let position;
+    	if (this.props.associate.position && this.props.category !== "former") {
+    		position =  <div className="associate_position">
+							{renderHTML(this.props.associate.position)}
+						</div>
+    	}
 				
 		let data;
 		let key = 0;
@@ -58,7 +63,7 @@ class Staff extends Component {
 					<div className="associate_name">
 						{renderHTML(this.props.associate.short_name)}
 					</div>
-					<StaffPosition associate={this.props.associate} />
+					{position}
 				</div>
 			]
 		}
@@ -75,7 +80,7 @@ class Staff extends Component {
 							{renderHTML(this.props.associate.short_name)}
 						</Link>
 					</div>
-					<StaffPosition associate={this.props.associate}/>						
+					{position}
 				</div>
 			]
 		}

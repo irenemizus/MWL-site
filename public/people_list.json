@@ -373,10 +373,23 @@
 						"2017Mizus-1.pdf"
 					]
         		},
+        		"odintsova": {
+        			"full_name": "Tatyana&nbsp;Anatolevna&nbsp;Odintsova",
+        			"short_name": "Tatyana&nbsp;A.&nbsp;Odintsova",	
+        			"position": "Researcher",
+        			"email": "odintsova&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+        			"tel": "+7 (831) 416-48-66",
+        			"biography": "<p>Tatyana Odintsova was born in N.&nbsp;Novgorod, Russia, October 7, 1990.</p> <p>Graduated from the Radiophysics faculty of Nizhny Novgorod State University in 2013. The theme of the master diploma is &ldquo;Manifestation of small water clusters in high temperature water vapor spectra&rdquo;. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2009 as a laboratory assistant. From 2013 to 2017 took a joint Ph.D. course at the Institute of Applied Physics RAS and at the University of Campania &ldquo;LUIGI VANVITELLI&rdquo;, Italy. The Ph.D. thesis entitled &ldquo;Accurate measurements of spectroscopic line parameters of atmospheric relevant molecules&rdquo; was defended in 2017 in University of Salerno, Italy. Current position is a research associate.</p>",
+        			"photo": { 
+        				"filename": "Odintsova1.jpg",
+        				"position": {"x": 0.5, "y": 0.2},
+        				"scale": 1.0 
+        			}
+        		},
         		"vilkov": {
         			"full_name": "Ilya&nbsp;Nikolaevich&nbsp;Vilkov",
         			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;(Ph.D. student)",
-        			"position": "Researcher, Ph.D. Student",
+        			"position": "Junior Researcher, Ph.D. Student",
         			"email": "Vilkov.Ilya&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-48-66",
         			"biography": "<p>Ilya Vilkov was born in Nizhny Novgorod, Russia, in 1984. Graduated from the Mechanics and Mathematics faculty of Nizhny Novgorod State University in 2007 with master's diploma. Speciality &mdash; &ldquo;mechanics&rdquo;. Started working at the Microwave Spectroscopy Laboratory of IAP RAS in 2011 as a researcher and currently is taking a Ph.D. course. The research theme is &ldquo;Spectral line shapes of major atmospheric gases in a broad range of temperatures and pressures&rdquo;.</p>",
@@ -384,19 +397,6 @@
         				"filename": "Vilkov1.jpg",
         				"position": {"x": 0.45, "y": 0.2},
         				"scale": 1.3 
-        			}
-        		},
-        		"odintsova": {
-        			"full_name": "Tatyana&nbsp;Anatolevna&nbsp;Odintsova",
-        			"short_name": "Tatyana&nbsp;A.&nbsp;Odintsova",	
-        			"position": "Junior Researcher",
-        			"email": "odintsova&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 416-48-66",
-        			"biography": "<p>Tatyana Odintsova was born in N.&nbsp;Novgorod, Russia, October 7, 1990.</p> <p>Graduated from the Radiophysics faculty of Nizhny Novgorod State University in 2013. The theme of the master diploma is &ldquo;Manifestation of small water clusters in high temperature water vapor spectra&rdquo;. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2009 as a laboratory assistant. From 2013 to 2017 took a joint Ph.D. course at the Institute of Applied Physics RAS and at the University of Campania &ldquo;LUIGI VANVITELLI&rdquo;, Italy. The Ph.D. thesis entitled &ldquo;Accurate measurements of spectroscopic line parameters of atmospheric relevant molecules&rdquo; was defended in 2017 in University of Salerno, Italy. Current position is a junior research associate.</p>",
-        			"photo": { 
-        				"filename": "Odintsova1.jpg",
-        				"position": {"x": 0.5, "y": 0.2},
-        				"scale": 1.0 
         			}
         		},
         		"kyuberis": {
@@ -452,10 +452,6 @@
         				"position": {"x": 0.2, "y": 0.34},
         				"scale": 1.7 
         			}
-        		},
-        		"kulikov": {
-        			"short_name": "Andrei&nbsp;V.&nbsp;Kulikov",
-        			"no_page": "true"
         		}
         	}
         },
@@ -562,10 +558,10 @@
         		"tretyakova": {
         			"full_name": "Svetlana&nbsp;Evgenievna&nbsp;Tretyakova",
         			"short_name": "Svetlana&nbsp;E.&nbsp;Tretyakova",	
-        			"position": "Head of IAP RAS Graduate School",
+        			"position": "Head assistant of IAP RAS Graduate School",
         			"email": "svet&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-06-28",
-        			"biography": "<p>Graduated from Gorky Architectural and Civil Construction Design Academy in 1982. Master Diploma of Architect. Worked as an architect for 11 years. From 1993 to 2012 was the economist of the Microwave Spectroscopy Laboratory. Was also engaged in works concerned with computer graphics (&ldquo;Corel&rdquo;, &ldquo;PhotoShop&rdquo;), web-design, etc. Since 2012 she has been head  of IAP RAS <a href=\"http://www.ipfran.ru/staff/Tretyakova.html\" target=\"_blank\">Graduate School.</a></p>",
+        			"biography": "<p>Graduated from Gorky Architectural and Civil Construction Design Academy in 1982. Master Diploma of Architect. Worked as an architect for 11 years. From 1993 to 2012 was the economist of the Microwave Spectroscopy Laboratory. Was also engaged in works concerned with computer graphics (&ldquo;Corel&rdquo;, &ldquo;PhotoShop&rdquo;), web-design, etc. From 2012 to 2018 she has been head of IAP RAS <a href=\"http://www.ipfran.ru/training/training_as.html\" target=\"_blank\">Graduate School.</a></p>",
         			"photo": { 
         				"filename": "Sveta.jpg",
         				"position": {"x": 0.7, "y": 0.2},

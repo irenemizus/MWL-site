@@ -99,7 +99,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 25.01.18
+								Last update 28.06.18
 							</div>
 						</div>
 					)

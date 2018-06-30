@@ -12,7 +12,7 @@ export default class OneFigPage extends Component {
   		
   		let image;
 		if (this.props.ofpage.content.img) {
-			image = <img src={'/img/' + this.props.ofpage.content.img} height="185" className="leftimg"></img>;
+			image = <img alt="" src={'/img/' + this.props.ofpage.content.img} height="185" className="leftimg"></img>;
 		}
 		
         let main_text;
