@@ -13,6 +13,8 @@ import Page from './Page';
 import AssociatePage from './AssociatePage';
 import PageButton from './PageButton';
 import OneFigPage from './OneFigPage';
+import StaffCatButtons from './StaffCatButtons';
+import StaffPage from './StaffPage';
 
 
 const DataState = {
@@ -28,6 +30,8 @@ var StaffCategoryWithHistory = withRouter(StaffCategory);
 var IndexWithHistory = withRouter(IndexPage);
 var AssociatePageWithHistory = withRouter(AssociatePage);
 var OneFigPageWithHistory = withRouter(OneFigPage);
+var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
+var StaffPageWithHistory = withRouter(StaffPage);
 
 class Menu extends Component {
 	render() {
@@ -99,7 +103,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 28.06.18
+								Last update 14.11.18
 							</div>
 						</div>
 					)
@@ -123,30 +127,6 @@ class Footer extends Component {
 			<div>{footer_var}</div>
 		);
 	}
-}
-
-class StaffCatButtons extends Component {
-  	render() {
-    	let categoryButtons = [];
-    	for (let i in this.props.staff) {
-    		let buttonView;
-    		let prefix = '/people/';
-    		
-    		if (this.props.location.pathname === prefix + this.props.categoryId && i === this.props.categoryId) {
-   				buttonView = <PageButton active={true} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
-   			} else {    		
-   				buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
-    		}		 
-    		
-    		categoryButtons.push(buttonView);
-    	}
-
-		return (
-			<div className="article_pages_list">
-				{categoryButtons}
-			</div>
-		);
-  	}
 }
 
 class MainDirButtons extends Component {
@@ -176,7 +156,6 @@ class MainDirButtons extends Component {
 }
 
 
-var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
 var MainDirButtonsWithHistory = withRouter(MainDirButtons);
 
 class App extends Component {
@@ -266,6 +245,8 @@ class App extends Component {
 			const jsonOneFigPage = this.state.jsonOneFigPage;
 	
 			let pageTitles = Object.keys(json.pages).sort();
+			let staffCatTitles = jsonPeople.category;
+			let staffPhoto = jsonPeople.photo;
 			
 			content = (
 				<Switch>
@@ -294,8 +275,10 @@ class App extends Component {
 				  <Route exact path='/people' render={ 
 					(props) => (
 						<div>
-							<div className="main_pane">
-								<StaffListWithHistory colors="light" staff={jsonPeople.category} />
+							<div className="main_pane">	
+								<div className="people">	
+									<StaffPageWithHistory photo={staffPhoto} staffCatTitles={staffCatTitles}/>
+								</div>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -374,7 +357,8 @@ class App extends Component {
 				  <Route exact path='/people' render={ 
 					(props) => (
 						<div className="left_pane">
-							<Menu />			
+							<Menu />	
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} />		
 						</div>
 					)
 				  } />
@@ -382,7 +366,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} />
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} />
 						</div>
 					)
 				  } />
@@ -390,7 +374,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} categoryId={props.match.params.category}/>
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} categoryId={props.match.params.category}/>
 						</div>
 					)
 				  } />

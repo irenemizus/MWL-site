@@ -26,13 +26,15 @@ export default class PageButton extends Component {
 		}
 
 		var title = renderHTML(this.state.title)
-		var boxStyle = { }
+		var boxStyle = { 
+			"width": "100%"
+		}
 		if (title.length <= 4) {
-			boxStyle.width = "35pt";
+			boxStyle.maxWidth = "35pt";
 		} else if (title.length === 9) {
-			boxStyle.width = "74pt";
+			boxStyle.maxWidth = "74pt";
 		} else {
-			boxStyle.width = "150pt";
+			boxStyle.maxWidth = "150pt";
 		}		
 		
 		var linkStyle = {"display": "block", "textAlign": "center"}

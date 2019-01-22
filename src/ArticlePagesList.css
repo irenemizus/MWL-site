@@ -2,6 +2,10 @@
   padding: 10pt;
 }
 
+.people .article_pages_list {
+  text-align: center;
+}
+
 .page_button_dark a {
   background: rgba(200, 200, 255, 0.25);
   color: rgba(255, 255, 255, 0.8);

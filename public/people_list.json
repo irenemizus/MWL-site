@@ -1,4 +1,7 @@
 {
+	"photo": {
+		"filename": "team.jpg"
+	},
     "category": {
     	"permanent": {
     		"title": "Permanent staff",
@@ -14,8 +17,8 @@
         			"biography": "<p>Graduated from Gorky State University in 1980. The master degree thesis &ldquo;Analysis of Subdoppler Microwave Spectrometer Based on Coherent Spontaneous Radiation of Molecules&rdquo; was recognized to be The Best Students Scientific Work in the USSR in 1980. From 1980 to the present time is with the Institute of Applied Physics. Current position &mdash; Head of the Laboratory of Microwave Spectroscopy, member of the Scientific Council of the Institute. Scientific supervisor of undergraduate and Ph.D. students. Since 2006 member of Scientific committee of the Symposium on High Resolution Molecular Spectroscopy (HighRus). Journal Editorial Review Boards (Radiophysics and Quantum Electronics, Journal of Chemical Physics, Journal of Molecular Spectroscopy, Molecular Physics, Physical Chemistry Chemical Physics, Journal of Quantitative Spectroscopy and Radiative Transfer). Since 2015 member of Journal of Molecular Spectroscopy editorial board.</p> <p>The Ph.D. degree in Physics and Mathematics was received in 1995. The theme of Ph.D. thesis is &ldquo;Development of methods of microwave spectroscopy in Terahertz frequency range&rdquo;. The Full Doctor degree was received in 2017 for the work &ldquo;High accuracy resonator spectroscopy of atmospheric gases at millimeter and submillimeter waves&rdquo;. Since 1997 he is an assistant professor. Major interests &mdash; high resolution molecular spectra experimental studies in millimeter and submillimeter wave range; development of new microwave techniques and methods.</p> <p>Highlights of research include: the first frequency multiplication of BWO radiation up to 1.5&nbsp;THz; the development of Terahertz video-spectrometer based on phase-locked BWO and liquid cooled bolometer (jointly with the University of Cologne and later with the University of Lille); the development of MM/SubMM-wave sweeper and gas analyzer (Principal Investigator of the Russian team in the joint project with Argonne National Laboratory USA in the frame of US Industrial Coalition Trust-I and Trust-II Projects); the first frequency stabilization of FIR laser against harmonic of millimeter-wave synthesizer (jointly with the University of Lille); development of CO<sub>2</sub>-laser&nbsp;+&nbsp;MW side-band spectrometer with a slit nozzle (jointly with the University of New Brunswick, Saint John); the first frequency stabilization of primary radiation source of subterahertz range by femtosecond laser induced comb (<a href=\"radsource.html\">the new synthesizer</a>); development of MM/SubMM-wave <a href=\"reson.html\">resonator spectrometer</a> for atmospheric absorption investigations; the first microwave observation of negative molecular ions (jointly with Heyrovsky Institute of Physical Chemistry, Prague and the University of Lille); <a href=\"dimer.html\"> the first detection  of water dimer</a>  by  observation of its rotationally resolved spectrum in room temperature water vapor; studies of spectra of H<sub>2</sub>0, H<sub>2</sub>Se, SO<sub>2</sub>, CF<sub>3</sub>H, CH<sub>3</sub>CHO, O<sub>2</sub>, OCS molecules and H<sub>2</sub>O&ndash;HF, (CH<sub>3</sub>OH)<sub>2</sub>, CH<sub>3</sub>OH&ndash;CO molecular complexes.</p> <p>Invited lectures at: The 15th International Conference on High Resolution Molecular Spectroscopy, Prague, 1998; 3rd International Symposium on Physics and Engineering of MM and SubMM Waves, Ukraine, 1998; The 25th International Conference on Infrared and Millimeter Waves, September 12&ndash;15, 2000, Beijing, China; NATO Advanced Research Workshop &ldquo;Spectroscopy from Space&rdquo;, Oct.&nbsp;31&nbsp;&mdash;&nbsp;Nov.&nbsp;4, 2000, Bratislava, Slovakia; XIV Symposium on High Resolution Molecular Spectroscopy (HighRus-2003), July 6&ndash;11, 2003, Krasnoyarsk, Russia; Hua Dong Institute of E.M.I. Qingdao, China, March 2006; The 23rd International Conference on High Resolution Molecular Spectroscopy, Bologna, Italy, September 2&ndash;6, 2014.</p>",
         			"photo": { 
         				"filename": "Tretyakov1.jpg",
-        				"position": {"x": 0.55, "y": 0.37},
-        				"scale": 1.2				
+        				"position": {"x": 0.55, "y": 0.43},
+        				"scale": 1.0				
         			 },
         			"selected_papers": [
         				"1981Krupnov.pdf",
@@ -157,14 +160,14 @@
         				"scale": 1.1 
         			}
         		},
-        		"polyanskiy": {
-        			"full_name": "Oleg&nbsp;Lvovich&nbsp;Polyanskiy",
-        			"short_name": "Oleg&nbsp;L.&nbsp;Polyanskiy",
+        		"polyansky": {
+        			"full_name": "Oleg&nbsp;Lvovich&nbsp;Polyansky",
+        			"short_name": "Oleg&nbsp;L.&nbsp;Polyansky",
         			"acad_degree": "Ph.D. in Physics",
 					"position": "Leading Researcher",
         			"email": "o.polyansky&nbsp;(at)&nbsp;ucl.ac.uk",
         			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Oleg Polyanskiy was born in 1957 in Gorky (now called Nizhny Novgorod). He received his diploma degree in radiophysics from the Gorky State University, USSR (1979). The same year he became a junior research fellow at the Institute of Applied Physics of the Russian Academy of Science (USSR at that time). His Ph.D. work was done at this Institute and defended at Tomsk University in 1993. By that time he was a senior research fellow of the same institute. After receiving his Ph.D. he won the Humboldt fellowship, which he spent with Prof.&nbsp;Manfred Winnewisser and Prof.&nbsp;Per Jensen in Giessen, Germany. In 1995 he took a postdoc position at University College London with Prof.&nbsp;Jonathan Tennyson. He spent the years 2004 to 2006 as a researcher at Ulm University, Germany, and the years up to 2008 as a visiting professor at UCL. At the moment he is a group leader, leading research fellow and scientific supervisor of Ph.D. students in his home town at the Institute of Applied Physics.</p> <p>His research interests are in the development and application of methods for the high precision calculations of the spectra of small molecules and ions, and analysis of their spectra at high excitation, including high temperatures and dissociation.</p> <p>He has more than 100 papers in the refereed journals, including &ldquo;Science&rdquo; (first author in two &ldquo;Science&rdquo; papers), &ldquo;Physical Review&rdquo;, &ldquo;Physical Review Letters&rdquo;, &ldquo;Journal of Chemical Physics&rdquo;, &ldquo;Chemical Physics Letters&rdquo;. In 2015 citation index of his publications was 4002 citations, average 33 per paper; Hirsch factor is 38.</p> <p> <a href=\"sss.html\" class=\"a_l\">Theoretical group activity</a></p>",
+        			"biography": "<p>Oleg Polyansky was born in 1957 in Gorky (now called Nizhny Novgorod). He received his diploma degree in radiophysics from the Gorky State University, USSR (1979). The same year he became a junior research fellow at the Institute of Applied Physics of the Russian Academy of Science (USSR at that time). His Ph.D. work was done at this Institute and defended at Tomsk University in 1993. By that time he was a senior research fellow of the same institute. After receiving his Ph.D. he won the Humboldt fellowship, which he spent with Prof.&nbsp;Manfred Winnewisser and Prof.&nbsp;Per Jensen in Giessen, Germany. In 1995 he took a postdoc position at University College London with Prof.&nbsp;Jonathan Tennyson. He spent the years 2004 to 2006 as a researcher at Ulm University, Germany, and the years up to 2008 as a visiting professor at UCL. At the moment he is a group leader, leading research fellow and scientific supervisor of Ph.D. students in his home town at the Institute of Applied Physics.</p> <p>His research interests are in the development and application of methods for the high precision calculations of the spectra of small molecules and ions, and analysis of their spectra at high excitation, including high temperatures and dissociation.</p> <p>He has 154 papers in the refereed journals, including &ldquo;Science&rdquo; (first author in two &ldquo;Science&rdquo; papers), &ldquo;Physical Review&rdquo;, &ldquo;Physical Review Letters&rdquo;, &ldquo;Journal of Chemical Physics&rdquo;, &ldquo;Chemical Physics Letters&rdquo;. In 2018 citation index of his publications was 5800 citations, average 37.75 per paper; Hirsch factor is 44.</p> <p> <a href=\"sss.html\" class=\"a_l\">Theoretical group activity</a></p>",
         			"photo": { 
         				"filename": "oleg.jpg",
         				"position": {"x": 0.5, "y": 0.2},
@@ -388,7 +391,7 @@
         		},
         		"vilkov": {
         			"full_name": "Ilya&nbsp;Nikolaevich&nbsp;Vilkov",
-        			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;(Ph.D. student)",
+        			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;",
         			"position": "Junior Researcher, Ph.D. Student",
         			"email": "Vilkov.Ilya&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-48-66",
@@ -428,6 +431,19 @@
         				"filename": "makhnev.jpg",
         				"position": {"x": 0.6, "y": 0.4},
         				"scale": 1.1 
+        			}
+        		},
+        		"vilkov": {
+        			"full_name": "Ilya&nbsp;Nikolaevich&nbsp;Vilkov",
+        			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;",
+        			"position": "Junior Researcher, Ph.D. Student",
+        			"email": "Vilkov.Ilya&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+        			"tel": "+7 (831) 416-48-66",
+        			"biography": "<p>Ilya Vilkov was born in Nizhny Novgorod, Russia, in 1984. Graduated from the Mechanics and Mathematics faculty of Nizhny Novgorod State University in 2007 with master's diploma. Speciality &mdash; &ldquo;mechanics&rdquo;. Started working at the Microwave Spectroscopy Laboratory of IAP RAS in 2011 as a researcher and currently is taking a Ph.D. course. The research theme is &ldquo;Spectral line shapes of major atmospheric gases in a broad range of temperatures and pressures&rdquo;.</p>",
+        			"photo": { 
+        				"filename": "Vilkov1.jpg",
+        				"position": {"x": 0.45, "y": 0.2},
+        				"scale": 1.3 
         			}
         		}
         	}

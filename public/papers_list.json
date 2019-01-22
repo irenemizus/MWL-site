@@ -8191,11 +8191,165 @@
                             "title": "On the Problem of High-Accuracy Modeling of the Dry Air Absorption Spectrum in the Millimeter Wavelength Range",
                             "url": "2018Tretyakov.pdf",
                             "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "V.Yu.&nbsp;Makhnev",
+                                "A.A.&nbsp;Kyuberis",
+                                "O.L.&nbsp;Polyansky",
+                                "I.I.&nbsp;Mizus",
+                                "J.&nbsp;Tennyson",
+                                "N.F.&nbsp;Zobov"
+                            ],
+                            "data": "353, 40&ndash;53",
+                            "journal": "J. Mol. Spectrosc.",
+                            "title": "A New Spectroscopically-Determined Potential Energy Surface and <em>ab initio</em> Dipole Moment Surface for High Accuracy HCN Intensity Calculations",
+                            "url": "2018Makhnev-1.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "I.I.&nbsp;Mizus",
+                                "O.L.&nbsp;Polyansky",
+                                "L.K.&nbsp;McKemmish",
+                                "J.&nbsp;Tennyson",
+                                "A.&nbsp;Alijah",
+                                "N.F.&nbsp;Zobov"
+                            ],
+                            "data": "doi:10.1080/00268976.2018.1554195",
+                            "journal": "Mol. Phys.",
+                            "title": "A Global Potential Energy Surface for H<sub>3</sub><sup>+</sup>",
+                            "url": "2018Mizus-1.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"M.A.&nbsp;Koshelev", 
+                            	"I.I.&nbsp;Leonov", 
+                            	"E.A.&nbsp;Serov",
+                            	"A.I.&nbsp;Chernova", 
+                            	"A.A.&nbsp;Balashov",
+                            	"G.M.&nbsp;Bubnov",
+                            	"A.F.&nbsp;Andriyanov",
+                            	"A.P.&nbsp;Shkaev",
+                            	"V.V.&nbsp;Parshin",
+                            	"A.F.&nbsp;Krupnov",
+                            	"M.Yu.&nbsp;Tretyakov"
+                            ],
+                            "data": "8(6), 773&ndash;783",
+                            "journal": "IEEE Trans. on Terahertz Sci. Technol.",
+                            "title": "New Frontiers of Modern Resonator Spectroscopy",
+                            "url": "2018Koshelev-1.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"A.P.&nbsp;Fokin",
+                                "M.Yu.&nbsp;Glyavin",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "L.V.&nbsp;Lubyako",
+                                "M.V.&nbsp;Morozkin",
+                                "B.Z.&nbsp;Movschevich",
+                                "A.I.&nbsp;Tsvetkov",
+                                "G.G.&nbsp;Denisov"
+                            ],
+                            "data": "8, 4317",
+                            "journal": "Nature Sci. Rep.",
+                            "title": "High-Power Sub-Terahertz Source with a Record Frequency Stability at up to 1&nbsp;Hz",
+                            "url": "2018Fokin.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                                "O.L.&nbsp;Polyansky",
+                                "A.A.&nbsp;Kyuberis",
+                                "N.F.&nbsp;Zobov",
+                                "J.&nbsp;Tennyson",
+                                "S.N.&nbsp;Yurchenko",
+                                "L.&nbsp;Lodi"
+                            ],
+                            "data": "480(2), 2597&ndash;2608",
+                            "journal": "Mon. Not. R. Astron. Soc.",
+                            "title": "ExoMol Molecular Line Lists XXX: a Complete High-Accuracy Line List for Water",
+                            "url": "2018Polyansky-1.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"E.K.&nbsp;Conway",
+                            	"A.A.&nbsp;Kyuberis",
+                                "O.L.&nbsp;Polyansky",
+                                "J.&nbsp;Tennyson",
+                                "N.F.&nbsp;Zobov"
+                            ],
+                            "data": "149, 084307",
+                            "journal": "J. Chem. Phys.",
+                            "title": "A Highly Accurate <em>ab initio</em> Dipole Moment Surface for the Ground Electronic State of Water Vapour for Spectra Extending into the Ultraviolet",
+                            "url": "2018Conway.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"D.&nbsp;Cimini",
+                            	"P.W.&nbsp;Rosenkranz",
+                            	"M.Yu.&nbsp;Tretyakov",
+                            	"M.A.&nbsp;Koshelev", 
+                            	"F.&nbsp;Romano"
+                            ],
+                            "data": "18, 15231&ndash;15259",
+                            "journal": "Atmos. Chem. Phys.",
+                            "title": "Uncertainty of Atmospheric Microwave Absorption Model: Impact on Ground-Based Radiometer Simulations and Retrievals",
+                            "url": "2018Cimini.pdf",
+                            "year": "2018"
+                        },
+                        {
+                            "authors": [
+                            	"O.N.&nbsp;Ulenikov",
+                            	"O.V.&nbsp;Gromova",
+                            	"E.S.&nbsp;Bekhtereva",
+                            	"N.I.&nbsp;Raspopova",
+                            	"M.A.&nbsp;Koshelev", 
+                            	"I.A.&nbsp;Velmuzhova",
+                            	"A.D.&nbsp;Bulanov",
+                            	"P.G.&nbsp;Sennikov"
+                            ],
+                            "data": "221, 129&ndash;137",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "High-Resolution FTIR Spectroscopic Study of <sup>73</sup>GeH<sub>4</sub> up to 2300&nbsp;cm<sup>−1</sup>",
+                            "url": "2018Ulenikov-1.pdf",
+                            "year": "2018"
                         }
 					],
 					"title": "2018"
 				}
 			]
-		}
+		},
+        "2019": {
+            "title": "Our scientific articles (2019)",
+            "paragraphs": [
+                {
+                    "articles": [
+                        {
+                            "authors": [
+                            	"O.N.&nbsp;Ulenikov",
+                            	"O.V.&nbsp;Gromova",
+                            	"E.S.&nbsp;Bekhtereva",
+                            	"N.I.&nbsp;Raspopova",
+                            	"A.V.&nbsp;Kuznetsov",
+                            	"M.A.&nbsp;Koshelev", 
+                            	"I.A.&nbsp;Velmuzhova",
+                            	"P.G.&nbsp;Sennikov"
+                            ],
+                            "data": "225, 206&ndash;213",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "First High-Resolution Comprehensive Analysis of <sup>72</sup>GeH<sub>4</sub> Spectra in the Dyad and Pentad Regions",
+                            "url": "2019Ulenikov.pdf",
+                            "year": "2019"
+                        }
+                    ],
+                    "title": "1990"
+                }
+            ]
+        }
     }
 }
