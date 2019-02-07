@@ -1,0 +1,41 @@
+{	
+    "url": {
+    	"dev017_charact": {
+    		"link_from": "dev017",
+    		"title": "Device 017: Typical characteristics of Transmission-Type multiplier-mixers",
+    		"short_title": "Device 017 characteristics",
+    		"structure": [
+        		{
+        			"text": "<p>Power of BWO and power of microwave synthesizer required for satisfactory beat-note signals:</p>"
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "17_4.jpg",
+        					"caption": "<div align=\"center\">F<font size=\"-2\">BWO</font>&nbsp;=&nbsp;90&nbsp;GHz<br>F<font size=\"-2\">MW</font>&nbsp;=&nbsp;10&nbsp;GHz<br>P<font size=\"-2\">MW</font>&nbsp;=&nbsp;14&nbsp;mW</div>"
+  						},
+  						{
+        					"file": "17_5.jpg",
+        					"caption": "<div align=\"center\">F<font size=\"-2\">BWO</font>&nbsp;=&nbsp;90&nbsp;GHz<br>P<font size=\"-2\">BWO</font>&nbsp;=&nbsp;17&nbsp;mW<br>F<font size=\"-2\">MW</font>&nbsp;=&nbsp;10&nbsp;GHz</div>"
+  						}
+        			]
+        		},
+        		{
+        			"text": "<p>Blue color line indicates minimal beat-note signal amplitude required for stable operation of phase lock-in loop (PLL) system operation A<font size=\"-2\">MIN</font>=200&nbsp;mV.</p>"
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "17_6.jpg",
+        					"caption": "<p>1. BWO output power in working range.<br><strong><font color=\"#0000FF\">B</font></strong> &#8211; with the attached mixer,<br><strong><font color=\"#FF0000\">A</font></strong>&#8211; without the mixer.</p><p>The mixer uses less than 10&nbsp;% of the BWO radiation power in the BWO entire frequency range.</p>"
+  						},
+  						{
+        					"file": "17_7.jpg",
+        					"caption": "<p>2. Microwave synthesizer radiation power required for obtaining the beat-note signal with constant amplitude (A&nbsp;=&nbsp;3A<font size=\"-2\">MIN</font>) in whole BWO frequency range at the same harmonic (N&nbsp;=&nbsp;9) of the MW synthesizer.</p><p>The mixer allows continuous scanning of the BWO frequency in phase locked-in regime in the BWO entire range.</p>"
+  						}
+        			]
+        		}
+        	]
+		}
+	}        	
+}

@@ -48,7 +48,7 @@ export default class AssociatePage extends Component {
   		
   		let image;
 		if (this.props.associate.photo) {
-			image = <img alt="" src={'/img/foto/' + this.props.associate.photo.filename} height="185" className="associate_portrait"></img>
+			image = <img alt="" src={'/img/foto/' + this.props.associate.photo.filename} style={{"height": "185px"}} className="associate_portrait"></img>
 		}
 		
 		let paragraph_sel;

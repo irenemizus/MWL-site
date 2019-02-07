@@ -107,3 +107,8 @@ a:hover {
   display: block;
   margin-bottom: 5pt;
 }
+
+.device_block {
+  display: inline-block;
+  float: left;
+}

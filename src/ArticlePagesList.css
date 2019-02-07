@@ -1,5 +1,5 @@
 .article_pages_list {
-  padding: 10pt;
+  margin: 10pt;
 }
 
 .people .article_pages_list {
@@ -34,6 +34,11 @@
   text-decoration: none;
   padding: 2pt 4pt;
   border-radius: 2pt;
+}
+
+.page_button_dark,
+.page_button_active {
+  font-size: 90%;
 }
 
 .page_button_light,

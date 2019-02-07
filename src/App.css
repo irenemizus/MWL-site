@@ -68,7 +68,7 @@
   margin-left: 280px;
   margin-right: 30px;
   background-color: white;
-  max-width: 600pt;
+  /*max-width: 600pt;*/
   margin-top: 150pt;
   margin-bottom: 60pt;
   min-height: 60vh;
@@ -168,6 +168,18 @@
   padding: 2pt 8pt 2pt 0pt;
 }
 
+.menu_item_active a {
+  font-size: 90%;
+  color: rgba(255, 170, 100, 1.0);
+  fill: rgba(255, 170, 100, 0.8);
+}
+
+.menu_item_active a:hover {
+  font-size: 90%;
+  color: rgba(255, 255, 255, 1.0);
+  fill: rgba(216, 223, 233, 0.8);
+}
+
 .menu_item_active span {
   font-size: 90%;
   color: rgba(255, 170, 100, 1.0);
@@ -188,4 +200,20 @@
 
 .line {
   padding: 2pt 4pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {
+  border: 1px solid #cccccc;
+  padding: 2pt;
+}
+
+div.device_page ul {
+	padding: 0;
+    text-indent: 2pt;
+    list-style-position: inside;
 }

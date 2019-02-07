@@ -6,16 +6,17 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
-import StaffList from './StaffList';
-import StaffCategory from './StaffCategory';
-import IndexPage from './IndexPage';
 import Page from './Page';
-import AssociatePage from './AssociatePage';
 import PageButton from './PageButton';
+import IndexPage from './IndexPage';
 import OneFigPage from './OneFigPage';
-import StaffCatButtons from './StaffCatButtons';
 import StaffPage from './StaffPage';
-
+import StaffCategory from './StaffCategory';
+import AssociatePage from './AssociatePage';
+import StaffCatButtons from './StaffCatButtons';
+import Devices from './Devices';
+import DevPage from './DevPage';
+import DevButtons from './DevButtons';
 
 const DataState = {
 	LOADING: 1,
@@ -23,15 +24,17 @@ const DataState = {
 	FAIL: 3
 };
 
-var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
-var StaffListWithHistory = withRouter(StaffList);
-var StaffCategoryWithHistory = withRouter(StaffCategory);
+var PageWithHistory = withRouter(Page);
 var IndexWithHistory = withRouter(IndexPage);
-var AssociatePageWithHistory = withRouter(AssociatePage);
 var OneFigPageWithHistory = withRouter(OneFigPage);
-var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
 var StaffPageWithHistory = withRouter(StaffPage);
+var StaffCategoryWithHistory = withRouter(StaffCategory);
+var AssociatePageWithHistory = withRouter(AssociatePage);
+var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
+var DevicesWithHistory = withRouter(Devices);
+var DevPageWithHistory = withRouter(DevPage);
+var DevButtonsWithHistory = withRouter(DevButtons);
 
 class Menu extends Component {
 	render() {
@@ -44,36 +47,96 @@ class Menu extends Component {
 
 		var menu_var = (
 			<Switch>
-				<Route path='/list' render={ 
+				<Route exact path='/' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-							<div className="menu_item_active"><span>{line}List of publications</span></div>					
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
-						</div>
-					)
-				} />
-				<Route path='/people' render={ 
-					(props) => (
-						<div className="App-menu">
-							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
-							<div className="menu_item_active"><span>{line}People</span></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><a href="/about.html">{line}About</a></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
 				} />
-				<Route path='/' render={ 
+				<Route exact path='/people' render={ 
 					(props) => (
 						<div className="App-menu">
-							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item_active"><span>{line}People</span></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/people/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item_active"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route exact path='/instrum' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+							<div className="menu_item_active"><span>{line}Instruments</span></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/instrum/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item_active"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route exact path='/list' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item_active"><span>{line}List of publications</span></div>					
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/list/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item_active"><Link to={"/list"}>{line}List of publications</Link></div>					
+							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item_active"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><a href="/about.html">{line}About</a></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
@@ -166,9 +229,11 @@ class App extends Component {
 			dataState: DataState.LOADING,
 			dataStatePeople: DataState.LOADING,
 			dataStateOneFigPage: DataState.LOADING,
+			dataStateDevList: DataState.LOADING,
 			json: null,
 			jsonPeople: null,
-			jsonOneFigPage: null
+			jsonOneFigPage: null,
+			jsonDevList: null
 		};
 		
 		let app = this;
@@ -176,32 +241,38 @@ class App extends Component {
         Promise.all([
     		axios.get('/papers_list.json'),
     		axios.get('/people_list.json'),
-    		axios.get('/one_fig_template.json')
+    		axios.get('/one_fig_template.json'),
+    		axios.get('/devices_list.json')
     	])
-			.then(([papersResp, peopleResp, oneFigPageResp]) => {
+			.then(([papersResp, peopleResp, oneFigPageResp, devListResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
 					dataStatePeople: DataState.SUCCESS,
 					dataStateOneFigPage: DataState.SUCCESS,
+					dataStateDevList: DataState.SUCCESS,
 					json: papersResp.data,
 					jsonPeople: peopleResp.data,
-					jsonOneFigPage:oneFigPageResp.data
+					jsonOneFigPage:oneFigPageResp.data,
+					jsonDevList:devListResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople, errorOneFigPage]) => {
+	  		.catch(([error, errorPeople, errorOneFigPage, errorDevList]) => {
 				console.log(error);
 				console.log(errorPeople);
 				console.log(errorOneFigPage);
-
+				console.log(errorDevList);
+				
 	    		app.setState({
 	    			dataState: DataState.FAIL,
 	    			dataStatePeople: DataState.FAIL,
 	    			dataStateOneFigPage: DataState.FAIL,
+	    			dataStateDevList: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
 	    			jsonOneFigPage: null,
+	    			jsonDevList: null,
 	    			error: {
 	    				code: error.papersResp.status,
 	    				text: error.papersResp.statusText
@@ -213,6 +284,10 @@ class App extends Component {
 	    			errorOneFigPage: {
 	    				code: errorOneFigPage.oneFigPageResp.status,
 	    				text: errorOneFigPage.oneFigPageResp.statusText
+	    			},
+	    			errorDevList: {
+	    				code: errorDevList.devListResp.status,
+	    				text: errorDevList.devListResp.statusText
 	    			}
 	    		});
 		});
@@ -243,10 +318,12 @@ class App extends Component {
 			const json = this.state.json;
 			const jsonPeople = this.state.jsonPeople;
 			const jsonOneFigPage = this.state.jsonOneFigPage;
+			const jsonDevList = this.state.jsonDevList;
 	
 			let pageTitles = Object.keys(json.pages).sort();
 			let staffCatTitles = jsonPeople.category;
 			let staffPhoto = jsonPeople.photo;
+			let devTitles = jsonDevList.category.devices;
 			
 			content = (
 				<Switch>
@@ -310,6 +387,42 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route exact path='/instrum/devices' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<DevicesWithHistory category={jsonDevList.category}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/devices/:dev' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<DevPageWithHistory device={jsonDevList.category.devices[props.match.params.dev]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/instrum' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OneFigPageWithHistory ofpage={jsonOneFigPage.url["instrum"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				  <Route exact path='/' render={ 
 					(props) => (
 						<div>
@@ -336,7 +449,7 @@ class App extends Component {
 				  } />
 				</Switch>
 			)
-			
+						
 			leftPane = (
 				<Switch>
 				  <Route exact path='/list' render={ 
@@ -382,6 +495,28 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />			
+						</div>
+					)
+				  } />
+				 <Route exact path='/instrum' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
+						</div>
+					)
+				  } />
+                  <Route exact path='/instrum/devices' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />		
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/devices/:dev' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
 						</div>
 					)
 				  } />

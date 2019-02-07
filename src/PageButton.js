@@ -31,7 +31,7 @@ export default class PageButton extends Component {
 		}
 		if (title.length <= 4) {
 			boxStyle.maxWidth = "35pt";
-		} else if (title.length === 9) {
+		} else if (title.length === 9 || title.length === 10) {
 			boxStyle.maxWidth = "74pt";
 		} else {
 			boxStyle.maxWidth = "150pt";
