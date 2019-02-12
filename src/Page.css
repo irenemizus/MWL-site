@@ -112,3 +112,37 @@ a:hover {
   display: inline-block;
   float: left;
 }
+
+.instrum ol {
+	counter-reset: item;
+	padding: 0;
+}
+
+.instrum ol { 
+	padding-left: 4pt;
+}
+
+.instrum ol li { 
+	display: block;
+	padding-left: 0pt;
+}
+
+.instrum ol li ol { 
+	display: block;
+	padding-left: 8pt;
+}
+
+
+.instrum ol li:before { 
+	content: counters(item,"." ) ". "; 
+	counter-increment: item;
+}
+
+.instrum ul {
+	padding: 0;
+	margin: 20pt 0;
+}
+
+.instrum dl {
+	margin: 5pt 0
+}

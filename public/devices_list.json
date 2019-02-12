@@ -50,7 +50,7 @@
         		"full_title": "Device&nbsp;003",
         		"structure": [
         			{
-        				"text": "<p><strong>Backward-wave oscillator tubes installed in permanent magnet</strong></p> <p>The small one &mdash; 0.65 Tesla Samarium-Cobalt alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p> <p>The bigger one &mdash; 1 Tesla Samarium-Cobalt magnet for tubes of higher frequency range up to 715&nbsp;GHz.</p>",
+        				"text": "<p><strong>Backward-wave oscillator tubes installed in permanent magnet</strong></p> <p>The small one &mdash; 0.65&nbsp;Tesla Samarium-Cobalt alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p> <p>The bigger one &mdash; 1&nbsp;Tesla Samarium-Cobalt magnet for tubes of higher frequency range up to 715&nbsp;GHz.</p>",
         				"images": [
         					{
         						"file": "3.jpg"
@@ -58,7 +58,7 @@
         				]
         			},
         			{
-        				"text": "<p>0.68 Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p>",
+        				"text": "<p>0.68&nbsp;Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p>",
         				"images": [
         					{
         						"file": "3_1.jpg"
@@ -66,7 +66,7 @@
         				]
         			},
         			{
-        				"text": "<p>1.1 Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for high frequency tubes.</p>",
+        				"text": "<p>1.1&nbsp;Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for high frequency tubes.</p>",
         				"images": [
         					{
         						"file": "3_2.jpg"
@@ -93,7 +93,7 @@
         		"full_title": "Device&nbsp;004",
         		"structure": [
         			{
-        				"text": "<p><strong>Gas Cell with Radio-Acoustic Detector (RAD) and related electronics for signal reception and amplification</strong></p> <p>20&nbsp;cm long and 2&nbsp;cm in diameter tube with thin teflon windows (upper part of the device) connected to capacitance microphone (lower part of the device). Working gas pressure: 0.05&ndash;10&nbsp;Torr. Acoustic signal frequency: 20&ndash;1000&nbsp;Hz. Input microwave radiation range: from long millimeters up to far infrared wavelengths. Acoustic signal receiver: high frequency balanced bridge which includes the cell microphone capacitance. Typical single-pass sensitivity: 10<sup>-8</sup>&nbsp;cm<sup>-1</sup> in terms of radiation absorption coefficient (time constant 1&nbsp;sec.).</p>",
+        				"text": "<p><strong>Gas Cell with Radio-Acoustic Detector (RAD) and related electronics for signal reception and amplification</strong></p> <p>20&nbsp;cm long and 2&nbsp;cm in diameter tube with thin teflon windows (upper part of the device) connected to capacitance microphone (lower part of the device). Working gas pressure: 0.05&ndash;10&nbsp;Torr. Acoustic signal frequency: 20&ndash;1000&nbsp;Hz. Input microwave radiation range: from long millimeters up to far infrared wavelengths. Acoustic signal receiver: high frequency balanced bridge which includes the cell microphone capacitance. Typical single-pass sensitivity: <span class=\"nobr\">10<sup>-8</sup> cm<sup>-1</sup></span> in terms of radiation absorption coefficient (time constant 1&nbsp;sec.).</p>",
         				"images": [
         					{
         						"file": "4.jpg"
@@ -112,7 +112,7 @@
         		"full_title": "Device&nbsp;005",
         		"structure": [
         			{
-        				"text": "<p><strong>Commercial synthesizers</strong></p> <p>(&ldquo;Kvarz&rdquo;, Nizhny Novgorod)</p> <p>Frequency range: 37.5&ndash;53.6&nbsp;GHz, 53.6&ndash;78.3&nbsp;GHz, 78.3&ndash;118&nbsp;GHz, 118.1&ndash;178.4&nbsp;GHz.</p> <p>Resolution: 100&nbsp;Hz. Stability 3·10<sup>-7</sup>&nbsp;/&nbsp;year. Output power up to 25&nbsp;mW. FM, AM and Pulse modulation. Digital sweep. Remote programming.</p>",
+        				"text": "<p><strong>Commercial synthesizers</strong></p> <p>(&ldquo;Kvarz&rdquo;, Nizhny Novgorod)</p> <p>Frequency range: 37.5&ndash;53.6&nbsp;GHz, 53.6&ndash;78.3&nbsp;GHz, 78.3&ndash;118&nbsp;GHz, 118.1&ndash;178.4&nbsp;GHz.</p> <p>Resolution: 100&nbsp;Hz. Stability <span class=\"nobr\">3·10<sup>-7</sup> / year</span>. Output power up to 25&nbsp;mW. FM, AM and Pulse modulation. Digital sweep. Remote programming.</p>",
         				"images": [
         					{
         						"file": "5.jpg"
@@ -131,7 +131,7 @@
         		"full_title": "Device&nbsp;006",
         		"structure": [
         			{
-        				"text": "<p><strong>Quasioptical Submillimeter-Wave Multiplier-Mixer</strong></p> <p>Quasioptical input of submillimeter-wave radiation up to 2.5 THz. Wave-guide input of reference (LO) signal of 78-118 or 118-178 GHz. Coaxial output of intermediate signal (from DC up to 20 GHz). Planar (beam lead) Schottky diode as a non linear element.</p>",
+        				"text": "<p><strong>Quasioptical Submillimeter-Wave Multiplier-Mixer</strong></p> <p>Quasioptical input of submillimeter-wave radiation up to 2.5&nbsp;THz. Wave-guide input of reference (LO) signal of 78&ndash;118 or 118&ndash;178&nbsp;GHz. Coaxial output of intermediate signal (from DC up to 20&nbsp;GHz). Planar (beam lead) Schottky diode as a non linear element.</p>",
         				"images": [
         					{
         						"file": "6.jpg"
@@ -169,7 +169,7 @@
         		"full_title": "Device&nbsp;008",
         		"structure": [
         			{
-        				"text": "<p><strong>Quasioptical broad-band wavemeter</strong></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: 10<sup>-5</sup>&nbsp;rel.un.</p> <p>For more details see <a href=\"index.html#/list/1996\" target=\"_blank\">Ref. 5 (1996)</a>.</p>",
+        				"text": "<p><strong>Quasioptical broad-band wavemeter</strong></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see <a href=\"index.html#/list/1996\" target=\"_blank\">Ref. 5 (1996)</a>.</p>",
         				"images": [
         					{
         						"file": "8.jpg"
@@ -215,7 +215,7 @@
         				]
         			},
         			{
-        				"text": "<p>Cutoff frequency: 6&nbsp;THz; <br>Typical capacitance (Co): 5&ndash;8&nbsp;fF; <br>Typical series resistance (Rs): 5&ndash;10&nbsp;Ohm; Breakdown voltage (Vr): 3&nbsp;V; <br>Maximal dissipated power: 10&nbsp;mW; <br>Operating temperature range: <br>from -60°C up to +125°C; <br>Dimensions: 0.5&nbsp;x&nbsp;0.1&nbsp;x&nbsp;0.01&nbsp;mm.</p>",
+        				"text": "<p>Cutoff frequency: 6&nbsp;THz; <br>Typical capacitance (Co): 5&ndash;8&nbsp;fF; <br>Typical series resistance (Rs): 5&ndash;10&nbsp;Ohm; Breakdown voltage (Vr): 3&nbsp;V; <br>Maximal dissipated power: 10&nbsp;mW; <br>Operating temperature range: <br>from <span class=\"nobr\">-60 °C</span> up to <span class=\"nobr\">+125 °C;</span> <br>Dimensions: 0.5&nbsp;x&nbsp;0.1&nbsp;x&nbsp;0.01&nbsp;mm.</p>",
         				"images": [
         					{
         						"file": "10.jpg"
@@ -291,7 +291,7 @@
         		"full_title": "Device&nbsp;014",
         		"structure": [
         			{
-        				"text": "<p><strong>BWO Power Supply</strong></p> <p>Suitable for all kinds of available tubes from 35 up to 1200&nbsp;GHz range.</p> <p>High voltage range: -450&ndash;-6000&nbsp;V; Maximal high voltage current: 60&nbsp;mA; Greed and filament voltage power supplies included. All fe eding voltages digital indication. Fast breakdown protection system. GPIB remote control. Internal/external modulation option.</p>",
+        				"text": "<p><strong>BWO Power Supply</strong></p> <p>Suitable for all kinds of available tubes from 35 up to 1200&nbsp;GHz range.</p> <p>High voltage range: <span class=\"nobr\">-450&ndash;&thinsp;-6000 V;</span> Maximal high voltage current: 60&nbsp;mA; Greed and filament voltage power supplies included. All fe eding voltages digital indication. Fast breakdown protection system. GPIB remote control. Internal/external modulation option.</p>",
         				"images": [
         					{
         						"file": "14.jpg"
@@ -310,7 +310,7 @@
         		"full_title": "Device&nbsp;015",
         		"structure": [
         			{
-        				"text": "<p><strong>BWO in magnet systems</strong></p> <p>In order of the size increasing:</p> <ul><li type=\"disc\">Factory packetized BWOs (35&ndash;53, 53&ndash;78, 78&ndash;118, 118&ndash;178&nbsp;GHz);</li> <li type=\"disc\">178&ndash;260 or 260&ndash;380&nbsp;GHz BWOs in a permanent magnet (0.65 Tesla);</li> <li type=\"disc\">370&ndash;530 or 510&ndash;715&nbsp;GHz BWOs in a permanent magnet (1 Tesla);</li> <li type=\"disc\">Electromagnet suitable for all kinds of BWOs up to highest frequency range.</li></ul>",
+        				"text": "<p><strong>BWO in magnet systems</strong></p> <p>In order of the size increasing:</p> <ul><li type=\"disc\">Factory packetized BWOs (35&ndash;53, 53&ndash;78, 78&ndash;118, 118&ndash;178&nbsp;GHz);</li> <li type=\"disc\">178&ndash;260 or 260&ndash;380&nbsp;GHz BWOs in a permanent magnet (0.65&nbsp;Tesla);</li> <li type=\"disc\">370&ndash;530 or 510&ndash;715&nbsp;GHz BWOs in a permanent magnet (1&nbsp;Tesla);</li> <li type=\"disc\">Electromagnet suitable for all kinds of BWOs up to highest frequency range.</li></ul>",
         				"images": [
         					{
         						"file": "15.jpg"
@@ -366,7 +366,7 @@
         				]
         			},
         			{
-        				"text": "<table><tr><td>Frequency range (GHz)</td><td>36&ndash;55</td><td>52&ndash;79</td><td>78&ndash;119</td><td>118&ndash;178</td></tr><tr><td>Waveguide size (mm)</td><td>2.6 x 5.2</td><td>1.8 x 3.6</td><td>1.2 x 2.4</td><td>0.8 x 1.6</td></tr></table><p>Mixers with standard WR-XX waveguides and UG-XXX/U are also available</p><p><a href=\"dev017_charact.html\">Typical mixer characteristics</a></p><p>For more details see paper [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref. 6 (2007)</a>].</p>"
+        				"text": "<table><tr><td>Frequency range (GHz)</td><td>36&ndash;55</td><td>52&ndash;79</td><td>78&ndash;119</td><td>118&ndash;178</td></tr><tr><td>Waveguide size (mm)</td><td>2.6&nbsp;x&nbsp;5.2</td><td>1.8&nbsp;x&nbsp;3.6</td><td>1.2&nbsp;x&nbsp;2.4</td><td>0.8&nbsp;x&nbsp;1.6</td></tr></table><p>Mixers with standard WR-XX waveguides and UG-XXX/U are also available</p><p><a href=\"dev017_charact.html\">Typical mixer characteristics</a></p><p>For more details see paper [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref. 6 (2007)</a>].</p>"
         			}
         		]		
         	},

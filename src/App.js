@@ -166,7 +166,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 14.11.18
+								Last update 07.02.19
 							</div>
 						</div>
 					)
@@ -415,7 +415,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">	
-								<OneFigPageWithHistory ofpage={jsonOneFigPage.url["instrum"]}/>
+								<OneFigPageWithHistory outerClass="instrum" ofpage={jsonOneFigPage.url["instrum"]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />

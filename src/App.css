@@ -217,3 +217,7 @@ div.device_page ul {
     text-indent: 2pt;
     list-style-position: inside;
 }
+
+span.nobr {
+  white-space: nowrap;
+}

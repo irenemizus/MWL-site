@@ -19,10 +19,15 @@ export default class OneFigPage extends Component {
         if (this.props.ofpage.content.main_text) {
         	main_text = renderHTML(this.props.ofpage.content.main_text);
         }
+        
+        let outerClass = "";
+        if (this.props.outerClass) {
+        	outerClass = this.props.outerClass;
+        }
   		
 		return (
 			<div className="page">
-				<div>
+				<div className={outerClass}>
 					 <h1>{renderHTML(title)}</h1>
 					 <div>{image}{main_text}</div>
 				</div>
