@@ -3,7 +3,7 @@ import renderHTML from 'react-render-html';
 import queryString from 'query-string';
 
 import License from './License';
-import Paragraph from './Paragraph';
+import Paragraph from './ParagraphArt';
 
 import './Page.css';
 

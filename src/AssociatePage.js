@@ -4,7 +4,7 @@ import queryString from 'query-string';
 
 import StaffPosition from './StaffPosition';
 import searchArticleByURL from './searchUtils';
-import Paragraph from './Paragraph';
+import Paragraph from './ParagraphArt';
 import ParagraphPlen from './ParagraphPlen';
 import License from './License';
 

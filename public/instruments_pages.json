@@ -1,5 +1,13 @@
 {	
     "url": {
+    	"instrum": {
+    		"title": "We have and are able to produce the following equipment for research:",
+    		"structure": [
+    			{
+      				"text": "<ul><ol type=\"1\"><li>Microwave radiation sources with precise frequency control<ol type=\"1.1\"><li>BWO-based frequency synthesizers<dl><dd><a href=\"35.html\">35-400 GHz range</a></dd><dd><a href=\"400.html\">400-1200 GHz range</a></dd></dl></li><li>Radiation frequency multipliers<dl><dd><a href=\"mult_1.html\">for mm-wave sources</a></dd><dd><a href=\"mult_2.html\">for submm-wave sources</a></dd><dd><a href=\"method.html\">multiplier conversion losses measurements</a></dd></dl></li><li><a href=\"radsource.html\">Subterahertz radiation source stabilized by laser comb</a></li></ol></li><li>Spectrometer with frequency synthesizer and <strong>R</strong>adio <strong>A</strong>coustical <strong>D</strong>etection of absorption (<a href=\"rad.html\">RAD spectrometer</a>)</li><li>Continuously frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (<a href=\"rad-3.html\">RAD-3 spectrometer</a>)</li><li>Spectrometer for atmosphere study and ultralow absorption measurements in dielectrics (<a href=\"reson.html\">Resonator spectrometer</a>)</li><li>Video-spectrometer with super-high resolution (<a href=\"lamb_spectr.html\">The Lamb-dip spectrometer</a>)</li></ol><p><a href=\"index.html#/instrum/devices\">Related devices</a></p></ul>"
+				}
+			]
+		},
     	"dev017_charact": {
     		"link_from": "dev017",
     		"title": "Device 017: Typical characteristics of Transmission-Type multiplier-mixers",
@@ -12,26 +20,26 @@
         			"images": [
         				{
         					"file": "17_4.jpg",
-        					"caption": "<div align=\"center\">F<font size=\"-2\">BWO</font>&nbsp;=&nbsp;90&nbsp;GHz<br>F<font size=\"-2\">MW</font>&nbsp;=&nbsp;10&nbsp;GHz<br>P<font size=\"-2\">MW</font>&nbsp;=&nbsp;14&nbsp;mW</div>"
+        					"caption": "<div>F<sub>BWO</sub>&nbsp;=&nbsp;90&nbsp;GHz<br>F<sub>MW</sub>&nbsp;=&nbsp;10&nbsp;GHz<br>P<sub>MW</sub>&nbsp;=&nbsp;14&nbsp;mW</div>"
   						},
   						{
         					"file": "17_5.jpg",
-        					"caption": "<div align=\"center\">F<font size=\"-2\">BWO</font>&nbsp;=&nbsp;90&nbsp;GHz<br>P<font size=\"-2\">BWO</font>&nbsp;=&nbsp;17&nbsp;mW<br>F<font size=\"-2\">MW</font>&nbsp;=&nbsp;10&nbsp;GHz</div>"
+        					"caption": "<div>F<sub>BWO</sub>&nbsp;=&nbsp;90&nbsp;GHz<br>P<sub>BWO</sub>&nbsp;=&nbsp;17&nbsp;mW<br>F<sub>MW</sub>&nbsp;=&nbsp;10&nbsp;GHz</div>"
   						}
         			]
         		},
         		{
-        			"text": "<p>Blue color line indicates minimal beat-note signal amplitude required for stable operation of phase lock-in loop (PLL) system operation A<font size=\"-2\">MIN</font>=200&nbsp;mV.</p>"
+        			"text": "<p>Blue color line indicates minimal beat-note signal amplitude required for stable operation of phase lock-in loop (PLL) system operation A<sub>MIN</sub>&nbsp;=&nbsp;200&nbsp;mV.</p>"
         		},
         		{
         			"images": [
         				{
         					"file": "17_6.jpg",
-        					"caption": "<p>1. BWO output power in working range.<br><strong><font color=\"#0000FF\">B</font></strong> &#8211; with the attached mixer,<br><strong><font color=\"#FF0000\">A</font></strong>&#8211; without the mixer.</p><p>The mixer uses less than 10&nbsp;% of the BWO radiation power in the BWO entire frequency range.</p>"
+        					"caption": "<p>1. BWO output power in working range.<br><strong><font color=\"#0000FF\">B</font></strong>&nbsp;&#8211;&nbsp;with the attached mixer,<br><strong><font color=\"#FF0000\">A</font></strong>&nbsp;&#8211;&nbsp;without the mixer.</p><p>The mixer uses less than 10&nbsp;% of the BWO radiation power in the BWO entire frequency range.</p>"
   						},
   						{
         					"file": "17_7.jpg",
-        					"caption": "<p>2. Microwave synthesizer radiation power required for obtaining the beat-note signal with constant amplitude (A&nbsp;=&nbsp;3A<font size=\"-2\">MIN</font>) in whole BWO frequency range at the same harmonic (N&nbsp;=&nbsp;9) of the MW synthesizer.</p><p>The mixer allows continuous scanning of the BWO frequency in phase locked-in regime in the BWO entire range.</p>"
+        					"caption": "<p>2. Microwave synthesizer radiation power required for obtaining the beat-note signal with constant amplitude (A&nbsp;=&nbsp;3A<sub>MIN</sub>) in whole BWO frequency range at the same harmonic (N&nbsp;=&nbsp;9) of the MW synthesizer.</p><p>The mixer allows continuous scanning of the BWO frequency in phase locked-in regime in the BWO entire range.</p>"
   						}
         			]
         		}

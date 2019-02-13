@@ -6,16 +6,15 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
-import Page from './Page';
+import Page from './ArticlePage';
 import PageButton from './PageButton';
 import IndexPage from './IndexPage';
-import OneFigPage from './OneFigPage';
+import OrdinaryPage from './OrdinaryPage';
 import StaffPage from './StaffPage';
 import StaffCategory from './StaffCategory';
 import AssociatePage from './AssociatePage';
 import StaffCatButtons from './StaffCatButtons';
 import Devices from './Devices';
-import DevPage from './DevPage';
 import DevButtons from './DevButtons';
 
 const DataState = {
@@ -27,13 +26,13 @@ const DataState = {
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var PageWithHistory = withRouter(Page);
 var IndexWithHistory = withRouter(IndexPage);
-var OneFigPageWithHistory = withRouter(OneFigPage);
+var OrdinaryPageWithHistory = withRouter(OrdinaryPage);
 var StaffPageWithHistory = withRouter(StaffPage);
 var StaffCategoryWithHistory = withRouter(StaffCategory);
 var AssociatePageWithHistory = withRouter(AssociatePage);
 var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
 var DevicesWithHistory = withRouter(Devices);
-var DevPageWithHistory = withRouter(DevPage);
+var OrdinaryPageWithHistory = withRouter(OrdinaryPage);
 var DevButtonsWithHistory = withRouter(DevButtons);
 
 class Menu extends Component {
@@ -228,11 +227,13 @@ class App extends Component {
 		this.state = {
 			dataState: DataState.LOADING,
 			dataStatePeople: DataState.LOADING,
-			dataStateOneFigPage: DataState.LOADING,
+			dataStateMainDirPages: DataState.LOADING,
+			dataStateInstrumPages: DataState.LOADING,
 			dataStateDevList: DataState.LOADING,
 			json: null,
 			jsonPeople: null,
-			jsonOneFigPage: null,
+			jsonMainDirPages: null,
+			jsonInstrumPages: null,
 			jsonDevList: null
 		};
 		
@@ -241,37 +242,43 @@ class App extends Component {
         Promise.all([
     		axios.get('/papers_list.json'),
     		axios.get('/people_list.json'),
-    		axios.get('/one_fig_template.json'),
+    		axios.get('/main_dir_pages.json'),
+    		axios.get('/instruments_pages.json'),
     		axios.get('/devices_list.json')
     	])
-			.then(([papersResp, peopleResp, oneFigPageResp, devListResp]) => {
+			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
 					dataStatePeople: DataState.SUCCESS,
-					dataStateOneFigPage: DataState.SUCCESS,
+					dataStateMainDirPages: DataState.SUCCESS,
+					dataStateInstrumPages: DataState.SUCCESS,
 					dataStateDevList: DataState.SUCCESS,
 					json: papersResp.data,
 					jsonPeople: peopleResp.data,
-					jsonOneFigPage:oneFigPageResp.data,
+					jsonMainDirPages: mainDirPagesResp.data,
+					jsonInstrumPages: instrumPagesResp.data,
 					jsonDevList:devListResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople, errorOneFigPage, errorDevList]) => {
+	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList]) => {
 				console.log(error);
 				console.log(errorPeople);
-				console.log(errorOneFigPage);
+				console.log(errorMainDirPages);
+				console.log(errorInstrumPages);
 				console.log(errorDevList);
 				
 	    		app.setState({
 	    			dataState: DataState.FAIL,
 	    			dataStatePeople: DataState.FAIL,
-	    			dataStateOneFigPage: DataState.FAIL,
+	    			dataStateMainDirPages: DataState.FAIL,
+	    			dataStateInstrumPages: DataState.FAIL,
 	    			dataStateDevList: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
-	    			jsonOneFigPage: null,
+	    			jsonMainDirPages: null,
+	    			jsonInstrumPages: null,
 	    			jsonDevList: null,
 	    			error: {
 	    				code: error.papersResp.status,
@@ -281,9 +288,13 @@ class App extends Component {
 	    				code: errorPeople.peopleResp.status,
 	    				text: errorPeople.peopleResp.statusText
 	    			},
-	    			errorOneFigPage: {
-	    				code: errorOneFigPage.oneFigPageResp.status,
-	    				text: errorOneFigPage.oneFigPageResp.statusText
+	    			errorMainDirPages: {
+	    				code: errorMainDirPages.mainDirPagesResp.status,
+	    				text: errorMainDirPages.mainDirPagesResp.statusText
+	    			},
+	    			errorInstrumPages: {
+	    				code: errorInstrumPages.instrumPagesResp.status,
+	    				text: errorInstrumPages.instrumPagesResp.statusText
 	    			},
 	    			errorDevList: {
 	    				code: errorDevList.devListResp.status,
@@ -317,7 +328,8 @@ class App extends Component {
 		} else {
 			const json = this.state.json;
 			const jsonPeople = this.state.jsonPeople;
-			const jsonOneFigPage = this.state.jsonOneFigPage;
+			const jsonMainDirPages = this.state.jsonMainDirPages;
+			const jsonInstrumPages = this.state.jsonInstrumPages;
 			const jsonDevList = this.state.jsonDevList;
 	
 			let pageTitles = Object.keys(json.pages).sort();
@@ -399,11 +411,23 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route path='/instrum/devices/:dev/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/" link_from={jsonInstrumPages.url[props.match.params.dev]} orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				  <Route path='/instrum/devices/:dev' render={ 
 					(props) => (
 						<div>
 							<div className="main_pane">	
-								<DevPageWithHistory device={jsonDevList.category.devices[props.match.params.dev]}/>
+								<OrdinaryPageWithHistory img_prefix="/img/dev/" orpage={jsonDevList.category.devices[props.match.params.dev]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -415,7 +439,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">	
-								<OneFigPageWithHistory outerClass="instrum" ofpage={jsonOneFigPage.url["instrum"]}/>
+								<OrdinaryPageWithHistory outerClass="instrum" orpage={jsonInstrumPages.url["instrum"]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -427,7 +451,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">
-								<IndexWithHistory dirs={jsonOneFigPage.url}/>
+								<IndexWithHistory dirs={jsonMainDirPages.url}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -435,11 +459,11 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/:ofpage' render={ 
+				  <Route path='/:orpage' render={ 
 					(props) => (
 						<div>
 							<div className="main_pane">
-								<OneFigPageWithHistory ofpage={jsonOneFigPage.url[props.match.params.ofpage]}/>
+								<OrdinaryPageWithHistory orpage={jsonMainDirPages.url[props.match.params.orpage]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -512,6 +536,14 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route path='/instrum/devices/:dev/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
+						</div>
+					)
+				  } />
 				  <Route path='/instrum/devices/:dev' render={ 
 					(props) => (
 						<div className="left_pane">
@@ -520,11 +552,11 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/:ofpage' render={ 
+				  <Route path='/:orpage' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<MainDirButtonsWithHistory colors="dark" dir={jsonOneFigPage.url} url={props.match.params.ofpage}/>			
+							<MainDirButtonsWithHistory colors="dark" dir={jsonMainDirPages.url} url={props.match.params.orpage}/>			
 						</div>
 					)
 				  } />

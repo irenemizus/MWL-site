@@ -46,14 +46,14 @@ class ImageDiv extends Component {
 		]
 		
 		return (
-			<div className="device_block">
+			<div className="device_block" style={this.props.style} >
 				{data}
 			</div>
 		);
 	}
 }
 
-class ParagraphDev extends Component {
+class ParagraphOrdin extends Component {
 	render() {
 		let text;
 		if (this.props.paragraph.text) {
@@ -62,19 +62,23 @@ class ParagraphDev extends Component {
 		else {
 			text = '';
 		}
+		
+		let percent = 100;
+		let mw;
+		if (text === '') {
+			mw = percent / this.props.paragraph.images.length;
+		}
+		
 		let imageDiv = [];
+		let img_prefix = this.props.img_prefix;
 		if (this.props.paragraph.images) {
 			for (let imgi in this.props.paragraph.images) {
-				if (this.props.paragraph.images.length === 1) {
-					var image = <img alt="" src={'/img/dev/' + this.props.paragraph.images[imgi].file} key={imgi}></img>;
-				} else if (this.props.paragraph.images.length === 2) {
-					image = <img alt="" src={'/img/dev/' + this.props.paragraph.images[imgi].file} key={imgi}></img>;
-				}
+				var image = <img alt="" src={img_prefix + this.props.paragraph.images[imgi].file} key={imgi}></img>;
 				var capt = "";
 				if (this.props.paragraph.images[imgi].caption) {
 					capt = this.props.paragraph.images[imgi].caption;
 				}
-				imageDiv[imgi] = <ImageDiv image={image} caption={capt} key={imgi}/>
+				imageDiv[imgi] = <ImageDiv style={{"width": "" + mw + "%"}} image={image} caption={capt} key={imgi}/>
 			}
 		}
 		
@@ -102,4 +106,4 @@ class ParagraphDev extends Component {
 	}
 }
 
-export default ParagraphDev;
+export default ParagraphOrdin;
