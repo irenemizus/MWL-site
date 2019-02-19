@@ -35,11 +35,13 @@
         			"images": [
         				{
         					"file": "17_6.jpg",
-        					"caption": "<p>1. BWO output power in working range.<br><strong><font color=\"#0000FF\">B</font></strong>&nbsp;&#8211;&nbsp;with the attached mixer,<br><strong><font color=\"#FF0000\">A</font></strong>&nbsp;&#8211;&nbsp;without the mixer.</p><p>The mixer uses less than 10&nbsp;% of the BWO radiation power in the BWO entire frequency range.</p>"
+        					"caption": "<p>1. BWO output power in working range.<br><strong><font color=\"#0000FF\">B</font></strong>&nbsp;&#8211;&nbsp;with the attached mixer,<br><strong><font color=\"#FF0000\">A</font></strong>&nbsp;&#8211;&nbsp;without the mixer.</p><p>The mixer uses less than 10&nbsp;% of the BWO radiation power in the BWO entire frequency range.</p>",
+        					"align": "left"
   						},
   						{
         					"file": "17_7.jpg",
-        					"caption": "<p>2. Microwave synthesizer radiation power required for obtaining the beat-note signal with constant amplitude (A&nbsp;=&nbsp;3A<sub>MIN</sub>) in whole BWO frequency range at the same harmonic (N&nbsp;=&nbsp;9) of the MW synthesizer.</p><p>The mixer allows continuous scanning of the BWO frequency in phase locked-in regime in the BWO entire range.</p>"
+        					"caption": "<p>2. Microwave synthesizer radiation power required for obtaining the beat-note signal with constant amplitude (A&nbsp;=&nbsp;3A<sub>MIN</sub>) in whole BWO frequency range at the same harmonic (N&nbsp;=&nbsp;9) of the MW synthesizer.</p><p>The mixer allows continuous scanning of the BWO frequency in phase locked-in regime in the BWO entire range.</p>",
+  							"align": "left"
   						}
         			]
         		}

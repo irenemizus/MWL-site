@@ -4,28 +4,20 @@ import renderHTML from 'react-render-html';
 class ImageDiv extends Component {
 	render() {
 		var image_title_style = {
-//		    "display": "inline-block",
-
 		    "verticalAlign": "middle",
 			"textAlign": "center",
-		    
-//		    "marginTop": "5pt",
-//		    "marginBottom": "5pt",
-//		    "marginRight": "10pt",
 			"margin": "0 10pt 10pt 0",
-//		    "width": "120px",
-//		    "height": "120px",
-//		    "borderStyle": "solid",
-//		    "borderWidth": "1px",
-//    		"borderColor": "rgba(0, 0, 0, 0.2)"
     	}
 
-		var title_style = {
-//		    "display": "inline-block",
-			"textAlign": "center",
+		var title_style = {			
 		    "verticalAlign": "middle",
 		    "marginBottom": "15pt"
     	}
+    	
+    	if (this.props.align) {
+    		title_style["textAlign"] = this.props.align;
+    	} else
+    		title_style["textAlign"] = "center";
     	
     	let caption;
     	if (this.props.caption) {
@@ -68,17 +60,29 @@ class ParagraphOrdin extends Component {
 		if (text === '') {
 			mw = percent / this.props.paragraph.images.length;
 		}
-		
+				
 		let imageDiv = [];
 		let img_prefix = this.props.img_prefix;
 		if (this.props.paragraph.images) {
 			for (let imgi in this.props.paragraph.images) {
-				var image = <img alt="" src={img_prefix + this.props.paragraph.images[imgi].file} key={imgi}></img>;
+				let maxWidthInd;
+				if (this.props.paragraph.images[imgi].maxwidth) {
+					maxWidthInd = this.props.paragraph.images[imgi].maxwidth;
+				}
+				else {
+					maxWidthInd = "700px";
+				}
+
+				var image = <img alt="" style={{"maxWidth": maxWidthInd}} src={img_prefix + this.props.paragraph.images[imgi].file} key={imgi}></img>;
 				var capt = "";
 				if (this.props.paragraph.images[imgi].caption) {
 					capt = this.props.paragraph.images[imgi].caption;
 				}
-				imageDiv[imgi] = <ImageDiv style={{"width": "" + mw + "%"}} image={image} caption={capt} key={imgi}/>
+				var align = "";
+				if (this.props.paragraph.images[imgi].align) {
+					align = this.props.paragraph.images[imgi].align;
+				}
+				imageDiv[imgi] = <ImageDiv style={{"width": "" + mw + "%"}} image={image} caption={capt} align={align} key={imgi}/>
 			}
 		}
 		

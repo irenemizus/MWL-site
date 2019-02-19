@@ -23,12 +23,14 @@
 }
 
 .page_button_light a:hover,
-.page_button_dark a:hover {
+.page_button_dark a:hover,
+.page_button_active a:hover {
   background: #D8DFE9;
   color: rgba(0, 0, 0, 0.8);
 }
 
-.page_button_active div {
+.page_button_active div,
+.page_button_active a {
   color: rgba(255, 170, 100, 1.0);
   background: rgba(255, 170, 100, 0.3);
   text-decoration: none;

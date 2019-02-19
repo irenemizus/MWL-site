@@ -18,7 +18,7 @@ export default class PageButton extends Component {
 	render() {
 		var buttonStyle;
 	
-		if (this.props.active) {
+		if (this.props.active || this.props.linkfrom) {
 			buttonStyle = "page_button_active";
 		} else {
 			if (this.props.colors === "dark") buttonStyle = "page_button_dark";

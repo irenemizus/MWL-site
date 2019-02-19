@@ -310,7 +310,7 @@
         		"full_title": "Device&nbsp;015",
         		"structure": [
         			{
-        				"text": "<p><strong>BWO in magnet systems</strong></p> <p>In order of the size increasing:</p> <ul><li type=\"disc\">Factory packetized BWOs (35&ndash;53, 53&ndash;78, 78&ndash;118, 118&ndash;178&nbsp;GHz);</li> <li type=\"disc\">178&ndash;260 or 260&ndash;380&nbsp;GHz BWOs in a permanent magnet (0.65&nbsp;Tesla);</li> <li type=\"disc\">370&ndash;530 or 510&ndash;715&nbsp;GHz BWOs in a permanent magnet (1&nbsp;Tesla);</li> <li type=\"disc\">Electromagnet suitable for all kinds of BWOs up to highest frequency range.</li></ul>",
+        				"text": "<p><strong>BWO in magnet systems</strong></p> <p>In order of the size increasing: <ul><li type=\"disc\">Factory packetized BWOs (<span class=\"nobr\">35&ndash;53</span>, <span class=\"nobr\">53&ndash;78</span>, <span class=\"nobr\">78&ndash;118</span>, <span class=\"nobr\">118&ndash;178 GHz</span>);</li><li type=\"disc\">178&ndash;260 or 260&ndash;380&nbsp;GHz BWOs in a permanent magnet (0.65&nbsp;Tesla);</li><li type=\"disc\">370&ndash;530 or 510&ndash;715&nbsp;GHz BWOs in a permanent magnet (1&nbsp;Tesla);</li><li type=\"disc\">Electromagnet suitable for all kinds of BWOs up to highest frequency range.</li></ul></p>",
         				"images": [
         					{
         						"file": "15.jpg"
@@ -357,7 +357,8 @@
         			{
         				"images": [
         					{
-        						"file": "17_2.jpg"
+        						"file": "17_2.jpg",
+        						"maxwidth": "250px"
         					},
         					{
         						"file": "17_3.jpg",

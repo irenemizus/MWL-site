@@ -140,7 +140,8 @@ a:hover {
 
 .instrum ul {
 	padding: 0;
-	margin: 20pt 0;
+	margin: 10pt 0;
+	list-style-position: inside;
 }
 
 .instrum dl {

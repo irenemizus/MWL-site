@@ -207,6 +207,10 @@ table {
   width: 100%;
 }
 
+th {
+  text-align: center;
+}
+
 table, td, th {
   border: 1px solid #cccccc;
   padding: 2pt;

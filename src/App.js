@@ -9,6 +9,7 @@ import ArticlePagesList from './ArticlePagesList';
 import Page from './ArticlePage';
 import PageButton from './PageButton';
 import IndexPage from './IndexPage';
+import MainDirButtons from './MainDirButtons';
 import OrdinaryPage from './OrdinaryPage';
 import StaffPage from './StaffPage';
 import StaffCategory from './StaffCategory';
@@ -26,6 +27,7 @@ const DataState = {
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
 var PageWithHistory = withRouter(Page);
 var IndexWithHistory = withRouter(IndexPage);
+var MainDirButtonsWithHistory = withRouter(MainDirButtons);
 var OrdinaryPageWithHistory = withRouter(OrdinaryPage);
 var StaffPageWithHistory = withRouter(StaffPage);
 var StaffCategoryWithHistory = withRouter(StaffCategory);
@@ -165,7 +167,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 07.02.19
+								Last update 18.02.19
 							</div>
 						</div>
 					)
@@ -190,35 +192,6 @@ class Footer extends Component {
 		);
 	}
 }
-
-class MainDirButtons extends Component {
-  	render() {
-    	let directionsButtons = [];
-    	for (let i in this.props.dir) {
-    		let buttonView;
-    		let prefix = '/';
-    		
-    		if (this.props.dir[i].link_from === "IndexPage") {
-    			if (this.props.location.pathname === prefix + this.props.url && i === this.props.url) {
-   					buttonView = <PageButton active={true} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
-   				} else {    		
-   					buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
- 	   			}		 
-    		
-    			directionsButtons.push(buttonView);
-    		}
-    	}
-
-		return (
-			<div className="article_pages_list">
-				{directionsButtons}
-			</div>
-		);
-  	}
-}
-
-
-var MainDirButtonsWithHistory = withRouter(MainDirButtons);
 
 class App extends Component {
 	constructor() {
@@ -415,7 +388,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">	
-								<OrdinaryPageWithHistory img_prefix="/img/" link_from={jsonInstrumPages.url[props.match.params.dev]} orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+								<OrdinaryPageWithHistory img_prefix="/img/dev/" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -427,7 +400,7 @@ class App extends Component {
 					(props) => (
 						<div>
 							<div className="main_pane">	
-								<OrdinaryPageWithHistory img_prefix="/img/dev/" orpage={jsonDevList.category.devices[props.match.params.dev]}/>
+								<OrdinaryPageWithHistory img_prefix="/img/dev/" outerClass="instrum" orpage={jsonDevList.category.devices[props.match.params.dev]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -452,6 +425,18 @@ class App extends Component {
 						<div>
 							<div className="main_pane">
 								<IndexWithHistory dirs={jsonMainDirPages.url}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/:lf/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<OrdinaryPageWithHistory img_prefix="/img/maindir/" orpage={jsonMainDirPages.url[props.match.params.orpage]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -503,7 +488,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} />
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} linkfrom={props.match.params.category} url={props.match.params.id}/>
 						</div>
 					)
 				  } />
@@ -540,7 +525,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
+							<DevButtonsWithHistory colors="dark" devTitles={devTitles} linkfrom={props.match.params.dev} url={props.match.params.orpage}/>		
 						</div>
 					)
 				  } />
@@ -549,6 +534,14 @@ class App extends Component {
 						<div className="left_pane">
 							<Menu />
 							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
+						</div>
+					)
+				  } />
+				  <Route path='/:lf/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonMainDirPages.url} linkfrom={props.match.params.lf} url={props.match.params.orpage}/>			
 						</div>
 					)
 				  } />
