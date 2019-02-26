@@ -4,7 +4,7 @@
     		"title": "We have and are able to produce the following equipment for research:",
     		"structure": [
     			{
-      				"text": "<ul><ol type=\"1\"><li>Microwave radiation sources with precise frequency control<ol type=\"1.1\"><li>BWO-based frequency synthesizers<dl><dd><a href=\"index.html#/instrum/35\">35&ndash;400&nbsp;GHz range</a></dd><dd><a href=\"index.html#/instrum/400\">400&ndash;1200&nbsp;GHz range</a></dd></dl></li><li>Radiation frequency multipliers<dl><dd><a href=\"index.html#/instrum/mult_1\">for mm-wave sources</a></dd><dd><a href=\"index.html#/instrum/mult_2\">for submm-wave sources</a></dd><dd><a href=\"index.html#/instrum/method\">multiplier conversion losses measurements</a></dd></dl></li><li><a href=\"index.html#/instrum/radsource\">Subterahertz radiation source stabilized by laser comb</a></li></ol></li><li>Spectrometer with frequency synthesizer and <strong>R</strong>adio <strong>A</strong>coustical <strong>D</strong>etection of absorption (<a href=\"rad.html\">RAD spectrometer</a>)</li><li>Continuously frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (<a href=\"rad-3.html\">RAD-3 spectrometer</a>)</li><li>Spectrometer for atmosphere study and ultralow absorption measurements in dielectrics (<a href=\"reson.html\">Resonator spectrometer</a>)</li><li>Video-spectrometer with super-high resolution (<a href=\"lamb_spectr.html\">The Lamb-dip spectrometer</a>)</li></ol><p><a href=\"index.html#/instrum/devices\">Related devices</a></p></ul>"
+      				"text": "<ul><ol type=\"1\"><li>Microwave radiation sources with precise frequency control<ol type=\"1.1\"><li>BWO-based frequency synthesizers<dl><dd><a href=\"index.html#/instrum/35\">35&ndash;400&nbsp;GHz range</a></dd><dd><a href=\"index.html#/instrum/400\">400&ndash;1200&nbsp;GHz range</a></dd></dl></li><li>Radiation frequency multipliers<dl><dd><a href=\"index.html#/instrum/mult_1\">for mm-wave sources</a></dd><dd><a href=\"index.html#/instrum/mult_2\">for submm-wave sources</a></dd><dd><a href=\"index.html#/instrum/method\">multiplier conversion losses measurements</a></dd></dl></li><li><a href=\"index.html#/instrum/radsource\">Subterahertz radiation source stabilized by laser comb</a></li></ol></li><li>Spectrometer with frequency synthesizer and <strong>R</strong>adio <strong>A</strong>coustical <strong>D</strong>etection of absorption (<a href=\"rad.html\">RAD spectrometer</a>)</li><li>Continuously frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (<a href=\"index.html#/instrum/rad-3\">RAD-3 spectrometer</a>)</li><li>Spectrometer for atmosphere study and ultralow absorption measurements in dielectrics (<a href=\"reson.html\">Resonator spectrometer</a>)</li><li>Video-spectrometer with super-high resolution (<a href=\"index.html#/instrum/lamb_spectr\">The Lamb-dip spectrometer</a>)</li></ol><p><a href=\"index.html#/instrum/devices\">Related devices</a></p></ul>"
 				}
 			]
 		},
@@ -474,7 +474,7 @@
     	"method": {
     		"link_from": "instrum",
     		"title": "Method of measurements of multiplier conversion losses",
-    		"short_title": "Method of measurements of multiplier conversion losses",
+    		"short_title": "Multiplier conversion losses",
     		"structure": [
     			{
     				"text":"<p>We have developed a series of multipliers based on planar Schottky diodes (<a href=\"index.html#/instrum/devices/dev010\" target=\"_blank\">Device 010</a>) for primary sources radiation frequency multiplication. Multipliers are based on a ridged waveguide and/or waveguide-finline-waveguide transition. Single-mode waveguides are used for 35&ndash;178&nbsp;GHz range multipliers (<a href=\"index.html#/instrum/devices/dev016\" target=\"_blank\">Device 016</a>). Quasioptical construction is employed for higher frequency range (<a href=\"index.html#/instrum/devices/dev007\" target=\"_blank\">Device 007</a>).</p><p>The multipliers were successfully used for extension of frequency range of high resolution microwave spectroscopy both with radio acoustical detector and LHe-cooled bolometer up to 1.5&nbsp;Teraherz [<a href=\"index.html#/list/1995\" target=\"_blank\">Refs.&nbsp;3,&nbsp;4 (1995)</a>, <a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;8 (1999)</a>].</p><p>While working on BWO radiation frequency multiplication and precisely controlled using PLL system source of radiation in the range of 1&ndash;3&nbsp;mm we developed a universal method of measurement of conversion losses for every separate harmonic with numbers from 2 to 5 produced and radiated by the multiplier. The method is based on measurement of absorption of radiation in spectral lines with known intensity and acoustic detection of this absorption.</p>"
@@ -541,6 +541,92 @@
   						}
         			]
         		}
+			]
+		},
+    	"rad-3": {
+    		"link_from": "instrum",
+    		"title": "Continuous frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (RAD-3)",
+    		"short_title": "RAD-3 spectrometer",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "rad_3_scheme.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>Radiation source in the spectrometer is a backward wave oscillator (BWO) stabilized against tunable Fabry-Perot cavity. Frequency measurement in the spectrometer is performed relative to SO<sub>2</sub> reference spectrum.</p><p><a href=\"index.html#/instrum/rad-3/rad-3_details\">Principle of frequency measurements and radiation stability</a></p><p>Detailed description of the spectrometer is given in [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;4 (2007)</a>].</p><p>The performed studies demonstrated advantages of this simple spectrometer without phase locked loops having a possibility of continuous frequency scanning and automated line frequency measurements in a broad frequency range especially for investigation of dense molecular spectra such as acetaldehyde (CH<sub>3</sub>CHO) [<a href=\"index.html#/list/1993\" target=\"_blank\">Ref.&nbsp;2 (1993)</a>, <a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;6 (1996)</a>], hydrogen fluoride dimer (HF...HF) [<a href=\"index.html#/list/1990\" target=\"_blank\">Ref.&nbsp;1 (1990)</a>] and H<sub>2</sub>O...HF heterodimer [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;4 (2007)</a>] as well as methyl fluoride (CH<sub>3</sub>F) [<a href=\"index.html#/list/1991\" target=\"_blank\">Refs.&nbsp;1 and 2 (1991)</a>] and hydrogen selenid (H<sub>2</sub>Se) [<a href=\"index.html#/list/1992\" target=\"_blank\">Refs.&nbsp;4 and 5 (1992)</a>] spectra.</p><p><a href=\"index.html#/instrum/rad-3/h2o-hf_spectrum\">Example</a> of molecular spectrum recorded by RAD-3.</p>"
+				}
+			]
+		},
+    	"rad-3_details": {
+    		"link_from": "rad-3",
+    		"title": "RAD-3 principle of frequency measurements and radiation stability",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "OSC.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>The BWO radiation frequency scanning is performed by a smooth mechanical move of one of the Fabry-Perot cavity mirrors. The Michelson interferometer output signal is recorded simultaneously with lines of studied and reference molecular spectra. Line positions in the recorded spectra can be determined relative to interferometer fringes with an uncertainty of 0.01 fraction of its period or <span class=\"nobr\">~6 kHz</span>. It allows calculating accurately from the tabulated frequencies of two observed references lines both an effective value of the Fabry-Perot cavity length (L) and a BWO frequency change corresponding to one period of the interferogram. Since L is permanently changing in the course of the spectrum record, the absolute frequency for each given point <em>n</em> of the recorded spectra is given by the equation:</p>"
+      			},
+      			{
+        			"images": [
+        				{
+        					"file": "rad_3_formula.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>where <em>f</em><sub>1</sub> and <em>f</em><sub>2</sub> are the reference line tabulated frequencies; <span class=\"nobr\">(<em>n</em><sub>2</sub> &#8211; <em>n</em><sub>1</sub>)</span> is the decimal number of the interferogram periods between these reference lines; <em>n</em> is the position of a given point in the interferogram period decimal number.</p><p>The right side of the figure demonstrates stability of BWO frequency locked to the cavity eigen mode. After two reference lines were recorded the movable mirror of the cavity was stopped and returned back to the position where the BWO frequency corresponds to some point at the slope of the second reference line. Then the mirror position was stable for some time, which is confirmed by stable level of the interferometer output signal. The BWO frequency fluctuations were transformed by the line slope into the absorption signal amplitude fluctuations. These fluctuations are shown in the insertion magnified by <span class=\"nobr\">20-X</span>. Known width of the reference line <span class=\"nobr\">(~12 MHz)</span> permits estimating the magnitude of frequency deviations of locked BWO not exceeding 50&nbsp;kHz.</p><p>For more details see [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;4 (2007)</a>].</p>"
+				}
+			]
+		},
+    	"h2o-hf_spectrum": {
+    		"link_from": "rad-3",
+    		"title": "Example of broad-band molecular spectrum recorded by RAD-3",
+    		"structure": [
+    			{
+    				"text":"<p>Fragment of 180&ndash;350&nbsp;GHz H<sub>2</sub>O...HF heterodimer spectrum at equilibrium gas phase (lower trace) recorded by the RAD-3 spectrometer simultaneously with SO<sub>2</sub> reference spectrum (upper trace) (see [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;4 (2007)</a>] for details).</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "H2O-HF.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+    	"lamb_spectr": {
+    		"link_from": "instrum",
+    		"title": "The Lamb-dip spectrometer",
+    		"short_title": "Lamb-dip spectrometer",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "spectrometer-2012-1.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>Broadband cavity-less video spectrometer operating at mm-submm wave lengths has been put into operation in the year of 2012. The spectrometer allows observation of narrow non-linear molecular absorption resonances (Lamb-dips) having minimum width of about 5&nbsp;kHz (FWHM) and measurements of their frequencies with the accuracy better than 1&nbsp;kHz. The spectrometer is destined for highly accurate investigation of intramolecular interactions by studies of hyperfine structure of observed molecular transitions.</p>"
+				},
+				{
+        			"images": [
+        				{
+        					"file": "Lamb_setup_en.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>More details are presented in [<a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;8 (2012)</a>], [<a href=\"index.html#/list/2013\" target=\"_blank\">Ref.&nbsp;11 (2013)</a>] and [<a href=\"index.html#/list/2015\" target=\"_blank\">Ref.&nbsp;4 (2015)</a>].</p><p><a href=\"index.html#/instrum/400/molecular_sp\">Examples</a> of spectra.</p>"
+				}
 			]
 		}
 	}        	
