@@ -216,6 +216,12 @@ table, td, th {
   padding: 2pt;
 }
 
+.tableimg table, td, th {
+  border: none;
+  width: 600px;
+  margin: auto;
+}
+
 div.device_page ul {
 	padding: 0;
     text-indent: 2pt;

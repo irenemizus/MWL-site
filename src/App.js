@@ -167,7 +167,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 18.02.19
+								Last update 26.02.19
 							</div>
 						</div>
 					)
@@ -408,6 +408,30 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route path='/instrum/:lf/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">
+								<OrdinaryPageWithHistory img_prefix="/img/instrum/" outerClass="instrum" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/instrum/" outerClass="instrum" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				  <Route exact path='/instrum' render={ 
 					(props) => (
 						<div>
@@ -534,6 +558,22 @@ class App extends Component {
 						<div className="left_pane">
 							<Menu />
 							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:lf/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonInstrumPages.url} maindir={"instrum/"} linkfrom={props.match.params.lf} url={props.match.params.orpage}/>			
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonInstrumPages.url} maindir={"instrum/"} url={props.match.params.orpage}/>			
 						</div>
 					)
 				  } />

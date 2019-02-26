@@ -169,7 +169,7 @@
         		"full_title": "Device&nbsp;008",
         		"structure": [
         			{
-        				"text": "<p><strong>Quasioptical broad-band wavemeter</strong></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see <a href=\"index.html#/list/1996\" target=\"_blank\">Ref. 5 (1996)</a>.</p>",
+        				"text": "<p><strong>Quasioptical broad-band wavemeter</strong></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;5 (1996)</a>].</p>",
         				"images": [
         					{
         						"file": "8.jpg"
@@ -367,7 +367,7 @@
         				]
         			},
         			{
-        				"text": "<table><tr><td>Frequency range (GHz)</td><td>36&ndash;55</td><td>52&ndash;79</td><td>78&ndash;119</td><td>118&ndash;178</td></tr><tr><td>Waveguide size (mm)</td><td>2.6&nbsp;x&nbsp;5.2</td><td>1.8&nbsp;x&nbsp;3.6</td><td>1.2&nbsp;x&nbsp;2.4</td><td>0.8&nbsp;x&nbsp;1.6</td></tr></table><p>Mixers with standard WR-XX waveguides and UG-XXX/U are also available.</p><p><a href=\"index.html#/instrum/devices/dev017/dev017_charact\">Typical mixer characteristics</a></p><p>For more details see paper [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref. 6 (2007)</a>].</p>"
+        				"text": "<table><tr><td>Frequency range (GHz)</td><td>36&ndash;55</td><td>52&ndash;79</td><td>78&ndash;119</td><td>118&ndash;178</td></tr><tr><td>Waveguide size (mm)</td><td>2.6&nbsp;x&nbsp;5.2</td><td>1.8&nbsp;x&nbsp;3.6</td><td>1.2&nbsp;x&nbsp;2.4</td><td>0.8&nbsp;x&nbsp;1.6</td></tr></table><p>Mixers with standard WR-XX waveguides and UG-XXX/U are also available.</p><p><a href=\"index.html#/instrum/devices/dev017/dev017_charact\">Typical mixer characteristics</a></p><p>For more details see paper [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;6 (2007)</a>].</p>"
         			}
         		]		
         	},

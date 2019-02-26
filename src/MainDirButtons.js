@@ -11,10 +11,15 @@ export default class MainDirButtons extends Component {
 
   	render() {
   		const { location } = this.props;
-		let directionsButtons = [];
+		let directoryButtons = [];
 		for (let i in this.props.dir) {
 			let buttonView;
-			let prefix = '/';
+			let prefix;
+			if (this.props.maindir) {
+    			prefix = "/" + this.props.maindir;
+    		} else {
+    			prefix = "/";
+    		}
 			
 			let url;
     		if (this.props.url) {
@@ -30,8 +35,8 @@ export default class MainDirButtons extends Component {
     			lf = ""
     		}
 			
-			if (this.props.dir[i].link_from === "IndexPage") {
-				if (this.props.location.pathname === prefix + this.props.url && i === this.props.url) {
+			if (this.props.dir[i].link_from === "IndexPage" || this.props.dir[i].link_from === "instrum") {
+				if (location.pathname === prefix + url && i === url) {
    					buttonView = <PageButton active={true} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
    				} else if (location.pathname === prefix + lf + "/" + url && i === lf) {
    					buttonView = <PageButton key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix} linkfrom={lf}/>;
@@ -39,13 +44,13 @@ export default class MainDirButtons extends Component {
    					buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
  	   			}		 
 			
-				directionsButtons.push(buttonView);
+				directoryButtons.push(buttonView);
 			}
 		}
 
 		return (
 			<div className="article_pages_list">
-				{directionsButtons}
+				{directoryButtons}
 			</div>
 		);
   	}

@@ -28,7 +28,10 @@ export default class OrdinaryPage extends Component {
   				let imgs = [];
   				var imgi;
   				var paragraph;
-  				if (par.images && par.text) {
+  				if (par.subtitle) {
+  					paragraph = {subtitle: par.subtitle};
+  				}
+  				else if (par.images && par.text) {
   					for (imgi in par.images) {
   						imgs.push(par.images[imgi]);
   					}
