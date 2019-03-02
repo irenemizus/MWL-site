@@ -216,7 +216,7 @@ table, td, th {
   padding: 2pt;
 }
 
-.tableimg table, td, th {
+.tableimg table, .tableimg td, .tableimg th {
   border: none;
   width: 600px;
   margin: auto;
@@ -230,4 +230,8 @@ div.device_page ul {
 
 span.nobr {
   white-space: nowrap;
+}
+
+p.eq {
+  text-align: center;
 }

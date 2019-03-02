@@ -31,6 +31,12 @@ export default class OrdinaryPage extends Component {
   				if (par.subtitle) {
   					paragraph = {subtitle: par.subtitle};
   				}
+  				else if (par.images && par.text && par.textpos) {
+  					for (imgi in par.images) {
+  						imgs.push(par.images[imgi]);
+  					}
+  					paragraph = {text: par.text, images: imgs, textpos: par.textpos};
+  				}
   				else if (par.images && par.text) {
   					for (imgi in par.images) {
   						imgs.push(par.images[imgi]);

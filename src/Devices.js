@@ -72,7 +72,7 @@ class Device extends Component {
 		]
 		
 		return (
-			<div className="device_block">
+			<div className="img_block">
 				{data}
 			</div>
 		);

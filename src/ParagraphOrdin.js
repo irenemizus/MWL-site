@@ -18,6 +18,12 @@ class ImageDiv extends Component {
 		    "fontSize": "95%"
     	}
     	
+//    	var img_style = {
+//    		"display": "inline-block"
+//    	}
+    	
+//    	img_style["maxWidth"] = this.props.style["maxWidth"];
+    	
     	if (this.props.align) {
     		title_style["textAlign"] = this.props.align;
     	} else
@@ -37,7 +43,14 @@ class ImageDiv extends Component {
     	else {
     		caption = "";
     	}
-
+    	
+  //  	if (this.props.textpos === "right") {
+  //  		img_style["float"] = "left";
+  //  	}
+  //  	else if (this.props.textpos === "left") {
+  //		img_style["float"] = "right";
+  //  	}
+    	
 		let data;
 		data = [
 			<div key={1} style={image_title_style}>
@@ -49,7 +62,7 @@ class ImageDiv extends Component {
 		]
 		
 		return (
-			<div className="device_block" style={this.props.style} >
+			<div className="img_block" style={this.props.style}>
 				{data}
 			</div>
 		);
@@ -72,6 +85,14 @@ class ParagraphOrdin extends Component {
 		}
 		else {
 			text = '';
+		}
+		
+		let textpos;
+		if (this.props.paragraph.textpos === "left") {
+			textpos = this.props.paragraph.textpos;
+		}
+		else {
+			textpos = "right";
 		}
 		
 		let percent = 100;
@@ -128,17 +149,20 @@ class ParagraphOrdin extends Component {
 		if (subtitle !== '') {
 			par = <div className="page"><h2>{renderHTML(subtitle)}</h2></div>
 		}
-		else if (text !== '' && imageDiv.length === 1) {
-			par = <div><div>{imageDiv[0]}</div><div>{renderHTML(text)}</div></div>
+		else if (text !== '' && imageDiv.length === 1 && textpos !== "left") {
+			par = <div>{imageDiv[0]}<div>{renderHTML(text)}</div></div>
+		}
+		else if (text !== '' && imageDiv.length === 1 && textpos === "left") {
+			par = <div><div className="desc_text">{renderHTML(text)}</div>{imageDiv[0]}</div>
 		}
 		else if (text === '' && imageDiv.length === 1) {
-			par = <div>{imageDiv[0]}</div>
+			par = imageDiv[0];
 		}
 		else if (text !== '' && imageDiv.length === 0) {
 			par = <div>{renderHTML(text)}</div>
 		}
 		else if (text === '' && imageDiv.length === 2) {
-			par = <div style={{"verticalAlign":"bottom"}}>{imageDiv[0]}{imageDiv[1]}</div>
+			par = <div>{imageDiv[0]}{imageDiv[1]}</div>
 		}
 		
 		return (

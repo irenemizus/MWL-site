@@ -4,7 +4,7 @@
     		"title": "We have and are able to produce the following equipment for research:",
     		"structure": [
     			{
-      				"text": "<ul><ol type=\"1\"><li>Microwave radiation sources with precise frequency control<ol type=\"1.1\"><li>BWO-based frequency synthesizers<dl><dd><a href=\"index.html#/instrum/35\">35&ndash;400&nbsp;GHz range</a></dd><dd><a href=\"index.html#/instrum/400\">400&ndash;1200&nbsp;GHz range</a></dd></dl></li><li>Radiation frequency multipliers<dl><dd><a href=\"index.html#/instrum/mult_1\">for mm-wave sources</a></dd><dd><a href=\"index.html#/instrum/mult_2\">for submm-wave sources</a></dd><dd><a href=\"index.html#/instrum/method\">multiplier conversion losses measurements</a></dd></dl></li><li><a href=\"index.html#/instrum/radsource\">Subterahertz radiation source stabilized by laser comb</a></li></ol></li><li>Spectrometer with frequency synthesizer and <strong>R</strong>adio <strong>A</strong>coustical <strong>D</strong>etection of absorption (<a href=\"rad.html\">RAD spectrometer</a>)</li><li>Continuously frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (<a href=\"index.html#/instrum/rad-3\">RAD-3 spectrometer</a>)</li><li>Spectrometer for atmosphere study and ultralow absorption measurements in dielectrics (<a href=\"reson.html\">Resonator spectrometer</a>)</li><li>Video-spectrometer with super-high resolution (<a href=\"index.html#/instrum/lamb_spectr\">The Lamb-dip spectrometer</a>)</li></ol><p><a href=\"index.html#/instrum/devices\">Related devices</a></p></ul>"
+      				"text": "<ul><ol type=\"1\"><li>Microwave radiation sources with precise frequency control<ol type=\"1.1\"><li>BWO-based frequency synthesizers<dl><dd><a href=\"index.html#/instrum/35\">35&ndash;400&nbsp;GHz range</a></dd><dd><a href=\"index.html#/instrum/400\">400&ndash;1200&nbsp;GHz range</a></dd></dl></li><li>Radiation frequency multipliers<dl><dd><a href=\"index.html#/instrum/mult_1\">for mm-wave sources</a></dd><dd><a href=\"index.html#/instrum/mult_2\">for submm-wave sources</a></dd><dd><a href=\"index.html#/instrum/method\">multiplier conversion losses measurements</a></dd></dl></li><li><a href=\"index.html#/instrum/radsource\">Subterahertz radiation source stabilized by laser comb</a></li></ol></li><li>Spectrometer with frequency synthesizer and <strong>R</strong>adio <strong>A</strong>coustical <strong>D</strong>etection of absorption (<a href=\"index.html#/instrum/rad\">RAD spectrometer</a>)</li><li>Continuously frequency scanning RAD spectrometer with BWO stabilized against Fabry-Perot cavity (<a href=\"index.html#/instrum/rad-3\">RAD-3 spectrometer</a>)</li><li>Spectrometer for atmosphere study and ultralow absorption measurements in dielectrics (<a href=\"index.html#/instrum/reson\">Resonator spectrometer</a>)</li><li>Video-spectrometer with super-high resolution (<a href=\"index.html#/instrum/lamb_spectr\">The Lamb-dip spectrometer</a>)</li></ol><p><a href=\"index.html#/instrum/devices\">Related devices</a></p></ul>"
 				}
 			]
 		},
@@ -183,7 +183,7 @@
     		"title": "History of BWO PLL development",
     		"structure": [
     			{
-      				"text": "<p>The operation of the first PLL stabilization system of millimeter and submillimeter-wave &ldquo;Istok&rdquo; made BWOs in the range up to 350&nbsp;GHz was demonstrated by our group in 1970. Then the operation range of the system was extended step by step up to 500&nbsp;GHz in 1976, up to 600&nbsp;GHz in 1979, up to 820&nbsp;GHz in 1984. The next considerable step towards a high frequency range we made after joint development with the Institute of Electronic Measurements &ldquo;Kvarz&rdquo; (Nizhny Novgorod) of a series of commercial millimeter-wave frequency synthesizers covering all together the  35&ndash;178&nbsp;GHz [<a href=\"index.html#/list/1994\" target=\"_blank\">Ref.&nbsp;12 (1994)</a>] (<a href=\"index.html#/instrum/devices/dev005\" target=\"_blank\">Device 005</a>). The synthesizers are based on packetized BWOs from &ldquo;Istok&rdquo; stabilized by a PLL system against a stable radio signal. The synthesizers were used as a source of reference radiation for stabilization of submillimeter-wave tubes as well as primary radiation sources. In 1994 working in collaboration with Cologne's University (Germany) we introduced the BWO PLL system operating up to 970&nbsp;GHz [<a href=\"index.html#/list/1994\" target=\"_blank\">Ref.&nbsp;1 (1994)</a>]. Later the range of the setup was extended up to the range of highest frequency tube &mdash; 1267&nbsp;GHz [<a href=\"index.html#/list/1995\" target=\"_blank\">Refs.&nbsp;13,&nbsp;18 (1995)</a>, <a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;15 (1996)</a>, <a href=\"index.html#/list/1997\" target=\"_blank\">Ref.&nbsp;1 (1997)</a>]. In 1999 [<a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;10 (1999)</a>] we developed the first PLL system for MM-SubMM radiation sources allowing fast phase continuous digital frequency sweeping. Later [<a href=\"index.html#/list/2006\" target=\"_blank\">Ref.&nbsp;2 (2006)</a>] we proposed the approach, which extends the range of the fast continuous phase frequency sweeping up to the full operating range of BWO. In 2009 we demonstrated for the first time the possibility of phase stabilization of primary subTHz radiation source against components of terahertz frequency comb produced by down converting optical comb generated by a femtosecond laser [<a href=\"index.html#/list/2010\" target=\"_blank\">Ref.&nbsp;3 (2010)</a>].</p><p>For more details see the papers [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;7 (1996)</a>, <a href=\"index.html#/list/1998\" target=\"_blank\">Ref.&nbsp;5 (1998)</a>, <a href=\"index.html#/list/2001\" target=\"_blank\">Ref.&nbsp;20 (2001)</a>, <a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;7 (2012)</a>].</p>"
+      				"text": "<p>The operation of the first PLL stabilization system of millimeter and submillimeter-wave &ldquo;Istok&rdquo; made BWOs in the range up to 350&nbsp;GHz was demonstrated by our group in 1970. Then the operation range of the system was extended step by step up to 500&nbsp;GHz in 1976, up to 600&nbsp;GHz in 1979, up to 820&nbsp;GHz in 1984. The next considerable step towards a high frequency range we made after joint development with the Institute of Electronic Measurements &ldquo;Kvarz&rdquo; (Nizhny Novgorod) of a series of commercial millimeter-wave frequency synthesizers covering all together the  35&ndash;178&nbsp;GHz [<a href=\"index.html#/list/1994\" target=\"_blank\">Ref.&nbsp;12 (1994)</a>] (<a href=\"index.html#/instrum/devices/dev005\" target=\"_blank\">Device 005</a>). The synthesizers are based on packetized BWOs from &ldquo;Istok&rdquo; stabilized by a PLL system against a stable radio signal. The synthesizers were used as a source of reference radiation for stabilization of submillimeter-wave tubes as well as primary radiation sources. In 1994 working in collaboration with Cologne's University (Germany) we introduced the BWO PLL system operating up to 970&nbsp;GHz [<a href=\"index.html#/list/1994\" target=\"_blank\">Ref.&nbsp;1 (1994)</a>]. Later the range of the setup was extended up to the range of highest frequency tube &mdash; 1267&nbsp;GHz [<a href=\"index.html#/list/1995\" target=\"_blank\">Refs.&nbsp;13,&nbsp;18 (1995)</a>, <a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;15 (1996)</a>, <a href=\"index.html#/list/1997\" target=\"_blank\">Ref.&nbsp;1 (1997)</a>]. In 1999 [<a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;10 (1999)</a>] we developed the first PLL system for MM-SubMM radiation sources allowing fast phase continuous digital frequency sweeping. Later [<a href=\"index.html#/list/2006\" target=\"_blank\">Ref.&nbsp;2 (2006)</a>] we proposed the approach, which extends the range of the fast continuous phase frequency sweeping up to the full operating range of BWO. In 2009 we demonstrated for the first time the possibility of phase stabilization of primary subTHz radiation source against components of terahertz frequency comb produced by down converting optical comb generated by a femtosecond laser [<a href=\"index.html#/list/2010\" target=\"_blank\">Ref.&nbsp;3 (2010)</a>]. The most recent advantage concerns phase locking of subTHz gyrotron and its application for high sensitive high resolution spectroscopy [<a href=\"index.html#/list/2017\" target=\"_blank\">Ref.&nbsp;2 (2017)</a>] and [<a href=\"index.html#/list/2018\" target=\"_blank\">Ref.&nbsp;12 (2018)</a>].</p><p>For more details see the papers [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;7 (1996)</a>, <a href=\"index.html#/list/1998\" target=\"_blank\">Ref.&nbsp;5 (1998)</a>, <a href=\"index.html#/list/2001\" target=\"_blank\">Ref.&nbsp;20 (2001)</a>, <a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;7 (2012)</a>].</p>"
 				}
 			]
 		},
@@ -224,7 +224,7 @@
         			"images": [
         				{
         					"file": "CO.jpg",
-        					"caption": "Record of the CO <em>J</em>&nbsp;=&nbsp;3&nbsp;&rarr;&nbsp;2 line, frequency modulation and <em>2f</em> detection was used. Observed values are denoted by points, the line represents the fit to Doppler profile with Lorentz (Voigt) shape Lamb dip. Line center is F<sub>c</sub>&nbsp;=&nbsp;345795990.5&nbsp;&plusmn;&nbsp;0.34&nbsp;kHz; pressure in the cell was P&nbsp;&lt;&nbsp;1&nbsp;mTorr at room temperature. The bottom trace is residuum of the fit.",
+        					"caption": "Record of the CO <em>J</em>&nbsp;=&nbsp;3&nbsp;&rarr;&nbsp;2 line, frequency modulation and <em>2f</em> detection was used. Observed values are denoted by points, the line represents the fit to Doppler profile with Lorentz (Voigt) shape Lamb dip. Pressure in the cell was P&nbsp;&lt;&nbsp;1&nbsp;mTorr at room temperature. The bottom trace is residuum of the fit.",
         					"captpos": "right",
         					"maxwidth": "400px"
   						}
@@ -258,7 +258,7 @@
         			]
         		},
         		{
-    				"text": "<p>More details are presented in [<a href=\"index.html#/list/2016\" target=\"_blank\">Ref.&nbsp;4 (2016)</a>].</p>"
+    				"text": "<p>More details are presented in [<a href=\"index.html#/list/2016\" target=\"_blank\">Ref.&nbsp;4 (2016)</a>] and in [<a href=\"index.html#/list/2019\" target=\"_blank\">Ref.&nbsp;2 (2019)</a>].</p>"
     			}
 			]
 		},
@@ -288,7 +288,7 @@
     				"text": "<p>We have developed a series of multipliers based on a planar Schottky diodes (<a href=\"index.html#/instrum/devices/dev010\" target=\"_blank\">Device 010</a>) for primary sources radiation frequency multiplication. Multipliers are based on a ridged waveguide and/or waveguide-finline-waveguide transition. Single-mode waveguides are used for 35&ndash;178&nbsp;GHz range multipliers.</p>"
     			},
     			{
-    				"text":"<h2>Four sub-bands (GHz):</h2><ul><li>36&ndash;55;</li><li>52&ndash;79;</li><li>79&ndash;118;</li><li>118&ndash;178.</li></ul><p><a href=\"index.html#/instrum/mult_1/mult_1_1\">Schematic diagram of doubler</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_2\">Schematic diagram of tripler</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_3\">Multipliers conversion losses</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_4\">Example of the multipliers use</a></p>",
+    				"text":"<h3>Four sub-bands (GHz):</h3> <ul><li>36&ndash;55;</li><li>52&ndash;79;</li><li>79&ndash;118;</li><li>118&ndash;178.</li></ul><p><a href=\"index.html#/instrum/mult_1/mult_1_1\">Schematic diagram of doubler</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_2\">Schematic diagram of tripler</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_3\">Multipliers conversion losses</a></p><p><a href=\"index.html#/instrum/mult_1/mult_1_4\">Example of the multipliers use</a></p>",
         			"images": [
         				{
         					"file": "16.jpg"
@@ -305,7 +305,7 @@
     		"title": "MM-wave radiation frequency doubler: Schematic diagram",
     		"structure": [
     			{
-    				"text":"<h2>Transmission lines:</h2><ol><li>Single mode input rectangular waveguide;</li><li>Uprising ridge waveguide;</li><li>Uniplanar coplanar waveguide;</li><li>Pair of diodes mount;</li><li>Slot line with backshort;</li><li>Dilative slot line;</li><li>Single mode output rectangular waveguide 90&nbsp;deg. to the input.</li></ol><p>[<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;10 (2000)</a>] <a href=\"index.html#/list/2000\" target=\"_blank\">A.&nbsp;Schitov <em>et al.</em>, <em>IJIRMW</em>, <strong>V.&nbsp;21</strong>, No.&nbsp;9, <span class=\"nobr\">1479&ndash;1488</span> (2000)</a></p>",
+    				"text":"<h3>Transmission lines:</h3><ol><li>Single mode input rectangular waveguide;</li><li>Uprising ridge waveguide;</li><li>Uniplanar coplanar waveguide;</li><li>Pair of diodes mount;</li><li>Slot line with backshort;</li><li>Dilative slot line;</li><li>Single mode output rectangular waveguide 90&nbsp;deg. to the input.</li></ol><p>See [<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;10 (2000)</a>] for details.</p>",
         			"images": [
         				{
         					"file": "doubler.jpg"
@@ -319,7 +319,7 @@
     		"title": "MM-wave radiation frequency tripler: Schematic diagram",
     		"structure": [
     			{
-    				"text":"<h2>The tripler transmission lines:</h2><ol><li>Single mode input rectangular waveguide;</li><li>Narrowing slot line;</li><li>Slot line with backshort;</li><li>Pair of diodes mount;</li><li>Slot line with backshort;</li><li>Dilative slot line;</li><li>Single mode output rectangular waveguide.</li></ol><p>[<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;10 (2000)</a>] <a href=\"index.html#/list/2000\" target=\"_blank\">A.&nbsp;Schitov <em>et al.</em>, <em>IJIRMW</em>, <strong>V.&nbsp;21</strong>, No.&nbsp;9, <span class=\"nobr\">1479&ndash;1488</span> (2000)</a></p>",
+    				"text":"<h3>The tripler transmission lines:</h3><ol><li>Single mode input rectangular waveguide;</li><li>Narrowing slot line;</li><li>Slot line with backshort;</li><li>Pair of diodes mount;</li><li>Slot line with backshort;</li><li>Dilative slot line;</li><li>Single mode output rectangular waveguide.</li></ol><p>See [<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;10 (2000)</a>] for details.</p>",
         			"images": [
         				{
         					"file": "tripler.jpg"
@@ -356,7 +356,7 @@
     		"title": "Extension of the frequency range of video spectrometer with <a href=\"index.html#/instrum/devices/dev005\" target=\"_blank\">78&ndash;118&nbsp;GHz synthesizer</a> and QMC liquid helium cooled bolometer with the use of multipliers",
     		"structure": [
     			{
-    				"text": "The plot presents experimentally measured sensitivity of the spectrometer expressed in form of minimal observable absorption for integration time 1&nbsp;s:"
+    				"text": "<p>The plot presents experimentally measured sensitivity of the spectrometer expressed in form of minimal observable absorption for integration time 1&nbsp;s:</p>"
     			},
     			{
         			"images": [
@@ -374,7 +374,7 @@
     		"short_title": "Multipliers for SubMM range",
     		"structure": [
     			{
-    				"subtitle": "Radiation source for continuous 180-1500GHz range"
+    				"subtitle": "Radiation source for continuous 180&ndash;1500&nbsp;GHz range"
     			},
     			{
         			"images": [
@@ -401,7 +401,7 @@
         			]
         		},
         		{
-        			"text": "For more details see [<a href=\"index.html#/list/1999\" target=\"blank\">Ref.&nbsp;8 (1999)</a>] <a href=\"index.html#/list/1999\" target=\"blank\">M.Yu. Tretyakov <em>et al.</em>, <em>IJIRMW</em>, <strong>V.&nbsp;20</strong>, No.&nbsp;8, <span class=\"nobr\">1443&ndash;1451</span> (1999)</a>."
+        			"text": "<p>For more details see [<a href=\"index.html#/list/1999\" target=\"blank\">Ref.&nbsp;8 (1999)</a>] <a href=\"index.html#/list/1999\" target=\"blank\">M.Yu. Tretyakov <em>et al.</em>, <em>IJIRMW</em>, <strong>V.&nbsp;20</strong>, No.&nbsp;8, <span class=\"nobr\">1443&ndash;1451</span> (1999)</a>.</p>"
         		}
 			]
 		},
@@ -418,7 +418,7 @@
         			]
         		},
         		{
-        			"text": "The frequency conversion losses (FCL) of the multiplier were determined using observed amplitude of CO lines and known line absorption coefficients (see <a href=\"index.html#/instrum/method\">FCL measurement method</a>) as:"
+        			"text": "<p>The frequency conversion losses (FCL) of the multiplier were determined using observed amplitude of CO lines and known line absorption coefficients (see <a href=\"index.html#/instrum/method\">FCL measurement method</a>) as:</p>"
         		},
         		{
         			"images": [
@@ -442,7 +442,7 @@
         			]
         		},
         		{
-        			"text": "See [<a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;8 (1999)</a>] for details."
+        			"text": "<p>See [<a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;8 (1999)</a>] for details.</p>"
         		}
 			]
 		},
@@ -495,7 +495,7 @@
     	"radsource": {
     		"link_from": "instrum",
     		"title": "Frequency stabilization of primary radiation source by femtosecond laser induced comb",
-    		"short_title": "Subterahertz radiation source stabilized by laser comb",
+    		"short_title": "Subterahertz radiation source",
     		"structure": [
     			{
     				"text":"<p>Our Laboratory succeeded in pioneer work on phase stabilization of the frequency of a primary subterahertz radiation source against equidistant components of a broad-band spectrum generated by a femtosecond laser. Optics-terahertz conversion of the laser comb and its mixing with a subterahertz radiation is performed at Schottky diode. The work opens up a possibility of developing a principally new generation of frequency synthesizers with  user-required power and having phase noise level thousands times lower than in traditional analogs.</p>"
@@ -538,6 +538,256 @@
         			"images": [
         				{
         					"file": "radsource_dev.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+    	"rad": {
+    		"link_from": "instrum",
+    		"title": "Spectrometer with frequency synthesizer and radio acoustical detection of absorption (RAD Spectrometer)",
+    		"short_title": "RAD spectrometer",
+    		"structure": [
+    			{
+    				"text":"<h3>The spectrometer features:</h3><ul><li>Coherent radiation source with precision frequency control;</li><li>Acoustical detection of absorption;</li><li>Amplitude modulation & 1F Lock-in amplification;</li><li>Line shape processing software;</li><li>Pressure range: optimal 0.1&ndash;10&nbsp;Torr, <span class=\"nobr\">usable 0.01&ndash;100&nbsp;Torr;</span></li><li>Frequency range: 35&ndash;1500&nbsp;GHz;</li><li>Typical absorption sensitivity (at time constant 1&nbsp;s.) <span class=\"nobr\">~ 10<sup>-8</sup> cm<sup>-1</sup></span>;</li><li>Studied gas temperature range from <span class=\"nobr\">-35 °C</span> <span class=\"nobr\">up to +75 °C</span>.</li></ul>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "rad-spec.jpg",
+        					"minwidth": "360px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p><a href=\"index.html#/instrum/rad/detailed\">Detailed description of RAD spectrometer</a></p><p>Examples of:</p><ul type=\"circle\"><li><a href=\"index.html#/instrum/rad/sensitivity\">recording demonstrating RAD spectrometer sensitivity</a>;</li><li><a href=\"index.html#/instrum/rad/ex_application\">application of simplest version of RAD spectrometer</a> (without frequency synthesizer) for broad-band high resolution spectroscopy;</li><li><a href=\"index.html#/instrum/rad/ex_lineshape\">lineshape, line broadening and line shifting studies</a> with BWO based submillimeter-wave frequency synthesizer with RAD gas cell;</li><li><a href=\"index.html#/instrum/rad/rad_ex_4\">line broadening parameter measurements accuracy</a> achieved by RAD spectrometer;</li><li>broadband study of molecular spectrum using submillimeter frequency synthesizer and RAD gas cell &mdash; <a href=\"index.html#/instrum/rad/spectrum_ox\">Teraherz spectrum of oxygen</a>;</li><li>temperature dependence study &mdash; <a href=\"index.html#/instrum/rad/broad_o2\">Collisional broadening of O<sub>2</sub> lines</a>.</li></ul><p><a href=\"accuracy.html\">Demonstration</a> of minimization of systematical errors.</p><p><a href=\"index.html#/instrum/rad/ocs_spectr\">Teraherz spectrum of OCS</a>.</p>"
+				}
+			]
+		},
+		"detailed": {
+    		"link_from": "rad",
+    		"title": "Submillimeter-Wave Spectrometer with a BWO and the Acoustic Detector (RAD)",
+    		"structure": [
+    			{
+    				"subtitle": "Spectrometer classification"
+    			},
+    			{
+    				"text": "<p>All existing spectrometers may be divided into two main classes (Fig.&nbsp;1) according to two methods of obtaining the signal from the spectral lines of the sample investigated. The first method involves registering the change in microwave radiation power after passage through the sample; the second involves registering the change in one or more sample parameters under the action of the radiation. Considering the region of spectrometer operation close to the sensitivity limit, one may assume that the fraction of power absorbed by the sample <em>P</em><sub>s</sub> is small, i.e., <span class=\"nobr\"><em>P</em><sub>s</sub> &Lt; <em>P</em><sub>0</sub></span>, where <em>P</em><sub>0</sub> is the microwave radiation source power. Thus, in the first class of spectrometers the useful signal <em>P</em><sub>s</sub> must be observed in the presence of a large (noninformative) background <em>P</em><sub>0</sub>, and this is the main source of sensitivity-decreasing phenomena (including the increase of noise, appearance of false signals, etc.).</p><p>The microwave spectrometers commonly used are devices of the first class and the above circumstances limit their absorption coefficient sensitivity to a value of the order of 10<sup>-10</sup>&nbsp;cm<sup>-1</sup> at a time constant of 1&nbsp;sec., and limit the allowed power to a value of 10<sup>-3</sup>&nbsp;W. Spectrometers of the second class look more promising since the null signal detection principle for the microwave power is intrinsic to them, and only the useful signal <em>P</em><sub>s</sub> is registered. The detector noise in the absence of spectral lines does not depend on the radiation power passing through the sample and the absorption coefficient sensitivity increases at a rate proportional to the radiation power up to power levels causing transition saturation or breakdown in the gas.</p><p>The absence of detector reaction outside the spectral lines also eliminates false signals. As a result, the absorption coefficient sensitivity of microwave spectrometers of the second class (when powerful enough radiation sources are used) may significantly exceed the aforementioned figure of 10<sup>-10</sup>&nbsp;cm<sup>-1</sup> at a time constant of 1&nbsp;sec.</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "ClasSpec.jpg",
+        					"caption": "Fig.&nbsp;1"
+  						}
+        			]
+        		},
+        		{
+    				"subtitle": "General description"
+    			},
+        		{
+    				"text": "<p>In the RAD (Fig.&nbsp;2) the radiation of the primary monochromatic submillimeter source &mdash; the BWO &mdash; passes through one or several successively placed cells containing the gases investigated and is then directed to the mixer-multiplier of the BWO stabilization and frequency measurement system. When the radiation frequency coincides with the frequency of the spectral line the gas absorbs the power, heats, and produces a pressure increase in the cell (gas sounding when absorbing modulated radiation was discovered at the end of the nineteenth century).</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "RADspec.jpg",
+        					"caption": "Fig.&nbsp;2"
+  						}
+        			]
+        		},
+        		{
+    				"text": "<p>The amplitude or frequency of the BWO radiation is modulated with an audio range modulation frequency. The spectral component of the gas pressure variations at the modulation frequency is the signal from the absorption line registered by the sensitive microphone placed in the cell. After amplification and synchronous detection the signal is recorded. The BWO radiation frequency may be scanned electronically by approximately an octave, which permits making a record of the absorption spectrum of the gas. According to the classification given above, the RAD belongs to the second class of spectrometers because of the manner of signal formation from the line.</p><p>This leads (besides the aforementioned possibility of a sensitivity increase) to the following properties important in practice: (i) the use of high power radiation sources without an increase in receiver noise opens new perspectives in nonlinear spectroscopy; (ii) the thermal volume &ldquo;null&rdquo; signal detection provides independence of the sensitivity on the radiation frequency and the absence of false signals from interference effects, which in conjunction with electronic control of the BWO frequency permits carrying out automatic records of broad parts of the spectrum; (iii) the signal formation (for the majority of spectral lines) from a small fraction of the radiation power passing through the cell permits making simultaneous independent records of several gas spectra in several absorption cells with microphones, and the utilization of the full radiation power passing through the cells in the system for stabilization and measurement of the BWO frequency.</p>"
+				},
+				{
+    				"subtitle": "Cell and detector (receiver)"
+    			},
+    			{
+    				"text": "<a href=\"index.html#/instrum/devices/dev004\" target=\"_blank\">Device 004</a><p>The gas cell, microphone, and electronic detector circuit (Fig.&nbsp;3) must provide the maximum signal-to-noise ratio for weak lines <span class=\"nobr\">(<em>gl</em> &Lt; 1)</span> for given resolving power of the spectrometer and radiation power passing through the cell circuit.</p>"
+				},
+				{
+        			"images": [
+        				{
+        					"file": "SchemRAD.jpg",
+        					"caption": "Fig.&nbsp;3"
+  						}
+        			]
+        		},
+        		{
+    				"text": "<p>The conditions for maximum condenser microphone output signal by the microphone placed in the cell are:</p><p class=\"eq\"><span class=\"nobr\"><em>w</em><sub>M</sub><em>t</em><sup> cell</sup> &Gt; 1,&nbsp;&nbsp;&nbsp;&nbsp;(1)</span></p><p class=\"eq\"><span class=\"nobr\"><em>m</em> = <em>&rho;</em><em>pR</em><sup>4</sup> / 8<em>VT</em><sup> *</sup> &Gt; 1.&nbsp;&nbsp;&nbsp;&nbsp;(2)</span></p><p>Equation (1) relates the angular modulation frequency (<em>w</em><sub>M</sub>) and the time constant of the thermal processes <em>t</em><sup> cell</sup>, and provides maximum amplitude of gas pressure variations. Equation (2) relates the gas and membrane elasticities and provides the most effective transformation of the pressure variations into membrane displacements. Calculations are made for the real case in which the membrane elasticity is defined by its initial tension and the frequency of free oscillations of the membrane in vacuum is much greater than the modulation frequency. Here <em>p</em> is the gas pressure, <em>V</em> is the cell volume, <em>R</em> and <em>T</em><sup> *</sup> are the radius and initial tension of the membrane (<em>T</em><sup> *</sup> is the force per unit edge length). Analysis of these matching conditions and the expression for the signal strength obtained in this case permit the following conclusions: (i) when the matching conditions are fulfilled, the signal increases slowly with decreasing modulation frequency. The minimum modulation frequency is then defined by environmental noise; (ii) the operating pressure is sufficiently strictly defined by the desired resolving power of the spectrometer. Hence from Eq.&nbsp;(1) we obtain the value of the smallest (transverse) dimension of the cell; (iii) for given membrane parameters the signal strength increases with increasing cell length only up to a value defined by Eq.&nbsp;(2). Upon further increasing the cell length, the signal strength is saturated; (iv) the dependence of the matching Eqs.&nbsp;(1) and (2) on the gas pressure leads to the dependence of the output signal on pressure.</p><p>The realization of the matching condition <span class=\"nobr\"><em>m</em> &Gt; 1</span> at small gas pressures is the most difficult problem in practice, even when rather thin membranes are used (a membrane is stiffer than gas, <span class=\"nobr\"><em>m</em> &Lt; 1</span>). In this case the signal drops proportionally to <em>m</em>. The maximum close approach to fulfillment of Eq.&nbsp;(2) is very desirable from the point of view of requirements for the sensitivity of the electronics circuit.</p><p>The spectrometer output noise is defined by the thermal fluctuations of the microphone membrane in the gas (both due to inherent Brownian motion of the membrane and to Brownian motion of the gas) and by the inherent noise of the electronics circuit. The limiting sensitivity of the spectrometer is obtained when the thermal fluctuations of the membrane are defined preferably by Brownian motion of the gas. In this case the parameters are practically unrestricted, since the gas noise and the signal are similarly transformed into membrane displacements. Only the weak dependence on the cell length remains. The signal-to-noise ratio increases as <em>l</em><sup>1/2</sup>, because the effective volume thermal noise sources do not correlate between each other, but the signal sources do. In the absence of line saturation for <span class=\"nobr\"><em>T</em> = 300&nbsp;°K</span>, <em>l</em>&nbsp;=&nbsp;10&nbsp;cm, an integration time of 1&nbsp;sec., and a typical gas thermal conductivity, one may obtain the following estimate for the limiting absorption coefficient sensitivity of the RAD:</p><p class=\"eq\"><span class=\"nobr\"><em>g</em><sub>min</sub>(cm<sup>-1</sup>) &Gt; 4 x 10<sup>-11</sup> / <em>P</em><sub>0</sub>,&nbsp;&nbsp;&nbsp;&nbsp;(3)</span></p><p>where <em>P</em><sub>0</sub> is in Watts. An analogous estimate may be obtained more roughly using Eq.&nbsp;(4) and the expression for the signal power <span class=\"nobr\"><em>P</em><sub>s</sub> &Gt; <em>glP</em><sub>0</sub></span>. Let us consider the possibilities of achieving this ultimate sensitivity.</p><p>The rms displacement of the center of the membrane due to fluctuations connected with Brownian motion in the gas (at <span class=\"nobr\"><em>w</em><sub>M</sub><em>t</em><sup> cell</sup> &Gt; 1</span>, <span class=\"nobr\"><em>m</em> &Lt; 1</span>) in the receiver bandwidth <span class=\"nobr\"><em>Dw</em><sup> rec</sup></span> near the modulation frequency is equal to</p><p class=\"eq\"><span class=\"nobr\"><em>s</em><sub>g</sub> &Gt; (1/4<em>&rho;</em>)(<em>kTm</em> <em>Dw</em><sup> rec</sup> / <em>T</em><sup> *</sup><em>Dw</em><sup> cell</sup>)<sup>1/2</sup>,&nbsp;&nbsp;&nbsp;&nbsp;(4)</span></p><p>and that due to the inherent membrane Brownian motion is</p><p class=\"eq\"><span class=\"nobr\"><em>s</em><sub>m</sub> &Gt; (1/<em>&rho;</em>)(<em>kT</em> <em>Dw</em><sup> rec</sup> / 2<em>Q</em><sub>M</sub><em>WT</em><sup> *</sup>)<sup>1/2</sup>.&nbsp;&nbsp;&nbsp;&nbsp;(5)</span></p><p>Here <em>W</em> and <em>Q</em><sub>M</sub> are the resonant frequency and quality factor of the membrane as a mechanical oscillator in vacuum. For the parameter values <span class=\"nobr\"><em>Q</em><sub>M</sub> &Gt; 5 x 10<sup>2</sup></span>, <span class=\"nobr\"><em>W</em> &Gt; 10<sup>4</sup> sec.<sup>-1</sup></span>, <span class=\"nobr\"><em>m</em> &Gt; 10<sup>-2</sup></span>, and <span class=\"nobr\"><em>Dw</em><sup> rec</sup> &Gt; 10<sup>3</sup> sec.<sup>-1</sup></span>, the ratio <span class=\"nobr\"><em>s</em><sub>g</sub> / <em>s</em><sub>m</sub></span>, is nearly 2.5 and the order of magnitude of <em>s</em><sub>g</sub> is 5&nbsp;x&nbsp;10<sup>-5</sup>&nbsp;Angstrom.</p><p>The electronic circuit must register these rather small fluctuation displacements of the membrane with very weak tension. When the cell is evacuated and filled with the gas to be investigated, considerable displacements of the membrane may occur. These must not influence the sensitivity of the microphone and circuit in the subsequent operation. The most suitable circuit for fulfilling these conditions is the high-frequency bridge condenser microphone circuit with the microphone capacity included in one resonant bridge arm. It will be shown below that the sensitivity of such a circuit is sufficient for detection of gas fluctuations. The use of an automatic bridge balance along two coordinates (microphone capacity by electrostatic control of the membrane position, the circuit losses by an electrically controlled resistor) provides constant sensitivity of the microphone and the circuit.</p><p>When the bridge is fed by a quartz oscillator with a sufficiently pure spectrum, then the noise in the narrow sidebands <em>Dw</em><sup> rec</sup> at the frequencies <span class=\"nobr\"><em>w</em><sub>q</sub> ± <em>w</em><sub>M</sub></span> is caused only by thermal fluctuations in the resonant bridge arms and the circuit sensitivity is equal to</p><p class=\"eq\"><span class=\"nobr\"><em>s</em><sub>c</sub> &Gt; (1/<em>Q</em>)(8/<em>&rho;</em>)(1/2)(<em>kT</em> <em>Dw</em><sup> rec</sup> / <em>P</em><sub>q</sub>)<sup>1/2</sup><em>d</em>.&nbsp;&nbsp;&nbsp;&nbsp;(6)</span></p><p>Here <em>w</em><sub>q</sub> is the quartz oscillator frequency, <em>Q</em> is the quality factor of the microphone resonant circuit at the frequency <em>w</em><sub>q</sub>, <em>P</em><sub>q</sub> is the power dissipated in this circuit, <em>d</em> is the distance between the membrane and the other electrode of the microphone. The value <em>Q</em> is defined by the losses in the thin conductive layer on the membrane and is approximately equal to 10<sup>2</sup>. The value <em>P</em><sub>q</sub> may be increased until the electrostatic attractive force between membrane and electrode is compensated by the membrane tension. The condition for membrane stability loss is</p><p class=\"eq\"><span class=\"nobr\"><em>d</em> / <em>P</em><sub>q</sub><sup>1/2</sup> = (<em>Q</em> / 4<em>&rho;w</em><sub>q</sub><em>T</em><sup> *</sup>)<sup>1/2</sup>,&nbsp;&nbsp;&nbsp;&nbsp;(7)</span></p><p>and when the value <span class=\"nobr\"><em>d</em> / <em>P</em><sub>q</sub><sup>1/2</sup></span> is near the optimal from Eqs.&nbsp;(6) and (7), one has</p><p class=\"eq\"><span class=\"nobr\"><em>s</em><sub>c</sub> &Gt; (1/<em>&rho;</em>)(2<em>kT</em> <em>Dw</em><sup> rec</sup> / <em>Q</em><em>w</em><sub>q</sub> <em>T</em><sup> *</sup>)<sup>1/2</sup>.&nbsp;&nbsp;&nbsp; &nbsp;(8)</span></p><p>Assuming membrane fluctuations to predominate over fluctuations of the circuit, one may obtain the condition for <em>w</em><sub>q</sub>. In practice we require <span class=\"nobr\"><em>w</em><sub>q</sub> &ge; 10<sup>6</sup> Hz</span>, which is easy to fulfill.</p><p>The relatively small dimensions of the RAD absorption cells in comparison with the cells of common microwave spectrometers have some advantages for a number of investigations (free radicals, Stark and Zeeman effects, etc.). At present, the experimentally obtained RAD sensitivity is equal to</p><p class=\"eq\"><span class=\"nobr\"><em>g</em><sub>min</sub>(cm<sup>-1</sup>) &Gt; 6 x 10<sup>-11</sup> / <em>P</em><sub>0</sub>&nbsp;&nbsp;&nbsp;&nbsp;(9)</span></p><p>(with <em>P</em><sub>0</sub> in Watts), which is rather close to the theoretical value in Eq.&nbsp;(3). In particular, at the wavelength of 0.75&nbsp;mm, where the BWO power is near 10&nbsp;mW, the sensitivity of 6&nbsp;x&nbsp;10<sup>-9</sup>&nbsp;cm<sup>-1</sup> is obtained.</p><p>Examples of:</p><ul><li><a href=\"index.html#/instrum/rad/ex_application\">application of simplest version of RAD spectrometer</a> (see diagram in Fig.&nbsp;3 above) for broad-band high resolution spectroscopy;</li><li><a href=\"index.html#/instrum/rad/sensitivity\">record demonstrating RAD spectrometer sensitivity</a>;</li><li><a href=\"index.html#/instrum/rad/spectrum_ox\">broadband study of molecular spectrum</a> using submillimeter frequency synthesizer and RAD gas cell (see diagram in Fig.&nbsp;2 above) &mdash; Teraherz spectrum of oxygen;</li><li><a href=\"index.html#/instrum/rad/ex_lineshape\">lineshape, line broadening and line shifting studies</a> with BWO based submillimeter-wave frequency synthesizer with RAD gas cell (see diagram in Fig.&nbsp;2 above).</li></ul>"
+				}
+			]
+		},
+		"sensitivity": {
+    		"link_from": "rad",
+    		"title": "Example of recording demonstrating RAD spectrometer sensitivity",
+    		"structure": [
+    			{
+    				"text":"<p>&ldquo;Forbidden&rdquo; transitions of AsH<sub>3</sub> molecule recorded by RAD spectrometer.<br/>The spectrometer sensitivity can be calculated using the line maximum absorption coefficients (shown above) and the recording signal to noise ratio as:</p><p><img src=\"img/instrum/sensitivity_ASH3_2.jpg\"></p><p>For more details see the paper [<a href=\"index.html#/list/1978-1989\" target=\"_blank\">Ref.&nbsp;1 (1987)</a>].</p>",
+        			"images": [
+        				{
+        					"file": "sensitivity_ASH3.jpg",
+        					"minwidth": "400px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Investigation of the 22-GHz atmospheric diagnostic water vapor line using RAD spectrometer. Three hundred experimental spectra (lock-in time constant is 0.5&nbsp;s) of the mixture of water vapor with argon are shown by grey curves. Averaged spectrum is shown by solid black curve. Pure rotational transition 5<sub>32</sub>&ndash;5<sub>33</sub> of HDO molecule in natural abundance is seen in the upper line wing near 22.307&nbsp;GHz (shown in the inset). Evaluated sensitivity of the spectrometer is <span class=\"nobr\">2 × 10<sup>-10</sup> cm<sup>-1</sup></span> [<a href=\"index.html#/list/2018\" target=\"_blank\">Ref.&nbsp;1 (2018)</a>].</p>",
+        			"images": [
+        				{
+        					"file": "sensitivity.png",
+        					"maxwidth": "400px"
+  						}
+        			]
+        		}
+			]
+		},
+		"ex_application": {
+    		"link_from": "rad",
+    		"title": "Example of simplest RAD spectrometer application",
+    		"structure": [
+        		{
+    				"text":"<p>Simultaneous record of investigated spectrum (NH<sub>3</sub>, red trace) and reference spectrum (SO<sub>2</sub>, blue trace) in Terahertz range  obtained by slow scanning of BWO high voltage without use of frequency synthesizer. Frequencies of investigated lines can be measured by interpolation between known lines of reference spectrum.</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "RADspectra.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+		"spectrum_ox": {
+    		"link_from": "rad",
+    		"title": "Example of broadband study of molecular spectrum using submillimeter frequency synthesizer and RAD gas cell",
+    		"structure": [
+        		{
+    				"text":"<p>Oxygen absorption spectrum in MM&ndash;SubMM range calculated using MPM model. All lines of the spectrum were studied in our Lab:</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "spectra_oxygen.jpg"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "O2lines.jpg",
+        					"caption": "Lines of the oxygen molecule (from left to right): a) fine-structure line 11+ at 61&nbsp;800.157(7)&nbsp;MHz; b) rotational line <span class=\"nobr\">(<em>N</em>,<em>J</em>) = (3,2)&ndash;(1,2)</span> at 424&nbsp;763.023(2)&nbsp;MHz; c) rotational line <span class=\"nobr\">(<em>N</em>,<em>J</em>) = (7,6)&ndash;(5,6)</span> at 1.120714836(40)&nbsp;THz. The RAD spectrometer supplied with a frequency synthesizer was used. The result of the line fitting to Voigt profile is shown by solid line. The residue of the fit is shown in the lower part of the figure.",
+        					"align": "left"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "o2tab.jpg"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>For more details see [<a href=\"index.html#/list/2002\" target=\"_blank\">Ref.&nbsp;2 (2002)</a>] and [<a href=\"index.html#/list/2005\" target=\"_blank\">Ref.&nbsp;6 (2005)</a>].</p><p>See also studies of the 60-GHz band, the 118-GHz line and the first rotational triplet of O<sub>2</sub> by the <a href=\"res_ spectr_ex.html\">resonator spectrometer</a> at atmospheric pressure.</p>"
+    			}
+			]
+		},
+		"ex_lineshape": {
+    		"link_from": "rad",
+    		"title": "Example of lineshape studies",
+    		"structure": [
+        		{
+    				"text":"<p>Molecular line pressure broadening, shifting and mixing studies using a BWO based submillimeter-wave frequency synthesizer with RAD gas cell:</p>"
+    			},
+    			{
+    				"images": [
+    					{
+    						"custom": "<div class=\"tableimg\"><table><tr style=\"text-align: left; font-size: 95%; vertical-align: top\"><td>Typical recording for the 183-GHz water vapor line profile in gas mixture. <span class=\"nobr\">(Exp &ndash; Fit)</span> residuals obtained by using different models under pressures shown in the inset. Ratio of collisional to Doppler line width is 37 (reported at <a href=\" http://www.helsinki.fi/kemia/HRMS2017/\" target=\"_blank\">HRMS2017</a>, Helsinki).</td><td style=\"padding: 25px\">Broadening of CO, <span class=\"nobr\"><em>J</em> = 1&ndash;0</span> line by pressure of various foreign gases [<a href=\"index.html#/list/1999\" target=\"_blank\">Ref.&nbsp;7 (1999)</a>]</td><td style=\"padding: 25px\">Central frequency shift of H<sub>2</sub>O, <span class=\"nobr\">(3,1,3)&ndash;(2,2,0)</span> line by pressure of various gases [<a href=\"index.html#/list/2005\" target=\"_blank\">Ref.&nbsp;9 (2005)</a>]</td></tr><tr><td><img src=\"img/instrum/h2o_183.jpg\" style=\"width: 300px\"></img></td><td><img src=\"img/instrum/appl3_3.jpg\" style=\"width: 250px\"></img></td><td><img src=\"img/instrum/appl3_4.jpg\" style=\"width: 250px\"></img></td></tr></table></div>"
+    					}
+    				]
+    			},
+    			{
+    				"text":"<p>Study of profile of <span class=\"nobr\"><em>J</em> = 10&ndash;9</span> rotational multiplet of CF<sub>3</sub>H molecule at pressures from 0.01 up to 10&nbsp;Torr [<a href=\"index.html#/list/2008\" target=\"_blank\">Ref.&nbsp;1 (2008)</a>]:</p>"
+    			},
+    			{
+        			"images": [
+        				{
+        					"file": "HighP_J9.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+		"rad_ex_4": {
+    		"link_from": "rad",
+    		"title": "Example of line broadening accuracy measurements. History of the 183-GHz water line air pressure broadening parameter measurements",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "authors_h2o_new.jpg"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>The broadening parameter value measured by different authors using different techniques is plotted versus  year  the data publication. Vertical bars correspond to experimental uncertainty. Due to systematical errors the values differ more than the measurement errors given by the authors. Our measurements (point 11 [<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;11 (2000)</a>] and 12 [<a href=\"index.html#/list/2003\" target=\"_blank\">Ref.&nbsp;1 (2003)</a>] by resonator and point 14 [<a href=\"index.html#/list/2005\" target=\"_blank\">Ref.&nbsp;9 (2005)</a>] by RAD) are in a good agreement with and have the smallest uncertainty among others.</p>"
+    			}
+			]
+		},
+		"broad_o2": {
+    		"link_from": "rad",
+    		"title": "Example of temperature dependence study: Collisional broadening of O<sub>2</sub> lines",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "broad_o2.png"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>For more details see [<a href=\"index.html#/list/2016\" target=\"blank\">Ref.&nbsp;1 (2016)</a>].</p>"
+    			}
+			]
+		},
+		"ocs_spectr": {
+    		"link_from": "rad",
+    		"title": "Terahertz spectrum of OCS",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "OCS_2.jpg",
+        					"caption": "Fig.&nbsp;1"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "OCS_broadening.jpg",
+        					"caption": "Fig.&nbsp;2",
+        					"maxwidth": "600px"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+        				{
+        					"file": "SD-parameter.jpg",
+        					"caption": "Fig.&nbsp;3",
+        					"maxwidth": "500px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>The OCS spectrum was studied in a frequency range of 24 to 859&nbsp;GHz, which covers almost all the OCS rotational spectra observable at room temperature (Fig.&nbsp;1) and corresponds to the interval of rotational quantum numbers <em>J</em> from 1 to 69. High signal-to-noise ratio of spectral lines observed using the RAD spectrometer allowed not only accurate measurement of pressure broadening parameters in rotational spectrum of OSC (Fig.&nbsp;2 and [<a href=\"index.html#/list/2009\" target=\"_blank\">Ref.&nbsp;1 (2009)</a>]), but also resulted in determination of speed dependence of collisional relaxation (Fig.&nbsp;3). It is shown for the first time for the whole rotational spectrum that speed dependent models not only improve accuracy of modeling the observed line profiles, but also give physically grounded values of collisional relaxation parameters.</p><p>For more details see [<a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;5 (2012)</a>].</p>"
+    			},
+        		{
+        			"images": [
+        				{
+        					"file": "OCS.jpg",
+        					"caption": "Fig.&nbsp;4. <em>J</em>&nbsp;=&nbsp;58&ndash;59 line of OCS. Residuals (amplified by 20) correspond to Voigt (a) and speed dependent (SD) Voigt (b and c) profiles. Frequency detuning is shown from 716.540&nbsp;GHz."
   						}
         			]
         		}
@@ -599,6 +849,46 @@
         					"file": "H2O-HF.jpg"
   						}
         			]
+        		}
+			]
+		},
+		"reson": {
+    		"link_from": "instrum",
+    		"title": "Resonator spectrometer for studies of atmospheric lines and continuum (<a href=\"index.html#/instrum/devices/dev018\" target=\"_blank\">Device&nbsp;018</a>)",
+    		"short_title": "Resonator spectrometer",
+    		"structure": [
+    			{
+    				"text":"<p>The width of resonance response is in direct proportion to the radiation absorption by a gas sample. Fast (<span class=\"nobr\">60 &micro;s/step</span>, <span class=\"nobr\">0.2 &micro;s</span> switching time) digital frequency scanning without phase jumps while switching is used for recording resonance response. Shape of the resonance is treated by analogy with a narrow molecular absorption line.</p><ul><li>Achieved frequency range of absorption measurements 37&ndash;500&nbsp;GHz;</li><li>Achieved accuracy of resonance width measurements&nbsp;20&nbsp;Hz;</li><li>Absorption variation sensitivity <span class=\"nobr\">4·10<sup>-9</sup>cm<sup>-1</sup></span>;</li><li>Achieved range  of  temperatures:</li><dd>stabilized  within 220&ndash;370&nbsp;K;</dd><dd>non-stabilized  within 10&ndash;220&nbsp;K;</dd><li>Achieved range of gas pressures: 0&ndash;1000 Torr.</li></ul>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "res-spec.jpg",
+        					"minwidth": "300px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<ul type=\"circle\"><li><a href=\"index.html#/instrum/reson/principle\">Principle of absorption measurements</a>;</li><li><a href=\"index.html#/instrum/reson/dl_description\">Detailed description of the spectrometer</a>;</li><li><a href=\"index.html#/instrum/reson/accuracy\">Accuracy of measurements</a>;</li><li><a href=\"index.html#/instrum/reson/water_cont\">Atmospheric continuum measurements</a>;</li><li><a href=\"index.html#/instrum/reson/dimer\">Water dimer detection</a>;</li><li><a href=\"index.html#/instrum/reson/res_spectr_ex\">Examples of the spectrometer use</a> for &ldquo;in situ&rdquo; observation of atmospheric lines.</li></ul><p>For more details and the spectrometer applications see [<a href=\"index.html#/list/2000\" target=\"_blank\">Ref.&nbsp;11 (2000)</a>], [<a href=\"index.html#/list/2009\" target=\"_blank\">Ref.&nbsp;4 (2009)</a>], [<a href=\"index.html#/list/2013\" target=\"_blank\">Refs.&nbsp;1,&nbsp;2 (2013)</a>].</p>"
+				}
+			]
+		},
+		"principle": {
+    		"link_from": "reson",
+    		"title": "Resonator spectrometer: Principle of absorption measurements",
+    		"structure": [
+        		{
+        			"images": [
+        				{
+        					"file": "principle.jpg",
+        					"caption": "<p><strong><font color=\"#0033CC\">A</font></strong> &mdash; total relative losses of radiation energy during one traversing of the resonator filled by laboratory atmosphere and measured at frequencies of eigen modes of the resonator.</p><p><strong><font color=\"#FF0000\">B</font></strong> &mdash; total relative losses of radiation energy during one traversing of the resonator filled by non-absorbing gas (N<sub>2</sub>).</p><p><span class=\"nobr\"><strong><font color=\"#0033CC\">A</font></strong> &ndash; <strong><font color=\"#FF0000\">B</font></strong> = Atmospheric</span> absorption:</p",
+        					"align": "left",
+        					"captpos": "right",
+        					"captalign": "top"
+  						}
+        			]
+        		},
+        		{
+        			"text": "<p><a href=\"index.html#/instrum/reson/equations\">Related equations</a></p><p><a href=\"index.html#/instrum/reson/res_spectr_ex\">Examples</a> of the spectrometer use for &ldquo;in situ&rdquo; observation of atmoshperic lines.</p>"
         		}
 			]
 		},
