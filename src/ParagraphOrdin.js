@@ -36,6 +36,10 @@ class ImageDiv extends Component {
     		title_style["maxWidth"] = "40%";	
     	}
     	
+    	if (this.props.captalign) {
+    		title_style["verticalAlign"] = "top";
+    	}
+    	
     	let caption;
     	if (this.props.caption) {
     		caption = this.props.caption;
@@ -130,17 +134,21 @@ class ParagraphOrdin extends Component {
 				
 				var capt = "";
 				var captpos = "";
+				var align = "";
+				var captalign = "";
 				if (this.props.paragraph.images[imgi].caption) {
 					capt = this.props.paragraph.images[imgi].caption;
 				}
 				if (this.props.paragraph.images[imgi].captpos) {
 					captpos = this.props.paragraph.images[imgi].captpos;
 				}
-				var align = "";
+				if (this.props.paragraph.images[imgi].captalign) {
+					captalign = this.props.paragraph.images[imgi].captalign;
+				}
 				if (this.props.paragraph.images[imgi].align) {
 					align = this.props.paragraph.images[imgi].align;
 				}
-				imageDiv[imgi] = <ImageDiv style={{"width": "" + mw + "%"}} image={image} caption={capt} captpos={captpos} align={align} key={imgi}/>
+				imageDiv[imgi] = <ImageDiv style={{"width": "" + mw + "%"}} image={image} caption={capt} captpos={captpos} captalign={captalign} align={align} key={imgi}/>
 			}
 		}
 		
