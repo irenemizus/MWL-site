@@ -1,0 +1,616 @@
+{	
+    "url": {
+    	"about": {
+    		"title": "About us",
+    		"structure": [
+    			{
+      				"text": "<p>The Laboratory (full official name is Microwave Spectroscopy Department) was organized in 1977, with the establishment of IAP RAS. The Laboratory was formed on the base of works of the group by <a href=\"index.html#/people/permanent/krupnov\">A.F.&nbsp;Krupnov</a> in <a href=\"http://nirfi.ru/\" target=\"_blank\">NIRFI</a>, which led to developments of submillimeter wave spectrometer with <a href=\"index.html#/instrum/35/35_2\" target=\"_blank\">Backward Wave Oscillators</a> (BWOs) and acoustic detection (RAD) and the phase lock-in system of submillimeter BWOs (both in 1970). Both those developments proved to be very successful and gave good perspective for many further developments of submillimeter wave spectroscopic technique and investigations of molecular spectra (see <a href=\"index.html#/instrum\">Instruments</a> and <a href=\"index.html#/list\">List of publications</a>). The department of microwave spectroscopy was the first in the new Institute to recieve the USSR State Prize in Science (1980, &ldquo;For Development of Submillimeter Wave Spectroscopy with Backward Wave Oscillators&rdquo;). Current activity of the Laboratory is presented on the site. A.F.&nbsp;Krupnov headed the Laboratory from 1977 to 2005; at the present <a href=\"index.html#/people/permanent/tretyakov\">M.Yu.&nbsp;Tretyakov</a> is the Head of the Laboratory.</p>"
+				},
+				{
+					"subtitle": "Recognition of our achievements"
+				},
+				{
+      				"text": "<ul><li><a href=\"img/about/Certificates.pdf\">Certificates of Appreciation and Reviewing from journals</a></li><li><a href=\"index.html#/about/about_Encycl_Mod_Opt\">Encyclopedia of Modern Optics</a></li><li><a href=\"index.html#/about/about_Gordy\">W.&nbsp;Gordy, R.L.&nbsp;Cook, Microwave Molecular Spectra</a></li><li><a href=\"index.html#/about/about_Gordy_2\">Walter Gordy</a></li><li><a href=\"index.html#/about/about_Herzberg\">G.&nbsp;Herzberg, Molecular Spectroscopy: Modern Research</a></li><li><a href=\"index.html#/about/about_HITRAN\">HITRAN</a></li><li><a href=\"index.html#/about/about_Hougen\">Jon Hougen, 1975</a></li><li><a href=\"img/about/Hougen-letter.pdf\" target=\"_blank\">Jon Hougen, 2012</a></li><li><a href=\"index.html#/about/about_JCP\"><em>J. Chem. Phys.</em>, Dec. 2009, Top 20 most downloaded articles</a></li><li><a href=\"index.html#/about/about_JMS\"><em>Journal of Molecular Spectroscopy</em>, Cover papers</a></li><li><a href=\"index.html#/about/about_JMS_1\"><em>J. Mol. Spectrosc.</em>, Highest cited 2005/2006 papers</a></li><li><a href=\"index.html#/about/about_Master\">ESA &ldquo;Master&rdquo; Database</a></li><li><a href=\"index.html#/about/press_news\">Press about water dimer detection</a></li><li><a href=\"index.html#/about/about_press\">Press about water on the Sun</a></li><li><a href=\"index.html#/about/RAS\">Russian Academy of Sciences</a></li><li><a href=\"http://physics.aps.org/articles/v6/22\" target=\"_blank\">Richard Saykally</a></li><li><a href=\"index.html#/about/about_Sheridan\">John Sheridan</a></li><li><a href=\"index.html#/about/frontiers\">C.&nbsp;David Sherrill</a></li><li><a href=\"img/about/Tennyson.pdf\" target=\"_blank\">Jonathan Tennyson</a></li><li><a href=\"index.html#/about/about_Williams\"><em>Methods of Experimental Physics</em>, <strong>V.&nbsp;13</strong>, D.&nbsp;Williams, Ed.</a></li><li><a href=\"index.html#/about/about_Wilson\">E.&nbsp;Bright Wilson</a></li><li><a href=\"index.html#/about/about_Winnewisser\">Manfred Winnewisser</a></li></ul>"
+				},
+				{
+					"subtitle": "How to find us (Travel Information)"
+				},
+				{
+      				"text": "<ul type=\"circle\"><li>GPS:&nbsp;N&nbsp;56&deg;&nbsp;19.407'&nbsp;&nbsp;E 44&deg;&nbsp;1.345'</li><li><a href=\"img/about/map_N_N_engl.jpg\" target=\"_blank\">Map of Nizhny Novgorod (JPG, 550&nbsp;Kb)</a></li><li><a href=\"index.html#/about/transport\">Transport</a></li></ul>"
+				}
+			]
+		},
+    	"about_press": {
+    		"link_from": "about",
+    		"title": "Press about water on the Sun",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Press.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>...Oleg Polyansky and Jonathan Tennyson of University College London and their colleagues say in last week's <em>Science</em> (<strong>V.&nbsp;277</strong>, P.&nbsp;346) that they have used computers to work out what the infrared spectrum of a watery sunspot at 3000&nbsp;&deg;C should look like. Comparing it with the real thing, they found an almost perfect match... <font color=\"##0000CC\">(issue&nbsp;2092 of <em>New Scientist</em> magazine, July&nbsp;26, 1997, page&nbsp;25)</font></p><p>...The team was led by Oleg Polyansky, a theoretician from Russia's Institute of Applied Physics; Nizhny Novgorod, who works with co-researcher Jonathan Tennyson, a physicist at University College, London; and UW chemistry Prof.&nbsp;Peter Bernath, an expert in molecular astronomy. Other team members included Serena Viti, Nikolay Zobov, Lloyd Wallace. In their 1995 study, the team recorded evidence of water &mdash; not in liquid form because the Sun is too hot, but as vapor or steam &mdash; in dark sunspots... <font color=\"##0000CC\">(<em>University of Waterloo</em> Press Release No.&nbsp;115 &mdash; July&nbsp;17, 1997)</font></p><p>...Dr.&nbsp;Oleg Polyansky and colleagues at University College London and Russian Academy of Sciences report today in the journal <em>Science</em> that water does indeed exist on the Sun... <font color=\"##0000CC\">(<em>The Daily Telegraph</em>, July&nbsp;18, 1997)</font></p><p>...scientists have spotted the equivalent of the snowflake in hell. They have confirmed the presence of water on the Sun... <font color=\"##0000CC\">(<em>The Guardian</em>, July&nbsp;18, 1997)</font></p><p>...Spectrometers pointed at the Sun &mdash; which monitor the electromagnetic radiation given off by atomic bonds as they vibrate &mdash; give results identical to those predicted by the computer models, showing that water molecules are present in sunspot areas... <font color=\"##0000CC\">(<em>The Independent</em>, July&nbsp;18, 1997)</font></p>"
+				}
+			]
+		},
+    	"about_Herzberg": {
+    		"link_from": "about",
+    		"title": "G.&nbsp;Herzberg, Molecular Spectroscopy: Modern Research",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Herzberg.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		}
+			]
+		},
+    	"about_Gordy": {
+    		"link_from": "about",
+    		"title": "W.&nbsp;Gordy, R.L.&nbsp;Cook, Microwave Molecular Spectra",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Valuation1.gif",
+        					"minwidth": "700px"
+  						}
+        			]
+        		}
+			]
+		},
+    	"about_Williams": {
+    		"link_from": "about",
+    		"title": "Methods of Experimental Physics. Volume 13. Part B. Spectroscopy. Ed.&nbsp;D.&nbsp;Williams. Acad.&nbsp;Press. 1976",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Williams.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>4.&nbsp;&nbsp;&nbsp;Molecular Spectroscopy<br />4.3&nbsp;Microwave Region (by D.&nbsp;Johnson&nbsp;&amp;&nbsp;R.&nbsp;Pearson)<br /><span class=\"nobr\">&#8230;An</span> entirely different approach to submm spectroscopy has been developed by Krupnov and co-workers. <span class=\"nobr\">&#8230;BWO's</span> have already been successfully employed by Krupnov <span class=\"nobr\"><&#8230;></span> in broad band spectroscopic experiments&#8230; [they] are presently using condenser microphones as microwave detectors&#8230;</p><p>(Pp.&nbsp;108, 114, 128&ndash;131)</p>"
+				}
+			]
+		},
+    	"about_JMS_1": {
+    		"link_from": "about",
+    		"title": "<em>Journal of Molecular Spectroscopy</em>, Highest cited 2005/2006 papers",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Recognition_JMS_1.jpg",
+        					"minwidth": "700px"
+  						}
+        			]
+        		}
+			]
+		},
+		"about_JCP": {
+    		"link_from": "about",
+    		"title": "<em>Journal of Chemical Physics</em>, Dec.&nbsp;2009, Top 20 most downloaded articles",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "JCP_top20_1.jpg",
+        					"minwidth": "650px"
+  						}
+  					]
+        		},
+        		{
+        			"images": [
+  						{
+        					"file": "research_highlights.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+  						{
+        					"file": "paper_review.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p><a href=\"index.html#/stud/sss\">For more information see here.</a></p>"
+				}
+			]
+		},
+		"RAS": {
+    		"link_from": "about",
+    		"title": "Annual Report of Presidium of Russian Academy of Sciences",
+    		"structure": [
+    			{
+    				"text":"<p>&ldquo;In the field of Physical Sciences (direction &ldquo;Contemporary problems of radiophysics&rdquo;) in the year of 2012 the most interesting was the registration of resolved rotational spectrum of water dimer (H<sub>2</sub>O)<sub>2</sub> in water vapor at room temperature in the millimeter wave range.&rdquo; (P.&nbsp;29)</p><p><a href=\"http://www.ras.ru/scientificactivity/scienceresults/annualreport.aspx\" target=\"_blank\">Full report text</a> in Russian</p>",
+        			"images": [
+        				{
+        					"file": "RAS.jpg",
+        					"maxwidth": "400px"
+  						}
+        			]
+        		}
+			]
+		},
+		"about_Encycl_Mod_Opt": {
+    		"link_from": "about",
+    		"title": "Encyclopedia of Modern Optics",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Modern_Optics.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+		"about_Gordy_2": {
+    		"link_from": "about",
+    		"title": "Walter Gordy",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Gordy_2_1.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p><span class=\"nobr\">&#8230;NEW</span> DIRECTIONS<br />After this brief review of the early history of microwave  spectroscopy, which some of you never knew and others of you have forgotten, I wish to mention some of the results which the leaders of the second generation of microwave spectroscopists are getting and to indicate the directions in which they appear to be leading. Further extension of coherent submillimeter wave spectroscopy:</p><p>A second-generation microwave spectroscopist, A.F.&nbsp;Krupnov, has had notable success in extending coherent-sweep submillimeter wave spectroscopy beyond the frequency of 813&nbsp;GHz, which we at Duke reached in 1970. With a strong primary source, a new BWO tube, and an acoustic detector, he has constructed a sweep spectrometer that operates with high sensitivity to frequencies slightly above 1000&nbsp;GHz&#8230;</p><p>(Pp.&nbsp;22&ndash;23)</p>"
+				}
+			]
+		},
+		"about_Hougen": {
+    		"link_from": "about",
+    		"title": "Jon Hougen",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Hougen_2.jpg",
+        					"minwidth": "500px"
+  						}
+        			]
+        		},
+        		{
+        			"images": [
+  						{
+        					"file": "Hougen.jpg",
+        					"minwidth": "500px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>(<em>Applied Optics</em>, <strong>V.&nbsp;14</strong>, No.&nbsp;1, January 1975, P.&nbsp;8)</p>"
+				}
+			]
+		},
+		"about_Winnewisser": {
+    		"link_from": "about",
+    		"title": "Manfred Winnewisser",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "winnewisser.jpg",
+        					"minwidth": "550px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p><span class=\"nobr\">&#8230;An</span> example of the second type of millimeter and submillimeter wave spectrometer of great potential is the instrument developed by Krupnov and co-workers (refs.&nbsp;14,&nbsp;15) who employ backward wave oscillators as radiation sources without frequency multiplication, and acoustical detection of the absorption signal&#8230; This type of spectrometer is a)&nbsp;a very wide band instrument (200&nbsp;GHz to 1.3&nbsp;THz), b)&nbsp;Doppler limited in resolution and c)&nbsp;with outstanding sensitivity&#8230;</p><p>(Pp.&nbsp;510&ndash;511)</p>"
+				}
+			]
+		},
+		"about_Sheridan": {
+    		"link_from": "about",
+    		"title": "John Sheridan",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Sheridan.jpg",
+        					"minwidth": "550px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>I should try to point to particular landmarks in the development of the field which originated in Europe. It must be admitted that many of the most basic advances belong of necessity to the early American-dominated period. European landmarks to which I can point certainly include the first use of microwave-microwave double resonance spectroscopy by Professor Gozzini and his colleagues at the University of Pisa in 1959 (ref.&nbsp;10), and the striking studies at short wavelengths with acoustic detectors made by Dr.&nbsp;Krupnov and his group in the <span class=\"nobr\">U.S.S.R.</span> from about 1970.</p>"
+				}
+			]
+		},
+		"about_Wilson": {
+    		"link_from": "about",
+    		"title": "E.&nbsp;Bright Wilson",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Wilson_1.jpg",
+        					"minwidth": "520px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p><em><strong><span class=\"nobr\">&#8230;Microwave Spectroscopy</span></strong></em><br />Perhaps the most important development in the Spectroscopy of the microwave region in this decade has been the discovery of microwave signals from molecules in interstellar dust clouds. <&#8230;> Another technical development is the introduction of acoustic detection, especially in the millimeter region. Krupnov has reported very successful results with this means of detection, which also appears promising for low resolution Spectroscopy where higher pressure samples can then be advantageously used (with consequent increase in band intensity) without the limitation set by arcing in Stark detection&#8230;</p><p>(P.&nbsp;17)</p>"
+				}
+			]
+		},
+		"about_Master": {
+    		"link_from": "about",
+    		"title": "ESA &ldquo;Master&rdquo; Database",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Valuation2.gif",
+        					"minwidth": "650px"
+  						}
+        			]
+        		}
+			]
+		},
+		"frontiers": {
+    		"link_from": "about",
+    		"title": "C.&nbsp;David Sherrill",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Frontiers.jpg"
+  						}
+        			]
+        		}
+			]
+		},
+		"about_HITRAN": {
+    		"link_from": "about",
+    		"title": "HITRAN",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "HITRAN2016.jpg",
+        					"minwidth": "650px"
+  						}
+        			]
+        		}
+			]
+		},
+		"about_JMS": {
+    		"link_from": "about",
+    		"title": "<em>Journal of Molecular Spectroscopy</em>, Cover papers",
+    		"structure": [
+    			{
+    				"text":"<p>Study of microwave and submillimeter-wave spectra of the mixed deuterated-protonated water-dimer isotopomers produced in pulse-nozzle molecular beam (<a href=\"index.html#/list/1997\" target=\"blank\"><em>JMS</em>, <strong>181</strong>, 229&ndash;245 (1997)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/JMS-1997.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Development of modern broadband millimeter-wave resonator spectroscopy on the base of fast sweeping frequency synthesizer. Measurements of dielectrical properties of solid, liquid and gaseous samples in particular studies of atmospheric molecular lines. The spectrometer has essential advantages among all other known analogs (<a href=\"index.html#/list/2000\" target=\"blank\"><em>JMS</em>, <strong>202</strong>, 107&ndash;115 (2000)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/JMS-2000.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Spectrum of water molecule recorded with high sensitivity by use of cavity-rind-down spectrometer in the range <span class=\"nobr\">555&ndash;604&nbsp;nm</span> was analyzed on the basis of first principles variational calculations (<a href=\"index.html#/list/2001\" target=\"blank\"><em>JMS</em>, <strong>205</strong>, 117&ndash;121 (2001)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/JMS-2001.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Precision measurement of shifting and broadening parameters of the 183&nbsp;GHz water line by pressure of various atmospheric gases using our spectrometer with Radio Acoustic Detection (<a href=\"index.html#/list/2005\" target=\"blank\"><em>JMS</em>, <strong>230</strong>, 196&ndash;198 (2005)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/JMS-2005.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Study of submillimeter-wave spectrum of <span class=\"nobr\">H<sub>2</sub>O&ndash;HF</span> dimer in equilibrium gas phase with continuous frequency scanning microwave spectrometer RAD-3 (<a href=\"index.html#/list/2007\" target=\"blank\"><em>JMS</em>, <strong>241</strong>, 124&ndash;135 (2007)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/JMS-2007.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p>Spectroscopy underlying microwave remote sensing of atmospheric water vapor (<a href=\"index.html#/list/2016\" target=\"blank\"><em>JMS</em>, <strong>328</strong>, 7&ndash;26 (2016)</a>).</p>",
+    				"textpos": "left",
+        			"images": [
+        				{
+        					"file": "JMS/YJMSP2016.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		}
+			]
+		},
+		"press_news": {
+    		"link_from": "about",
+    		"title": "Press about water dimer detection",
+    		"structure": [
+    			{
+    				"text":"<p><a href=\"http://physics.aps.org/articles/v6/22\" target=\"_blank\">R.&nbsp;Saykally, &ldquo;Simplest Water Cluster Leaves Behind its Spectral  Fingerprint&rdquo;</a></p>",
+        			"images": [
+        				{
+        					"file": "press/Physics.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Water dimer yields to spectroscopic study _ Physics Update - Physics Today.mht\" target=\"_blank\">Water dimer yields to spectroscopic study</a></p>",
+        			"images": [
+        				{
+        					"file": "press/PhysicsToday.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Environmentalresearch.mht\" target=\"_blank\">Physicists in Russia are the first to detect water dimers &ndash; bonded pairs of gaseous water molecules &ndash; in conditions similar to Earth's atmosphere</a></p>",
+        			"images": [
+        				{
+        					"file": "press/EnvironmentalResearch.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://physicsworld.com/cws/article/news/2013/mar/04/water-dimers-detected-in-atmospheric-conditions\" target=\"_blank\">Water dimers detected in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/PhysicsWorld.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Two to Tango Water Molecule Pairs Found  RealClearScience.mht\" target=\"_blank\">Two to Tango: Water Molecule Pairs Found</a></p>",
+        			"images": [
+        				{
+        					"file": "press/RealClearScience.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://www.rsc.org/chemistryworld/2013/03/water-dimer-detected-atmosphere-climate\" target=\"_blank\">Scientists in Russia have observed water dimers in atmospheric conditions for the first time, following 40 years of research</a></p>",
+        			"images": [
+        				{
+        					"file": "press/ChemistryWorld.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://esciencenews.com/sources/chemistry.world/2013/03/07/elusive.water.dimer.detected.last\" target=\"_blank\">Research group claims first detection of water dimers in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/E_science_news.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://scientificrussia.ru/rubric/phisics/nizhegorodskie-fiziki-nashli-dvojnye-molekuly-v-teplom-vodyanom-pare\" target=\"_blank\">Physicists from Nizhny Novgorod found paired molecules in the warm water vapor</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/NaychnayaRossiya.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://phys.org/news/2013-03-group-dimmers-atmospheric-conditions.html\" target=\"_blank\">Research group claims first detection of water dimers in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/PhysOrg.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://wiki.ru/sites/khimiya/id-news-43list.html#/page/9169\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/WiKi_RU.jpg",
+        					"minwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/InstituteHimiRaznoobraziya.mht\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/InstKhimRaznooobr.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Compulenta.mht\" target=\"_blank\">The existence of water clusters in the atmosphere is confirmed</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/Compulenta_RU.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/CNews_RU.mht\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/CNews.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Fond_UMA.mht\" target=\"_blank\">It will be difficult to compete with the world's oceans</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/Fond_Uma.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://www.gazeta.ru/science/2013/03/20_a_5109245.shtml\" target=\"_blank\">It will be difficult to compete with the world's oceans</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/GazetaRu.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://www.thenakedscientists.com/HTML/news/news/1000111/\" target=\"_blank\">Water Dimers Detected</a></p>",
+        			"images": [
+        				{
+        					"file": "press/Naked_Scientists.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+				{
+    				"text":"<p><a href=\"http://www.nanonewsnet.ru/news/2013/neulovimyi-dimer-vody-zafiksirovan\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/NanoNewsNet.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/I4U News.mht\" target=\"_blank\">Elusive water dimer detected at last</a></p>",
+        			"images": [
+        				{
+        					"file": "press/I4U.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/News-thechnology.mht\" target=\"_blank\">Elusive water dimer detected at last</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/news-thechnology.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/Svejo_net.mht\" target=\"_blank\">Physicists in Russia are the first to detect water dimers</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/Svejo_net.jpg",
+        					"minwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/RussoDaily.mht\" target=\"_blank\">Water dimers detected in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/Russo_Daily.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://missiontomorrow.tv/water-dimers-detected-in-atmospheric-conditions-physicsworld-com\" target=\"_blank\">Water dimers detected in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/Mission_Tomorrow.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/GlobalNe_Defence.mht\" target=\"_blank\">Water dimers detected in atmospheric conditions</a><br />News Category: Defence</p>",
+        			"images": [
+        				{
+        					"file": "press/GlobalNe_Ws.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"http://iee.org.ua/ru/prog_info/23592/\" target=\"_blank\">Russian scientists detected water dimer</a> (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/Inst_evol_ekoni.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"mht/One News Page.mht\" target=\"_blank\">Water dimers detected in atmospheric conditions</a></p>",
+        			"images": [
+        				{
+        					"file": "press/One_news_page.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		},
+        		{
+    				"text":"<p><a href=\"img/about/press/PopMechP26.pdf\" target=\"_blank\">Illusive couple</a><br /><em>Popular Mechanics</em>, May 2013, P.&nbsp;26 (in Russian)</p>",
+        			"images": [
+        				{
+        					"file": "press/Populyarnaya_Mechanika.jpg",
+        					"maxwidth": "350px"
+  						}
+        			]
+        		}
+        	]
+        },
+        "transport": {
+    		"link_from": "about",
+    		"title": "Travel information",
+    		"structure": [
+    			{
+      				"text": "<p>Trains to Nizhny Novgorod:<br /><a href=\"http://www.avialot.ru/rasp/4?p=0\" target=\"_blank\">http://www.avialot.ru/rasp/4?p=0</a></p><p>Flights to Nizhny Novgorod:<br /><a href=\"http://www.avialot.ru/rasp/5?p=0\" target=\"_blank\">http://www.avialot.ru/rasp/5?p=0</a></p><p><a href=\"img/about/map_N_N_engl.jpg\" target=\"_blank\">Map of central part of Nizhny Novgorod (JPG, 550&nbsp;Kb)</a></p>"
+				},
+				{
+					"subtitle": "Urban transport in Nizhny Novgorod"
+				},
+				{
+      				"text": "<table><tr><td><strong>Bus route</strong></td><td><strong>Bus number</strong></td></tr><tr><td>Railway station &mdash; Technical university (bus stop near Institute of Applied Physics)</td><td>T-2, T-40, T-140</td></tr><tr><td>Railway station &mdash; Svoboda Square (bus stop near Institute of Applied Physics)</td><td>T-34, T-134, 61, 38</td></tr><tr><td>Railway station &mdash; <a href=\"http://www.hoteloka.ru/\" target=\"_blank\">Hotel OKA</a></td><td>T-103, T-105, T-143, T-180</td></tr><tr><td>Hotel OKA &mdash; Svoboda Square</td><td>T-97, T-104</td></tr><tr><td>Airport &mdash; Svoboda Square</td><td>Mini-bus 20</td></tr></table>"
+				}			
+			]
+		}
+	}        	
+}

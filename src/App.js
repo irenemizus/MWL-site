@@ -55,7 +55,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -67,7 +67,7 @@ class Menu extends Component {
 							<div className="menu_item_active"><span>{line}People</span></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -79,7 +79,7 @@ class Menu extends Component {
 							<div className="menu_item_active"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -91,7 +91,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item_active"><span>{line}Instruments</span></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -103,7 +103,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item_active"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -115,7 +115,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item_active"><span>{line}List of publications</span></div>					
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -127,7 +127,31 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item_active"><Link to={"/list"}>{line}List of publications</Link></div>					
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route exact path='/about' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item_active"><span>{line}About</span></div>
+							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+						</div>
+					)
+				} />
+				<Route path='/about/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item_active"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -139,7 +163,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
 							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
 						</div>
 					)
@@ -167,7 +191,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 26.02.19
+								Last update 07.03.19
 							</div>
 						</div>
 					)
@@ -203,11 +227,13 @@ class App extends Component {
 			dataStateMainDirPages: DataState.LOADING,
 			dataStateInstrumPages: DataState.LOADING,
 			dataStateDevList: DataState.LOADING,
+			dataStateAboutPages: DataState.LOADING,
 			json: null,
 			jsonPeople: null,
 			jsonMainDirPages: null,
 			jsonInstrumPages: null,
-			jsonDevList: null
+			jsonDevList: null,
+			jsonAboutPages: null
 		};
 		
 		let app = this;
@@ -217,9 +243,10 @@ class App extends Component {
     		axios.get('/people_list.json'),
     		axios.get('/main_dir_pages.json'),
     		axios.get('/instruments_pages.json'),
-    		axios.get('/devices_list.json')
+    		axios.get('/devices_list.json'),
+    		axios.get('/about_pages.json')
     	])
-			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp]) => {
+			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp, aboutPagesResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
@@ -227,20 +254,23 @@ class App extends Component {
 					dataStateMainDirPages: DataState.SUCCESS,
 					dataStateInstrumPages: DataState.SUCCESS,
 					dataStateDevList: DataState.SUCCESS,
+					dataStateAboutPages: DataState.SUCCESS,
 					json: papersResp.data,
 					jsonPeople: peopleResp.data,
 					jsonMainDirPages: mainDirPagesResp.data,
 					jsonInstrumPages: instrumPagesResp.data,
-					jsonDevList:devListResp.data
+					jsonDevList:devListResp.data,
+					jsonAboutPages: aboutPagesResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList]) => {
+	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList, errorAboutPages]) => {
 				console.log(error);
 				console.log(errorPeople);
 				console.log(errorMainDirPages);
 				console.log(errorInstrumPages);
 				console.log(errorDevList);
+				console.log(errorAboutPages);
 				
 	    		app.setState({
 	    			dataState: DataState.FAIL,
@@ -248,11 +278,13 @@ class App extends Component {
 	    			dataStateMainDirPages: DataState.FAIL,
 	    			dataStateInstrumPages: DataState.FAIL,
 	    			dataStateDevList: DataState.FAIL,
+	    			dataStateAboutPages: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
 	    			jsonMainDirPages: null,
 	    			jsonInstrumPages: null,
 	    			jsonDevList: null,
+	    			jsonAboutPages: null,
 	    			error: {
 	    				code: error.papersResp.status,
 	    				text: error.papersResp.statusText
@@ -272,6 +304,10 @@ class App extends Component {
 	    			errorDevList: {
 	    				code: errorDevList.devListResp.status,
 	    				text: errorDevList.devListResp.statusText
+	    			},
+	    			errorAboutPages: {
+	    				code: errorAboutPages.aboutPagesResp.status,
+	    				text: errorAboutPages.aboutPagesResp.statusText
 	    			}
 	    		});
 		});
@@ -304,6 +340,7 @@ class App extends Component {
 			const jsonMainDirPages = this.state.jsonMainDirPages;
 			const jsonInstrumPages = this.state.jsonInstrumPages;
 			const jsonDevList = this.state.jsonDevList;
+			const jsonAboutPages = this.state.jsonAboutPages;
 	
 			let pageTitles = Object.keys(json.pages).sort();
 			let staffCatTitles = jsonPeople.category;
@@ -444,6 +481,30 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route path='/about/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/about/" outerClass="about" orpage={jsonAboutPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/about' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory outerClass="about" orpage={jsonAboutPages.url["about"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				  <Route exact path='/' render={ 
 					(props) => (
 						<div>
@@ -574,6 +635,13 @@ class App extends Component {
 						<div className="left_pane">
 							<Menu />
 							<MainDirButtonsWithHistory colors="dark" dir={jsonInstrumPages.url} maindir={"instrum/"} url={props.match.params.orpage}/>			
+						</div>
+					)
+				  } />
+				   <Route path='/about' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
 						</div>
 					)
 				  } />

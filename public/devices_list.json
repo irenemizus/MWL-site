@@ -169,7 +169,7 @@
         		"full_title": "Device&nbsp;008",
         		"structure": [
         			{
-        				"text": "<p><h3>Quasioptical broad-band wavemeter</h3></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;5 (1996)</a>].</p>",
+        				"text": "<p><h3>Quasioptical broadband wavemeter</h3></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;5 (1996)</a>].</p>",
         				"images": [
         					{
         						"file": "8.jpg"
@@ -215,7 +215,7 @@
         				]
         			},
         			{
-        				"text": "<p>Cutoff frequency: 6&nbsp;THz; <br>Typical capacitance (Co): 5&ndash;8&nbsp;fF; <br>Typical series resistance (Rs): 5&ndash;10&nbsp;Ohm; Breakdown voltage (Vr): 3&nbsp;V; <br>Maximal dissipated power: 10&nbsp;mW; <br>Operating temperature range: <br>from <span class=\"nobr\">-60 °C</span> up to <span class=\"nobr\">+125 °C;</span> <br>Dimensions: 0.5&nbsp;x&nbsp;0.1&nbsp;x&nbsp;0.01&nbsp;mm.</p>",
+        				"text": "<p>Cutoff frequency: 6&nbsp;THz; <br>Typical capacitance (Co): 5&ndash;8&nbsp;fF; <br>Typical series resistance (Rs): 5&ndash;10&nbsp;Ohm; Breakdown voltage (Vr): 3&nbsp;V; <br>Maximal dissipated power: 10&nbsp;mW; <br>Operating temperature range: <br>from <span class=\"nobr\">-60 &deg;C</span> up to <span class=\"nobr\">+125 &deg;C;</span> <br>Dimensions: 0.5&nbsp;x&nbsp;0.1&nbsp;x&nbsp;0.01&nbsp;mm.</p>",
         				"images": [
         					{
         						"file": "10.jpg"
@@ -234,7 +234,7 @@
         		"full_title": "Device&nbsp;011",
         		"structure": [
         			{
-        				"text": "<p><h3>Quasioptical Fabry-Perot Resonator</h3></p> <p>Operating wavelength range: from 5&nbsp;mm up to short submm. 45° thin film coupling. Fine length tuning within 2.5&nbsp;mm. Quality factor is near to limit for resonators with non-cooled mirrors. Q&nbsp;~&nbsp;60000 in 2&ndash;5&nbsp;mm wavelength range. Quasioptical 50&nbsp;% directional coupler for the resonator feeding and resonance detection together with horns is seen on the right.</p>",
+        				"text": "<p><h3>Quasioptical Fabry-Perot Resonator</h3></p> <p>Operating wavelength range: from 5&nbsp;mm up to short submm. 45&deg; thin film coupling. Fine length tuning within 2.5&nbsp;mm. Quality factor is near to limit for resonators with non-cooled mirrors. Q&nbsp;~&nbsp;60000 in 2&ndash;5&nbsp;mm wavelength range. Quasioptical 50&nbsp;% directional coupler for the resonator feeding and resonance detection together with horns is seen on the right.</p>",
         				"images": [
         					{
         						"file": "11.jpg"
@@ -400,7 +400,7 @@
         		"full_title": "Device&nbsp;019",
         		"structure": [
         			{
-        				"text": "<p>Classical Teraherz video-spectrometer was developed in our Lab primarily for highly accurate investigation of intramolecular interactions by studies of hyperfine structure of observed molecular transitions by the Lamb-dip method. The spectrometer can be also used for broad-band spectra studies in a usual direct  absorption regime with Doppler limited resolution.</p>",
+        				"text": "<p>Classical Teraherz video-spectrometer was developed in our Lab primarily for highly accurate investigation of intramolecular interactions by studies of hyperfine structure of observed molecular transitions by the Lamb-dip method. The spectrometer can be also used for broadband spectra studies in a usual direct  absorption regime with Doppler limited resolution.</p>",
         				"images": [
         					{
         						"file": "vid_spectr.jpg"

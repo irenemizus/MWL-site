@@ -117,7 +117,7 @@ a:hover {
   float: left;
 }
 
-.instrum .desc_text {
+.instrum .desc_text, .about .desc_text {
   display: inline-block;
   float: left;
   max-width: 310pt;
