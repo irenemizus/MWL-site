@@ -149,12 +149,77 @@ a:hover {
 	counter-increment: item;
 }
 
-.instrum ul {
+.instrum ul, .about ul {
 	padding: 0;
 	margin: 10pt 0;
 	list-style-position: inside;
 }
 
+.interest ul {
+	padding: 0;
+	margin: 10pt 0;
+}
+
 .instrum dl {
 	margin: 5pt 0
+}
+
+.ad {
+	font-family: "CenturySchL", "Georgia", Serif;
+	margin: 20pt;
+	text-align: justify;
+	line-height: 1.3;
+
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.ad h1 {
+	color: #c82509;
+	text-align: center;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.ad h2 {
+	font-size: 130%;
+	text-align: center;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.ad h3 {
+	font-size: 100%;
+	margin-bottom: 3pt;
+	text-align: left;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+.ad p {
+	margin-top: 0;
+}
+
+.ad ul {
+	margin: 10pt;
+	padding-left: 20pt;
+}
+
+.ad .ttl {
+	font-weight: bold;
+}
+
+.ad .bigger {
+	font-size: 110%;
 }

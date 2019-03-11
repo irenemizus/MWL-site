@@ -4,19 +4,13 @@
     		"title": "About us",
     		"structure": [
     			{
-      				"text": "<p>The Laboratory (full official name is Microwave Spectroscopy Department) was organized in 1977, with the establishment of IAP RAS. The Laboratory was formed on the base of works of the group by <a href=\"index.html#/people/permanent/krupnov\">A.F.&nbsp;Krupnov</a> in <a href=\"http://nirfi.ru/\" target=\"_blank\">NIRFI</a>, which led to developments of submillimeter wave spectrometer with <a href=\"index.html#/instrum/35/35_2\" target=\"_blank\">Backward Wave Oscillators</a> (BWOs) and acoustic detection (RAD) and the phase lock-in system of submillimeter BWOs (both in 1970). Both those developments proved to be very successful and gave good perspective for many further developments of submillimeter wave spectroscopic technique and investigations of molecular spectra (see <a href=\"index.html#/instrum\">Instruments</a> and <a href=\"index.html#/list\">List of publications</a>). The department of microwave spectroscopy was the first in the new Institute to recieve the USSR State Prize in Science (1980, &ldquo;For Development of Submillimeter Wave Spectroscopy with Backward Wave Oscillators&rdquo;). Current activity of the Laboratory is presented on the site. A.F.&nbsp;Krupnov headed the Laboratory from 1977 to 2005; at the present <a href=\"index.html#/people/permanent/tretyakov\">M.Yu.&nbsp;Tretyakov</a> is the Head of the Laboratory.</p>"
+      				"text": "<p>The Laboratory (full official name is Microwave Spectroscopy Department) was organized in 1977, with the establishment of IAP RAS. The Laboratory was formed on the base of works of the group by <a href=\"index.html#/people/permanent/krupnov\">A.F.&nbsp;Krupnov</a> in <a href=\"https://en.wikipedia.org/wiki/Radiophysical_Research_Institute\" target=\"_blank\">NIRFI</a>, which led to developments of submillimeter wave spectrometer with <a href=\"index.html#/instrum/35/35_2\" target=\"_blank\">Backward Wave Oscillators</a> (BWOs) and acoustic detection (<a href=\"index.html#/instrum/rad\">RAD</a>) and the <a href=\"index.html#/instrum/400\">phase lock-in system</a> of submillimeter BWOs (both in 1970). Both those developments proved to be very successful and gave good perspective for many further developments of submillimeter wave spectroscopic technique and investigations of molecular spectra (see <a href=\"index.html#/instrum\">Instruments</a> and <a href=\"index.html#/list\">List of publications</a>). The department of microwave spectroscopy was the first in the new Institute to recieve the USSR State Prize in Science (1980, &ldquo;For Development of Submillimeter Wave Spectroscopy with Backward Wave Oscillators&rdquo;). Current activity of the Laboratory is presented on the site. A.F.&nbsp;Krupnov headed the Laboratory from 1977 to 2005; at the present <a href=\"index.html#/people/permanent/tretyakov\">M.Yu.&nbsp;Tretyakov</a> is the Head of the Laboratory.</p>"
 				},
 				{
-					"subtitle": "Recognition of our achievements"
+      				"text": "<h1>Recognition of our achievements</h1><ul><li><a href=\"index.html#/about/about_Hougen\">1975&nbsp;&mdash;&nbsp;Jon T.&nbsp;Hougen, <em>Applied Optics</em></a></li><li><a href=\"index.html#/about/about_Herzberg\">1976&nbsp;&mdash;&nbsp;G.&nbsp;Herzberg, <em>Molecular Spectroscopy: Modern Research</em></a></li><li><a href=\"index.html#/about/about_Williams\">1976&nbsp;&mdash;&nbsp;D.&nbsp;Johnson, R.&nbsp;Pearson, <em>Methods of Experimental Physics</em></a></li><li><a href=\"index.html#/about/about_Wilson\">1979&nbsp;&mdash;&nbsp;E.&nbsp;Bright Wilson, <em>Annual Reviews Phys. Chem.</em></a></li><li><a href=\"index.html#/about/about_Winnewisser\">1982&nbsp;&mdash;&nbsp;Manfred Winnewisser, <em>Journal of Molecular Structure</em></a></li><li><a href=\"index.html#/about/about_Gordy_2\">1983&nbsp;&mdash;&nbsp;Walter Gordy, <em>Journal of Molecular Structure</em></a></li><li><a href=\"index.html#/about/about_Sheridan\">1983&nbsp;&mdash;&nbsp;John Sheridan, <em>Journal of Molecular Structure</em></a></li><li><a href=\"index.html#/about/about_Gordy\">1986&nbsp;&mdash;&nbsp;W.&nbsp;Gordy, R.L.&nbsp;Cook, <em>Microwave Molecular Spectra</em></a></li><li><a href=\"index.html#/about/about_press\">1997&nbsp;&mdash;&nbsp;Press about water on the Sun</a></li><li><a href=\"index.html#/about/about_Master\">2005&nbsp;&mdash;&nbsp;ESA &ldquo;Master&rdquo; Database</a></li><li><a href=\"index.html#/about/about_JMS_1\">2005/2006&nbsp;&mdash;&nbsp;<em>J. Mol. Spectrosc.</em>, Highest cited  papers</a></li><li><a href=\"index.html#/about/about_JCP\">2009&nbsp;&mdash;&nbsp;<em>J. Chem. Phys.</em>, Top 20 most downloaded articles</a></li><li><a href=\"index.html#/about/frontiers\">2010&nbsp;&mdash;&nbsp;C.&nbsp;David Sherrill, <em>J. Chem. Phys.</em></a></li><li><a href=\"img/about/Hougen-letter.pdf\" target=\"_blank\">2012&nbsp;&mdash;&nbsp;Jon T.&nbsp;Hougen</a></li><li><a href=\"index.html#/about/RAS\">2012&nbsp;&mdash;&nbsp;Annual Report of Russian Academy of Sciences</a></li><li><a href=\"index.html#/about/press_news\">2013&nbsp;&mdash;&nbsp;Press about water dimer detection</a></li><li><a href=\"http://physics.aps.org/articles/v6/22\" target=\"_blank\">2013&nbsp;&mdash;&nbsp;Richard J.&nbsp;Saykally, <em>Physics</em></a></li><li><a href=\"img/about/Tennyson.pdf\" target=\"_blank\">2013&nbsp;&mdash;&nbsp;Jonathan Tennyson</a></li><li><a href=\"index.html#/about/about_HITRAN\">2017&nbsp;&mdash;&nbsp;HITRAN</a></li><li><a href=\"index.html#/about/about_Encycl_Mod_Opt\">2018&nbsp;&mdash;&nbsp;Encyclopedia of Modern Optics</a></li><li><a href=\"img/about/Certificates.pdf\">Certificates of Appreciation and Reviewing from journals</a></li><li><a href=\"index.html#/about/about_JMS\"><em>Journal of Molecular Spectroscopy</em>, Cover papers</a></li></ul>"
 				},
 				{
-      				"text": "<ul><li><a href=\"img/about/Certificates.pdf\">Certificates of Appreciation and Reviewing from journals</a></li><li><a href=\"index.html#/about/about_Encycl_Mod_Opt\">Encyclopedia of Modern Optics</a></li><li><a href=\"index.html#/about/about_Gordy\">W.&nbsp;Gordy, R.L.&nbsp;Cook, Microwave Molecular Spectra</a></li><li><a href=\"index.html#/about/about_Gordy_2\">Walter Gordy</a></li><li><a href=\"index.html#/about/about_Herzberg\">G.&nbsp;Herzberg, Molecular Spectroscopy: Modern Research</a></li><li><a href=\"index.html#/about/about_HITRAN\">HITRAN</a></li><li><a href=\"index.html#/about/about_Hougen\">Jon Hougen, 1975</a></li><li><a href=\"img/about/Hougen-letter.pdf\" target=\"_blank\">Jon Hougen, 2012</a></li><li><a href=\"index.html#/about/about_JCP\"><em>J. Chem. Phys.</em>, Dec. 2009, Top 20 most downloaded articles</a></li><li><a href=\"index.html#/about/about_JMS\"><em>Journal of Molecular Spectroscopy</em>, Cover papers</a></li><li><a href=\"index.html#/about/about_JMS_1\"><em>J. Mol. Spectrosc.</em>, Highest cited 2005/2006 papers</a></li><li><a href=\"index.html#/about/about_Master\">ESA &ldquo;Master&rdquo; Database</a></li><li><a href=\"index.html#/about/press_news\">Press about water dimer detection</a></li><li><a href=\"index.html#/about/about_press\">Press about water on the Sun</a></li><li><a href=\"index.html#/about/RAS\">Russian Academy of Sciences</a></li><li><a href=\"http://physics.aps.org/articles/v6/22\" target=\"_blank\">Richard Saykally</a></li><li><a href=\"index.html#/about/about_Sheridan\">John Sheridan</a></li><li><a href=\"index.html#/about/frontiers\">C.&nbsp;David Sherrill</a></li><li><a href=\"img/about/Tennyson.pdf\" target=\"_blank\">Jonathan Tennyson</a></li><li><a href=\"index.html#/about/about_Williams\"><em>Methods of Experimental Physics</em>, <strong>V.&nbsp;13</strong>, D.&nbsp;Williams, Ed.</a></li><li><a href=\"index.html#/about/about_Wilson\">E.&nbsp;Bright Wilson</a></li><li><a href=\"index.html#/about/about_Winnewisser\">Manfred Winnewisser</a></li></ul>"
-				},
-				{
-					"subtitle": "How to find us (Travel Information)"
-				},
-				{
-      				"text": "<ul type=\"circle\"><li>GPS:&nbsp;N&nbsp;56&deg;&nbsp;19.407'&nbsp;&nbsp;E 44&deg;&nbsp;1.345'</li><li><a href=\"img/about/map_N_N_engl.jpg\" target=\"_blank\">Map of Nizhny Novgorod (JPG, 550&nbsp;Kb)</a></li><li><a href=\"index.html#/about/transport\">Transport</a></li></ul>"
+      				"text": "<h1>How to find us</h1><ul type=\"circle\"><li>GPS:&nbsp;N&nbsp;56&deg;&nbsp;19.407'&nbsp;&nbsp;E 44&deg;&nbsp;1.345'</li><li><a href=\"img/about/map_N_N_engl.jpg\" target=\"_blank\">Map of Nizhny Novgorod (JPG, 550&nbsp;Kb)</a></li><li><a href=\"https://wikiroutes.info/en/n-novgorod\" target=\"_blank\">Urban transport in Nizhny Novgorod</a></li></ul>"
 				}
 			]
 		},
@@ -33,7 +27,7 @@
         			]
         		},
     			{
-      				"text": "<p>...Oleg Polyansky and Jonathan Tennyson of University College London and their colleagues say in last week's <em>Science</em> (<strong>V.&nbsp;277</strong>, P.&nbsp;346) that they have used computers to work out what the infrared spectrum of a watery sunspot at 3000&nbsp;&deg;C should look like. Comparing it with the real thing, they found an almost perfect match... <font color=\"##0000CC\">(issue&nbsp;2092 of <em>New Scientist</em> magazine, July&nbsp;26, 1997, page&nbsp;25)</font></p><p>...The team was led by Oleg Polyansky, a theoretician from Russia's Institute of Applied Physics; Nizhny Novgorod, who works with co-researcher Jonathan Tennyson, a physicist at University College, London; and UW chemistry Prof.&nbsp;Peter Bernath, an expert in molecular astronomy. Other team members included Serena Viti, Nikolay Zobov, Lloyd Wallace. In their 1995 study, the team recorded evidence of water &mdash; not in liquid form because the Sun is too hot, but as vapor or steam &mdash; in dark sunspots... <font color=\"##0000CC\">(<em>University of Waterloo</em> Press Release No.&nbsp;115 &mdash; July&nbsp;17, 1997)</font></p><p>...Dr.&nbsp;Oleg Polyansky and colleagues at University College London and Russian Academy of Sciences report today in the journal <em>Science</em> that water does indeed exist on the Sun... <font color=\"##0000CC\">(<em>The Daily Telegraph</em>, July&nbsp;18, 1997)</font></p><p>...scientists have spotted the equivalent of the snowflake in hell. They have confirmed the presence of water on the Sun... <font color=\"##0000CC\">(<em>The Guardian</em>, July&nbsp;18, 1997)</font></p><p>...Spectrometers pointed at the Sun &mdash; which monitor the electromagnetic radiation given off by atomic bonds as they vibrate &mdash; give results identical to those predicted by the computer models, showing that water molecules are present in sunspot areas... <font color=\"##0000CC\">(<em>The Independent</em>, July&nbsp;18, 1997)</font></p>"
+      				"text": "<p>&#8230;Oleg Polyansky and Jonathan Tennyson of University College London and their colleagues say in last week's <em>Science</em> (<strong>V.&nbsp;277</strong>, P.&nbsp;346) that they have used computers to work out what the infrared spectrum of a watery sunspot at 3000&nbsp;&deg;C should look like. Comparing it with the real thing, they found an almost perfect match&#8230; <font color=\"##0000CC\">(issue&nbsp;2092 of <em>New Scientist</em> magazine, July&nbsp;26, 1997, page&nbsp;25)</font></p><p>&#8230;The team was led by Oleg Polyansky, a theoretician from Russia's Institute of Applied Physics; Nizhny Novgorod, who works with co-researcher Jonathan Tennyson, a physicist at University College, London; and UW chemistry Prof.&nbsp;Peter Bernath, an expert in molecular astronomy. Other team members included Serena Viti, Nikolay Zobov, Lloyd Wallace. In their 1995 study, the team recorded evidence of water &mdash; not in liquid form because the Sun is too hot, but as vapor or steam &mdash; in dark sunspots&#8230; <font color=\"##0000CC\">(<em>University of Waterloo</em> Press Release No.&nbsp;115 &mdash; July&nbsp;17, 1997)</font></p><p>&#8230;Dr.&nbsp;Oleg Polyansky and colleagues at University College London and Russian Academy of Sciences report today in the journal <em>Science</em> that water does indeed exist on the Sun&#8230; <font color=\"##0000CC\">(<em>The Daily Telegraph</em>, July&nbsp;18, 1997)</font></p><p>&#8230;scientists have spotted the equivalent of the snowflake in hell. They have confirmed the presence of water on the Sun&#8230; <font color=\"##0000CC\">(<em>The Guardian</em>, July&nbsp;18, 1997)</font></p><p>&#8230;Spectrometers pointed at the Sun &mdash; which monitor the electromagnetic radiation given off by atomic bonds as they vibrate &mdash; give results identical to those predicted by the computer models, showing that water molecules are present in sunspot areas&#8230; <font color=\"##0000CC\">(<em>The Independent</em>, July&nbsp;18, 1997)</font></p>"
 				}
 			]
 		},
@@ -285,10 +279,13 @@
         			"images": [
         				{
         					"file": "HITRAN2016.jpg",
-        					"minwidth": "650px"
+        					"minwidth": "800px"
   						}
         			]
-        		}
+        		},
+    			{
+      				"text": "<p>Full text is <a href=\"https://www.sciencedirect.com/science/article/pii/S0022407317301073\" target=\"blank\">here</a>.</p>"
+				}
 			]
 		},
 		"about_JMS": {
@@ -443,15 +440,6 @@
         			]
         		},
         		{
-    				"text":"<p><a href=\"http://wiki.ru/sites/khimiya/id-news-43list.html#/page/9169\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
-        			"images": [
-        				{
-        					"file": "press/WiKi_RU.jpg",
-        					"minwidth": "350px"
-  						}
-        			]
-        		},
-        		{
     				"text":"<p><a href=\"mht/InstituteHimiRaznoobraziya.mht\" target=\"_blank\">Elusive water dimer detected</a> (in Russian)</p>",
         			"images": [
         				{
@@ -596,21 +584,6 @@
         			]
         		}
         	]
-        },
-        "transport": {
-    		"link_from": "about",
-    		"title": "Travel information",
-    		"structure": [
-    			{
-      				"text": "<p>Trains to Nizhny Novgorod:<br /><a href=\"http://www.avialot.ru/rasp/4?p=0\" target=\"_blank\">http://www.avialot.ru/rasp/4?p=0</a></p><p>Flights to Nizhny Novgorod:<br /><a href=\"http://www.avialot.ru/rasp/5?p=0\" target=\"_blank\">http://www.avialot.ru/rasp/5?p=0</a></p><p><a href=\"img/about/map_N_N_engl.jpg\" target=\"_blank\">Map of central part of Nizhny Novgorod (JPG, 550&nbsp;Kb)</a></p>"
-				},
-				{
-					"subtitle": "Urban transport in Nizhny Novgorod"
-				},
-				{
-      				"text": "<table><tr><td><strong>Bus route</strong></td><td><strong>Bus number</strong></td></tr><tr><td>Railway station &mdash; Technical university (bus stop near Institute of Applied Physics)</td><td>T-2, T-40, T-140</td></tr><tr><td>Railway station &mdash; Svoboda Square (bus stop near Institute of Applied Physics)</td><td>T-34, T-134, 61, 38</td></tr><tr><td>Railway station &mdash; <a href=\"http://www.hoteloka.ru/\" target=\"_blank\">Hotel OKA</a></td><td>T-103, T-105, T-143, T-180</td></tr><tr><td>Hotel OKA &mdash; Svoboda Square</td><td>T-97, T-104</td></tr><tr><td>Airport &mdash; Svoboda Square</td><td>Mini-bus 20</td></tr></table>"
-				}			
-			]
-		}
+        }
 	}        	
 }

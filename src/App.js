@@ -56,7 +56,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -68,7 +68,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -80,7 +80,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -92,7 +92,7 @@ class Menu extends Component {
 							<div className="menu_item_active"><span>{line}Instruments</span></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -104,7 +104,7 @@ class Menu extends Component {
 							<div className="menu_item_active"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -116,7 +116,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item_active"><span>{line}List of publications</span></div>					
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -128,7 +128,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item_active"><Link to={"/list"}>{line}List of publications</Link></div>					
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -140,7 +140,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item_active"><span>{line}About</span></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -152,7 +152,31 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item_active"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/interest' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item_active"><span>{line}Интересующимся</span></div>
+						</div>
+					)
+				} />
+				<Route path='/interest/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item_active"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -164,7 +188,7 @@ class Menu extends Component {
 							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
 							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -228,12 +252,14 @@ class App extends Component {
 			dataStateInstrumPages: DataState.LOADING,
 			dataStateDevList: DataState.LOADING,
 			dataStateAboutPages: DataState.LOADING,
+			dataStateInterestPages: DataState.LOADING,
 			json: null,
 			jsonPeople: null,
 			jsonMainDirPages: null,
 			jsonInstrumPages: null,
 			jsonDevList: null,
-			jsonAboutPages: null
+			jsonAboutPages: null,
+			jsonInterestPages: null
 		};
 		
 		let app = this;
@@ -244,9 +270,10 @@ class App extends Component {
     		axios.get('/main_dir_pages.json'),
     		axios.get('/instruments_pages.json'),
     		axios.get('/devices_list.json'),
-    		axios.get('/about_pages.json')
+    		axios.get('/about_pages.json'),
+    		axios.get('/interest_pages.json')
     	])
-			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp, aboutPagesResp]) => {
+			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp, aboutPagesResp, interestPagesResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
@@ -255,22 +282,25 @@ class App extends Component {
 					dataStateInstrumPages: DataState.SUCCESS,
 					dataStateDevList: DataState.SUCCESS,
 					dataStateAboutPages: DataState.SUCCESS,
+					dataStateInterestPages: DataState.SUCCESS,
 					json: papersResp.data,
 					jsonPeople: peopleResp.data,
 					jsonMainDirPages: mainDirPagesResp.data,
 					jsonInstrumPages: instrumPagesResp.data,
 					jsonDevList:devListResp.data,
-					jsonAboutPages: aboutPagesResp.data
+					jsonAboutPages: aboutPagesResp.data,
+					jsonInterestPages: interestPagesResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList, errorAboutPages]) => {
+	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList, errorAboutPages, errorInterestPages]) => {
 				console.log(error);
 				console.log(errorPeople);
 				console.log(errorMainDirPages);
 				console.log(errorInstrumPages);
 				console.log(errorDevList);
 				console.log(errorAboutPages);
+				console.log(errorInterestPages);
 				
 	    		app.setState({
 	    			dataState: DataState.FAIL,
@@ -279,12 +309,14 @@ class App extends Component {
 	    			dataStateInstrumPages: DataState.FAIL,
 	    			dataStateDevList: DataState.FAIL,
 	    			dataStateAboutPages: DataState.FAIL,
+	    			dataStateInterestPages: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
 	    			jsonMainDirPages: null,
 	    			jsonInstrumPages: null,
 	    			jsonDevList: null,
 	    			jsonAboutPages: null,
+	    			jsonInterestPages: null,
 	    			error: {
 	    				code: error.papersResp.status,
 	    				text: error.papersResp.statusText
@@ -308,6 +340,10 @@ class App extends Component {
 	    			errorAboutPages: {
 	    				code: errorAboutPages.aboutPagesResp.status,
 	    				text: errorAboutPages.aboutPagesResp.statusText
+	    			},
+	    			errorInterestPages: {
+	    				code: errorInterestPages.interestPagesResp.status,
+	    				text: errorInterestPages.interestPagesResp.statusText
 	    			}
 	    		});
 		});
@@ -341,6 +377,7 @@ class App extends Component {
 			const jsonInstrumPages = this.state.jsonInstrumPages;
 			const jsonDevList = this.state.jsonDevList;
 			const jsonAboutPages = this.state.jsonAboutPages;
+			const jsonInterestPages = this.state.jsonInterestPages;
 	
 			let pageTitles = Object.keys(json.pages).sort();
 			let staffCatTitles = jsonPeople.category;
@@ -505,6 +542,30 @@ class App extends Component {
 						</div>
 					)
 				  } />
+				  <Route path='/interest/:orpage' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/interest/" outerClass="interest" orpage={jsonInterestPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/interest' render={ 
+					(props) => (
+						<div>
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory outerClass="interest" orpage={jsonInterestPages.url["interest"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
 				  <Route exact path='/' render={ 
 					(props) => (
 						<div>
@@ -639,6 +700,13 @@ class App extends Component {
 					)
 				  } />
 				   <Route path='/about' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
+						</div>
+					)
+				  } />
+				  <Route path='/interest' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />	

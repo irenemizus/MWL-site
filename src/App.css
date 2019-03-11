@@ -222,6 +222,11 @@ table, td, th {
   margin: auto;
 }
 
+.tablecust table, .tablecust td, .tablecust th {
+  border: none;
+  margin: auto;
+}
+
 div.device_page ul {
 	padding: 0;
     text-indent: 2pt;
