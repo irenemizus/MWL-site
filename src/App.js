@@ -215,7 +215,7 @@ class Footer extends Component {
 									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 07.03.19
+								Last update 13.03.19
 							</div>
 						</div>
 					)
