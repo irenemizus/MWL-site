@@ -711,6 +711,22 @@
                         },
                         {
                             "authors": [
+                                "A.V.&nbsp;Burenin"
+                            ],
+                            "data": "17(9), 1291&ndash;1303",
+                            "data_trans": "17(9), 984&ndash;994",
+                            "journal": "Izv. VUZov. Radiofizika",
+			    "journal_trans": "Radiophysics and Quantum Electronics",
+                            "language": "in Russian",
+                            "language_trans": "in English",
+                            "title": "Theoretical Analysis of the Gas Cell of a Microwave Spectroscope with an Acoustic Detector",
+                            "url": "1974Burenin-4.pdf",
+                            "url_trans": "1974Burenin-5.pdf",
+                            "year": "1974",
+                            "year_trans": "1974"
+                        },
+                        {
+                            "authors": [
                                 "I.I.&nbsp;Antakov",
                                 "S.P.&nbsp;Belov",
                                 "L.I.&nbsp;Gershtein",
@@ -6070,7 +6086,7 @@
                             "language": "in Russian",
                             "language_trans": "in English",
                             "title": "Bremsstrahlung from Collisions of Low-Energy Electrons with Positive Ions in a Magnetic Field",
-							"url": "2009Bubukina.pdf",
+			    "url": "2009Bubukina.pdf",
                             "url_trans": "2009Bubukina-1.pdf",
                             "year": "2009",
                             "year_trans": "2009",
@@ -6084,7 +6100,7 @@
                             "data": "172, 012052",
                             "journal": "16th Europ. White Dwarfs Workshop. J. Phys.: Conf. Series",
                             "title": "Strong Linear Polarization of Bremsstrahlung Emissivity in Photospheres of Magnetic White Dwarfs",
-							"url": "2009Bubukina-2.pdf",
+			    "url": "2009Bubukina-2.pdf",
                             "year": "2009",
                             "status": "third-party"
                         }
@@ -8150,7 +8166,7 @@
                                 "P.A.&nbsp;Coles",
                                 "R.I.&nbsp;Ovsyannikov",
                                 "A.A.&nbsp;Kyuberis",
-                        		"R.J.&nbsp;Hargreaves",
+                        	"R.J.&nbsp;Hargreaves",
                                 "P.F.&nbsp;Bernath",
                                 "J.&nbsp;Tennyson",
                                 "S.N.&nbsp;Yurchenko",
@@ -8205,21 +8221,6 @@
                             "journal": "J. Mol. Spectrosc.",
                             "title": "A New Spectroscopically-Determined Potential Energy Surface and <em>ab initio</em> Dipole Moment Surface for High Accuracy HCN Intensity Calculations",
                             "url": "2018Makhnev-1.pdf",
-                            "year": "2018"
-                        },
-                        {
-                            "authors": [
-                                "I.I.&nbsp;Mizus",
-                                "O.L.&nbsp;Polyansky",
-                                "L.K.&nbsp;McKemmish",
-                                "J.&nbsp;Tennyson",
-                                "A.&nbsp;Alijah",
-                                "N.F.&nbsp;Zobov"
-                            ],
-                            "data": "doi:10.1080/00268976.2018.1554195",
-                            "journal": "Mol. Phys.",
-                            "title": "A Global Potential Energy Surface for H<sub>3</sub><sup>+</sup>",
-                            "url": "2018Mizus-1.pdf",
                             "year": "2018"
                         },
                         {
@@ -8319,11 +8320,11 @@
                             "url": "2018Ulenikov-1.pdf",
                             "year": "2018"
                         }
-					],
-					"title": "2018"
-				}
-			]
-		},
+		    ],
+		    "title": "2018"
+		}
+	    ]
+	},
         "2019": {
             "title": "Our scientific articles",
             "paragraphs": [
@@ -8354,7 +8355,7 @@
                                 "S.P.&nbsp;Belov",
                                 "A.V.&nbsp;Lapinov",
                                 "E.A.&nbsp;Alekseev",
-								"I.&nbsp;Krapivin",
+				"I.&nbsp;Krapivin",
                                 "L.&nbsp;Margules",
                                 "R.A.&nbsp;Motiyenko",
                                 "S.&nbsp;Bailleux"
@@ -8369,8 +8370,8 @@
                             "authors": [
                             	"T.A.&nbsp;Odintsova",
                             	"M.Yu.&nbsp;Tretyakov",
-								"A.O.&nbsp;Zibarova",
-								"O.&nbsp;Pirali",
+				"A.O.&nbsp;Zibarova",
+				"O.&nbsp;Pirali",
                                 "P.&nbsp;Roy",
                                 "A.&nbsp;Campargue"
                             ],
@@ -8379,9 +8380,195 @@
                             "title": "Far-Infrared Self-Continuum Absorption of H<sub>2</sub><sup>16</sup>O and H<sub>2</sub><sup>18</sup>O (15&ndash;500&nbsp;cm<sup>−1</sup>)",
                             "url": "2019Odintsova.pdf",
                             "year": "2019"
+                        },
+                        {
+                            "authors": [
+                                "A.F.&nbsp;Krupnov",
+                                "M.Yu.&nbsp;Tretyakov"
+                            ],
+                            "data": "62(4), 277&ndash;285",
+                            "data_trans": "62(4), 250&ndash;256",
+                            "journal": "Izv. VUZov. Radiofizika",
+                            "journal_trans": "Radiophysics and Quantum Electronics",
+                            "language": "in Russian",
+                            "language_trans": "in English",
+                            "title": "Volume Heating of a Vertical Air Column by Microwave Radiation in the Atmospheric Absorption Line",
+                            "url": "2019Krupnov.pdf",                            
+                            "url_trans": "2019Krupnov-1.pdf",
+                            "year": "2019",
+                            "year_trans": "2019"
+                        },
+                        {
+                            "authors": [
+                                "I.I.&nbsp;Mizus",
+                                "O.L.&nbsp;Polyansky",
+                                "L.K.&nbsp;McKemmish",
+                                "J.&nbsp;Tennyson",
+                                "A.&nbsp;Alijah",
+                                "N.F.&nbsp;Zobov"
+                            ],
+                            "data": "117(13), 1663&ndash;1672",
+                            "journal": "Mol. Phys.",
+                            "title": "A Global Potential Energy Surface for H<sub>3</sub><sup>+</sup>",
+                            "url": "2019Mizus.pdf",
+                            "year": "2019"
+                        },
+			{
+                            "authors": [
+                                "A.G.&nbsp;Orlova",
+                                "A.V.&nbsp;Maslennikova",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "A.S.&nbsp;Suryakova",
+                                "M.Yu.&nbsp;Kirillin",
+                                "D.A.&nbsp;Kurakina",
+                                "T.I.&nbsp;Kalganova",
+                                "A.B.&nbsp;Volovetsky",
+                                "I.V.&nbsp;Turchin"
+                            ],
+                            "data": "5, 035010",
+                            "journal": "Biomed. Phys. Eng. Express",
+                            "title": "Diffuse Optical Spectroscopy Assessment of Rodent Tumor Model Oxygen State After Single-Dose Irradiation",
+                            "url": "2019Orlova.pdf",
+                            "year": "2019"
+                        },
+			{
+                            "authors": [
+                                "M.V.&nbsp;Pavlov",
+                                "S.A.&nbsp;Pegov",
+                                "A.G.&nbsp;Orlova",
+                                "G.Yu.&nbsp;Golubyatnikov",
+                                "L.V.&nbsp;Shkalova",
+                                "P.A.&nbsp;Malinina",
+                                "P.I.&nbsp;Rykhtik",
+                                "I.V.&nbsp;Turchin",
+                                "A.V.&nbsp;Maslennikova"
+                            ],
+                            "data": "18(4), 92&ndash;101",
+                            "journal": "Siberian Journal of Oncology",
+                            "language": "only in Russian",
+                            "title": "The Role of Diffuse Optical Spectroscopy in the Diagnosis of Breast Cancer (Case Report)",
+                            "url": "2019Pavlov.pdf",
+                            "year": "2019"
+                        },
+                        {
+                            "authors": [
+                            	"O.N.&nbsp;Ulenikov",
+                            	"O.V.&nbsp;Gromova",
+                            	"E.S.&nbsp;Bekhtereva",
+                            	"N.I.&nbsp;Raspopova",
+                            	"M.A.&nbsp;Koshelev", 
+                            	"I.A.&nbsp;Velmuzhova",
+                            	"P.G.&nbsp;Sennikov",
+                                "A.D.&nbsp;Bulanov",
+                            	"A.V.&nbsp;Kuznetsov",
+				"C.&nbsp;Leroy"
+                            ],
+                            "data": "236, 106593",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "First High-Resolution Analysis of the 2<em>&nu;</em><sub>1</sub>(<em>A</em><sub>1</sub>) and <em>&nu;</em><sub>1</sub> + <em>&nu;</em><sub>3</sub>(<em>F</em><sub>2</sub>) Interacting States of <sup>72</sup>GeH<sub>4</sub> and <sup>73</sup>GeH<sub>4</sub> ",
+                            "url": "2019Ulenikov-1.pdf",
+                            "year": "2019"
+                        },
+			{
+                            "authors": [
+                            	"A.V.&nbsp;Domanskaya",
+                                "R.E.&nbsp;Asfin",
+                            	"A.A.&nbsp;Kyuberis",
+                                "V.&nbsp;Ebert"
+                            ],
+                            "data": "235, 209&ndash;216",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "CH<sub>4</sub> Broadening and Shifting Coeﬃcients in the Fermi Triad of <sup>12</sup>C<sup>16</sup>O<sub>2</sub> in the 2&nbsp;&mu;m Region",
+                            "url": "2019Domanskaya.pdf",
+                            "year": "2019"
                         }
                     ],
                     "title": "2019"
+                }
+            ]
+        },
+        "2020": {
+            "title": "Our scientific articles",
+            "paragraphs": [
+                {
+                    "articles": [
+                        {
+                            "authors": [
+                            	"E.K.&nbsp;Conway",
+                                "I.E.&nbsp;Gordon",
+                            	"A.A.&nbsp;Kyuberis",
+                                "O.L.&nbsp;Polyansky",
+                                "J.&nbsp;Tennyson",
+                                "N.F.&nbsp;Zobov"
+                            ],
+                            "data": "241, 106711",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Calculated Line Lists for H<sub>2</sub><sup>16</sup>O and H<sub>2</sub><sup>18</sup>O with Extensive Comparisons to Theoretical and Experimental Sources Including the HITRAN2016 Database",
+                            "url": "2020Conway.pdf",
+                            "year": "2020"
+                        },
+                        {
+                            "authors": [
+                                "M.A.&nbsp;Koshelev",
+                            	"I.N.&nbsp;Vilkov", 
+                            	"O.&nbsp;Egorov",
+                                "A.V.&nbsp;Nikitin",
+                                "M.&nbsp;Rey"
+                            ],
+                            "data": "242, 106781",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "High-Sensitivity Measurements of <sup>12</sup>CH<sub>3</sub>D Pure Rotational Lines in Ground and Excited Vibrational States in the subTHz Region",
+                            "url": "2020Koshelev.pdf",
+                            "year": "2020"
+                        },
+			{
+                            "authors": [
+                            	"E.A.&nbsp;Serov",
+                            	"A.A.&nbsp;Balashov",
+                            	"M.Yu.&nbsp;Tretyakov",
+                                "T.A.&nbsp;Odintsova",
+                            	"M.A.&nbsp;Koshelev", 
+                            	"D.N.&nbsp;Chistikov", 
+                            	"A.A.&nbsp;Finenko", 
+                            	"S.E.&nbsp;Lokshtanov",
+                            	"S.V.&nbsp;Petrov",
+				"A.A.&nbsp;Vigasin"
+                            ],
+                            "data": "242, 106774",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Continuum Absorption of Millimeter Waves in Nitrogen",
+                            "url": "2020Serov.pdf",
+                            "year": "2020"
+                        },
+			{
+                            "authors": [
+                            	"M.&nbsp;Toureille",
+                            	"S.&nbsp;Beguier",
+                                "T.A.&nbsp;Odintsova",
+                            	"M.Yu.&nbsp;Tretyakov",
+                            	"O.&nbsp;Pirali", 
+                                "A.&nbsp;Campargue"
+                            ],
+                            "data": "242, 106709",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "The O<sub>2</sub> Far-Infrared Absorption Spectrum between 50 and 170&nbsp;cm<sup>-1</sup>",
+                            "url": "2020Toureille.pdf",
+                            "year": "2020"
+                        },
+			{
+                            "authors": [
+                            	"D.S.&nbsp;Makarov",
+                            	"M.Yu.&nbsp;Tretyakov",
+                                "P.W.&nbsp;Rosenkranz"
+                            ],
+                            "data": "242, 106798",
+                            "journal": "J. Quant. Spectrosc. Rad. Trans.",
+                            "title": "Revision of the 60-GHz Atmospheric Oxygen Absorption Band Models for Practical Use",
+                            "url": "2020Makarov.pdf",
+                            "year": "2020"
+                        }
+                    ],
+                    "title": "2020"
                 }
             ]
         }
