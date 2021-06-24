@@ -212,10 +212,10 @@ class Footer extends Component {
 							<div className="contacts">
 								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
 									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
-									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 05.02.20
+								Last update 24.06.21
 							</div>
 						</div>
 					)
@@ -227,7 +227,7 @@ class Footer extends Component {
 							<div className="contacts">
 								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
 									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
-									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 						</div>
 					)

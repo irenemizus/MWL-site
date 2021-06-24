@@ -366,9 +366,9 @@
         			"short_name": "Irina&nbsp;I.&nbsp;Mizus&nbsp;(Bubukina)",
         			"acad_degree": "Ph.D. in Physics",
         			"position": "Researcher",
-        			"email": "ireneb86&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+        			"email": "irene.mizus&nbsp;(at)&nbsp;gmail.com",
         			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Irina&nbsp;I.&nbsp;Mizus (Bubukina) was born in Nizhny Novgorod, Russia, 17.03.1986.</p> <p>Graduated from the ASGAP (the Advanced School of General and Applied Physics) &mdash; faculty of Nizhny Novgorod State University &mdash; in 2009 as a master of physics. The theme of the master diploma is &ldquo;The H<sub>2</sub><sup>16</sup>O molecule PES optimization&rdquo;. Started working in the Microwave Spectroscopy laboratory (MWL) of the Institute of Applied Physics RAS (IAP RAS) in 2008 as a laboratory assistant, since 2009 till 2014 was a junior researcher in MWL. Since 2009 up to 2012 was taking a Ph.D. course in postgraduate school of IAP RAS. The Ph.D. thesis entitled &ldquo;Analysis of H<sub>2</sub><sup>16</sup>O and H<sub>3</sub><sup>+</sup> spectra using global potential energy surfaces&rdquo; was defended in 2014. Current position is a research associate in MWL.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
+        			"biography": "<p>Irina&nbsp;I.&nbsp;Mizus (Bubukina) was born in Nizhny Novgorod, Russia, 17.03.1986.</p> <p>Graduated from the ASGAP (the Advanced School of General and Applied Physics) &mdash; faculty of Nizhny Novgorod State University &mdash; in 2009 as a master of physics. The theme of the master diploma is &ldquo;The H<sub>2</sub><sup>16</sup>O molecule PES optimization&rdquo;. Started working in the Microwave Spectroscopy laboratory (MWL) of the Institute of Applied Physics RAS (IAP RAS) in 2008 as a laboratory assistant, since 2009 till 2014 was a junior researcher in MWL. Since 2009 up to 2012 was taking a Ph.D. course in postgraduate school of IAP RAS. The Ph.D. thesis entitled &ldquo;Analysis of H<sub>2</sub><sup>16</sup>O and H<sub>3</sub><sup>+</sup> spectra using global potential energy surfaces&rdquo; was defended in 2014. Current position is a research associate in Holon Institute of Technology, Israel. Continues to collaborate closely with MWL.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
         			"photo": { 
         				"filename": "irene.jpg",
         				"position": {"x": 0.45, "y": 0.2},
@@ -389,7 +389,7 @@
 						"2018Mizus.pdf",
 						"2018Polyansky.pdf",
 						"2018Makhnev-1.pdf",
-						"2018Mizus-1.pdf"
+						"2019Mizus.pdf"
 					]
         		},
         		"odintsova": {
@@ -418,7 +418,7 @@
         				"scale": 1.3 
         			}
         		},
-			"makhnev": {
+				"makhnev": {
         			"full_name": "Vladimir&nbsp;Yurievich&nbsp;Makhnev",
         			"short_name": "Vladimir&nbsp;Yu.&nbsp;Makhnev",	
         			"position": "Junior Researcher",
@@ -436,7 +436,7 @@
         "PhD_stud": {
         	"title": "Ph.D. students",
         	"staff": {
-               		"vilkov": {
+               	"vilkov": {
         			"full_name": "Ilya&nbsp;Nikolaevich&nbsp;Vilkov",
         			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;",
         			"position": "Junior Researcher, Ph.D. Student",
@@ -449,13 +449,23 @@
         				"scale": 1.3 
         			}
         		},
-			"balashov": {
+				"balashov": {
         			"short_name": "Aleksander&nbsp;A.&nbsp;Balashov",
-				"position": "Ph.D. Student",	
+					"position": "Ph.D. Student",	
         			"biography": "<p>Aleksander Balashov was born in N.&nbsp;Novgorod, Russia, November 2, 1995.</p> <p>Studying at the Radiophysics faculty of Nizhny Novgorod State University since 2013. And since 2016 making coursework along the absorption of radiation in the atmosphere in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS.</p>",
         			"photo": { 
         				"filename": "Balashov.jpg",
         				"position": {"x": 0.47, "y": 0.45},
+        				"scale": 1.2 
+        			}
+        		},
+        		"koroleva": {
+        			"short_name": "Aleksandra&nbsp;O.&nbsp;Koroleva (Zibarova)",	
+					"email": "koral&nbsp;(at)&nbsp;ipfran.ru",
+        			"biography": "<p>Aleksandra O. Koroleva (Zibarova) was born in 1996 in Kirov region. Graduated from the Radiophysics department of Lobachevsky State University in 2020. The theme of the master diploma is &ldquo;Water vapour foreign-continuum in the far infrared range&rdquo;. Started working with the Microwave Spectroscopy laboratory of the IAP RAS in 2015 as a laboratory assistant-researcher. Current position is research trainee. She is taking a Ph.D. course from 2020 to 2024.</p> </br></br></br></br> <p><strong>Scolarships:</strong></p><table> <tr> <td><p>September&nbsp;2017&mdash;June&nbsp;2020</p></td> <td><p>Enhanced academic excellence scholarship for scientific activities of the Russian Federation government</p></td> </tr> <tr> <td><p>September&nbsp;2017&mdash;June&nbsp;2018</p></td> <td><p><a href=\"https://government-nnov.ru/?id=4457\" target=\"_blank\">Khokhlov scholarship of the Nizhny Novgorod region government</a> for outstanding educational achievement</p></td> </tr> <tr> <td><p>September&nbsp;2019&mdash;June&nbsp;2020</p></td> <td><p><a href=\"https://government-nnov.ru/?id=4457\" target=\"_blank\">Minin scholarship of the Nizhny Novgorod region government</a> for outstanding educational achievement</p></td> </tr> <tr> <td><p>January&nbsp;2019&mdash;June&nbsp;2020</p></td> <td><p><a href=\"https://www.fondpotanin.ru/en/\" target=\"_blank\">The Potanin scholarship</a> given every year to 500 the most talented Russian students with excellent academic, intellectual, creative, and leadership skills</p></td> </tr> </table>",
+        			"photo": {
+        				"filename": "Koroleva2021.jpg",
+        				"position": {"x": 0.5, "y": 0.2},
         				"scale": 1.2 
         			}
         		}
@@ -464,46 +474,25 @@
         "stud": {
     		"title": "Students",
     		"staff": {
-        		"koroleva": {
-        			"short_name": "Aleksandra&nbsp;O.&nbsp;Koroleva (Zibarova)",	
-				"email": "koral&nbsp;(at)&nbsp;ipfran.ru",
-        			"biography": "<p>Aleksandra&nbsp;O.&nbsp;Koroleva (Zibarova) was born in 1996 in Kirov region. Entered Radiophysics department of the Lobachevsky State University of Nizhny Novgorod in 2014. She has been with the Microwave Spectroscopy laboratory of the IAP RAS since 2015.</p>",
-        			"photo": { 
-        				"filename": "zibarova.jpg",
-        				"position": {"x": 0.2, "y": 0.34},
-        				"scale": 1.7 
-        			}
-        		},
-			"gurieva": {
+				"gurieva": {
         			"short_name": "Juliya&nbsp;Gurieva",
-				"email": "gureva-yulya&nbsp;(at)&nbsp;list.ru",
-				"biography": "<p>Juliya Gurieva was born in Nizhny Novgorod in 1998. Entered the ASGAP (Advanced School of General and Applied Physics) faculty of Nizhny Novgorod State University in 2016. Joined the Microwave Spectroscopy Laboratory of the IAP RAS in 2019.</p>",
-				"photo": { 
+					"email": "gureva-yulya&nbsp;(at)&nbsp;list.ru",
+					"biography": "<p>Juliya Gurieva was born in Nizhny Novgorod in 1998. Entered the ASGAP (Advanced School of General and Applied Physics) faculty of Nizhny Novgorod State University in 2016. Joined the Microwave Spectroscopy Laboratory of the IAP RAS in 2019.</p>",
+					"photo": { 
         				"filename": "Gurieva.jpg",
         				"position": {"x": 0.45, "y": 0.55},
         				"scale": 1.4 
         			}
-	
         		},
-			"sergeev": {
+				"sergeev": {
         			"short_name": "Mikhail&nbsp;Sergeev",
-				"email": "mas_135&nbsp;(at)&nbsp;mail.ru",
-				"biography": "<p>Mikhail Sergeev was born on the 9-th of August, 1999. Studied in Nizhny Novgorod at school #37 until 10-th grade, then moved to the lyceum #40. Since 2016 a student of the Advanced School of General and Applied Physics faculty of Nizhny Novgorod State University. Joined the Microwave Spectroscopy Laboratory of the IAP RAS in 2019.</p>",
-				"photo": { 
+					"email": "mas_135&nbsp;(at)&nbsp;mail.ru",
+					"biography": "<p>Mikhail Sergeev was born on the 9-th of August, 1999. Studied in Nizhny Novgorod at school #37 until 10-th grade, then moved to the lyceum #40. Since 2016 a student of the Advanced School of General and Applied Physics faculty of Nizhny Novgorod State University. Joined the Microwave Spectroscopy Laboratory of the IAP RAS in 2019.</p>",
+					"photo": { 
         				"filename": "Sergeev.jpg",
         				"position": {"x": 0.5, "y": 0.46},
         				"scale": 1.1 
         			}
-		
-        		},
-			"bugrov": {
-        			"short_name": "Alexander&nbsp;Bugrov",
-				"biography": "<p>Alexander Bugrov was born in Nizhny Novgorod. He entered the Radiophysical Faculty of Nizhny Novgorod State University in 2016. Joined the Microwave Spectroscopy laboratory of the IAP RAS in 2019.</p>",
-        			"photo": { 
-        				"filename": "Bugrov.jpg",
-        				"position": {"x": 0.53, "y": 0.45},
-        				"scale": 1.3
-        			}		
         		}
         	}
         },
