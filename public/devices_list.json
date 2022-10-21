@@ -1,0 +1,414 @@
+{
+    "category": {
+    	"title": "Some of devices we use in the laboratory and can produce by request",
+    	"devices": {
+        	"dev001": {
+        		"short_title": "Device&nbsp;001",	
+        		"preview_img": { 
+        			"filename": "1_1.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;001",
+        		"structure": [ 
+        			{
+        				"text": "<p><h3>Automated Radio-Acoustic Spectrometer with synthesized frequency radiation source based on BWO</h3></p>",
+        				"images": [ 
+        					{
+        						"file": "1_1.jpg"
+        					}
+        				]
+        			} 
+        		]
+        	},
+        	"dev002": {
+        		"short_title": "Device&nbsp;002",	
+        		"preview_img": { 
+        			"filename": "2.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;002",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Commercial nonpacketized BWO from &ldquo;Istok&rdquo; installed in electromagnet by use of adjustment mechanism</h3></p> <p>The system can be used with BWO of any frequency range up to 1.2&nbsp;THz.</p> <p>See also <a href=\"index.html#/instrum/devices/dev015\" target=\"_blank\">Device 015</a> for full external view of the system.</p>",
+        				"images": [
+        					{
+        						"file": "2.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev003": {
+        		"short_title": "Device&nbsp;003",	
+        		"preview_img": { 
+        			"filename": "3.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;003",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Backward-wave oscillator tubes installed in permanent magnet</h3></p> <p>The small one &mdash; 0.65&nbsp;Tesla Samarium-Cobalt alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p> <p>The bigger one &mdash; 1&nbsp;Tesla Samarium-Cobalt magnet for tubes of higher frequency range up to 715&nbsp;GHz.</p>",
+        				"images": [
+        					{
+        						"file": "3.jpg"
+        					}
+        				]
+        			},
+        			{
+        				"text": "<p>0.68&nbsp;Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for tubes of 180&ndash;260&nbsp;GHz and 260&ndash;380&nbsp;GHz range.</p>",
+        				"images": [
+        					{
+        						"file": "3_1.jpg"
+        					}
+        				]
+        			},
+        			{
+        				"text": "<p>1.1&nbsp;Tesla Nd-Fe-B alloy permanent magnet with adjustment mechanism for high frequency tubes.</p>",
+        				"images": [
+        					{
+        						"file": "3_2.jpg"
+        					}
+        				]
+        			},
+        			{
+        				"text": "<p>High frequency BWO adjustment mechanism for permanent magnet.</p>",
+        				"images": [
+        					{
+        						"file": "3_3.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev004": {
+        		"short_title": "Device&nbsp;004",	
+        		"preview_img": { 
+        			"filename": "4.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;004",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Gas Cell with Radio-Acoustic Detector (RAD) and related electronics for signal reception and amplification</h3></p> <p>20&nbsp;cm long and 2&nbsp;cm in diameter tube with thin teflon windows (upper part of the device) connected to capacitance microphone (lower part of the device). Working gas pressure: 0.05&ndash;10&nbsp;Torr. Acoustic signal frequency: 20&ndash;1000&nbsp;Hz. Input microwave radiation range: from long millimeters up to far infrared wavelengths. Acoustic signal receiver: high frequency balanced bridge which includes the cell microphone capacitance. Typical single-pass sensitivity: <span class=\"nobr\">10<sup>-8</sup> cm<sup>-1</sup></span> in terms of radiation absorption coefficient (time constant 1&nbsp;sec.).</p>",
+        				"images": [
+        					{
+        						"file": "4.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev005": {
+        		"short_title": "Device&nbsp;005",	
+        		"preview_img": { 
+        			"filename": "5.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;005",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Commercial synthesizers</h3></p> <p>(&ldquo;Kvarz&rdquo;, Nizhny Novgorod)</p> <p>Frequency range: 37.5&ndash;53.6&nbsp;GHz, 53.6&ndash;78.3&nbsp;GHz, 78.3&ndash;118&nbsp;GHz, 118.1&ndash;178.4&nbsp;GHz.</p> <p>Resolution: 100&nbsp;Hz. Stability <span class=\"nobr\">3·10<sup>-7</sup> / year</span>. Output power up to 25&nbsp;mW. FM, AM and Pulse modulation. Digital sweep. Remote programming.</p>",
+        				"images": [
+        					{
+        						"file": "5.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev006": {
+        		"short_title": "Device&nbsp;006",	
+        		"preview_img": { 
+        			"filename": "6.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;006",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Quasioptical Submillimeter-Wave Multiplier-Mixer</h3></p> <p>Quasioptical input of submillimeter-wave radiation up to 2.5&nbsp;THz. Wave-guide input of reference (LO) signal of 78&ndash;118 or 118&ndash;178&nbsp;GHz. Coaxial output of intermediate signal (from DC up to 20&nbsp;GHz). Planar (beam lead) Schottky diode as a non linear element.</p>",
+        				"images": [
+        					{
+        						"file": "6.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev007": {
+        		"short_title": "Device&nbsp;007",	
+        		"preview_img": { 
+        			"filename": "7.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;007",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Submillimeter-wave radiation multiplier</h3></p> <p>Input wave-guide: 1.2&nbsp;x&nbsp;2.4&nbsp;mm corresponding to output wave-guides of 180&ndash;260 and 260&ndash;380&nbsp;GHz range BWOs. Wave-guide tuner for better performance at desired frequency point. Planar Schottky diode at the edge of narrowing ridged wave-guide. Horn antennae at the output. Bias is required. No filtering out of fundamental radiation. Observable harmonic numbers: up to 6.</p>",
+        				"images": [
+        					{
+        						"file": "7.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev008": {
+        		"short_title": "Device&nbsp;008",	
+        		"preview_img": { 
+        			"filename": "8.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;008",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Quasioptical broadband wavemeter</h3></p> <p>Working wavelength range: 5&ndash;0.5&nbsp;mm.</p> <p>Measurement accuracy: <span class=\"nobr\">10<sup>-5</sup> rel.un.</span></p> <p>For more details see [<a href=\"index.html#/list/1996\" target=\"_blank\">Ref.&nbsp;5 (1996)</a>].</p>",
+        				"images": [
+        					{
+        						"file": "8.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev009": {
+        		"short_title": "Device&nbsp;009",	
+        		"preview_img": { 
+        			"filename": "9.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;009",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Set of devices for radio-acoustic spectroscopy</h3></p> <ul><li>Radiation source with power supply</li> <li>Multiplier-mixer and Synchronizer for the radiation source frequency stabilization</li>  <li>High-vacuum gas cell with radio-acoustic detector and related signal receiving electronic</li></ul> <p>Reference frequency source is also required. Depending on desired frequency range of the spectrometer it can be 2&ndash;20&nbsp;GHz commercial synthesizer if the range of the spectrometer is below 400&nbsp;GHz, or 78&ndash;118&nbsp;GHz synthesizer for higher operating frequencies of the spectrometer.</p>",
+        				"images": [
+        					{
+        						"file": "9.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev010": {
+        		"short_title": "Device&nbsp;010",	
+        		"preview_img": { 
+        			"filename": "10.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;010",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Millimeter & Submillimeter-Wave GaAs Beam Lead Schtottky diodes</h3></p> <p>The diodes are used for radiation detection, mixing and frequency multiplication.</p>",
+        				"images": [
+        					{
+        						"file": "10_1.jpg"
+        					}
+        				]
+        			},
+        			{
+        				"text": "<p>Cutoff frequency: 6&nbsp;THz; <br>Typical capacitance (Co): 5&ndash;8&nbsp;fF; <br>Typical series resistance (Rs): 5&ndash;10&nbsp;Ohm; Breakdown voltage (Vr): 3&nbsp;V; <br>Maximal dissipated power: 10&nbsp;mW; <br>Operating temperature range: <br>from <span class=\"nobr\">-60 &deg;C</span> up to <span class=\"nobr\">+125 &deg;C;</span> <br>Dimensions: 0.5&nbsp;x&nbsp;0.1&nbsp;x&nbsp;0.01&nbsp;mm.</p>",
+        				"images": [
+        					{
+        						"file": "10.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev011": {
+        		"short_title": "Device&nbsp;011",	
+        		"preview_img": { 
+        			"filename": "11.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;011",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Quasioptical Fabry-Perot Resonator</h3></p> <p>Operating wavelength range: from 5&nbsp;mm up to short submm. 45&deg; thin film coupling. Fine length tuning within 2.5&nbsp;mm. Quality factor is near to limit for resonators with non-cooled mirrors. Q&nbsp;~&nbsp;60000 in 2&ndash;5&nbsp;mm wavelength range. Quasioptical 50&nbsp;% directional coupler for the resonator feeding and resonance detection together with horns is seen on the right.</p>",
+        				"images": [
+        					{
+        						"file": "11.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev012": {
+        		"short_title": "Device&nbsp;012",	
+        		"preview_img": { 
+        			"filename": "12.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;012",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Synchronizer for BWOs of any frequency range up to 1.2&nbsp;THz</h3></p> <p>Performs phase synchronization of BWO radiation frequency against reference signal.</p> <p>Synchronization bandwidth: 0.1&ndash;5&nbsp;MHz; Automatic search and catch range: up to 1&nbsp;GHz; Input signal (IF) range 300&ndash;400&nbsp;MHz; Input signal amplitude: from -50&nbsp;dBm up to +10&nbsp;dBm; Allowed external reference signals: 5&nbsp;MHz, 10&nbsp;MHz, 30&ndash;40&nbsp;MHz, 300&ndash;400&nbsp;MHz. Output signal dynamic range: ±12&nbsp;V; Output impedance: 50&nbsp;Ohm; Multiplier-mixer diode bias control.</p>",
+        				"images": [
+        					{
+        						"file": "12.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev013": {
+        		"short_title": "Device&nbsp;013",	
+        		"preview_img": { 
+        			"filename": "13.jpg",
+        			"position": {"x": 0.45, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;013",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Generator block</h3></p> <p>BWO of 180&ndash;260 or 260&ndash;380&nbsp;GHz range in a permanent magnet with a phase lock loop related quasioptical wave-guide system (directional coupler, multiplier-mixer, output radiation  horn-antennae).</p>",
+        				"images": [
+        					{
+        						"file": "13.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev014": {
+        		"short_title": "Device&nbsp;014",	
+        		"preview_img": { 
+        			"filename": "14.jpg",
+        			"position": {"x": 0.46, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;014",
+        		"structure": [
+        			{
+        				"text": "<p><h3>BWO Power Supply</h3></p> <p>Suitable for all kinds of available tubes from 35 up to 1200&nbsp;GHz range.</p> <p>High voltage range: <span class=\"nobr\">-450&ndash;&thinsp;-6000 V;</span> Maximal high voltage current: 60&nbsp;mA; Greed and filament voltage power supplies included. All fe eding voltages digital indication. Fast breakdown protection system. GPIB remote control. Internal/external modulation option.</p>",
+        				"images": [
+        					{
+        						"file": "14.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev015": {
+        		"short_title": "Device&nbsp;015",	
+        		"preview_img": { 
+        			"filename": "15.jpg",
+        			"position": {"x": 0.6, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;015",
+        		"structure": [
+        			{
+        				"text": "<p><h3>BWO in magnet systems</h3></p> <p>In order of the size increasing: <ul><li type=\"disc\">Factory packetized BWOs (<span class=\"nobr\">35&ndash;53</span>, <span class=\"nobr\">53&ndash;78</span>, <span class=\"nobr\">78&ndash;118</span>, <span class=\"nobr\">118&ndash;178 GHz</span>);</li><li type=\"disc\">178&ndash;260 or 260&ndash;380&nbsp;GHz BWOs in a permanent magnet (0.65&nbsp;Tesla);</li><li type=\"disc\">370&ndash;530 or 510&ndash;715&nbsp;GHz BWOs in a permanent magnet (1&nbsp;Tesla);</li><li type=\"disc\">Electromagnet suitable for all kinds of BWOs up to highest frequency range.</li></ul></p>",
+        				"images": [
+        					{
+        						"file": "15.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev016": {
+        		"short_title": "Device&nbsp;016",	
+        		"preview_img": { 
+        			"filename": "16.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;016",
+        		"structure": [
+        			{
+        				"text": "<p><h3>Millimeter-wave radiation multipliers for extension of frequency range of primary sources</h3></p> <p>Single-mode waveguide based construction. Broad band doublers and triplers for 35&ndash;53, 53&ndash;78, 78&ndash;118, 118&ndash;178 GHz range radiation. Couple of planar Schottky diodes serve as non linear element. No bias and microwave tuning are required. Conversion losses close to theoretical limit. Complete suppression of fundamental radiation.</p>",
+        				"images": [
+        					{
+        						"file": "16.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev017": {
+        		"short_title": "Device&nbsp;017",	
+        		"preview_img": { 
+        			"filename": "17.jpg",
+        			"position": {"x": 0.5, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;017: Series of Transmission-Type Multiplier-Mixers for MM-range Radiation Source Phase Lock-in Systems",
+        		"structure": [
+        			{
+        				"images": [
+        					{
+        						"file": "17_1.jpg"
+        					}
+        				]
+        			},
+        			{
+        				"images": [
+        					{
+        						"file": "17_2.jpg",
+        						"maxwidth": "250px"
+        					},
+        					{
+        						"file": "17_3.jpg",
+        						"caption": "<p>Singe-mode through path wave-guide<br/>Coaxial input for reference (LO) signal 8&ndash;12&nbsp;GHz<br/>Coaxial output for beat-note (IF) signal 0&ndash;1&nbsp;GHz</p>"
+  							}
+        				]
+        			},
+        			{
+        				"text": "<table><tr><td>Frequency range (GHz)</td><td>36&ndash;55</td><td>52&ndash;79</td><td>78&ndash;119</td><td>118&ndash;178</td></tr><tr><td>Waveguide size (mm)</td><td>2.6&nbsp;x&nbsp;5.2</td><td>1.8&nbsp;x&nbsp;3.6</td><td>1.2&nbsp;x&nbsp;2.4</td><td>0.8&nbsp;x&nbsp;1.6</td></tr></table><p>Mixers with standard WR-XX waveguides and UG-XXX/U are also available.</p><p><a href=\"index.html#/instrum/devices/dev017/dev017_charact\">Typical mixer characteristics</a></p><p>For more details see paper [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;6 (2007)</a>].</p>"
+        			}
+        		]		
+        	},
+        	"dev018": {
+        		"short_title": "Device&nbsp;018",	
+        		"preview_img": { 
+        			"filename": "Reson.jpg",
+        			"position": {"x": 0.7, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;018",
+        		"structure": [
+        			{
+        				"text": "<p>Resonator spectrometer setup for precise broadband investigations of atmospheric absorption in discrete lines and water vapor related continuum.</p> <p>Absorption measurements in liquid and solid dielectrics as well as studies of reflection coefficient of highly reflective surfaces and coatings are also possible.</p>",
+        				"images": [
+        					{
+        						"file": "Reson.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	},
+        	"dev019": {
+        		"short_title": "Device&nbsp;019",	
+        		"preview_img": { 
+        			"filename": "vid_spectr.jpg",
+        			"position": {"x": 0.7, "y": 0.5},
+        			"scale": 1.0		
+        		},
+        		"full_title": "Device&nbsp;019",
+        		"structure": [
+        			{
+        				"text": "<p>Classical Teraherz video-spectrometer was developed in our Lab primarily for highly accurate investigation of intramolecular interactions by studies of hyperfine structure of observed molecular transitions by the Lamb-dip method. The spectrometer can be also used for broadband spectra studies in a usual direct  absorption regime with Doppler limited resolution.</p>",
+        				"images": [
+        					{
+        						"file": "vid_spectr.jpg"
+        					}
+        				]
+        			}
+        		]		
+        	}	
+        }
+	}        	
+}

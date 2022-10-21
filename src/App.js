@@ -6,14 +6,17 @@ import { Link } from 'react-router-dom';
 import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
-import StaffList from './StaffList';
-import StaffCategory from './StaffCategory';
-import IndexPage from './IndexPage';
-import Page from './Page';
-import AssociatePage from './AssociatePage';
+import Page from './ArticlePage';
 import PageButton from './PageButton';
-import OneFigPage from './OneFigPage';
-
+import IndexPage from './IndexPage';
+import MainDirButtons from './MainDirButtons';
+import OrdinaryPage from './OrdinaryPage';
+import StaffPage from './StaffPage';
+import StaffCategory from './StaffCategory';
+import AssociatePage from './AssociatePage';
+import StaffCatButtons from './StaffCatButtons';
+import Devices from './Devices';
+import DevButtons from './DevButtons';
 
 const DataState = {
 	LOADING: 1,
@@ -21,13 +24,17 @@ const DataState = {
 	FAIL: 3
 };
 
-var PageWithHistory = withRouter(Page);
 var ArticlePagesListWithHistory = withRouter(ArticlePagesList);
-var StaffListWithHistory = withRouter(StaffList);
-var StaffCategoryWithHistory = withRouter(StaffCategory);
+var PageWithHistory = withRouter(Page);
 var IndexWithHistory = withRouter(IndexPage);
+var MainDirButtonsWithHistory = withRouter(MainDirButtons);
+var StaffPageWithHistory = withRouter(StaffPage);
+var StaffCategoryWithHistory = withRouter(StaffCategory);
 var AssociatePageWithHistory = withRouter(AssociatePage);
-var OneFigPageWithHistory = withRouter(OneFigPage);
+var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
+var DevicesWithHistory = withRouter(Devices);
+var OrdinaryPageWithHistory = withRouter(OrdinaryPage);
+var DevButtonsWithHistory = withRouter(DevButtons);
 
 class Menu extends Component {
 	render() {
@@ -40,39 +47,147 @@ class Menu extends Component {
 
 		var menu_var = (
 			<Switch>
-				<Route path='/list' render={ 
-					(props) => (
-						<div className="App-menu">
-							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
-							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-							<div className="menu_item_active"><span>{line}List of publications</span></div>					
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
-						</div>
-					)
-				} />
-				<Route path='/people' render={ 
-					(props) => (
-						<div className="App-menu">
-							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
-							<div className="menu_item_active"><span>{line}People</span></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
-							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
-						</div>
-					)
-				} />
-				<Route path='/' render={ 
+				<Route exact path='/' render={ 
 					(props) => (
 						<div className="App-menu">
 							<div className="menu_item_active"><span>{line}Main directions of activity</span></div>
 							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
-							<div className="menu_item"><a href="/instrum.html">{line}Instruments</a></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
 							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
-							<div className="menu_item"><a href="/about.html">{line}About</a></div>
-							<div className="menu_item"><a href="/interest.html">{line}Интересующимся</a></div>
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/people' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item_active"><span>{line}People</span></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route path='/people/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item_active"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/instrum' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item_active"><span>{line}Instruments</span></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route path='/instrum/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item_active"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/list' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item_active"><span>{line}List of publications</span></div>					
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route path='/list/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item_active"><Link to={"/list"}>{line}List of publications</Link></div>					
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/about' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item_active"><span>{line}About</span></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route path='/about/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item_active"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route exact path='/interest' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item_active"><span>{line}Интересующимся</span></div>
+						</div>
+					)
+				} />
+				<Route path='/interest/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item_active"><Link to={"/interest"}>{line}Интересующимся</Link></div>
+						</div>
+					)
+				} />
+				<Route path='/:el' render={ 
+					(props) => (
+						<div className="App-menu">
+							<div className="menu_item_active"><Link to={"/"}>{line}Main directions of activity</Link></div>
+							<div className="menu_item"><Link to={"/people"}>{line}People</Link></div>
+							<div className="menu_item"><Link to={"/instrum"}>{line}Instruments</Link></div>
+							<div className="menu_item"><Link to={"/list"}>{line}List of publications</Link></div>		
+							<div className="menu_item"><Link to={"/about"}>{line}About</Link></div>
+							<div className="menu_item"><Link to={"/interest"}>{line}Интересующимся</Link></div>
 						</div>
 					)
 				} />
@@ -96,10 +211,10 @@ class Footer extends Component {
 							<div className="contacts">
 								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
 									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
-									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 28.06.18
+								Last update 21.10.22
 							</div>
 						</div>
 					)
@@ -111,7 +226,7 @@ class Footer extends Component {
 							<div className="contacts">
 								<a href="http://www.ipfran.ru" target="_blank" rel="noopener noreferrer">
 									Institute of Applied Physics of the Russian Academy of Sciences</a><br />
-									contact <a href="mailto:ireneb86@appl.sci-nnov.ru">webmaster</a><br />
+									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 						</div>
 					)
@@ -125,60 +240,6 @@ class Footer extends Component {
 	}
 }
 
-class StaffCatButtons extends Component {
-  	render() {
-    	let categoryButtons = [];
-    	for (let i in this.props.staff) {
-    		let buttonView;
-    		let prefix = '/people/';
-    		
-    		if (this.props.location.pathname === prefix + this.props.categoryId && i === this.props.categoryId) {
-   				buttonView = <PageButton active={true} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
-   			} else {    		
-   				buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.staff[i].title} prefix={prefix}/>;
-    		}		 
-    		
-    		categoryButtons.push(buttonView);
-    	}
-
-		return (
-			<div className="article_pages_list">
-				{categoryButtons}
-			</div>
-		);
-  	}
-}
-
-class MainDirButtons extends Component {
-  	render() {
-    	let directionsButtons = [];
-    	for (let i in this.props.dir) {
-    		let buttonView;
-    		let prefix = '/';
-    		
-    		if (this.props.dir[i].link_from === "IndexPage") {
-    			if (this.props.location.pathname === prefix + this.props.url && i === this.props.url) {
-   					buttonView = <PageButton active={true} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
-   				} else {    		
-   					buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={this.props.dir[i].short_title} prefix={prefix}/>;
- 	   			}		 
-    		
-    			directionsButtons.push(buttonView);
-    		}
-    	}
-
-		return (
-			<div className="article_pages_list">
-				{directionsButtons}
-			</div>
-		);
-  	}
-}
-
-
-var StaffCatButtonsWithHistory = withRouter(StaffCatButtons);
-var MainDirButtonsWithHistory = withRouter(MainDirButtons);
-
 class App extends Component {
 	constructor() {
 		super();
@@ -186,10 +247,18 @@ class App extends Component {
 		this.state = {
 			dataState: DataState.LOADING,
 			dataStatePeople: DataState.LOADING,
-			dataStateOneFigPage: DataState.LOADING,
+			dataStateMainDirPages: DataState.LOADING,
+			dataStateInstrumPages: DataState.LOADING,
+			dataStateDevList: DataState.LOADING,
+			dataStateAboutPages: DataState.LOADING,
+			dataStateInterestPages: DataState.LOADING,
 			json: null,
 			jsonPeople: null,
-			jsonOneFigPage: null
+			jsonMainDirPages: null,
+			jsonInstrumPages: null,
+			jsonDevList: null,
+			jsonAboutPages: null,
+			jsonInterestPages: null
 		};
 		
 		let app = this;
@@ -197,32 +266,56 @@ class App extends Component {
         Promise.all([
     		axios.get('/papers_list.json'),
     		axios.get('/people_list.json'),
-    		axios.get('/one_fig_template.json')
+    		axios.get('/main_dir_pages.json'),
+    		axios.get('/instruments_pages.json'),
+    		axios.get('/devices_list.json'),
+    		axios.get('/about_pages.json'),
+    		axios.get('/interest_pages.json')
     	])
-			.then(([papersResp, peopleResp, oneFigPageResp]) => {
+			.then(([papersResp, peopleResp, mainDirPagesResp, instrumPagesResp, devListResp, aboutPagesResp, interestPagesResp]) => {
 	  
 			    app.setState({
 					dataState: DataState.SUCCESS,
 					dataStatePeople: DataState.SUCCESS,
-					dataStateOneFigPage: DataState.SUCCESS,
+					dataStateMainDirPages: DataState.SUCCESS,
+					dataStateInstrumPages: DataState.SUCCESS,
+					dataStateDevList: DataState.SUCCESS,
+					dataStateAboutPages: DataState.SUCCESS,
+					dataStateInterestPages: DataState.SUCCESS,
 					json: papersResp.data,
 					jsonPeople: peopleResp.data,
-					jsonOneFigPage:oneFigPageResp.data
+					jsonMainDirPages: mainDirPagesResp.data,
+					jsonInstrumPages: instrumPagesResp.data,
+					jsonDevList:devListResp.data,
+					jsonAboutPages: aboutPagesResp.data,
+					jsonInterestPages: interestPagesResp.data
 	    		});
 	    	
 	  		})
-	  		.catch(([error, errorPeople, errorOneFigPage]) => {
+	  		.catch(([error, errorPeople, errorMainDirPages, errorInstrumPages, errorDevList, errorAboutPages, errorInterestPages]) => {
 				console.log(error);
 				console.log(errorPeople);
-				console.log(errorOneFigPage);
-
+				console.log(errorMainDirPages);
+				console.log(errorInstrumPages);
+				console.log(errorDevList);
+				console.log(errorAboutPages);
+				console.log(errorInterestPages);
+				
 	    		app.setState({
 	    			dataState: DataState.FAIL,
 	    			dataStatePeople: DataState.FAIL,
-	    			dataStateOneFigPage: DataState.FAIL,
+	    			dataStateMainDirPages: DataState.FAIL,
+	    			dataStateInstrumPages: DataState.FAIL,
+	    			dataStateDevList: DataState.FAIL,
+	    			dataStateAboutPages: DataState.FAIL,
+	    			dataStateInterestPages: DataState.FAIL,
 	    			json: null,
 	    			jsonPeople: null, 
-	    			jsonOneFigPage: null,
+	    			jsonMainDirPages: null,
+	    			jsonInstrumPages: null,
+	    			jsonDevList: null,
+	    			jsonAboutPages: null,
+	    			jsonInterestPages: null,
 	    			error: {
 	    				code: error.papersResp.status,
 	    				text: error.papersResp.statusText
@@ -231,9 +324,25 @@ class App extends Component {
 	    				code: errorPeople.peopleResp.status,
 	    				text: errorPeople.peopleResp.statusText
 	    			},
-	    			errorOneFigPage: {
-	    				code: errorOneFigPage.oneFigPageResp.status,
-	    				text: errorOneFigPage.oneFigPageResp.statusText
+	    			errorMainDirPages: {
+	    				code: errorMainDirPages.mainDirPagesResp.status,
+	    				text: errorMainDirPages.mainDirPagesResp.statusText
+	    			},
+	    			errorInstrumPages: {
+	    				code: errorInstrumPages.instrumPagesResp.status,
+	    				text: errorInstrumPages.instrumPagesResp.statusText
+	    			},
+	    			errorDevList: {
+	    				code: errorDevList.devListResp.status,
+	    				text: errorDevList.devListResp.statusText
+	    			},
+	    			errorAboutPages: {
+	    				code: errorAboutPages.aboutPagesResp.status,
+	    				text: errorAboutPages.aboutPagesResp.statusText
+	    			},
+	    			errorInterestPages: {
+	    				code: errorInterestPages.interestPagesResp.status,
+	    				text: errorInterestPages.interestPagesResp.statusText
 	    			}
 	    		});
 		});
@@ -263,15 +372,22 @@ class App extends Component {
 		} else {
 			const json = this.state.json;
 			const jsonPeople = this.state.jsonPeople;
-			const jsonOneFigPage = this.state.jsonOneFigPage;
+			const jsonMainDirPages = this.state.jsonMainDirPages;
+			const jsonInstrumPages = this.state.jsonInstrumPages;
+			const jsonDevList = this.state.jsonDevList;
+			const jsonAboutPages = this.state.jsonAboutPages;
+			const jsonInterestPages = this.state.jsonInterestPages;
 	
 			let pageTitles = Object.keys(json.pages).sort();
+			let staffCatTitles = jsonPeople.category;
+			let staffPhoto = jsonPeople.photo;
+			let devTitles = jsonDevList.category.devices;
 			
 			content = (
 				<Switch>
 				  <Route exact path='/list' render={ 
 					(props) => (
-						<div>
+						<div className="main_pane_frame">
 							<div className="main_pane">
 								<ArticlePagesListWithHistory colors="light" pageTitles={pageTitles} />
 							</div>
@@ -283,7 +399,7 @@ class App extends Component {
 				  } />
 				  <Route path='/list/:index' render={ 
 					(props) => (
-						<div>
+						<div className="main_pane_frame">
 							<div className="main_pane">
 								<PageWithHistory page={json.pages[props.match.params.index]} />
 							</div>
@@ -293,9 +409,11 @@ class App extends Component {
 				  } />
 				  <Route exact path='/people' render={ 
 					(props) => (
-						<div>
-							<div className="main_pane">
-								<StaffListWithHistory colors="light" staff={jsonPeople.category} />
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<div className="people">	
+									<StaffPageWithHistory photo={staffPhoto} staffCatTitles={staffCatTitles}/>
+								</div>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -305,7 +423,7 @@ class App extends Component {
 				  } />
 				  <Route path='/people/:category/:id' render={ 
 					(props) => (
-						<div>
+						<div className="main_pane_frame">
 							<div className="main_pane">
 								<AssociatePageWithHistory associate={jsonPeople.category[props.match.params.category].staff[props.match.params.id]} category={props.match.params.category} page_id={props.match.params.id} data={json}/>
 							</div>
@@ -317,7 +435,7 @@ class App extends Component {
 				  } />
 				  <Route path='/people/:category' render={ 
 					(props) => (
-						<div>
+						<div className="main_pane_frame">
 							<div className="main_pane">
 								<StaffCategoryWithHistory colors="light" categoryId={props.match.params.category} category={jsonPeople.category[props.match.params.category]} />
 							</div>
@@ -327,11 +445,11 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route exact path='/' render={ 
+				  <Route exact path='/instrum/devices' render={ 
 					(props) => (
 						<div>
-							<div className="main_pane">
-								<IndexWithHistory dirs={jsonOneFigPage.url}/>
+							<div className="main_pane">	
+								<DevicesWithHistory category={jsonDevList.category}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -339,11 +457,143 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/:ofpage' render={ 
+				  <Route path='/instrum/devices/:dev/:orpage' render={ 
 					(props) => (
-						<div>
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/dev/" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/devices/:dev' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/dev/" outerClass="instrum" orpage={jsonDevList.category.devices[props.match.params.dev]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:lf/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
 							<div className="main_pane">
-								<OneFigPageWithHistory ofpage={jsonOneFigPage.url[props.match.params.ofpage]}/>
+								<OrdinaryPageWithHistory img_prefix="/img/instrum/" outerClass="instrum" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/instrum/" outerClass="instrum" orpage={jsonInstrumPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/instrum' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory outerClass="instrum" orpage={jsonInstrumPages.url["instrum"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/about/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/about/" outerClass="about" orpage={jsonAboutPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/about' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory outerClass="about" orpage={jsonAboutPages.url["about"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/interest/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory img_prefix="/img/interest/" outerClass="interest" orpage={jsonInterestPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/interest' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">	
+								<OrdinaryPageWithHistory outerClass="interest" orpage={jsonInterestPages.url["interest"]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route exact path='/' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">
+								<IndexWithHistory dirs={jsonMainDirPages.url}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/:lf/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">
+								<OrdinaryPageWithHistory img_prefix="/img/maindir/" orpage={jsonMainDirPages.url[props.match.params.orpage]}/>
+							</div>
+							<div style={{"position":"fixed", "bottom": "0"}}>
+								<Footer />
+							</div>
+						</div>
+					)
+				  } />
+				  <Route path='/:orpage' render={ 
+					(props) => (
+						<div className="main_pane_frame">
+							<div className="main_pane">
+								<OrdinaryPageWithHistory orpage={jsonMainDirPages.url[props.match.params.orpage]}/>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>
 								<Footer />
@@ -353,7 +603,7 @@ class App extends Component {
 				  } />
 				</Switch>
 			)
-			
+						
 			leftPane = (
 				<Switch>
 				  <Route exact path='/list' render={ 
@@ -374,7 +624,8 @@ class App extends Component {
 				  <Route exact path='/people' render={ 
 					(props) => (
 						<div className="left_pane">
-							<Menu />			
+							<Menu />	
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} />		
 						</div>
 					)
 				  } />
@@ -382,7 +633,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} />
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} linkfrom={props.match.params.category} url={props.match.params.id}/>
 						</div>
 					)
 				  } />
@@ -390,7 +641,7 @@ class App extends Component {
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<StaffCatButtonsWithHistory colors="dark" staff={jsonPeople.category} categoryId={props.match.params.category}/>
+							<StaffCatButtonsWithHistory colors="dark" staffCatTitles={staffCatTitles} categoryId={props.match.params.category}/>
 						</div>
 					)
 				  } />
@@ -401,11 +652,79 @@ class App extends Component {
 						</div>
 					)
 				  } />
-				  <Route path='/:ofpage' render={ 
+				 <Route exact path='/instrum' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
+						</div>
+					)
+				  } />
+                  <Route exact path='/instrum/devices' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />		
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/devices/:dev/:orpage' render={ 
 					(props) => (
 						<div className="left_pane">
 							<Menu />
-							<MainDirButtonsWithHistory colors="dark" dir={jsonOneFigPage.url} url={props.match.params.ofpage}/>			
+							<DevButtonsWithHistory colors="dark" devTitles={devTitles} linkfrom={props.match.params.dev} url={props.match.params.orpage}/>		
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/devices/:dev' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<DevButtonsWithHistory colors="dark" devTitles={devTitles} devId={props.match.params.dev}/>		
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:lf/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonInstrumPages.url} maindir={"instrum/"} linkfrom={props.match.params.lf} url={props.match.params.orpage}/>			
+						</div>
+					)
+				  } />
+				  <Route path='/instrum/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonInstrumPages.url} maindir={"instrum/"} url={props.match.params.orpage}/>			
+						</div>
+					)
+				  } />
+				   <Route path='/about' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
+						</div>
+					)
+				  } />
+				  <Route path='/interest' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />	
+						</div>
+					)
+				  } />
+				  <Route path='/:lf/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonMainDirPages.url} linkfrom={props.match.params.lf} url={props.match.params.orpage}/>			
+						</div>
+					)
+				  } />
+				  <Route path='/:orpage' render={ 
+					(props) => (
+						<div className="left_pane">
+							<Menu />
+							<MainDirButtonsWithHistory colors="dark" dir={jsonMainDirPages.url} url={props.match.params.orpage}/>			
 						</div>
 					)
 				  } />

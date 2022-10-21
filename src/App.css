@@ -1,5 +1,4 @@
 .App {
-  background-color: white;
   overflow-x: hidden;
   min-height: 100vh;
 }
@@ -28,6 +27,7 @@
   background-color: #546279;
   width: 100vw;
   position: relative;
+  left: 180pt;
 }
 
 .App-intro {
@@ -64,15 +64,21 @@
   background-color: #546279;
 }
 
-.main_pane {
-  margin-left: 280px;
-  margin-right: 30px;
-  background-color: white;
-  max-width: 600pt;
-  margin-top: 150pt;
-  margin-bottom: 60pt;
-  min-height: 60vh;
+.main_pane_frame {
+  background: white;
 }
+
+.main_pane {
+  padding: 150pt 30px 60pt 280px;
+  margin: 0;
+  background-color: white;
+  min-height: calc(100vh - 280px);  /* This value is a manual adjustment */
+}
+
+.main_pane .people {
+  margin: auto;
+}
+
 
 .article_pages_list {
 }
@@ -114,8 +120,8 @@
   background-image: -ms-linear-gradient(top, #7f90b2, #546279);
   background-image: -o-linear-gradient(top, #7f90b2, #546279);
   background-image: linear-gradient(to bottom, #7f90b2, #546279);
-  -webkit-border-radius: 3;
-  -moz-border-radius: 3;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   color: #ffffff;
   font-size: 14px;
@@ -163,6 +169,18 @@
   padding: 2pt 8pt 2pt 0pt;
 }
 
+.menu_item_active a {
+  font-size: 90%;
+  color: rgba(255, 170, 100, 1.0);
+  fill: rgba(255, 170, 100, 0.8);
+}
+
+.menu_item_active a:hover {
+  font-size: 90%;
+  color: rgba(255, 255, 255, 1.0);
+  fill: rgba(216, 223, 233, 0.8);
+}
+
 .menu_item_active span {
   font-size: 90%;
   color: rgba(255, 170, 100, 1.0);
@@ -183,4 +201,43 @@
 
 .line {
   padding: 2pt 4pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: center;
+}
+
+table, td, th {
+  border: 1px solid #cccccc;
+  padding: 2pt;
+}
+
+.tableimg table, .tableimg td, .tableimg th {
+  border: none;
+  width: 600px;
+  margin: auto;
+}
+
+.tablecust table, .tablecust td, .tablecust th {
+  border: none;
+  margin: auto;
+}
+
+div.device_page ul {
+	padding: 0;
+    text-indent: 2pt;
+    list-style-position: inside;
+}
+
+span.nobr {
+  white-space: nowrap;
+}
+
+p.eq {
+  text-align: center;
 }

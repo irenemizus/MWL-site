@@ -1,4 +1,7 @@
 {
+	"photo": {
+		"filename": "team.jpg"
+	},
     "category": {
     	"permanent": {
     		"title": "Permanent staff",
@@ -11,11 +14,11 @@
         			"position": "Head of the Lab",
         			"email": "trt&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-48-66",
-        			"biography": "<p>Graduated from Gorky State University in 1980. The master degree thesis &ldquo;Analysis of Subdoppler Microwave Spectrometer Based on Coherent Spontaneous Radiation of Molecules&rdquo; was recognized to be The Best Students Scientific Work in the USSR in 1980. From 1980 to the present time is with the Institute of Applied Physics. Current position &mdash; Head of the Laboratory of Microwave Spectroscopy, member of the Scientific Council of the Institute. Scientific supervisor of undergraduate and Ph.D. students. Since 2006 member of Scientific committee of the Symposium on High Resolution Molecular Spectroscopy (HighRus). Journal Editorial Review Boards (Radiophysics and Quantum Electronics, Journal of Chemical Physics, Journal of Molecular Spectroscopy, Molecular Physics, Physical Chemistry Chemical Physics, Journal of Quantitative Spectroscopy and Radiative Transfer). Since 2015 member of Journal of Molecular Spectroscopy editorial board.</p> <p>The Ph.D. degree in Physics and Mathematics was received in 1995. The theme of Ph.D. thesis is &ldquo;Development of methods of microwave spectroscopy in Terahertz frequency range&rdquo;. The Full Doctor degree was received in 2017 for the work &ldquo;High accuracy resonator spectroscopy of atmospheric gases at millimeter and submillimeter waves&rdquo;. Since 1997 he is an assistant professor. Major interests &mdash; high resolution molecular spectra experimental studies in millimeter and submillimeter wave range; development of new microwave techniques and methods.</p> <p>Highlights of research include: the first frequency multiplication of BWO radiation up to 1.5&nbsp;THz; the development of Terahertz video-spectrometer based on phase-locked BWO and liquid cooled bolometer (jointly with the University of Cologne and later with the University of Lille); the development of MM/SubMM-wave sweeper and gas analyzer (Principal Investigator of the Russian team in the joint project with Argonne National Laboratory USA in the frame of US Industrial Coalition Trust-I and Trust-II Projects); the first frequency stabilization of FIR laser against harmonic of millimeter-wave synthesizer (jointly with the University of Lille); development of CO<sub>2</sub>-laser&nbsp;+&nbsp;MW side-band spectrometer with a slit nozzle (jointly with the University of New Brunswick, Saint John); the first frequency stabilization of primary radiation source of subterahertz range by femtosecond laser induced comb (<a href=\"radsource.html\">the new synthesizer</a>); development of MM/SubMM-wave <a href=\"reson.html\">resonator spectrometer</a> for atmospheric absorption investigations; the first microwave observation of negative molecular ions (jointly with Heyrovsky Institute of Physical Chemistry, Prague and the University of Lille); <a href=\"dimer.html\"> the first detection  of water dimer</a>  by  observation of its rotationally resolved spectrum in room temperature water vapor; studies of spectra of H<sub>2</sub>0, H<sub>2</sub>Se, SO<sub>2</sub>, CF<sub>3</sub>H, CH<sub>3</sub>CHO, O<sub>2</sub>, OCS molecules and H<sub>2</sub>O&ndash;HF, (CH<sub>3</sub>OH)<sub>2</sub>, CH<sub>3</sub>OH&ndash;CO molecular complexes.</p> <p>Invited lectures at: The 15th International Conference on High Resolution Molecular Spectroscopy, Prague, 1998; 3rd International Symposium on Physics and Engineering of MM and SubMM Waves, Ukraine, 1998; The 25th International Conference on Infrared and Millimeter Waves, September 12&ndash;15, 2000, Beijing, China; NATO Advanced Research Workshop &ldquo;Spectroscopy from Space&rdquo;, Oct.&nbsp;31&nbsp;&mdash;&nbsp;Nov.&nbsp;4, 2000, Bratislava, Slovakia; XIV Symposium on High Resolution Molecular Spectroscopy (HighRus-2003), July 6&ndash;11, 2003, Krasnoyarsk, Russia; Hua Dong Institute of E.M.I. Qingdao, China, March 2006; The 23rd International Conference on High Resolution Molecular Spectroscopy, Bologna, Italy, September 2&ndash;6, 2014.</p>",
+        			"biography": "<p>Graduated from Gorky State University in 1980. The master degree thesis &ldquo;Analysis of Subdoppler Microwave Spectrometer Based on Coherent Spontaneous Radiation of Molecules&rdquo; was recognized to be The Best Students Scientific Work in the USSR in 1980. From 1980 to the present time is with the Institute of Applied Physics. Current position &mdash; Head of the Laboratory of Microwave Spectroscopy, member of the Scientific Council of the Institute. Scientific supervisor of undergraduate and Ph.D. students. Since 2006 member of Scientific committee of the <a href=\"https://symp.iao.ru/en/hrms\">Symposium on High Resolution Molecular Spectroscopy (HighRus)</a>; in 2019 co-chairman of the Symposium. Journal Editorial Review Boards (Radiophysics and Quantum Electronics, Journal of Chemical Physics, Journal of Molecular Spectroscopy, Molecular Physics, Physical Chemistry Chemical Physics, Journal of Quantitative Spectroscopy and Radiative Transfer, Canadian Journal of Physics). In 2015&ndash;2018 member of Journal of Molecular Spectroscopy editorial board.</p> <p>The Ph.D. degree in Physics and Mathematics was received in 1995. The theme of Ph.D. thesis is &ldquo;Development of methods of microwave spectroscopy in Terahertz frequency range&rdquo;. The Full Doctor degree was received in 2017 for the work &ldquo;High accuracy resonator spectroscopy of atmospheric gases at millimeter and submillimeter waves&rdquo;. Since 1997 he is an assistant professor. Major interests &mdash; high resolution molecular spectra experimental studies in millimeter and submillimeter wave range; development of new microwave techniques and methods.</p> <p>Highlights of research include: the first frequency multiplication of BWO radiation up to 1.5&nbsp;THz; the development of Terahertz video-spectrometer based on phase-locked BWO and liquid cooled bolometer (jointly with the University of Cologne and later with the University of Lille); the development of MM/SubMM-wave sweeper and gas analyzer (Principal Investigator of the Russian team in the joint project with Argonne National Laboratory USA in the frame of US Industrial Coalition Trust-I and Trust-II Projects); the first frequency stabilization of FIR laser against harmonic of millimeter-wave synthesizer (jointly with the University of Lille); development of CO<sub>2</sub>-laser&nbsp;+&nbsp;MW side-band spectrometer with a slit nozzle (jointly with the University of New Brunswick, Saint John); the first frequency stabilization of primary radiation source of subterahertz range by femtosecond laser induced comb (<a href=\"index.html#/instrum/radsource\">the new synthesizer</a>); development of MM/SubMM-wave <a href=\"index.html#/instrum/reson\">resonator spectrometer</a> for atmospheric absorption investigations; the first microwave observation of negative molecular ions (jointly with Heyrovsky Institute of Physical Chemistry, Prague and the University of Lille); <a href=\"index.html#/instrum/reson/dimer\"> the first detection  of water dimer</a>  by  observation of its rotationally resolved spectrum in room temperature water vapor; advancing an <a href=\"index.html#/stud/water_contin_or\">understanding of the atmospheric continuum</a>; studies of spectra of H<sub>2</sub>0, H<sub>2</sub>Se, SO<sub>2</sub>, CF<sub>3</sub>H, CH<sub>3</sub>CHO, O<sub>2</sub>, OCS molecules and H<sub>2</sub>O&ndash;HF, (CH<sub>3</sub>OH)<sub>2</sub>, CH<sub>3</sub>OH&ndash;CO molecular complexes.</p> <p>Invited lectures at: The 15th International Conference on High Resolution Molecular Spectroscopy, Prague, 1998; 3rd International Symposium on Physics and Engineering of MM and SubMM Waves, Ukraine, 1998; The 25th International Conference on Infrared and Millimeter Waves, September 12&ndash;15, 2000, Beijing, China; NATO Advanced Research Workshop &ldquo;Spectroscopy from Space&rdquo;, Oct.&nbsp;31&nbsp;&mdash;&nbsp;Nov.&nbsp;4, 2000, Bratislava, Slovakia; XIV Symposium on High Resolution Molecular Spectroscopy (HighRus-2003), July 6&ndash;11, 2003, Krasnoyarsk, Russia; Hua Dong Institute of E.M.I. Qingdao, China, March 2006; The 23rd International Conference on High Resolution Molecular Spectroscopy, Bologna, Italy, September 2&ndash;6, 2014.</p>",
         			"photo": { 
         				"filename": "Tretyakov1.jpg",
-        				"position": {"x": 0.55, "y": 0.37},
-        				"scale": 1.2				
+        				"position": {"x": 0.55, "y": 0.43},
+        				"scale": 1.0				
         			 },
         			"selected_papers": [
         				"1981Krupnov.pdf",
@@ -75,31 +78,28 @@
     					"2014Odintsova.pdf",
     					"2014Tretyakov.pdf",
     					"2014Makarov.pdf",
-    					"2014Serov.pdf"
+    					"2014Serov.pdf",
+					"2015Seleznev.pdf",
+					"2015Tretyakov.pdf",
+					"2016Tretyakov.pdf",
+					"2016Brogniez.pdf",
+					"2017Koshelev.pdf",
+					"2017Koshelev-1.pdf",
+					"2017Odintsova.pdf",
+					"2018Tretyakov.pdf",
+					"2018Koshelev-1.pdf",
+					"2018Cimini.pdf",
+					"2019Odintsova.pdf",
+					"2019Krupnov-1.pdf"
         			]	
         		},
-        		"krupnov": {
-        			"full_name": "Andrei&nbsp;Fedorovich&nbsp;Krupnov",
-        			"short_name": "Andrei&nbsp;F.&nbsp;Krupnov",	
-        			"acad_title": "Professor",
-        			"acad_degree": "Dr.Sc. in Physics",
-        			"position": "General Research Associate",
-        			"email": "kru&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 436-60-22",
-        			"biography": "<p>Andrei&nbsp;F.&nbsp;Krupnov was born 31.01.34; graduated from Gorky State University in 1957; Ph.D. at Gorky university 1965; Dr.Sc. Lebedev Physical Institute, Moscow, 1975. He is Professor in Physics. </p> <p>From 1977 to 2005 &mdash; head of Microwave Spectroscopy Department at the Applied Physics Institute of the Russian Academy of Sciences. Current position &mdash; General Research Associate.</p> <p>Scientific Awards: 1980 &mdash; State Prize of the USSR in Science &ldquo;For Development of Submillimeterwave Spectroscopy Based on Backward Wave Oscillators&rdquo;, 1982 &mdash; Joint Prize of the USSR and CSSR Academies of Sciences &ldquo;For Investigation of Fine Structure of Rotational-Vibrational Spectra of Nonrigid Molecules&rdquo;.</p> <p>From 1976 to 2009 &mdash; Member of Editorial Advisory Board of the Journal of Molecular Spectroscopy, Elsevier Inc. (formerly Academic Press), USA.</p> <p>Early results in beam masers: ring state separator, beam spectrometer with 240&nbsp;Hz resolution, millimeterwave H<sub>2</sub>CO maser oscillator. Recent results in new technique of submillimeter microwave spectroscopy: spectrometer with backward wave oscillators (BWOs) and acoustical detector (RAD), submillimeter BWO's phase lock-in system, millimeterwave and submillimeterwave frequency synthesizers, precise broadband Terahertz spectrometer (jointly with Cologne University), extension of the range of microwave spectroscopy up to 1.5&nbsp;THz by BWO frequency multiplication, modern millimeterwave resonator spectroscopy, fast broadband frequency synthesizers in millimeter and submillimeter bands. Applications of technique developed to the molecular spectra studies and precise measurements in submillimeter wave range. Publications: books &mdash; co-author of &ldquo;Molecular Spectroscopy: Modern Research&rdquo;, Academic Press, 1976; &ldquo;Modern Aspects of Microwave Spectroscopy&rdquo;, Academic Press, 1979; papers &mdash; total number 170.</p>",
-        			"photo": { 
-        				"filename": "krupnov.jpg",
-        				"position": {"x": 0.3, "y": 0.2},
-        				"scale": 1.5 
-        			}
-        		},
         		"belov": {
-        			"full_name": "Sergei&nbsp;Pavlovich&nbsp;Belov",
-        			"short_name": "Sergei&nbsp;P.&nbsp;Belov",
+        			"full_name": "Sergey&nbsp;Pavlovich&nbsp;Belov",
+        			"short_name": "Sergey&nbsp;P.&nbsp;Belov",
         			"position": "Senior Researcher",
         			"email": "belov&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-49-66",
-        			"biography": "<p>Sergey&nbsp;P.&nbsp;Belov, born on October 12, 1946, in Gorky region. Graduated from the Gorky State University in 1970. His master degree thesis &ldquo;Radiospectroscope with the acoustical detector&rdquo; (RAD-spectrometer) was a breakthrough in the mm and sub-mm molecular spectroscopy. From 1970 to 1977 he worked in the spectroscopy group of Prof. Andrei&nbsp;F.&nbsp;Krupnov at the Radio-Physical Institute (NIRFI) and since 1977 to the present time has been with the Institute of Applied Physics of RAS, Nizhny Novgorod. Current position &mdash; senior research associate. Major interests &mdash; experimental study of high resolution rotational and rotational-vibrational spectra of the molecules and molecular clusters in mm and sub-mm wave ranges (30&nbsp;GHz&ndash;1.25&nbsp;THz); design and development of broadband high resolution spectrometers with the free running, frequency locked (RAD-3 spectrometer), frequency and phase stabilized backward wave oscillators (BWOs).</p> <p>He developed and put into operation several spectrometers for different applications during the periods he worked at the NIRFI and IAP, Nizhny Novgorod; at the First Physical Institute (Prof.&nbsp;Gisbert Winnewisser), Cologne, Germany; at the Physics and Chemistry Departments (Prof.&nbsp;Frank&nbsp;C.&nbsp;DeLucia), the Ohio-State University, Culumbus OH, USA; at the Chemistry Department (Prof.&nbsp;John&nbsp;W.&nbsp;Bevan), the Texas A&M University, College Station TX, USA. For a long time he has collaborated with Prof.&nbsp;Dushan Papousek and Prof.&nbsp;Stepan Urban at the J.&nbsp;Heyrovsky Institute of Physical Chemistry and Electrochemistry of Czechoslovak Academy of Science, Prague, Czechoslovak Republic; worked as a guest researcher at the National Institute of Standards and Technology, Gaithersburg MD, USA, with Dr.&nbsp;John&nbsp;T.&nbsp;Hougen and Dr.&nbsp;Richard Suenram; was a JSPS Fellow at the Institute for Molecular Science (Prof.&nbsp;Keichi Tanaka), Myodaiji, Okazaki, Japan.</p> <p>Highlights of research: high sensitive acoustical cell for the RAD spectrometer; first broadband high resolution automatic records of molecular rotational spectra with a free running BWO and SO<sub>2</sub> reference spectrum; inversion spectrum of the ammonia molecule NH<sub>3</sub>  in &nu;<sub>2</sub>&nbsp;=&nbsp;1 vibrational state; <span class=\"style3\">&Delta;</span>K&nbsp;=&nbsp;±3 &ldquo;forbidden&rdquo; transitions of the PH<sub>3</sub> and NH<sub>3</sub> molecules; pressure induced line frequency shifts; sub-Doppler resolution spectra and precise frequency measurements with Lamb-dip technique, THz methanol CH<sub>3</sub>OH spectrum, fast scan submillimeter spectroscopy technique (FASSST spectrometer), acetaldehyde CH<sub>3</sub>COH sub-mm spectra in torsional states up to V<sub>t</sub>&ldquo;=&ldquo;4;  fast scan submillimeter spectrometer with the coaxial pulsed jet; small hydrogen-bonded molecular clusters; polar gas detection at ppt (1 part in 1012 ) sensitivity.</p> <p>Awards: 1975 &mdash; Prize of scientific exhibition &ldquo;250 years of the Russian Academy of Science&ldquo;, Moscow, for the design and development of the high sensitive broad band sub-millimeter wave spectroscopy; 1982 &mdash; Joint prize of the USSR and CSSR Academies of Sciences for Investigation of Fine Structure of Rotational-Vibrational Spectra of Nonrigid Molecules.</p> <p>Invited lectures at: The VI International Conference on High Resolution Molecular Spectroscopy, Prague 1980;  X International Colloquium on High Resolution Molecular Spectroscopy, Dijon 1987, France; NATO Advanced Research Workshop Spectroscopy from Space, Bratislava 2000, Slovakia; XVI Symposium on High Resolution Spectroscopy (HighRus-2009), Baykal Lake, Russia; II International Symposium Topical Problems of Biophotonics, 2009, Nizhny Novgorod, Russia.</p> <p>In March 2013 in accordance with the ISI Web of Knowlegde he has over 90 papers published in international peer-reviewed journals and cited more than 1500 times. His Hirsch index is 23.</p>",
+        			"biography": "<p>Sergey&nbsp;P.&nbsp;Belov, born on October 12, 1946, in Gorky region. Graduated from the Gorky State University in 1970. His master degree thesis &ldquo;Radiospectroscope with the acoustical detector&rdquo; (RAD-spectrometer) was a breakthrough in the mm and sub-mm molecular spectroscopy. From 1970 to 1977 he worked in the spectroscopy group of <a href=\"index.html#/people/permanent/krupnov\">Prof. Andrey&nbsp;F.&nbsp;Krupnov</a> at the Radio-Physical Institute (NIRFI) and since 1977 to the present time has been with the Institute of Applied Physics of RAS, Nizhny Novgorod. Current position &mdash; Senior Research Associate. Major interests &mdash; experimental study of high resolution rotational and rotational-vibrational spectra of the molecules and molecular clusters in mm and sub-mm wave ranges (30&nbsp;GHz&ndash;1.25&nbsp;THz); design and development of broadband high resolution spectrometers with the free running, frequency locked (RAD-3 spectrometer), frequency and phase stabilized backward wave oscillators (BWOs).</p> <p>He developed and put into operation several spectrometers for different applications during the periods he worked at the NIRFI and IAP, Nizhny Novgorod; at the First Physical Institute (Prof.&nbsp;Gisbert Winnewisser), Cologne, Germany; at the Physics and Chemistry Departments (Prof.&nbsp;Frank&nbsp;C.&nbsp;DeLucia), the Ohio-State University, Culumbus OH, USA; at the Chemistry Department (Prof.&nbsp;John&nbsp;W.&nbsp;Bevan), the Texas A&M University, College Station TX, USA. For a long time he has collaborated with Prof.&nbsp;Dushan Papousek and Prof.&nbsp;Stepan Urban at the J.&nbsp;Heyrovsky Institute of Physical Chemistry and Electrochemistry of Czechoslovak Academy of Science, Prague, Czechoslovak Republic; worked as a guest researcher at the National Institute of Standards and Technology, Gaithersburg MD, USA, with Dr.&nbsp;John&nbsp;T.&nbsp;Hougen and Dr.&nbsp;Richard Suenram; was a JSPS Fellow at the Institute for Molecular Science (Prof.&nbsp;Keichi Tanaka), Myodaiji, Okazaki, Japan.</p> <p>Highlights of research: high sensitive acoustical cell for the RAD spectrometer; first broadband high resolution automatic records of molecular rotational spectra with a free running BWO and SO<sub>2</sub> reference spectrum; inversion spectrum of the ammonia molecule NH<sub>3</sub>  in &nu;<sub>2</sub>&nbsp;=&nbsp;1 vibrational state; <span class=\"style3\">&Delta;</span>K&nbsp;=&nbsp;±3 &ldquo;forbidden&rdquo; transitions of the PH<sub>3</sub> and NH<sub>3</sub> molecules; pressure induced line frequency shifts; sub-Doppler resolution spectra and precise frequency measurements with Lamb-dip technique, THz methanol CH<sub>3</sub>OH spectrum, fast scan submillimeter spectroscopy technique (FASSST spectrometer), acetaldehyde CH<sub>3</sub>COH sub-mm spectra in torsional states up to V<sub>t</sub>&ldquo;=&ldquo;4;  fast scan submillimeter spectrometer with the coaxial pulsed jet; small hydrogen-bonded molecular clusters; polar gas detection at ppt (1 part in 1012 ) sensitivity.</p> <p>Awards: 1975 &mdash; Prize of scientific exhibition &ldquo;250 years of the Russian Academy of Science&ldquo;, Moscow, for the design and development of the high sensitive broad band sub-millimeter wave spectroscopy; 1982 &mdash; Joint prize of the USSR and CSSR Academies of Sciences for Investigation of Fine Structure of Rotational-Vibrational Spectra of Nonrigid Molecules.</p> <p>Invited lectures at: The VI International Conference on High Resolution Molecular Spectroscopy, Prague 1980;  X International Colloquium on High Resolution Molecular Spectroscopy, Dijon 1987, France; NATO Advanced Research Workshop Spectroscopy from Space, Bratislava 2000, Slovakia; XVI Symposium on High Resolution Spectroscopy (HighRus-2009), Baykal Lake, Russia; II International Symposium Topical Problems of Biophotonics, 2009, Nizhny Novgorod, Russia.</p> <p>In March 2013 in accordance with the ISI Web of Knowlegde he has over 90 papers published in international peer-reviewed journals and cited more than 1500 times. His Hirsch index is 23.</p>",
         			"photo": { 
         				"filename": "belov_1.jpg",
         				"position": {"x": 0.5, "y": 0.2},
@@ -152,19 +152,19 @@
         			"tel": "+7 (831) 416-47-69",
         			"biography": "<p>German&nbsp;Yu.&nbsp;Golubyatnikov was born in Nizhny Novgorod, Russia, in 1961.</p> <p>He graduated in 1983 and received Master Degree from Gorky State University. He received Ph.D. degree in plasma physics in 1996 from Applied Physics Institute, Russian Academy of Sciences (IAP RAS), Nizhny Novgorod, Russia.</p> <p>Since 1983 to the present time, he has been with the Applied Physics Institute RAS, Nizhny Novgorod, currently as a Senior Research Fellow.</p> <p>Consulting physicist, St. Kliment Ohridski University of Sophia, Bulgaria (1990, 1991); visiting researcher, Department of Physics, University of California at Los Angeles (1991&ndash;1992); DFG Fellow, CAU Kiel University, Germany (1996, 1998); CRDF Award Fellow, National Institutes of Standards and Technology (NIST), Gaithersburg (1998); visiting researcher, NIST (2000&ndash;2002); consulting physicist, Air Products Corporation, Allentown, PA (2002); consulting physicist, Physics Department University of New Brunswick, Saint John, Canada (2001); consulting physicist, ETH, Swiss Federal Institute of Technology, Zurich (2002); DFG Fellow, CAU  Kiel University, Germany (2004, 2005, 2006).</p> <p>Recent research interest and results are in the new technique of submillimeter microwave spectroscopy and application of submillimeter-wave systems for technology; spectroscopy of bio-systems.</p>",
         			"photo": { 
-        				"filename": "G_golub.jpg",
+        				"filename": "Golubyatnikov.jpg",
         				"position": {"x": 0.5, "y": 0.4},
         				"scale": 1.1 
         			}
         		},
-        		"polyanskiy": {
-        			"full_name": "Oleg&nbsp;Lvovich&nbsp;Polyanskiy",
-        			"short_name": "Oleg&nbsp;L.&nbsp;Polyanskiy",
+        		"polyansky": {
+        			"full_name": "Oleg&nbsp;Lvovich&nbsp;Polyansky",
+        			"short_name": "Oleg&nbsp;L.&nbsp;Polyansky",
         			"acad_degree": "Ph.D. in Physics",
 					"position": "Leading Researcher",
         			"email": "o.polyansky&nbsp;(at)&nbsp;ucl.ac.uk",
         			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Oleg Polyanskiy was born in 1957 in Gorky (now called Nizhny Novgorod). He received his diploma degree in radiophysics from the Gorky State University, USSR (1979). The same year he became a junior research fellow at the Institute of Applied Physics of the Russian Academy of Science (USSR at that time). His Ph.D. work was done at this Institute and defended at Tomsk University in 1993. By that time he was a senior research fellow of the same institute. After receiving his Ph.D. he won the Humboldt fellowship, which he spent with Prof.&nbsp;Manfred Winnewisser and Prof.&nbsp;Per Jensen in Giessen, Germany. In 1995 he took a postdoc position at University College London with Prof.&nbsp;Jonathan Tennyson. He spent the years 2004 to 2006 as a researcher at Ulm University, Germany, and the years up to 2008 as a visiting professor at UCL. At the moment he is a group leader, leading research fellow and scientific supervisor of Ph.D. students in his home town at the Institute of Applied Physics.</p> <p>His research interests are in the development and application of methods for the high precision calculations of the spectra of small molecules and ions, and analysis of their spectra at high excitation, including high temperatures and dissociation.</p> <p>He has more than 100 papers in the refereed journals, including &ldquo;Science&rdquo; (first author in two &ldquo;Science&rdquo; papers), &ldquo;Physical Review&rdquo;, &ldquo;Physical Review Letters&rdquo;, &ldquo;Journal of Chemical Physics&rdquo;, &ldquo;Chemical Physics Letters&rdquo;. In 2015 citation index of his publications was 4002 citations, average 33 per paper; Hirsch factor is 38.</p> <p> <a href=\"sss.html\" class=\"a_l\">Theoretical group activity</a></p>",
+        			"biography": "<p>Oleg Polyansky was born in 1957 in Gorky (now called Nizhny Novgorod). He received his diploma degree in radiophysics from the Gorky State University, USSR (1979). The same year he became a Junior Research fellow at the Institute of Applied Physics of the Russian Academy of Science (USSR at that time). His Ph.D. work was done at this Institute and defended at Tomsk University in 1993. By that time he was a Senior Research fellow of the same institute. After receiving his Ph.D. he won the Humboldt fellowship, which he spent with Prof.&nbsp;Manfred Winnewisser and Prof.&nbsp;Per Jensen in Giessen, Germany. In 1995 he took a postdoc position at University College London with Prof.&nbsp;Jonathan Tennyson. He spent the years 2004 to 2006 as a Researcher at Ulm University, Germany, and the years up to 2008 as a visiting professor at UCL. At the moment he is a group leader, Leading Research fellow and scientific supervisor of Ph.D. students in his home town at the Institute of Applied Physics.</p> <p>His research interests are in the development and application of methods for the high precision calculations of the spectra of small molecules and ions, and analysis of their spectra at high excitation, including high temperatures and dissociation.</p> <p>He has 154 papers in the refereed journals, including &ldquo;Science&rdquo; (first author in two &ldquo;Science&rdquo; papers), &ldquo;Physical Review&rdquo;, &ldquo;Physical Review Letters&rdquo;, &ldquo;Journal of Chemical Physics&rdquo;, &ldquo;Chemical Physics Letters&rdquo;. In 2018 citation index of his publications was 5800 citations, average 37.75 per paper; Hirsch factor is 44.</p><p><a href=\"index.html#/stud/sss\">Theoretical group activity</a></p>",
         			"photo": { 
         				"filename": "oleg.jpg",
         				"position": {"x": 0.5, "y": 0.2},
@@ -226,13 +226,13 @@
 					]
         		},
         		"zobov": {
-        			"full_name": "Nikolai&nbsp;Fedorovich&nbsp;Zobov",
-        			"short_name": "Nikolai&nbsp;F.&nbsp;Zobov",
+        			"full_name": "Nikolay&nbsp;Fedorovich&nbsp;Zobov",
+        			"short_name": "Nikolay&nbsp;F.&nbsp;Zobov",
         			"acad_degree": "Ph.D. in Physics",
 					"position": "Senior Researcher",
         			"email": "zobov&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Nikolai&nbsp;F.&nbsp;Zobov, born December 13th, 1959.</p> <p>Graduated from Moscow Engineering Physics Institute in 1983. Since then has been working at Institute of Applied Physics RAS.</p> <p>Current position &mdash; senior  research scientist. Received Ph.D. degree in physics and mathematics in 2005. Major interests &mdash; high resolution experimental studies of molecular complexes in millimeter and submillimeter wave range; development of new theoretical methods of analyzing light molecules spectra; assignment of hot (up to 3000&nbsp;K) and cold (room temperature) spectra of water; analysis of water molecule spectra up to and above dissociation limit; first principals calculations of spectra of molecular ion &mdash; H<sub>3</sub><sup>+</sup>.</p> <p>Collaboration with theoreticians and experimentalists from University College London (UK), University of Waterloo (Canada), Eotvos Lorand University (Hungary),  Ecole Polytechnique Federale de Lausanne (Switzerland), University of Arizona (USA), National Optical Astronomy Observatory (USA),  National Institute of Standards and Technology (USA), Imperial College of Science, Technology and Medicine (UK), Vrije Universiteit (Netherlands), Rutherford Appleton Laboratory (UK), University of York (UK), V.&nbsp;E.&nbsp;Zuev Institute of Atmospheric Optics (Russia), Jet Propulsion Laboratory (USA), Universiteit Joseph Fourier (France), Universiteit de Reims Champagne-Ardenne (France), Harvard-Smithsonian Center for Astrophysics (USA), Institut d'Aeitronomie Spatiale de Belgique (Belgium), Universiteit Libre de Bruxelles (Belgium), University of Science and Technology of China (China).</p> <p>In 1992&ndash;1994 worked as a guest researcher at the National Institute of Standards and Technology, Gaithersburg, USA.</p> <p>From 1994 close cooperation with the group of Prof.&nbsp;Jonathan Tennyson from University College London (up to 30 visits to UCL during these years).</p> <p>More than 70 papers.</p>",
+        			"biography": "<p>Nikolay&nbsp;F.&nbsp;Zobov, born December 13th, 1959.</p> <p>Graduated from Moscow Engineering Physics Institute in 1983. Since then has been working at Institute of Applied Physics RAS.</p> <p>Current position &mdash; Senior  Research scientist. Received Ph.D. degree in physics and mathematics in 2005. Major interests &mdash; high resolution experimental studies of molecular complexes in millimeter and submillimeter wave range; development of new theoretical methods of analyzing light molecules spectra; assignment of hot (up to 3000&nbsp;K) and cold (room temperature) spectra of water; analysis of water molecule spectra up to and above dissociation limit; first principals calculations of spectra of molecular ion &mdash; H<sub>3</sub><sup>+</sup>.</p> <p>Collaboration with theoreticians and experimentalists from University College London (UK), University of Waterloo (Canada), Eotvos Lorand University (Hungary),  Ecole Polytechnique Federale de Lausanne (Switzerland), University of Arizona (USA), National Optical Astronomy Observatory (USA),  National Institute of Standards and Technology (USA), Imperial College of Science, Technology and Medicine (UK), Vrije Universiteit (Netherlands), Rutherford Appleton Laboratory (UK), University of York (UK), V.&nbsp;E.&nbsp;Zuev Institute of Atmospheric Optics (Russia), Jet Propulsion Laboratory (USA), Universiteit Joseph Fourier (France), Universiteit de Reims Champagne-Ardenne (France), Harvard-Smithsonian Center for Astrophysics (USA), Institut d'Aeitronomie Spatiale de Belgique (Belgium), Universiteit Libre de Bruxelles (Belgium), University of Science and Technology of China (China).</p> <p>In 1992&ndash;1994 worked as a guest researcher at the National Institute of Standards and Technology, Gaithersburg, USA.</p> <p>From 1994 close cooperation with the group of Prof.&nbsp;Jonathan Tennyson from University College London (up to 30 visits to UCL during these years).</p> <p>More than 70 papers.</p>",
         			"photo": { 
         				"filename": "kolya.jpg",
         				"position": {"x": 0.5, "y": 0.45},
@@ -280,7 +280,7 @@
         			"full_name": "Maksim&nbsp;Aleksandrovich&nbsp;Koshelev",
         			"short_name": "Maksim&nbsp;A.&nbsp;Koshelev",
         			"acad_degree": "Ph.D. in Physics",
-					"position": "Senior Researcher",
+					    "position": "Senior Researcher",
         			"email": "koma&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-48-66",
         			"biography": "<p>Maksim&nbsp;A.&nbsp;Koshelev was born in Nizhny Novgorod, Russia, in 1980.</p> <p>Graduated from the Radio Physical Faculty of Nizhny Novgorod State University in 2003 with master's thesis &ldquo;Precision  measurement of the 118-GHz oxygen spectral line parameters&rdquo;.</p> <p>Since 2000 to the present time with the Laboratory of Microwave Spectroscopy of the Institute of Applied Physics of the Russian Academy of  Sciences. Current position &mdash; Senior Research Fellow.</p> <p>Received Ph.D. degree in physics from the Institute of Applied Physics of RAS in 2007 with thesis &ldquo;Precision measurements of molecular line parameters and continuum absorption parameterization in MM/SubMM  wave range for atmospheric applications&rdquo;.</p> <p><strong>Major interests</strong> are molecular gas spectroscopy, precision  measurements of collisional parameters of molecular lines in MM, SubMM and IR wave regions, development of spectroscopic techniques and methods. Particular results are concerned with spectroscopic studies of absorption by atmospheric species (H<sub>2</sub>O, O<sub>2</sub>, and some rare ones).</p> <p><strong>Work experience:</strong></p> <table> <tr> <td><p>April &mdash; October 2004</p></td> <td><p>Visiting researcher at University of New Brunswick, Saint John, NB, Canada</p></td> </tr> <tr> <td><p>February 2006</p></td> <td><p>Lecturing at 41st Research Institute of China Electronics Technology Group Corporation, Qingdao, China</p></td> </tr> <tr> <td><p>June &mdash; July 2009</p></td> <td><p>Joint research visit to The University of Nottingham, Great Britain</p></td> </tr> <tr> <td><p>April &mdash; May 2011</p></td> <td><p>Joint research visit to &Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne, Switzerland</p></td> </tr> <tr> <td><p>February &mdash; June 2012</p></td> <td><p>Joint research visit to &Eacute;cole Polytechnique F&eacute;d&eacute;rale de Lausanne, Switzerland</p></td> </tr> <tr> <td><p>June 2012</p></td> <td><p>Invited professor at Laboratoire de Physico-Chimie de l&rsquo;Atmosph&egrave;re, Universit&eacute; du Littoral C&ocirc;te d&rsquo;Opale, Dunkerque, France</p></td> </tr> </table>",
@@ -332,111 +332,113 @@
         				"scale": 1.2 
         			}
         		},
-        		"ovsyannikov": {
-        			"full_name": "Roman&nbsp;Ilich&nbsp;Ovsyannikov",
-        			"short_name": "Roman&nbsp;I.&nbsp;Ovsyannikov",
-        			"acad_degree": "Ph.D. in Physics",
-        			"position": "Researcher",
-        			"email": "ovsyannikov&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Roman&nbsp;Ilyich&nbsp;Ovsyannikov was born 21.02.1983; graduated from the Radio Physical Faculty of Nizhny Novgorod State University in 2006 with master degree. From 2006 to 2009 took a joint Ph.D. course at the Institute of Applied Physics RAS and at Bergische University Wuppertal, Germany, in close cooperation with Prof.&nbsp;Per Jensen and Sergei Yurchenko. Received Ph.D. degree in physics in 2010. The theme of the Ph.D. thesis is &ldquo;Multi-purpose approach to ro-vibrational energy levels of few-atomic molecules variational calculations using potential energy surface&rdquo;.</p> <p>Major interests &mdash; theoretical methods of modeling spectra of molecules of various structure; theoretical spectroscopy.</p>",
-        			"photo": { 
-        				"filename": "Roman.JPG",
-        				"position": {"x": 0.2, "y": 0.4},
-        				"scale": 1.2 
-        			}
-        		},
+          "ovsyannikov": {
+            "full_name": "Roman&nbsp;Ilich&nbsp;Ovsyannikov",
+            "short_name": "Roman&nbsp;I.&nbsp;Ovsyannikov",
+            "acad_degree": "Ph.D. in Physics",
+            "position": "Senior Researcher",
+            "email": "ovsyannikov&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+            "tel": "+7 (831) 416-49-32",
+            "biography": "<p>Roman&nbsp;Ilyich&nbsp;Ovsyannikov was born 21.02.1983; graduated from the Radio Physical Faculty of Nizhny Novgorod State University in 2006 with master degree. From 2006 to 2009 took a joint Ph.D. course at the Institute of Applied Physics RAS and at Bergische University Wuppertal, Germany, in close cooperation with Prof.&nbsp;Per Jensen and Sergey Yurchenko. Received Ph.D. degree in physics in 2010. The theme of the Ph.D. thesis is &ldquo;Multi-purpose approach to ro-vibrational energy levels of few-atomic molecules variational calculations using potential energy surface&rdquo;. Current position is a Senior Research Associate.</p> <p>Major interests &mdash; theoretical methods of modeling spectra of molecules of various structure; theoretical spectroscopy.</p>",
+            "photo": {
+              "filename": "Roman.JPG",
+              "position": {
+                "x": 0.2,
+                "y": 0.4
+              },
+              "scale": 1.2
+            }
+          },
         		"mizus": {
         			"full_name": "Irina&nbsp;Igorevna&nbsp;Mizus&nbsp;(Bubukina)",
         			"short_name": "Irina&nbsp;I.&nbsp;Mizus&nbsp;(Bubukina)",
         			"acad_degree": "Ph.D. in Physics",
         			"position": "Researcher",
-        			"email": "ireneb86&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+        			"email": "irene.mizus&nbsp;(at)&nbsp;gmail.com",
         			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Irina&nbsp;I.&nbsp;Mizus (Bubukina) was born in Nizhny Novgorod, Russia, 17.03.1986.</p> <p>Graduated from the ASGAP (the Advanced School of General and Applied Physics) &mdash; faculty of Nizhny Novgorod State University &mdash; in 2009 as a master of physics. The theme of the master diploma is &ldquo;The H<sub>2</sub><sup>16</sup>O molecule PES optimization&rdquo;. Started working in the Microwave Spectroscopy laboratory (MWL) of the Institute of Applied Physics RAS (IAP RAS) in 2008 as a laboratory assistant, since 2009 till 2014 was a junior researcher in MWL. Since 2009 up to 2012 was taking a Ph.D. course in postgraduate school of IAP RAS. The Ph.D. thesis entitled &ldquo;Analysis of H<sub>2</sub><sup>16</sup>O and H<sub>3</sub><sup>+</sup> spectra using global potential energy surfaces&rdquo; was defended in 2014. Current position is a research associate in MWL.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
+        			"biography": "<p>Irina&nbsp;I.&nbsp;Mizus (Bubukina) was born in Nizhny Novgorod, Russia, 17.03.1986.</p> <p>Graduated from the ASGAP (the Advanced School of General and Applied Physics) &mdash; faculty of Nizhny Novgorod State University &mdash; in 2009 as a master of physics. The theme of the master diploma is &ldquo;The H<sub>2</sub><sup>16</sup>O molecule PES optimization&rdquo;. Started working in the Microwave Spectroscopy laboratory (MWL) of the Institute of Applied Physics RAS (IAP RAS) in 2008 as a laboratory assistant, since 2009 till 2014 was a Junior Researcher in MWL. Since 2009 up to 2012 was taking a Ph.D. course in postgraduate school of IAP RAS. The Ph.D. thesis entitled &ldquo;Analysis of H<sub>2</sub><sup>16</sup>O and H<sub>3</sub><sup>+</sup> spectra using global potential energy surfaces&rdquo; was defended in 2014. Current position is a Research associate in Holon Institute of Technology, Israel. Continues to collaborate closely with MWL.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
         			"photo": { 
         				"filename": "irene.jpg",
         				"position": {"x": 0.45, "y": 0.2},
         				"scale": 1.15
         			},
-					"selected_papers": [
-						"2009Bubukina.pdf",
-						"2009Bubukina-2.pdf",
-						"2011Bubukina.pdf", 
-						"2012Pavanello.pdf",
-						"2012Pavanello-1.pdf",
-						"2012Polyansky.pdf",
-						"2012Polyansky-1.pdf",
-						"2013Tennyson.pdf",
-						"2014Petrignani.pdf",
-						"2017Mizus.pdf",
-						"2017Mizus-1.pdf"
-					]
+					    "selected_papers": [
+						    "2009Bubukina.pdf",
+						    "2009Bubukina-2.pdf",
+						    "2011Bubukina.pdf", 
+						    "2012Pavanello.pdf",
+						    "2012Pavanello-1.pdf",
+						    "2012Polyansky.pdf",
+						    "2012Polyansky-1.pdf",
+						    "2013Tennyson.pdf",
+						    "2014Petrignani.pdf",
+    						"2017Mizus.pdf",
+		    				"2017Mizus-1.pdf",
+				    		"2018Mizus.pdf",
+						    "2018Polyansky.pdf",
+						    "2018Makhnev-1.pdf",
+						    "2019Mizus.pdf"
+					    ]
         		},
-        		"odintsova": {
-        			"full_name": "Tatyana&nbsp;Anatolevna&nbsp;Odintsova",
-        			"short_name": "Tatyana&nbsp;A.&nbsp;Odintsova",	
-        			"position": "Researcher",
-        			"email": "odintsova&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 416-48-66",
-        			"biography": "<p>Tatyana Odintsova was born in N.&nbsp;Novgorod, Russia, October 7, 1990.</p> <p>Graduated from the Radiophysics faculty of Nizhny Novgorod State University in 2013. The theme of the master diploma is &ldquo;Manifestation of small water clusters in high temperature water vapor spectra&rdquo;. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2009 as a laboratory assistant. From 2013 to 2017 took a joint Ph.D. course at the Institute of Applied Physics RAS and at the University of Campania &ldquo;LUIGI VANVITELLI&rdquo;, Italy. The Ph.D. thesis entitled &ldquo;Accurate measurements of spectroscopic line parameters of atmospheric relevant molecules&rdquo; was defended in 2017 in University of Salerno, Italy. Current position is a research associate.</p>",
-        			"photo": { 
-        				"filename": "Odintsova1.jpg",
-        				"position": {"x": 0.5, "y": 0.2},
-        				"scale": 1.0 
-        			}
-        		},
+          "odintsova": {
+            "full_name": "Tatyana&nbsp;Anatolevna&nbsp;Odintsova",
+            "short_name": "Tatyana&nbsp;A.&nbsp;Odintsova",
+            "acad_degree": "Ph.D. in Physics",
+            "position": "Senior Researcher",
+            "email": "odintsova&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+            "tel": "+7 (831) 416-48-66",
+            "biography": "<p>Tatyana Odintsova was born in N.&nbsp;Novgorod, Russia, October 7, 1990.</p> <p>Graduated from the Radiophysics faculty of Nizhny Novgorod State University in 2013. The theme of the master diploma is &ldquo;Manifestation of small water clusters in high temperature water vapor spectra&rdquo;. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2009 as a laboratory assistant. From 2013 to 2017 took a joint Ph.D. course at the Institute of Applied Physics RAS and at the University of Campania &ldquo;LUIGI VANVITELLI&rdquo;, Italy. The Ph.D. thesis entitled &ldquo;Accurate measurements of spectroscopic line parameters of atmospheric relevant molecules&rdquo; was defended in 2017 in University of Salerno, Italy. Current position is a Senior Research Associate.</p>",
+            "photo": {
+              "filename": "Odintsova1.jpg",
+              "position": {
+                "x": 0.5,
+                "y": 0.2
+              },
+              "scale": 1.0
+            }
+          },
         		"vilkov": {
         			"full_name": "Ilya&nbsp;Nikolaevich&nbsp;Vilkov",
-        			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;(Ph.D. student)",
-        			"position": "Junior Researcher, Ph.D. Student",
+        			"short_name": "Ilya&nbsp;N.&nbsp;Vilkov&nbsp;",
+        			"position": "Researcher",
         			"email": "Vilkov.Ilya&nbsp;(at)&nbsp;appl.sci-nnov.ru",
         			"tel": "+7 (831) 416-48-66",
-        			"biography": "<p>Ilya Vilkov was born in Nizhny Novgorod, Russia, in 1984. Graduated from the Mechanics and Mathematics faculty of Nizhny Novgorod State University in 2007 with master's diploma. Speciality &mdash; &ldquo;mechanics&rdquo;. Started working at the Microwave Spectroscopy Laboratory of IAP RAS in 2011 as a researcher and currently is taking a Ph.D. course. The research theme is &ldquo;Spectral line shapes of major atmospheric gases in a broad range of temperatures and pressures&rdquo;.</p>",
+        			"biography": "<p>Ilya Vilkov was born in Nizhny Novgorod, Russia, in 1984. Graduated from the Mechanics and Mathematics faculty of Nizhny Novgorod State University in 2007 with master's diploma. Speciality &mdash; &ldquo;mechanics&rdquo;. Started working at the Microwave Spectroscopy Laboratory of IAP RAS in 2011 as a Researcher. The 4-year Ph.D. course was completed in 2020. The research theme is &ldquo;Spectral line shapes of major atmospheric gases in a broad range of temperatures and pressures&rdquo;.</p>",
         			"photo": { 
         				"filename": "Vilkov1.jpg",
         				"position": {"x": 0.45, "y": 0.2},
         				"scale": 1.3 
         			}
         		},
-        		"kyuberis": {
-        			"full_name": "Aleksandra&nbsp;Aleksandrovna&nbsp;Kyuberis",
-        			"short_name": "Aleksandra&nbsp;A.&nbsp;Kyuberis",	
-        			"position": "Junior Researcher",
-        			"email": "kyuberis&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Aleksandra&nbsp;A.&nbsp;Kyuberis was born in Nizhny Novgorod, Russia, 08.08.1990.</p> <p>Graduated from the Radiophysical department of the Nizhny Novgorod State University in 2013 as a master of physics. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2011 as a laboratory assistant. Is going to take a Ph.D. course.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
-        			"photo": { 
-        				"filename": "Kyuberis.jpg",
-        				"position": {"x": 0.95, "y": 0.3},
-        				"scale": 1.25 
-        			}
-        		}
+          "makhnev": {
+            "full_name": "Vladimir&nbsp;Yurievich&nbsp;Makhnev",
+            "short_name": "Vladimir&nbsp;Yu.&nbsp;Makhnev",
+            "position": "Junior Researcher",
+            "email": "makhnev&nbsp;(at)&nbsp;ipfran.ru",
+            "tel": "+7 (831) 416-49-32",
+            "biography": "<p>Vladimir Makhnev was born in the Gorky region on 17 July 1992.</p> <p>Graduated from the HSGAP (Higher School of General and Applied Physics) &mdash; Faculty of Nizhny Novgorod State University &mdash; in 2015 as Master of Physics (paper topic: &ldquo;Investigation of stratospheric warming influence on ozone structure in the middle atmosphere by microwave radiometry methods&rdquo;). After that he started working in the Laboratory of Microwave Spectroscopy at the IAP RAS as a Junior Researcher.</p> <p>From August 2015 to June 2019 he was a postgraduate student. The topic of his Ph.D. thesis was &ldquo;High-precision quantum-chemical calculations of spectra of molecular system HCN/HNC&rdquo;, scientific supervisor &mdash; Dr.&nbsp;O.L.&nbsp;Polyansky (IAP RAS (Russia) and UCL (UK)). The thesis was defended Ph.D. in October 2021.</p><p>Main interests &mdash; <em>ab initio</em> calculation of rovibrational spectra of light molecules with a small number of atoms.</p> <p><strong>Scientific visits:</strong></p> <table> <tr> <td><p>August &mdash; September 2016 (1 month)</p></td> <td><p>University College London, London (UK)</p></td> </tr> <tr> <td><p>November 2019 (2 weeks)</p></td> <td><p>Justus Liebig University Giessen, Giessen (Germany)</p></td> </tr> <tr> <td><p>November &mdash; December 2019 (5 weeks)</p></td> <td><p>PTB, Braunschweig (Germany)</p></td> </tr> </table>",
+            "photo": {
+              "filename": "makhnev.jpg",
+              "position": {
+                "x": 0.6,
+                "y": 0.4
+              },
+              "scale": 1.1
+            },
+            "selected_papers": [
+              "2018Makhnev.pdf",
+              "2018Makhnev-1.pdf",
+              "2021Mellau.pdf"
+            ]
+          }
         	}
         },
         "PhD_stud": {
         	"title": "Ph.D. students",
         	"staff": {
-        		"makhnev": {
-        			"full_name": "Vladimir&nbsp;Yurievich&nbsp;Makhnev",
-        			"short_name": "Vladimir&nbsp;Yu.&nbsp;Makhnev",	
-        			"position": "Junior Researcher",
-        			"email": "makhnev&nbsp;(at)&nbsp;ipfran.ru",
-        			"tel": "+7 (831) 416-49-32",
-        			"biography": "<p>Vladimir Makhnev was born in Gorky region, July 17, 1992.</p> <p>Graduated from the ASGAP (the Advanced School of General and Applied Physics) &mdash; faculty of Nizhny Novgorod State University &mdash; in 2015 as a master of physics (theme of work: &ldquo;The study of the influence of stratospheric warming on the ozone structure in the middle atmosphere by microwave radiometry methods&rdquo;). After that he started working at the Microwave Spectroscopy Laboratory of IAP RAS as a Junior Researcher. Since August, 2015 he is taking a Ph.D. cource. The theme of Ph.D. study is &ldquo;Precision quantum mechanic calculations of molecular spectra for Solar system planets and exoplanets atmospheres research&rdquo;.</p>",
-        			"photo": { 
-        				"filename": "makhnev.jpg",
-        				"position": {"x": 0.6, "y": 0.4},
-        				"scale": 1.1 
-        			}
-        		}
-        	}
-        },
-        "stud": {
-    		"title": "Students",
-    		"staff": {
-        		"balashov": {
-        			"short_name": "Aleksander&nbsp;A.&nbsp;Balashov",	
+				"balashov": {
+        			"short_name": "Aleksander&nbsp;A.&nbsp;Balashov",
+					"position": "Ph.D. Student",	
         			"biography": "<p>Aleksander Balashov was born in N.&nbsp;Novgorod, Russia, November 2, 1995.</p> <p>Studying at the Radiophysics faculty of Nizhny Novgorod State University since 2013. And since 2016 making coursework along the absorption of radiation in the atmosphere in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS.</p>",
         			"photo": { 
         				"filename": "Balashov.jpg",
@@ -444,153 +446,231 @@
         				"scale": 1.2 
         			}
         		},
-        		"zibarova": {
-        			"short_name": "Aleksandra&nbsp;O.&nbsp;Zibarova",	
-        			"biography": "<p>Aleksandra&nbsp;O.&nbsp;Zibarova was born in 1996 in Kirov region. Entered Radiophysics department of the Lobachevsky State University of Nizhny Novgorod in 2014. She has been with the Microwave Spectroscopy laboratory of the IAP RAS since 2015.</p>",
-        			"photo": { 
-        				"filename": "zibarova.jpg",
-        				"position": {"x": 0.2, "y": 0.34},
-        				"scale": 1.7 
+        		"koroleva": {
+        			"short_name": "Aleksandra&nbsp;O.&nbsp;Koroleva (Zibarova)",	
+					"email": "koral&nbsp;(at)&nbsp;ipfran.ru",
+        			"biography": "<p>Aleksandra O. Koroleva (Zibarova) was born in 1996 in Kirov region. Graduated from the Radiophysics department of Lobachevsky State University in 2020. The theme of the master diploma is &ldquo;Water vapour foreign-continuum in the far infrared range&rdquo;. Started working with the Microwave Spectroscopy laboratory of the IAP RAS in 2015 as a Laboratory Assistant-Researcher. Current position is Research Trainee. She is taking a Ph.D. course from 2020 to 2024.</p> </br></br></br></br> <p><strong>Scolarships:</strong></p><table> <tr> <td><p>September&nbsp;2017&mdash;June&nbsp;2020</p></td> <td><p>Enhanced academic excellence scholarship for scientific activities of the Russian Federation government</p></td> </tr> <tr> <td><p>September&nbsp;2017&mdash;June&nbsp;2018</p></td> <td><p><a href=\"https://government-nnov.ru/?id=4457\" target=\"_blank\">Khokhlov scholarship of the Nizhny Novgorod region government</a> for outstanding educational achievement</p></td> </tr> <tr> <td><p>September&nbsp;2019&mdash;June&nbsp;2020</p></td> <td><p><a href=\"https://government-nnov.ru/?id=4457\" target=\"_blank\">Minin scholarship of the Nizhny Novgorod region government</a> for outstanding educational achievement</p></td> </tr> <tr> <td><p>January&nbsp;2019&mdash;June&nbsp;2020</p></td> <td><p><a href=\"https://www.fondpotanin.ru/en/\" target=\"_blank\">The Potanin scholarship</a> given every year to 500 the most talented Russian students with excellent academic, intellectual, creative, and leadership skills</p></td> </tr> </table>",
+        			"photo": {
+        				"filename": "Koroleva2021.jpg",
+        				"position": {"x": 0.5, "y": 0.2},
+        				"scale": 1.2 
         			}
         		}
         	}
         },
+        "stud": {
+    		"title": "Students",
+    		"staff": {
+            	"welcome": {
+            		"no_page": true,
+              		"short_name": "<p><a href=\"https://mwl.ipfran.ru/index.html#/interest/Student\" target=\"_blank\">Welcome!</a>"
+            }
+        	}
+        },
         "former": {
     		"title": "Our former colleagues",
-    		"staff": {
-        		"melnikov": {
-        			"full_name": "Anatoliy&nbsp;Afanasievich&nbsp;Melnikov",
-        			"short_name": "Anatoliy&nbsp;A.&nbsp;Melnikov",	
-        			"biography": "<p>A.A.&nbsp;Melnikov born in Ponizovie village, Kaluga region, USSR, in 1934. Master degree received from the State Polytechnic Institute located in Gorky city in 1969. In 1963&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 1983 as vice head. His major contribution was organization of the Laboratory life in the newly created Institute. He also conducted many experimental studies of molecular spectra.</p>",
-        			"photo": { 
-        				"filename": "Melnikov.jpg",
-        				"position": {"x": 0.49, "y": 0.43},
-        				"scale": 1.2 
-        			}      			
-        		},
-        		"vaks": {
-        			"full_name": "Vladimir&nbsp;Leybovich&nbsp;Vaks",
-        			"short_name": "Vladimir&nbsp;L.&nbsp;Vaks",
-        			"acad_degree": "Ph.D. in Physics",	
-        			"biography": "<p>Vladimir&nbsp;L.&nbsp;Vaks worked in the instrumental group of the Lab from 1977 to 1993 as a research associate. Since 1993 he is with the Institute for Physics of Microstructures RAS&nbsp;(<a href=\"http://ipmras.ru/en/structure/people/vax\" target=\"_blank\">IPM RAS</a>).</p>",
-        			"photo": { 
-        				"filename": "Vaks.jpg",
-        				"position": {"x": 0.53, "y": 0.45},
-        				"scale": 1.2 
-        			}
-        		},
-        		"gershtein": {
-        			"full_name": "Lev&nbsp;Isidorovich&nbsp;Gershtein",
-        			"short_name": "Lev&nbsp;I.&nbsp;Gershtein",
-        			"acad_degree": "Ph.D. in Physics",	
-        			"biography": "<p>L.I.&nbsp;Gershtein. Born in Odessa city, USSR, in 1931. Master degree received from the State Polytechnic Institute located in Gorky city in 1954. In 1957&ndash;1977 worked in NIRFI.</p> <p>He was working in the Lab from 1977 to 1984 as head of instrumental group. Broadband SubMM BWO-based frequency synthesizers were developed under his supervision (see, e.g., <a href=\"index.html#/list/1998\" target=\"_blank\">Ref. 5 (1998)</a> and <a href=\"index.html#/list/2001\" target=\"_blank\">Ref. 20 (2001)</a> and references therein). This achievement formed the basis of his Ph.D. thesis, which was defended in 1980. In 1980 he was awarded the State prize for his contribution to development of the BWO-based submillimeter-wave spectroscopy.</p>",
-        			"photo": { 
-        				"filename": "Gerstein.jpg",
-        				"position": {"x": 0.55, "y": 0.38},
-        				"scale": 1.2 
-        			}
-        		},
-        		"burenin": {
-        			"full_name": "Aleksander&nbsp;Valentinovich&nbsp;Burenin",
-        			"short_name": "Aleksander&nbsp;V.&nbsp;Burenin",
-        			"acad_degree": "Dr.Sc. in Physics and Mathematics",	
-        			"biography": "<p>Aleksander&nbsp;V.&nbsp;Burenin&nbsp;(<a href=\"http://www.ipfran.ru/english/staff/Burenin_e.html\" target=\"_blank\">IAP  RAS</a>)&nbsp;worked in the Lab as a theoretician from 1977 to 1983.</p>",
-        			"photo": { 
-        				"filename": "Burenin.jpg",
-        				"position": {"x": 0.5, "y": 0.4},
-        				"scale": 1.2 
-        			}
-        		},
-        		"kazakov": {
-        			"full_name": "Valeriy&nbsp;Pavlovich&nbsp;Kazakov",
-        			"short_name": "Valeriy&nbsp;P.&nbsp;Kazakov",
-        			"acad_degree": "Ph.D. in Physics",	
-        			"biography": "<p>Born in Malaya Bugulma village, Tatar ASSR, USSR in 1949. Master degree received from the Gorky State University in 1973. In 1973&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 1996 as experimentalist. His major contribution was achievement <a href=\"sensitivity.html\">the sensitivity</a> of the RAD spectrometerof near to the physical limit and development of gas analysis method [<a href=\"index.html#/list/1978-1989\" target=\"_blank\">Refs. 1, 3 (1986)</a>]. Ph.D. degree was received in 1987.</p>",
-        			"photo": { 
-        				"filename": "Kazakov.jpg",
-        				"position": {"x": 0.53, "y": 0.4},
-        				"scale": 1.2 
-        			}
-        		},
-        		"karyakin": {
-        			"full_name": "Evgeniy&nbsp;Nikolaevich&nbsp;Karyakin",
-        			"short_name": "Evgeniy&nbsp;N.&nbsp;Karyakin",
-        			"biography": "<p>E.N.&nbsp;Karyakin (currently in the USA) born in Gorky city, USSR, in 1947. Master degree received from the Gorky State Polytechnic Institute in 1972. In 1972&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 2000 as experimentalist. His major contribution was development of the method and the first experimental observation of several molecular complexes (H<sub>2</sub>O&ndash;HF, HF&ndash;HF, H<sub>2</sub>O&ndash;NH<sub>3</sub>) at equilibrium gas mixture using RAD gas cell [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.4 (2007)</a> and refs. therein and <a href=\"index.html#/list/1995\" target=\"_blank\">Ref.8 (1995)</a>].</p>",
-        			"photo": { 
-        				"filename": "karyakin.jpg",
-        				"position": {"x": 0.4, "y": 0.5},
-        				"scale": 1.2 
-        			}
-        		},
-        		"kozin": {
-        			"full_name": "Igor&nbsp;Nikolaevich&nbsp;Kozin",
-        			"short_name": "Igor&nbsp;N.&nbsp;Kozin",
-        			"email": "i.n.kozin&nbsp;(at)&nbsp;googlemail.com",
-        			"acad_degree": "Ph.D. in Physics",	
-        			"biography": "<p>I.N.&nbsp;Kozin (currently with the Institute of Cancer Research, London, UK). Born in Gorky city, USSR in 1963. Master degree received from the Gorky State University in 1986. Completed the Ph.D. course in molecular spectroscopy under joint supervision by Andrei Krupnov and Per Jensen and defended the thesis in 1995. He worked in the Lab from 1986 to 2002 as a research associate successfully combining experimental and theoretical studies. He keeps collaborating with the theoretical group of the Lab.</p>",
-        			"photo": { 
-        				"filename": "Kozin.jpg",
-        				"position": {"x": 0.5, "y": 0.2},
-        				"scale": 1.2 
-        			}
-        		},
-        		"shirin": {
-        			"short_name": "Sergei&nbsp;V.&nbsp;Shirin",
-        			"email": "shirin&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"acad_degree": "Ph.D. in Physics",	
-        			"biography": "<p>Sergei&nbsp;V.&nbsp;Shirin worked in the Lab from 1997 to 2013. Was born on March 5th, 1979, in Nizhny Novgorod, Russia. Graduated from the Radio Physics Department of the Nizhny Novgorod State University in 2000. Since 2000 has been involved in close cooperation with the group of Prof. Jonathan Tennyson from University College London. In 2005 worked in cooperation with Universit&auml;t Ulm (Germany) on Leonhard-Euler-Projekt. The theme of the Ph.D. thesis is &ldquo;Fitting of the potential energy surface of water molecule and its application for experimental spectra analyses&rdquo;.</p><p>Main interests are theoretical spectroscopy, variational calculation, and computers.</p>",
-        			"photo": { 
-        				"filename": "Shirin.jpg",
-        				"position": {"x": 0.45, "y": 0.2},
-        				"scale": 1.3 
-        			}
-        		},
-        		"dorovskikh": {
-        			"full_name": "Vladimir&nbsp;Vladimirovich&nbsp;Dorovskikh",
-        			"short_name": "Vladimir&nbsp;V.&nbsp;Dorovskikh",
-        			"biography": "<p>Vladimir&nbsp;V.&nbsp;Dorovskikh (<a href=\"http://www.mera.ru/\" target=\"_blank\">currently with &ldquo;MERA&rdquo;, Nizhny Novgorod</a>). Was born on October 15th, 1976, in Russia. In 2000, June, graduated from Nizhny Novgorod State Technical University, Faculty of Informational Systems and Technologies, specialized in Applied Mathematics speciality, with diploma of expert. From 1998 to was with the Laboratory of Microwave Spectroscopy at the Institute of Applied Physics of the Russian Academy of Science (IAP RAS). In 2000 entered the post-graduate course at IAP RAS. The main interests are automation systems for scientific experiments. In 2002 worked for 5 months at the Department of Physical Sciences of the University of New Brunswick, Saint John, Canada, on development of software for CO<sub>2</sub>-laser&nbsp;+&nbsp;MW side-band spectrometer with a slit nozzle.</p>",
-        			"photo": { 
-        				"filename": "Dorovsk1.jpg",
-        				"position": {"x": 0.1, "y": 0.25},
-        				"scale": 1.2 
-        			}
-        		},
-        		"tretyakova": {
-        			"full_name": "Svetlana&nbsp;Evgenievna&nbsp;Tretyakova",
-        			"short_name": "Svetlana&nbsp;E.&nbsp;Tretyakova",	
-        			"position": "Head assistant of IAP RAS Graduate School",
-        			"email": "svet&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (831) 416-06-28",
-        			"biography": "<p>Graduated from Gorky Architectural and Civil Construction Design Academy in 1982. Master Diploma of Architect. Worked as an architect for 11 years. From 1993 to 2012 was the economist of the Microwave Spectroscopy Laboratory. Was also engaged in works concerned with computer graphics (&ldquo;Corel&rdquo;, &ldquo;PhotoShop&rdquo;), web-design, etc. From 2012 to 2018 she has been head of IAP RAS <a href=\"http://www.ipfran.ru/training/training_as.html\" target=\"_blank\">Graduate School.</a></p>",
-        			"photo": { 
-        				"filename": "Sveta.jpg",
-        				"position": {"x": 0.7, "y": 0.2},
-        				"scale": 1.3 
-        			}
-        		},
-        		"markov": {
-        			"full_name": "Vladimir&nbsp;Nikolaevich&nbsp;Markov",
-        			"short_name": "Vladimir&nbsp;N.&nbsp;Markov",
-        			"biography": "<p>Vladimir&nbsp;N.&nbsp;Markov was born in Nizhny Novgorod, Russia, in 1955. He received the M.S. degree in radiophysics and electronics from Gorky State University in 1978. From 1978 to 2014 he worked in the Lab. Main scientific interests deal with experimental investigations in microwave molecular spectroscopy.</p>",
-        			"photo": { 
-        				"filename": "vova.jpg",
-        				"position": {"x": 0.5, "y": 0.2},
-        				"scale": 1.2 
-        			}
-        		},
-        		"bubnov": {
-        			"full_name": "Grigoriy&nbsp;Mikhailovich&nbsp;Bubnov",
-        			"short_name": "Grigoriy&nbsp;M.&nbsp;Bubnov",	
-        			"email": "bubnov&nbsp;(at)&nbsp;appl.sci-nnov.ru",
-        			"tel": "+7 (908) 155-69-90",
-        			"biography": "<p>Grigoriy Bubnov was born 29.10.1989 in Gorky (now Nizhny Novgorod), Russia. Graduated from Nizhny Novgorod State Technical University (NNSTU) in 2013 with master-engineer's degree of Radiotechnics. The theme of master's thesis is &ldquo;MM-wave radiometer for atmospheric absorption measurements&rdquo;. Enrolled in postgraduate school of NNSTU in 2013. The field of scientific interests includes methods and techniques of millimeter-submillimeter wave spectroscopy and atmospheric radiometry, laboratory and field investigations of atmospheric absorption. Took part in a several expeditions of astroclimate research. Since 2011 to the present time works in the High-sensitivity millimeter-wave receivers laboratory of the Institute of Applied Physics RAS.</p>",
-        			"photo": { 
-        				"filename": "Bubnov.jpg",
-        				"position": {"x": 0.5, "y": 0.2},
-        				"scale": 1.2 
-        			}
-        		}
-        	}
+          "staff": {
+            "krupnov": {
+              "full_name": "Andrey&nbsp;Fedorovich&nbsp;Krupnov",
+              "short_name": "Andrey&nbsp;F.&nbsp;Krupnov",
+              "acad_title": "Professor",
+              "acad_degree": "Dr.Sc. in Physics",
+              "biography": "<p>Andrey&nbsp;F.&nbsp;Krupnov was born on January 31, 1934 in the village of Kirghiz-Miaki of the Bashkir ASSR, where military service brought his parents (Muscovites, medical doctors by education). After World War&nbsp;II, the family settled in Gorky. Andrey received his higher education in 1953&ndash;1957 at the Radiophysics Faculty of the Gorky State University. His diploma thesis &ldquo;Measuring the technical radiation band width of the 10-cm generator&rdquo; was prepared on a radio telescope in Zimenki. His supervisor, <a href=\"https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%BA%D0%B8%D0%B9,_%D0%92%D1%81%D0%B5%D0%B2%D0%BE%D0%BB%D0%BE%D0%B4_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B5%D0%B2%D0%B8%D1%87\" target=\"_blank\">V.S.&nbsp;Troitsky</a> (at that time Ph.D., later corresponding member of the USSR Academy of Sciences), set the right &ldquo;vector of the development&rdquo; and actually predetermined the future fate of the young scientist by inviting him to work at the Radiophysical Research Institute (<a href=\"https://en.wikipedia.org/wiki/Radiophysical_Research_Institute\" target=\"_blank\">NIRFI</a>) after graduation. The work on the diploma and the conversations with Troitsky were very important. It was then that Andrey realized for the first time what he was studying for to make something new. From then on he always preferred the development of new methods, as they give new results.</p> <p>In 1959 V.S.&nbsp;Troitsky included A.&nbsp;Krupnov in the group studying molecular generators. At that time, it was not yet clear what beam masers could be used for. His first contribution to this field (and the subject of his <a href=\"https://mwl.ipfran.ru/index.html#/list/1959-1977\" target=\"_blank\">first scientific paper</a> published in 1959) was a ring sorting system proposed by him. The proposed system proved to be successful and was later used by N.G.&nbsp;Basov and A.M.&nbsp;Prokhorov. In 1963, it was &ldquo;re-invented&rdquo; by G.&nbsp;Becker, Head of the Department of Time and Frequency of the National Metrology Institute of Germany. A description of the system can be found in the section &ldquo;Basic Technique&rdquo; of the book &ldquo;Atomic and Molecular Beam Methods&rdquo;, Oxford University Press, 1988. A formaldehyde-based millimeter-wave molecular generator was launched in 1962. These works of Krupnov were referred to in a large number of reviews and books and laid the basis for his PhD thesis that was defended at the Gorky State University in 1965. At that time, A.F.&nbsp;Krupnov worked in tandem with V.A.&nbsp;Skvortsov, who defended his PhD two years later. Among the many jointly performed studies, the 1967 research is of special notice. It was devoted to the spectrometer operating at a frequency of about 24&nbsp;GHz with a 2-meter long molecular beam and a record resolution of 240&nbsp;Hz. The record was surpassed only 50 years later. This period of Andrey’s work is marked by a whole page of references (20 references) in R.&nbsp;Laine's review (<a href=\"https://www.researchgate.net/publication/231066623_Molecular_beam_masers\" target=\"_blank\">&ldquo;Molecular Beam Masers&rdquo;, Rep. Progr. Phys, 33, 1001&ndash;1067, 1970</a>]. At that time, the world community carefully read the articles in Soviet Radiophysics, where Krupnov published almost all his results.</p> <p>After defending his PhD, A.F.&nbsp;Krupnov decided to take up &ldquo;submillimeters&rdquo; with the use of wide-range generators &mdash; backward-wave oscillators (BWO), developed at the Institute of Radio Electronics, Fryazino, Moscow region. This activity began with measurement of the frequency of the first rotational transitions of an ammonia molecule near 0.57&nbsp;THz, which had not yet been investigated by precise methods of radio spectroscopy. The culture of high-precision measurements with the use of phase-locked loop (PLL) systems of generator radiation, developed when working with masers, was of great help. Almost simultaneously (with a small priority of Krupnov's team, who submitted an <a href=\"https://mwl.ipfran.ru/index.html#/list/1959-1977\" target=\"_blank\">article to Radiophysics</a> in May 1967), these same rotational transitions of ammonia were measured by W.&nbsp;Gordy, who at that time was considered to be a global monopolist in the submillimeter field (the article was submitted to <a href=\"https://doi.org/10.1103/PhysRev.188.100\" target=\"_blank\">Physical Review</a> in July 1969). The results coincided for ordinary ammonia, but not for isotopic ammonia. After numerous thorough checks, Krupnov decided not to write an article, but a letter to Gordy, who a year later admitted his mistake in an <a href=\"https://doi.org/10.1016/0022-2852(71)90280-3\" target=\"_blank\">article in the Journal of Molecular Spectroscopy (1971)</a>. The world noticed that there appeared someone who was able to correct Gordy. Krupnov received Gordy's book with an inscription, and their warm friendship lasted for many years. The main consequence of this period was that A.F.&nbsp;Krupnov became interested in submillimeter-wave spectroscopy. At that time it was an almost untouched scientific field.</p> <p>A spectrometer with BWO and (radio)acoustic detector (RAD) appeared as an answer to the question: Why strong molecular lines are barely visible on a submillimeter microwave detector, although they absorb the entire radiation power of generators (1&ndash;10 mW). Also, the observation was greatly hindered by the unavoidable radiation interference pattern at the point where the detector was located. The acoustic detector is a volumetric receiver. It practically &ldquo;does not see&rdquo; interference and has a frequency-independent sensitivity. The detector ideally matches a wide range of tuning of a BWO frequency. RAD was built in 1970 with the active participation of S.P.&nbsp;Belov, who was a graduate student of Andrey Fedorovich. The first PLL system of a submillimeter-wave BWO was developed the same year. As a radio technical support for Krupnov’s group, cooperation began with L.I.&nbsp;Gerstein from the Bureau of Measuring Devices of NIRFI. It lasted for more than 10 years and led to the creation of the first frequency synthesizers continuously covering the entire sub-THz frequency range. The development of RAD was the reason for the invitation of A.F.&nbsp;Krupnov to an international <a href=\"http://www.chem.uni-wuppertal.de/conference/index.shtml#histo\" target=\"_blank\">conference in Prague</a> in 1972, where, by a happy coincidence, many world leaders of molecular spectroscopy gathered: G.&nbsp;Hertzberg, D.&nbsp;Watson, D.&nbsp;Hougen, K.N.&nbsp;Rao… This paved the way for long-term cooperation between A.F.&nbsp;Krupnov and his group with leading world laboratories.</p> <p>Krupnov defended his doctoral work at the <a href=\"https://www.lebedev.ru/en/institute.html\" target=\"_blank\">Lebedev Physical Institute</a> in 1975. The seminar was made at the Department headed by A.M.&nbsp;Prokhorov, and the defence took place in the Council headed by N.G.&nbsp;Basov. A curious thing happened &mdash; one of the suggested reviewers backed off from the commitment at the last moment, saying that something unreal was claimed in the thesis, as there was no noise in the recordings of lines. The point was that the noise was not visible because the sensitivity was orders of magnitude higher than usual.</p> <p>In 1976, the submillimeter-wave spectroscopy technique developed by Krupnov's team found its place in the series &ldquo;Methods of Experimental Physics&rdquo; (vol.&nbsp;13 &ldquo;Spectroscopy&rdquo;, Academic Press, USA). The same year, Krupnov received an invitation to join the editorial board of the Journal of Molecular Spectroscopy, where he served for 33 years, during which the journal changed three editors and two publishers.</p> <p>A.F.&nbsp;Krupnov worked at the NIRFI until 1977. In 1977, when the Institute of Applied Physics (IAP) of the USSR Academy of Sciences was established, the Department of Microwave Spectroscopy was organized and headed by A.F.&nbsp;Krupnov. Soon after, the IAP director A.V.&nbsp;Gaponov-Grekhov invited him to give a talk at a meeting of the Presidium of the USSR Academy of Sciences. It was something like the &ldquo;first presentation&rdquo; of the new institute to the academic community. The success of the report (it was published in the Bulletin of the Academy of Sciences of the USSR, 1978) was expressed in the remark by <a href=\"https://en.wikipedia.org/wiki/Pyotr_Kapitsa\" target=\"_blank\">P.L.&nbsp;Kapitsa</a>: &ldquo;Beautiful work!&rdquo;</p> <p>The USSR State Prize (the first in the IAP) was awarded in 1980 to A.F.&nbsp;Krupnov and L.I.&nbsp;Gerstein together with A.M.&nbsp;Prokhorov, M.B.&nbsp;Golant and others for &ldquo;the creation of submillimeter-wave spectroscopy based on backward-wave oscillators&rdquo;.</p> <p>In the late seventies and in the eighties, many Krupnov's works were related to the study of molecular spectra in the submillimeter wavelength range that opened up for spectroscopic research. They were reflected in a number of reviews. In particular, John Sheridan noticed in 1983 that almost all developments in microwave spectroscopy belong to American researchers, and only two to European. These two are the double resonance method of Prof.&nbsp;Gozzini from Pisa and the RAD spectrometer from Gorky. The joint Prize of the USSR Academy of Sciences and the Czechoslovak Academy of Sciences &ldquo;For the study of the fine structure of the spectra of non-rigid molecules&rdquo; was received in 1982.</p> <p>The popular scientific monograph &ldquo;Microwave Spectroscopy&rdquo;, encouraged by N.G.&nbsp;Basov, was written by A.F.&nbsp;Krupnov and published by &ldquo;Znanie&rdquo; publishing house in 1985. It turned out to be very helpful for introducing students to this field of science, so its revised editions appeared in 2009 and in 2021.</p> <p>In 1985, Krupnov initiated co-operation with the Institute of Electronic Measurements KVARZ aimed at the development of the industrial millimeter frequency synthesizers based on packetized BWO. These instruments were sold worldwide. In the hard 1990s, the wide international collaboration established by Krupnov’s department allowed the team to survive. One of the most prominent results of this period was the development in 1994&ndash;1995 of a wide-range scanning terahertz spectrometer with a BWO-based frequency synthesizer with a PLL system and a liquid helium cooled bolometer. The spectrometer was built at the University of Cologne and with its funding. The University is very proud of this device. Later, this technique was reproduced and successfully applied to the study of spectra in dozens of laboratories in different countries.</p> <p>In 1998&ndash;1999, A.F.&nbsp;Krupnov opens up still another new page in the history of the development of the Department of Microwave Spectroscopy at the Institute of Applied Physics. He found the way to implement the idea of fast precision digital control of BWO frequency in the PLL mode without phase jumps during frequency switching. By controlling the radiation source in the resonator spectrometer in the proposed way it became possible to exceed the sensitivity of all known world analogues by an order of magnitude. The block-diagram of this spectrometer from the article in the July 2000 issue of the Journal of Molecular Spectroscopy appeared on the journal cover. This device was also noticed almost immediately and highly evaluated by the international scientific community.</p> <p>The work of A.F.&nbsp;Krupnov at KVARZ was active and fruitful. For many years he was a consulting professor there, member of the Defence Council and even member of the Problem Council of the Upper Volga Branch of the Academy of Technological Sciences of the Russian Federation. In addition to the above-mentioned industrial frequency synthesizers, a RAD spectrometer was developed and produced under his leadership (one of these devices was used in the Academy of Chemical Defence of the Russian Federation). Krupnov's experience in the field of masers was in demand in another KVARZ’s department, where high-precision molecular and atomic clocks were developed. During the years of perestroika this direction was slowly &ldquo;dying&rdquo; together with KVARZ but was saved by enthusiasts. Despite the enormous difficulties, they were able not only to deploy high-tech production in a small rented room, but also to enter the world market with competitive products. It is about the Nizhny Novgorod company <a href=\"https://www.vremya-ch.com\" target=\"_blank\">VREMYA-CH</a> that produces, among other things, the frequency and time standards based on which the Russian satellite positioning system <a href=\"https://en.wikipedia.org/wiki/GLONASS\" target=\"_blank\">GLONASS</a> operates. If you get to the reception of the director of the company, pay attention to the portrait of A.F.&nbsp;Krupnov next to the portrait of the President of the Russian Federation.</p> <p>A.F.&nbsp;Krupnov headed the department until 2005, and then, almost to the last day, continued to work as a general research associate. A prominent result of this period was deflating of the concept of the so-called &ldquo;<a href=\"https://doi.org/10.1103/PhysRevA.81.022706\" target=\"_blank\">dark water</a>&rdquo;, which could have very tangible consequences for astrophysics. The concept arose as a result of an erroneous interpretation of measurements of the collisional cross section of a water molecule with hydrogen molecules at very low temperatures at the Jet Propulsion Laboratory USA. In the <a href=\"https://doi.org/10.1103/PhysRevA.82.036703\" target=\"_blank\">response article</a> Krupnov pointed out that the reason for the abnormal behavior is the predominant adsorption of ortho-hydrogen by the walls of the spectrometer and, consequently, the predominant collisions with para-hydrogen.</p> <p>Exactly 60 years passed between the first and last scientific papers of A.F.&nbsp;Krupnov. It is noteworthy that both of these articles were published in the journal &ldquo;<a href=\"https://radiophysics.unn.ru/\" target=\"_blank\">Radiophysics</a>&rdquo; published in Nizhny Novgorod. In his 2019 article, he put forward the idea of another application of the radiation of powerful <a href=\"https://ipfran.ru/science/high-power-electronics/gyroresonance/the-gyrotrons-for-UTS\" target=\"_blank\">gyrotrons</a> that is one of the main scientific directions of the IAP RAS it is proud of. Heating of a column of atmospheric air over its entire volume by vertically directed gyrotron radiation should lead to an upward convective flow, which will, for example, easily ventilate a deep open coal pit or quickly clear the city from smog or dust. Perhaps this idea will still find its &ldquo;knight of the project&rdquo;.</p> <p>Speaking about the role played by Andrey Fedorovich in national and world science, we can’t ignore his pupils. His relentless efforts and personal example enabled creating, training and educating a concerted research team, which successfully continues the best traditions of the Nizhny Novgorod school of radiophysicists. Many of his students and employees worked and continue to work in leading foreign laboratories. Affiliation with Krupnov’s school has long been a sign of the highest qualification in world spectroscopy, a kind of a scientific brand.</p>",
+              "photo": {
+                "filename": "krupnov.jpg",
+                "position": {
+                  "x": 0.3,
+                  "y": 0.2
+                },
+                "scale": 1.5
+              }
+            },
+            "melnikov": {
+              "full_name": "Anatoliy&nbsp;Afanasievich&nbsp;Melnikov",
+              "short_name": "Anatoliy&nbsp;A.&nbsp;Melnikov",
+              "biography": "<p>A.A.&nbsp;Melnikov born in Ponizovie village, Kaluga region, USSR, in 1934. Master degree received from the State Polytechnic Institute located in Gorky city in 1969. In 1963&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 1983 as vice head. His major contribution was organization of the Laboratory life in the newly created Institute. He also conducted many experimental studies of molecular spectra.</p>",
+              "photo": {
+                "filename": "Melnikov.jpg",
+                "position": {
+                  "x": 0.49,
+                  "y": 0.43
+                },
+                "scale": 1.2
+              }
+            },
+            "vaks": {
+              "full_name": "Vladimir&nbsp;Leybovich&nbsp;Vaks",
+              "short_name": "Vladimir&nbsp;L.&nbsp;Vaks",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>Vladimir&nbsp;L.&nbsp;Vaks worked in the instrumental group of the Lab from 1977 to 1993 as a Research Associate. Since 1993 he is with the Institute for Physics of Microstructures RAS&nbsp;(<a href=\"http://ipmras.ru/en/structure/people/vax\" target=\"_blank\">IPM RAS</a>).</p>",
+              "photo": {
+                "filename": "Vaks.jpg",
+                "position": {
+                  "x": 0.53,
+                  "y": 0.45
+                },
+                "scale": 1.2
+              }
+            },
+            "gershtein": {
+              "full_name": "Lev&nbsp;Isidorovich&nbsp;Gershtein",
+              "short_name": "Lev&nbsp;I.&nbsp;Gershtein",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>L.I.&nbsp;Gershtein. Born in Odessa city, USSR, in 1931. Master degree received from the State Polytechnic Institute located in Gorky city in 1954. In 1957&ndash;1977 worked in NIRFI.</p> <p>He was working in the Lab from 1977 to 1984 as head of instrumental group. Broadband SubMM BWO-based frequency synthesizers were developed under his supervision (see, e.g., [<a href=\"index.html#/list/1998\" target=\"_blank\">Ref.&nbsp;5 (1998)</a>] and [<a href=\"index.html#/list/2001\" target=\"_blank\">Ref.&nbsp;20 (2001)</a>] and references therein). This achievement formed the basis of his Ph.D. thesis, which was defended in 1980. In 1980 he was awarded the State prize for his contribution to development of the BWO-based submillimeter-wave spectroscopy.</p>",
+              "photo": {
+                "filename": "Gerstein.jpg",
+                "position": {
+                  "x": 0.55,
+                  "y": 0.38
+                },
+                "scale": 1.2
+              }
+            },
+            "burenin": {
+              "full_name": "Aleksander&nbsp;Valentinovich&nbsp;Burenin",
+              "short_name": "Aleksander&nbsp;V.&nbsp;Burenin",
+              "acad_degree": "Dr.Sc. in Physics and Mathematics",
+              "biography": "<p>Aleksander&nbsp;V.&nbsp;Burenin&nbsp;(<a href=\"https://old.ipfran.ru/staff/Burenin1.html\" target=\"_blank\">IAP  RAS</a>)&nbsp;worked in the Lab as a theoretician from 1977 to 1983.</p>",
+              "photo": {
+                "filename": "Burenin.jpg",
+                "position": {
+                  "x": 0.5,
+                  "y": 0.4
+                },
+                "scale": 1.2
+              }
+            },
+            "kazakov": {
+              "full_name": "Valeriy&nbsp;Pavlovich&nbsp;Kazakov",
+              "short_name": "Valeriy&nbsp;P.&nbsp;Kazakov",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>Born in Malaya Bugulma village, Tatar ASSR, USSR in 1949. Master degree received from the Gorky State University in 1973. In 1973&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 1996 as experimentalist. His major contribution was achievement <a href=\"index.html#/instrum/rad/sensitivity\">the sensitivity</a> of the RAD spectrometerof near to the physical limit and development of gas analysis method [<a href=\"index.html#/list/1978-1989\" target=\"_blank\">Refs.&nbsp;1,&nbsp;3 (1986)</a>]. Ph.D. degree was received in 1987.</p>",
+              "photo": {
+                "filename": "Kazakov.jpg",
+                "position": {
+                  "x": 0.53,
+                  "y": 0.4
+                },
+                "scale": 1.2
+              }
+            },
+            "karyakin": {
+              "full_name": "Evgeniy&nbsp;Nikolaevich&nbsp;Karyakin",
+              "short_name": "Evgeniy&nbsp;N.&nbsp;Karyakin",
+              "biography": "<p>E.N.&nbsp;Karyakin (currently in the USA) born in Gorky city, USSR, in 1947. Master degree received from the Gorky State Polytechnic Institute in 1972. In 1972&ndash;1977 worked in NIRFI. He worked in the Lab from 1977 to 2000 as experimentalist. His major contribution was development of the method and the first experimental observation of several molecular complexes (H<sub>2</sub>O&ndash;HF, HF&ndash;HF, H<sub>2</sub>O&ndash;NH<sub>3</sub>) at equilibrium gas mixture using RAD gas cell [<a href=\"index.html#/list/2007\" target=\"_blank\">Ref.&nbsp;4 (2007)</a>] and refs. therein and [<a href=\"index.html#/list/1995\" target=\"_blank\">Ref.&nbsp;8 (1995)</a>].</p>",
+              "photo": {
+                "filename": "karyakin.jpg",
+                "position": {
+                  "x": 0.4,
+                  "y": 0.5
+                },
+                "scale": 1.2
+              }
+            },
+            "kozin": {
+              "full_name": "Igor&nbsp;Nikolaevich&nbsp;Kozin",
+              "short_name": "Igor&nbsp;N.&nbsp;Kozin",
+              "email": "i.n.kozin&nbsp;(at)&nbsp;googlemail.com",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>I.N.&nbsp;Kozin (currently with the Institute of Cancer Research, London, UK). Born in Gorky city, USSR in 1963. Master degree received from the Gorky State University in 1986. Completed the Ph.D. course in molecular spectroscopy under joint supervision by <a href=\"index.html#/people/permanent/krupnov\">Andrey Krupnov</a> and Per Jensen and defended the thesis in 1995. He worked in the Lab from 1986 to 2002 as a Research Associate successfully combining experimental and theoretical studies. He keeps collaborating with the theoretical group of the Lab.</p>",
+              "photo": {
+                "filename": "Kozin.jpg",
+                "position": {
+                  "x": 0.5,
+                  "y": 0.2
+                },
+                "scale": 1.2
+              }
+            },
+            "shirin": {
+              "short_name": "Sergey&nbsp;V.&nbsp;Shirin",
+              "email": "shirin&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>Sergey&nbsp;V.&nbsp;Shirin worked in the Lab from 1997 to 2013. Was born on March 5th, 1979, in Nizhny Novgorod, Russia. Graduated from the Radio Physics Department of the Nizhny Novgorod State University in 2000. Since 2000 has been involved in close cooperation with the group of Prof. Jonathan Tennyson from University College London. In 2005 worked in cooperation with Universit&auml;t Ulm (Germany) on Leonhard-Euler-Projekt. The theme of the Ph.D. thesis is &ldquo;Fitting of the potential energy surface of water molecule and its application for experimental spectra analyses&rdquo;.</p><p>Main interests are theoretical spectroscopy, variational calculation, and computers.</p>",
+              "photo": {
+                "filename": "Shirin.jpg",
+                "position": {
+                  "x": 0.45,
+                  "y": 0.2
+                },
+                "scale": 1.3
+              }
+            },
+            "dorovskikh": {
+              "full_name": "Vladimir&nbsp;Vladimirovich&nbsp;Dorovskikh",
+              "short_name": "Vladimir&nbsp;V.&nbsp;Dorovskikh",
+              "biography": "<p>Vladimir&nbsp;V.&nbsp;Dorovskikh (<a href=\"http://www.mera.ru/\" target=\"_blank\">currently with &ldquo;MERA&rdquo;, Nizhny Novgorod</a>). Was born on October 15th, 1976, in Russia. In 2000, June, graduated from Nizhny Novgorod State Technical University, Faculty of Informational Systems and Technologies, specialized in Applied Mathematics speciality, with diploma of expert. From 1998 to was with the Laboratory of Microwave Spectroscopy at the Institute of Applied Physics of the Russian Academy of Science (IAP RAS). In 2000 entered the post-graduate course at IAP RAS. The main interests are automation systems for scientific experiments. In 2002 worked for 5 months at the Department of Physical Sciences of the University of New Brunswick, Saint John, Canada, on development of software for CO<sub>2</sub>-laser&nbsp;+&nbsp;MW side-band spectrometer with a slit nozzle.</p>",
+              "photo": {
+                "filename": "Dorovsk1.jpg",
+                "position": {
+                  "x": 0.1,
+                  "y": 0.25
+                },
+                "scale": 1.2
+              }
+            },
+            "tretyakova": {
+              "full_name": "Svetlana&nbsp;Evgenievna&nbsp;Tretyakova",
+              "short_name": "Svetlana&nbsp;E.&nbsp;Tretyakova",
+              "position": "Head assistant of IAP RAS Graduate School",
+              "email": "svet&nbsp;(at)&nbsp;appl.sci-nnov.ru",
+              "tel": "+7 (831) 416-06-28",
+              "biography": "<p>Graduated from Gorky Architectural and Civil Construction Design Academy in 1982. Master Diploma of Architect. Worked as an architect for 11 years. From 1993 to 2012 was the economist of the Microwave Spectroscopy Laboratory. Was also engaged in works concerned with computer graphics (&ldquo;Corel&rdquo;, &ldquo;PhotoShop&rdquo;), web-design, etc. From 2012 to 2018 she has been head of IAP RAS <a href=\"http://www.ipfran.ru/training/training_as.html\" target=\"_blank\">Graduate School.</a></p>",
+              "photo": {
+                "filename": "Sveta.jpg",
+                "position": {
+                  "x": 0.7,
+                  "y": 0.2
+                },
+                "scale": 1.3
+              }
+            },
+            "markov": {
+              "full_name": "Vladimir&nbsp;Nikolaevich&nbsp;Markov",
+              "short_name": "Vladimir&nbsp;N.&nbsp;Markov",
+              "biography": "<p>Vladimir&nbsp;N.&nbsp;Markov was born in Nizhny Novgorod, Russia, in 1955. He received the M.S. degree in radiophysics and electronics from Gorky State University in 1978. From 1978 to 2014 he worked in the Lab. Main scientific interests deal with experimental investigations in microwave molecular spectroscopy.</p>",
+              "photo": {
+                "filename": "vova.jpg",
+                "position": {
+                  "x": 0.5,
+                  "y": 0.2
+                },
+                "scale": 1.2
+              }
+            },
+            "kyuberis": {
+              "full_name": "Aleksandra&nbsp;Aleksandrovna&nbsp;Kyuberis",
+              "short_name": "Aleksandra&nbsp;A.&nbsp;Kyuberis",
+              "email": "kuiberisalex&nbsp;(at)&nbsp;mail.ru",
+              "acad_degree": "Ph.D. in Physics",
+              "biography": "<p>Aleksandra&nbsp;A.&nbsp;Kyuberis was born in Nizhny Novgorod, Russia, 08.08.1990.</p> <p>Graduated from the Radiophysical department of the Nizhny Novgorod State University in 2013 as a master of physics. Started working in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS in 2011 as a laboratory assistant. PhD Thesis &ldquo;Rovibrational spectra of small molecules: high-precision quantum chemical calculations&rdquo; was defended in 2019.</p> <p>Major interests: astrophysics, cosmology, theoretical molecular spectroscopy.</p>",
+              "photo": {
+                "filename": "Kyuberis.jpg",
+                "position": {
+                  "x": 0.95,
+                  "y": 0.3
+                },
+                "scale": 1.25
+              }
+            }
+          }
+        },
+        "memorial": {
+    		  "title": "Tribute to Andrey Krupnov",
+    		  "staff": {
+			  "memorial": {
+			  	"no_page": true,
+				"short_name": "<p><a href=\"img/foto/Memorial.pdf\" target=\"_blank\">In memory of prof.&nbsp;Andrey&nbsp;F.&nbsp;Krupnov</a>",
+				"photo": {
+                	"filename": "krupnov.jpg",
+                	"position": {
+                  		"x": 0.3,
+                  		"y": 0.2
+                },
+                "scale": 1.5
+              }
+            }
+        }
         }
 	}        	
 }

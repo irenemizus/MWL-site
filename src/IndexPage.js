@@ -20,7 +20,7 @@ export default class IndexPage extends Component {
 				<ol type="1">
 					{list_elem}
 				</ol>
-				<div className="big_text">We  can supply  spectroscopic data and perform  equipment testing for planetary and interstellar remote sensing by millimeter and submillimeter waves</div>
+				<div className="big_text">We can supply spectroscopic data and perform  equipment testing for planetary and interstellar remote sensing by millimeter and submillimeter waves</div>
   			</div>
 		);
   	}

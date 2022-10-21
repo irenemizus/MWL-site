@@ -1,0 +1,5 @@
+**/.DS_Store
+dist
+dist.old
+.idea
+node_modules

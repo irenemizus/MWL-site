@@ -1,0 +1,207 @@
+{	
+    "url": {
+    	"devel": {
+    		"link_from": "IndexPage",
+    		"title": "Development of methods and technique of microwave spectroscopy in millimeter and submillimeter wave range",
+    		"short_title": "Development of methods and technique",
+    		"structure": [
+    			{
+      				"text": "<p>In particular, a submillimeter-wave spectrometer with Backward Wave Oscillators (BWO) and acoustical detection (<a href=\"index.html#/instrum/rad\">RAD spectrometer</a>), systems of phase locking of the BWO frequency and then frequency synthesizers of <a href=\"index.html#/instrum/35\">millimeter</a> and <a href=\"index.html#/instrum/400\">submillimeter</a> wave ranges, <a href=\"index.html#/devel/thz_vid_spectr\">Terahertz video-spectrometer</a> with BWO and LHe cooled bolometer, fast scanning digital millimeter and submillimeter wave range frequency synthesizers with switching time of 200 ns without phase jump and based on them precision <a href=\"index.html#/instrum/reson\">resonator spectroscopy</a> in millimeter and submillimeter wave range have been developed. Our products and developments are widely used in different laboratories all over the world.</p><p>Commercial millimeter-wave frequency synthesizers, developed jointly with <a href=\"http://www.kvarz.com/\" target=\"_blank\">&ldquo;KVARZ&rdquo;</a> (Institute of Electronic Measurements, Nizhny Novgorod) are used in the Laboratories of the USA, Germany, France, Italy, Japan, Canada, China. Based on the techniques initially elaborated for spectroscopic purposes, fundamental and applied metrics of the millimeter and submillimeter wave ranges are developed. Recently, a wide scope of applications of the new resonator spectroscopy were developed for monitoring atmosphere and technological processes.</p><p>For more details see the review paper [<a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;7 (2012)</a>].</p>"
+				}
+			]
+		},
+    	"stud": {
+    		"link_from": "IndexPage",
+    		"title": "Studies of the molecular spectra by the developed experimental and theoretical methods",
+    		"short_title": "Studies of the molecular spectra",
+    		"structure": [
+    			{
+      				"text": "<p>A number of microwave high resolution molecular spectra were studied, some of types of them for the first time. These include vibrational spectra of non-polar molecules; submillimeter spectra of molecular complexes in equilibrium conditions, including the first observation  of rotationally resolved <a href=\"index.html#/instrum/reson/dimer\">water dimer</a> spectrum in room-T water vapor and two independent confirmations of the dimeric origin of the <a href=\"index.html#/stud/water_self_cont\">water self-continuum</a> in the mm&ndash;submm range; demonstration of a change in the dominant contributor to the continuum at higher frequencies; demonstration of clusterization of the energy levels of asymmetrical top molecules; microwave spectra of negative molecular ions (jointly with Lille University and J. Heyrovsky Institute of CSAV).</p><p>The new more accurate and having stronger predictional power <a href=\"index.html#/stud/sss\">theoretical methods</a> of description of highly excited molecules spectra were developed and used. With the use of these methods, in particular, <a href=\"index.html#/about/about_press\"> the water lines on the Sun</a> were assigned for the first time (jointly with University College London).</p><p><a href=\"index.html#/stud/dissociation\">Accurate bond dissociation energy</a> of most abundant water molecule isotopologues were determined by triple-resonance vibrational spectroscopy and <em>ab initio</em> calculations (in collaboration with University College of London and Polytechnic school of Lausanne).</p><p><a href=\"index.html#/stud/real_gas_spectr\">A new approach for spectrum analysis of real gases</a> was proposed including, in particular, reformulation of monomolecular state. <a href=\"index.html#/stud/monomol_absorp\">The physical mechanism responsible for super-Lorentzian behavior of line wings</a> at large detuning from the center was revealed, which allowed <a href=\"index.html#/stud/water_contin_or\">consistent interpretation of the excess continuum in water vapor</a> within pure rotational and fundamental vibrational bands of H<sub>2</sub>O molecule.</p>"
+				}
+			]
+		},
+    	"interact": {
+    		"link_from": "IndexPage",
+    		"title": "Studies of molecular interactions through the shape of the observed spectra including collision-induced absorption and resonance line shape (pressure broadening, shifting, mixing, speed-dependence, etc.)",
+    		"short_title": "Studies of molecular interactions",
+    		"structure": [
+    			{
+      				"text": "<p>Large collisional lineshifts were discovered, which played a significant role in the introduction of shift measurements into practice of microwave spectroscopy and helped to investigate the dependence of collisional lineshifts on a number of parameters. The effect of nonadditivity of collisional lineshifts in the system of molecular transitions was also revealed. The developed methods of <a href=\"index.html#/instrum/reson\">precision broadband resonator spectroscopy</a> permitted accurate studies of the shape of atmospheric lines and bands, including measurement of line broadenings, shifting and mixing at atmospheric pressure, measurement of integral line intensity and studies of continuum absorption. The first applications of pressure lineshift studies were proposed. The first physically based approach to quantitative analysis of pressurized water vapor spectra at high temperature taking into account line mixing effect as well as collisional formation of small molecular clusters was developed.</p><p>Examples of: <ul><li><a href=\"index.html#/instrum/ex_lineshape\">lineshape studies with RAD spectrometer</a>;</li><li><a href=\"index.html#/instrum/reson/res_spectr_ex\">lineshape studies with resonator spectrometer</a>;</li><li><a href=\"index.html#/interact/water_spectr\">analysis of pressurized water vapor spectra</a>.</li></ul></p>"
+				}
+			]
+		},
+    	"monomol_absorp": {
+    		"link_from": "stud",
+    		"title": "Monomolecular absorption",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Line_shape.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>The absorption coefficient can be defined in a very general form as a product of <ol type=\"i\"><li>the number of molecules that are able to absorb radiation quantum;</li><li>the so-called radiation field term;</li><li>spectral function.</li></ol>The latter is a Fourier transform of the autocorrelation function of molecular dipole. In a simplest hypothetical case of 2-level molecules, the molecular dipole produces a train of harmonic oscillations between two successive collisions. Averaging over gas (autocorrelation) gives a almost exponentially decreasing envelop of the oscillations. Its spectrum is a well known bell-shaped function at the frequency of oscillations having width equal to the reversed duration of oscillations.</p><p>Within the impact approximation (instant collisions), a collisional line shape is very close to the Lorentz one. It fits well the real line near its center. Actually, collision takes finite time. The train of oscillations breaks down smoothly. This leads to exponential decay of the far line wings (sub-Lorentz behavior). The breaking function of the oscillation train is determined by interaction potential that is unknown as a rule. Fortunately, the difference in the line shape of the impact approximation and the real case becomes noticeable only at very significant frequency detuning from the line center. So, the line is usually divided into a resonance part and a pedestal, which is usually attributed to continuum absorption. Note that the major collisional lineshape parameters such as pressure shifting, collisional broadening and its speed dependence, collisional coupling etc. are also determined by the same interaction potential, in particular, by its long-range part. The number of collisions per unit time varies linearly with molecular number density (or pressure). Therefore, all collisional parameters also vary linearly with pressure. This linearity is experimentally confirmed in a very broad range of pressures.</p><p>It was believed that the line wing at large detuning is always sub-Lorentzian and that &ldquo;<em>super-Lorentzian line shape is not supported by any known physics</em>&rdquo;. We found the missing mechanism. If the dipole oscillation breaking function is not monotonous (a light molecule can make several full turns during typical collision time), then the corresponding line wing has a broad hill at detuning equal to the characteristic frequency of this non-monotonic behavior. The width of the hill is determined by collision duration. See [<a href=\"index.html#/list/2017\" target=\"blank\">Ref.&nbsp;4 (2017)</a>] and references therein for more details.</p>"
+				}
+			]
+		},
+    	"real_gas_spectr": {
+    		"link_from": "stud",
+    		"title": "Spectroscopy of real gases",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Real_gas.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>What is absorption medium from the point of view of molecular spectroscopy? It is real gas. Brownian motion. About <span class=\"nobr\">10<sup>19</sup></span> molecules permanently interacting with each-other in a cubic centimeter&#8230; The result cannot be rigorously calculated at the state-of-the-art. So we use two major approximations: <ol type=\"1\"><li>Gas is rarified and close to ideal: <ol type=\"i\"><li>the second term of the equation of state is much less than the first one;</li><li>tripple interactions are negligible, so the third term is much less than the second one.</li></ol>Thus, only pair interactions are left and the task becomes solvable (we deal only with 2 molecules). The interaction potential can be found from first principle calculations for simplest light molecules. This allows numerical calculation of collision dynamics: trajectories of motion, energy exchange, etc. Three most typical cases of relative motion are shown in the figure above.</li><li>Significant distortion of the structure of colliding molecules occurs only at very short distances. This allows separating monomolecular states, when motion of an almost unperturbed molecule is determined by the pair interaction potential and bimolecular states. The latter include <ol type=\"i\"><li>free pairs (one touch collision with a short living transient pair state);</li><li>quasibound dimers (&ldquo;orbiting&rdquo; collision case forming double molecule with total internal energy above the intermolecular bond dissociation limit);</li><li>stable dimers (double molecule with total energy below the dissociation).</li></ol>The total number of pair states is determined by the second virial coefficient, which can be divided into corresponding parts. The free pairs (action of repulsive forces) are related to the excluded volume and the dimeric parts (molecules stuck together &ndash; action of attraction forces) are characterized by the corresponding equilibrium constants.</li></ol>Within these approximations, the total absorption in a real gas can be represented as a sum of spectra of different molecular states (monomolecular, bimolecular, three-molecular etc.), which can be written by analogy with the gas equation of state: the normalized spectra are multiplied by the number of the corresponding absorbers. Each spectrum is, of course, the function of frequency, number density and temperature. Under atmospheric conditions only two first terms are significant. See [<a href=\"index.html#/list/2017\" target=\"blank\">Ref.&nbsp;4 (2017)</a>] and references therein for more details.</p>"
+				}
+			]
+		},
+    	"water_self_cont": {
+    		"link_from": "stud",
+    		"title": "Water vapor self-continuum origin",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "water_self_cont.png",
+						"maxwidth": "430px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>Rotationally resolved water dimer spectrum at close to atmospheric conditions was recorded and unambiguously identified by us in the 3.5&ndash;8.5&nbsp;cm<sup>-1</sup> (105&ndash;240&nbsp;GHz) range [<a href=\"index.html#/list/2013\" target=\"blank\">Ref.&nbsp;4 (2013)</a>], [<a href=\"index.html#/list/2014\" target=\"blank\">Ref.&nbsp;10 (2014)</a>] and [<a href=\"index.html#/list/2018\" target=\"blank\">Ref.&nbsp;10 (2018)</a>]. The <a href=\"index.html#/instrum/reson/dimer\">observed sequence</a> of 13 rotational peaks consists from a large number of overlapped lines (E-type transitions) corresponding to the end over end rotation of water dimer. At room temperature, the sequence is supposed to reach a broad maximum located around 20&nbsp;cm<sup>-1</sup> (600&nbsp;GHz). This spectral signature of bound water dimer has been predicted in this region by <em>ab initio</em> and classical calculations. It is supposed to be superposed to a broad absorption pedestal smoothly increasing with frequency, due to the overlapping of lines of A- and B-type transitions of bound water dimer. In real water vapor similar smooth pedestal from quasibound states of the dimer is expected. Such deviation of the water vapor continuum frequency dependence from a quadratic function (expected in earlier studies in mm and far IR ranges) is fully confirmed by our measurement of water vapor self-continuum in the 15&ndash;35&nbsp;cm<sup>-1</sup> (450&ndash;1000&nbsp;GHz) range using FT spectrometer at <a href=\"https://www.synchrotron-soleil.fr/en/beamlines/ailes\" target=\"blank\">AILES beamline of SOLEIL synchrotron</a>. The figure presents all available from the literature experimental data about water vapor self-continuum in terms of spectral function (self-continuum cross-section normalized by frequency squared) together with the water dimer spectral function obtained from quantum chemical calculations. The broad absorption maximum due to the dimer rotational absorption near 20&nbsp;cm<sup>-1</sup> is transformed into a characteristic sharp slope of the spectral function. Very good agreement of the observed continuum with the water dimer predictions confirms the dominant contribution of the water dimer absorption to the continuum in this region. See [<a href=\"index.html#/list/2017\" target=\"blank\">Ref.&nbsp;3 (2017)</a>] and [<a href=\"index.html#/list/2019\" target=\"blank\">Ref.&nbsp;3 (2019)</a>] for more details.</p>"
+				},
+				{
+      				"text": "<p>Using the same experimental technique we obtained the first data concerning the water vapor self-continuum temperature dependence in the 84&ndash;365&nbsp;cm<sup>-1</sup> spectral range. The temperature dependence in the whole range of water molecule pure rotational band was analyzed considering the obtained results and a review of the literature data.</p>"
+				},
+				{
+        			"images": [
+        				{
+        					"file": "Continuum_T-dep.jpg",
+							"maxwidth": "450px"
+  						}
+        			]
+        		},
+        		{
+      				"text": "<p>The analysis allowed for discussing the different physical mechanisms contributing to the continuum absorption in this range (below 800&nbsp;cm<sup>-1</sup>). Being the main source of the water vapor continuum absorption, bound water dimers are believed to rule the temperature dependence in the 0&ndash;10&nbsp;cm<sup>-1</sup> spectral range. The temperature exponent decreases with wavenumber, but the calculated value of the exponent related to the bound dimers remains almost constant. The observed frequency dependence of the exponent indicates that the relative contribution of the bound dimer absorption to the continuum decreases with wavenumber in the considered spectral region. Therefore the contribution of non Lorentzian wings and quasi-bound dimers seems to become dominant in the close wing of the rotational band near 300&ndash;500&nbsp;cm<sup>-1</sup>. We believe that the observed minimum near 500&nbsp;cm<sup>-1</sup> is related to the exponential decay of sub-Lorenzian far wings of monomer lines at large detunings from the line center. Because of this fast decay, the wing’s contribution to the continuum is rather well localized within rotational and ro-vibrational bands of the monomer. Meanwhile, the dimer absorption bands are much broader due to multiple strongly coupled thermally populated intermolecular vibrational modes, their combinations and overtones. Therefore, the continuum in transparency windows between monomer bands can be expected to be ruled by dimers. This hypothesis is supported by experimental studies in the IR range (see Fig.&nbsp;5 and related discussion in [Campargue&nbsp;A. <em>et&nbsp;al.</em>, <em>J. Geophys. Res. Atmos.</em>, <b>121, 180&ndash;203</b> (2016)]). Thus the observed minimum may reveal a change in the dominant contributor to the continuum.</p>"
+				},
+				{
+      				"text": "<p>For more details see [<a href=\"index.html#/list/2020\" target=\"blank\">Ref.&nbsp;7 (2020)</a>] and references therein.</p>"
+				}
+			]
+		},
+    	"thz_vid_spectr": {
+    		"link_from": "devel",
+    		"title": "Terahertz video spectrometer",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Video_spec.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>Examples of use see on pages <a href=\"index.html#/instrum/400/broadband_ml\">&ldquo;Example of broadband molecular spectrum study&rdquo;</a> and <a href=\"index.html#/instrum/lamb_spectr\">&ldquo;Sub-Doppler resolution&rdquo;</a>. For more details see [<a href=\"index.html#/list/1994\" target=\"_blank\">Refs.&nbsp;1,&nbsp;6 (1994)</a>].</p>"
+				}
+			]
+		},
+    	"water_contin_or": {
+    		"link_from": "stud",
+    		"title": "Water vapor continuum origin",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "Continuum_or.jpg"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>Our study of water vapor continuum spectrum within a pure rotational band of H<sub>2</sub>O molecule [<a href=\"index.html#/list/2017\" target=\"blank\">Ref.&nbsp;3 (2017)</a>] led to the conclusion that its origin cannot be fully explained by dimers within the traditional approach. We re-analyzed available experimental data about the continuum in fundamental vibrational bands and found the same problem: if the total number of dimers is limited by the (well known) second virial coefficient of water vapor equation of state, then dimeric absorption models cannot reproduce the amplitude and in some ranges the shape of observed continuum. The &ldquo;excess&rdquo; continuum constitutes from 20 to 50&nbsp;% of the observed one. We demonstrated that the problem can be easily resolved within <a href=\"index.html#/stud/real_gas_spectr\">our approach</a> to real gas spectra analysis if super-Lorentzian wings of monomer lines (<a href=\"index.html#/stud/monomol_absorp\">resonance transitions of monomolecular states</a>) are taken into account. See [<a href=\"index.html#/list/2017\"  target=\"blank\">Ref.&nbsp;4 (2017)</a>] and references therein for more details.</p>"
+				}
+			]
+		},
+    	"water_spectr": {
+    		"link_from": "interact",
+    		"title": "Analysis of pressurized water vapor spectra",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "5-130atm.jpg",
+        					"caption": "<strong>Fig.&nbsp;1</strong>",
+        					"maxwidth": "400px"
+  						},
+  						{
+        					"file": "HT.jpg",
+        					"caption": "<strong>Fig.&nbsp;2</strong>",
+        					"maxwidth": "400px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>It is shown that the evolution of water vapor spectra in the 2500&ndash;5000&nbsp;cm<sup>-1</sup> range recorded at 650&nbsp;K and pressures up to 130 atmospheres (Fig.&nbsp;1) after subtraction of monomer contribution may be interpreted qualitatively well on the basis of experimental data on water dimer and trimer obtained from cold molecular beams and in He droplets (typical example is shown in Fig.&nbsp;2). The proposed  spectroscopic model considers water vapor as a mixture of monomers, dimers, and trimers at chemical equilibrium. The effect of line mixing is taken into account in the monomer spectrum modeling. Decomposition of the high temperature spectra allowed determining a dimer equilibrium constant that was compared with the previously known values. The contribution of water trimer is assessed. The performed analysis indicates that the number of bound dimers in water vapor is quite large, even at such a high temperature.</p><p>See [<a href=\"index.html#/list/2011\" target=\"_blank\">Ref.&nbsp;3 (2011)</a>], [<a href=\"index.html#/list/2013\" target=\"_blank\"> Ref.&nbsp;7 (2013)</a>] for more details.</p>"
+				}
+			]
+		},
+    	"sss": {
+    		"link_from": "stud",
+    		"title": "Theoretical group activity",
+    		"structure": [
+    			{
+      				"text": "<p>The team of theoreticians at the Microwave Spectroscopy Department of the Institute of Applied Physics, Russian Academy of Sciences (IAP) has a long and successful history in studying light molecules. The first theoretical works studying water spectrum were published in the early 80-s. Originally the analysis was done using effective Hamiltonians.</p><p>The leader of the theoretical group of the laboratory O.L.&nbsp;Polyansky in 1985  proposed Pade-Borel method of series summation [<a href=\"index.html#/list/1978-1989\" target=\"_blank\">Ref.&nbsp;7 (1985)</a>], since then widely used for studying water and related molecules spectra. Since early 90-s the progress in computational hardware and &ldquo;software&rdquo; has led to variational calculations taking the bigger part in analyzing triatomic molecules spectra. In particular, the program suit DVR3D for variational calculations of vibration-rotation energy levels using the exact (in the Born-Oppenheimer approximation) kinetic energy operator for nuclear motion was developed in the group of Prof. J.&nbsp;Tennyson from the University College London [<a href=\"index.html#/list/2004\" target=\"_blank\">Ref.&nbsp;9 (2004)</a>]. This development gave start to very successful cooperation between IAP RAS and UCL. The UK theoreticians are experts in the variational calculations, with the Russian side being experts in analysis of complicated experimental spectra.</p><p>During the last 15 years tens of thousands transitions of water were analyzed and assigned in a broad frequency range from far IR to near UV, the most known being study of sun spot spectrum, published in &ldquo;Science&rdquo; [<a href=\"index.html#/list/1997\" target=\"_blank\">Ref.&nbsp;14 (1997)</a>] (see also <a href=\"index.html#/about/about_press\" target=\"_blank\">&ldquo;Press about Water on the Sun&rdquo;</a> and <a href=\"http://solar-center.stanford.edu/news/sunwater.html\" target=\"_blank\">Press Release of University of Waterloo</a>). The accuracy of variational calculations is mostly determined by the quality of used potential energy surface (PES). The team took part in the development of several semiemperical PESes for H<sub>2</sub>O and H<sub>2</sub>S, which were the best at the time. In recent years <em>ab initio</em> PESes are starting to play the leading role in improving accuracy of calculations. It's also important to take into consideration corrections to Born-Oppenheimer surface. Members of the team actively worked in all these fields leading to the publication in &ldquo;Science&rdquo; describing the methodology of obtaining <em>ab initio</em> PES of water, which gives energy levels up to 26000&nbsp;cm<sup>-1</sup> with standard deviation of 1&nbsp;cm<sup>-1</sup> [<a href=\"index.html#/list/2003\" target=\"_blank\">Ref.&nbsp;4 (2003)</a>]. See also <a href=\"http://www.ucl.ac.uk/news/news-articles/news-releases-archive/watercalc\" target=\"_blank\">Press Release of UCL</a> about this subject.</p><p>Variational methods  opened the way for global calculations of water spectra in the ground electronic state up to dissociation. This work is currently under way in collaboration with experimentalists from Laboratoire de chimie physique moléculaire (LCPM), École Polytechnique Fédérale de Lausanne, Switzerland. They can measure the energies of the levels up to dissociation limit using the technique of double and triple resonance. Water energy levels in the 27000&ndash;41000&nbsp;cm<sup>-1</sup> region unanalyzable by other methods were assigned by our group using variational calculations. The paper in the Journal of Chemical Physics entitled &ldquo;State-selective spectroscopy of water up to its first dissociation limit&rdquo; [<a href=\"index.html#/list/2009\" target=\"_blank\">Ref.&nbsp;10 (2009)</a>] was chosen as a research highlight featured on <a href=\"index.html#/about/about_JCP\">the journal website home page</a>.</p>"
+				},
+				{
+        			"images": [
+        				{
+        					"file": "pic1.jpg",
+        					"caption": "<b>Fig. 1.</b> Schematic energy level diagram and excitation scheme employed in experiments. The states are labeled by the asymmetric top rotational quantum numbers (<i>J</i>,&nbsp;<i>K<sub>a</sub></i>,&nbsp;<i>K<sub>c</sub></i>) and by the three vibrational quantum numbers <span class=\"nobr\">(<i>m</i>,&nbsp;<i>n</i>)<sup>+/-</sup>&nu;<sub>2</sub></span> in local-mode notation, where <i>m</i> and <i>n</i> are the quantum numbers for stretching vibrations and &nu;<sub>2</sub> is the bending quantum number [<a href=\"index.html#/list/2009\" target=\"_blank\">Ref.&nbsp;10 (2009)</a>].",
+        					"captpos": "right"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>The last breakthrough of the theoretical group is reflected in the recent paper [<a href=\"index.html#/list/2012\" target=\"_blank\">Ref.&nbsp;1 (2012)</a>]. Modern quantum mechanics (including quantum electrodynamics) is a unique theory. It provides an agreement between theory and experiment at the level of 8&ndash;9 digit coincidence for small systems, like H<sub>2</sub><sup>+</sup>. And that was for the whole system of rovibrational levels up to dissociation. This distinguished achievement was not adequately matched for the bigger systems. If we add just one proton and one electron to H<sub>2</sub><sup>+</sup>, we will obtain the smallest possible polyatomic system. For this molecule the accuracy of <em>ab initio</em> calculations was limited to about 10&nbsp;cm<sup>-1</sup> in the optical region. The relative inaccuracy of H<sub>3</sub><sup>+</sup> calculations was a barrier on the way to understanding of larger and larger molecules, including biological, living systems. What kind of accuracy we can expect from the modern theory for big systems? 8&ndash;9 digits for small systems is fantastic achievement, but where is the progress for larger systems? <a href=\"index.html#/people/permanent/polyansky\">Oleg Polyansky</a>, <a href=\"index.html#/people/permanent/zobov\">Nikolay Zobov</a> and <a href=\"index.html#/people/permanent/mizus\">Irene Mizus</a> from the Microwave spectroscopy department, together with the colleagues from US, France, Hungary, England and Germany, report in Physical Review Letters a major breakthrough in understanding larger systems. The accuracy of 0.1&nbsp;cm<sup>-1</sup> is achieved for all known lines up to the optical region. Many components of the solution of quantum mechanical Schroedinger equation published in this paper are even of higher, 0.01&nbsp;cm<sup>-1</sup> level of accuracy, which brings us at last close to the accuracy achieved for the small systems. The ways to 0.01&nbsp;cm<sup>-1</sup> level of agreement between theory and experiment for larger systems is now unblocked and open. This is a major achievement, a milestone in precise understanding of large systems.</p><p>To conclude: members of IAP RAS theoretical team are experts in analysis of complicated experimental spectra, development of <em>ab initio</em> methods, PES optimization by fitting to observed vibration-rotation energy levels. Their expertise is confirmed by more than 100 publications on studying water and other light molecules spectra.</p>"
+				}
+			]
+		},
+    	"dissociation": {
+    		"link_from": "stud",
+    		"title": "Accurate bond dissociation energy",
+    		"structure": [
+    			{
+        			"images": [
+        				{
+        					"file": "spectra1.jpg",
+        					"caption": "<strong>Fig.&nbsp;1.</strong> Survey photofragment spectrum of HD<sup>16</sup>O from the gateway state, prepared by double resonance transition (normal mode vibrational notations) <span class=\"nobr\">[27984.79 cm<sup>-1</sup> (0, 0, 9), 1<sub>01</sub>] &rarr; [(0, 0, 4), 0<sub>00</sub>] &rarr; [(0, 0, 0), 1<sub>01</sub>]</span> to the states with quantum numbers <em>J</em>&nbsp;=&nbsp;1,&nbsp;2. The spectrum is measured at the total water vapor pressure of 100&nbsp;&mu;bar (50&nbsp;&mu;bar partial pressure of HDO) by detecting the ground state OD and plotted in function of the total HD<sup>16</sup>O rovibrational energy. Schematic energy level diagram and excitation scheme employed in experiments is presented <a href=\"index.html#/stud/sss\">here</a>.",
+        					"align": "left"
+  						}
+  					]
+  				},
+  				{
+  					"images": [
+  						{
+        					"file": "spectra2.jpg",
+        					"caption": "<p><strong>Fig.&nbsp;2.</strong> Sample photofragment spectra of HD<sup>16</sup>O transitions from the gateway states, prepared by double resonance transition (normal mode vibrational notations):</p><p><span class=\"nobr\">(<strong> a </strong>) [27984.79 cm<sup>-1</sup> (0, 0, 9), 1<sub>01</sub>] &rarr; [(0, 0, 4), 0<sub>00</sub>] &rarr; [(0, 0, 0), 1<sub>01</sub>],</span></p><p><span class=\"nobr\">(<strong> b </strong>) [28013.13 cm<sup>-1</sup> (0, 0, 9), 2<sub>02</sub>] &rarr; [(0, 0, 4), 1<sub>01</sub>] &rarr; [(0, 0, 0) 2<sub>02</sub>],</span></p><p><span class=\"nobr\">(<strong> c </strong>) [25376.1 cm<sup>-1</sup> (0, 0, 8), 2<sub>02</sub>] &rarr; [(0, 0, 4), 1<sub>01</sub>] &rarr; [(0, 0, 0) 2<sub>02</sub>],</span></p><p><span class=\"nobr\">(<strong> d </strong>) [25376.1 cm<sup>-1</sup> (0, 0, 8), 0<sub>00</sub>] &rarr; [(0, 0, 4), 1<sub>01</sub>] &rarr; [(0, 0, 0) 0<sub>00</sub>];</span></p><p>and fits of the continuum onsets (red lines) by the Wigner threshold law with <em>J</em>&nbsp;=&nbsp;2, 3, 3, 1 for (a)&ndash;(d), respectively.</p>",
+        					"align": "left",
+        					"maxwidth": "400px"
+  						}
+        			]
+        		},
+    			{
+      				"text": "<p>The spectra are measured by detecting the ground state OD fragments and labeled by the accessible angular momentum quantum numbers. Large peaks of the traces (b) and (c) go beyond the vertical scale. In (a)&ndash;(c) the fits ignore the large absorption peaks below the onset for an appropriate fit of the baseline.</p>"
+				},
+    			{
+      				"text": "<p><strong>Table 1.</strong> Measured and calculated bond dissociation energies for different water isotopologues.</p><table><tr><th rowspan=\"2\">Bond</th><th colspan=\"2\">Bond dissociation energy (cm<sup>-1</sup>)</th><th rowspan=\"2\">Difference</th></tr><tr><td><em>Ab initio</em></td><td>Experiment</td></tr><tr><td>16&nbsp;OH&ndash;H</td><td>41&nbsp;146.0</td><td>41&nbsp;145.92&nbsp;(0.12)</td><td>0.08</td></tr><tr><td>18&nbsp;OH&ndash;H</td><td>41&nbsp;154.2</td><td>41&nbsp;154.4&nbsp;(0.2)</td><td>-0.2</td></tr><tr><td>16&nbsp;OD&ndash;H</td><td>41&nbsp;239.7</td><td>41&nbsp;239.7&nbsp;(0.2)</td><td>0</td></tr></table><p>For more details see [<a href=\"index.html#/list/2013\" target=\"_blank\">Ref.&nbsp;3 (2013)</a>].</p>"
+				}
+			]
+		}
+	}        	
+}
