@@ -7,7 +7,6 @@ import './App.css';
 
 import ArticlePagesList from './ArticlePagesList';
 import Page from './ArticlePage';
-import PageButton from './PageButton';
 import IndexPage from './IndexPage';
 import MainDirButtons from './MainDirButtons';
 import OrdinaryPage from './OrdinaryPage';
@@ -214,7 +213,7 @@ class Footer extends Component {
 									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 21.10.22
+								Last update 10.02.23
 							</div>
 						</div>
 					)
@@ -380,7 +379,7 @@ class App extends Component {
 	
 			let pageTitles = Object.keys(json.pages).sort();
 			let staffCatTitles = jsonPeople.category;
-			let staffPhoto = jsonPeople.photo;
+			let staffPhotos = jsonPeople.photos;
 			let devTitles = jsonDevList.category.devices;
 			
 			content = (
@@ -412,7 +411,7 @@ class App extends Component {
 						<div className="main_pane_frame">
 							<div className="main_pane">	
 								<div className="people">	
-									<StaffPageWithHistory photo={staffPhoto} staffCatTitles={staffCatTitles}/>
+									<StaffPageWithHistory photos={staffPhotos} staffCatTitles={staffCatTitles}/>
 								</div>
 							</div>
 							<div style={{"position":"fixed", "bottom": "0"}}>

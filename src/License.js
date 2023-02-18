@@ -36,7 +36,7 @@ class License extends Component {
 				<div className="license_alert">
 					<p>{renderHTML(this.state.title)}</p>
 					<div className="license_disclaimer">
-						<p>By clicking “Download” or “Open” you will gain access to the electronic version of the published journal article, which is placed here exclusively for personal and internal institutional use. If it is not your case press “Back” button and/or contact administrator.</p>
+						<p>By clicking “Download” or “Open” you will gain access to the electronic version of the published journal article or related supplementary materials, which are placed here exclusively for personal and internal institutional use. If it is not your case press “Back” button and/or contact administrator.</p>
 					</div>
 					<div className="license_button_container">
 						<a className="btn" target="_blank" href={fullURL} onClick={this.downloadLinkClick.bind(this)}>Open</a>

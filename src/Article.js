@@ -49,7 +49,7 @@ class Article extends Component {
 				<span key={key++} className="article_span_space" />,
 				<span key={key++} className="article_language">[{renderHTML(this.props.article.language)}]</span>
 			]
-		};
+		}
 		
 		let translation;
 		if (this.props.article.url && this.props.article.url_trans && this.props.article.language_trans) {
@@ -77,7 +77,7 @@ class Article extends Component {
 				<span key={key++} className="article_span_space" />,
 				<span key={key++} className="article_language">[{renderHTML(this.props.article.language_trans)}]</span>
 				]
-		};
+		}
 		
 		let article_title;
 		if (this.props.article.url) {
@@ -98,12 +98,21 @@ class Article extends Component {
 					{renderHTML(this.props.article.title)}
 				</div>;
 		}
+
+		let supplementary;
+		if (this.props.article.url_supmat && this.props.article.title_supmat) {
+			supplementary =
+				<div className="article_title">
+					<Link to={this.props.location.pathname + '?showlicense=true&url=' + this.props.article.url_supmat}>{renderHTML(this.props.article.title_supmat)}</Link>
+				</div>;
+		}
 		
 		return (
 			<li className="article_item">
 				<span className="article_authors_list">{authorsList}</span>
 				<br />
 				{article_title}
+				{supplementary}
 				{journal_title}
 				<span className="article_data">{renderHTML(this.props.article.data)}</span>
 				<span className="article_span_space" />

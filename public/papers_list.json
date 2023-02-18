@@ -543,8 +543,8 @@
               ],
               "data": "1&ndash;9",
               "data_trans": "1&ndash;11",
-              "journal": "Preprint \u2116 24",
-              "journal_trans": "Preprint #24",
+              "journal": "NIRFI. Preprint \u2116 24",
+              "journal_trans": "NIRFI. Preprint #24",
               "language": "in Russian",
               "language_trans": "in English",
               "title": "Millimeter and Submillimeter Wave Wid-Range Gas Radio Spectroskopy",
@@ -616,6 +616,17 @@
               "language": "in Russian",
               "title": "Broad-Banded Millimeter and Submillimeter Microwave Spectroscopy of Gases with High Sensitivity",
               "url": "1973Belov-3.pdf",
+              "year": "1973"
+            },
+            {
+              "authors": [
+                "A.F.&nbsp;Krupnov"
+              ],
+              "data": "1&ndash;53",
+              "journal": "NIRFI. Preprint \u2116 40",
+              "language": "in Russian",
+              "title": "Broadband Millimeter- and Submillimeter-Wave Gas Spectroscopy",
+              "url": "1973Krupnov.pdf",
               "year": "1973"
             }
           ],
@@ -8158,7 +8169,7 @@
                 "O.L.&nbsp;Polyansky",
                 "J.&nbsp;Tennyson"
               ],
-              "data": "doi:10.1098/rsta.2017.0149",
+              "data": "376, 20170149",
               "journal": "Phil. Trans. R. Soc. Lond. A",
               "title": "High-Accuracy Water Potential Energy Surface for the Calculation of Infrared Spectra",
               "url": "2018Mizus.pdf",
@@ -8810,6 +8821,46 @@
               "url_trans": "2020Raspopova.pdf",
               "year": "2020",
               "year_trans": "2021"
+            },
+            {
+              "authors": [
+                "E.K.&nbsp;Conway",
+                "I.E.&nbsp;Gordon",
+                "O.L.&nbsp;Polyansky",
+                "J.&nbsp;Tennyson"
+              ],
+              "data": "152, 024105",
+              "journal": "J. Chem. Phys.",
+              "title": "Use of the Complete Basis Set Limit for Computing Highly Accurate <em>ab initio</em> Dipole Moments",
+              "url": "2020Conway-1.pdf",
+              "year": "2020"
+            },
+            {
+              "authors": [
+                "A.A.&nbsp;Vikharev",
+                "A.L.&nbsp;Vikharev",
+                "E.I.&nbsp;Gacheva",
+                "O.A.&nbsp;Ivanov",
+                "S.V.&nbsp;Kuzikov",
+                "D.S.&nbsp;Makarov",
+                "M.A.&nbsp;Martyanov",
+                "S.Yu.&nbsp;Mironov",
+                "N.Yu.&nbsp;Peskov",
+                "A.K.&nbsp;Potemkin",
+                "M.Yu.&nbsp;Tretyakov",
+                "A.P.&nbsp;Shkaev"
+              ],
+              "data": "63(5&ndash;6), 477&ndash;487",
+              "data_trans": "63(5&ndash;6), 430&ndash;439",
+              "journal": "Izv. VUZov. Radiofizika",
+              "journal_trans": "Radiophysics and Quantum Electronics",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "Development of Photoinjector Accelerator Complex at the Institute of Applied Physics of the Russian Academy of Sciences: Research Status and Prospects",
+              "url": "2020Vikharev.pdf",
+              "url_trans": "2020Vikharev-1.pdf",
+              "year": "2020",
+              "year_trans": "2020"
             }
           ],
           "title": "2020"
@@ -9071,6 +9122,29 @@
               "title": "A Global Line List for HDO Between 0 and 35000&nbsp;cm<sup>−1</sup> Constructed Using Multiphoton Spectra",
               "url": "2021Zobov-1.pdf",
               "year": "2021"
+            },
+            {
+              "authors": [
+                "R.A.&nbsp;Alekseev",
+                "I.V.&nbsp;Lapkin",
+                "A.V.&nbsp;Lapinov",
+                "T.A.&nbsp;Khabarova",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "A.F.&nbsp;Andriyanov",
+                "A.P.&nbsp;Schkaev",
+                "P.M.&nbsp;Zemlyanukha"
+              ],
+              "data": "64(12), 971&ndash;982",
+              "data_trans": "64(12), 873&ndash;883",
+              "journal": "Izv. VUZov. Radiofizika",
+              "journal_trans": "Radiophysics and Quantum Electronics",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "Quasi-Optical Sub-Doppler Lamb-Dip Spectrometer",
+              "url": "2021Alekseev.pdf",
+              "url_trans": "2021Alekseev-1.pdf",
+              "year": "2021",
+              "year_trans": "2022"
             }
           ],
           "title": "2021"
@@ -9191,9 +9265,299 @@
               "title": "The HITRAN2020 Molecular Spectroscopic Database",
               "url": "2022Gordon.pdf",
               "year": "2022"
+            },
+            {
+              "authors": [
+                "A.V.&nbsp;Kuznetsov",
+                "N.I.&nbsp;Raspopova",
+                "O.V.&nbsp;Gromova",
+                "E.S.&nbsp;Bekhtereva",
+                "M.A.&nbsp;Koshelev",
+                "I.A.&nbsp;Velmuzhova"
+              ],
+              "data": "130(3), 345&ndash;352",
+              "data_trans": "130(3), 307&ndash;314",
+              "journal": "Optika i Spektroskopiya",
+              "journal_trans": "Optics and Spectroscopy",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "The Vibrational-Rotational High-Resolution Spectrum in the Region of 3<em>&nu;</em><sub>4</sub>, <em>&nu;</em><sub>2</sub> + 2<em>&nu;</em><sub>4</sub> and 2<em>&nu;</em><sub>2</sub> + <em>&nu;</em><sub>4</sub> Bands of the <sup>72</sup>GeH<sub>4</sub>",
+              "url": "2022Kuznetsov.pdf",
+              "url_trans": "2022Kuznetsov-1.pdf",
+              "year": "2022",
+              "year_trans": "2022"
+            },
+            {
+              "authors": [
+                "G.Yu.&nbsp;Golubyatnikov",
+                "M.A.&nbsp;Koshelev",
+                "A.I.&nbsp;Tsvetkov",
+                "A.P.&nbsp;Fokin",
+                "A.A.&nbsp;Ananichev",
+                "M.Yu.&nbsp;Glyavin",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "65(3), 169&ndash;183",
+              "data_trans": "65(3), 157&ndash;169",
+              "journal": "Izv. VUZov. Radiofizika",
+              "journal_trans": "Radiophysics and Quantum Electronics",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "Application of Gyrotrons for Molecular Gas Spectroscopy",
+              "url": "2022Golubyatnikov.pdf",
+              "url_trans": "2022Golubyatnikov-1.pdf",
+              "year": "2022",
+              "year_trans": "2022"
+            },
+            {
+              "authors": [
+                "I.I.&nbsp;Mizus",
+                "L.&nbsp;Lodi",
+                "J.&nbsp;Tennyson",
+                "N.F.&nbsp;Zobov",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "386, 111621",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "Analysis of the Accuracy of Calculations Using Duo and Level Diatomic Nuclear Motion Programs",
+              "url": "2022Mizus.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "M.V.&nbsp;Kamenskiy",
+                "M.A.&nbsp;Koshelev",
+                "A.A.&nbsp;Orlovsky",
+                "A.S.&nbsp;Sedov",
+                "S.A.&nbsp;Skorokhodov",
+                "A.I.&nbsp;Tsvetkov"
+              ],
+              "data": "65(3), 29&ndash;33",
+              "data_trans": "65(3), 393&ndash;397",
+              "journal": "Pribory i Technika Experimenta",
+              "journal_trans": "Instruments and Experimental Techniques",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "Development and Testing of a Device for Regulation and Stabilization of Powerful Millimeter Radiation",
+              "url": "2022Kamenskiy.pdf",
+              "url_trans": "2022Kamenskiy-1.pdf",
+              "year": "2022",
+              "year_trans": "2022"
+            },
+            {
+              "authors": [
+                "O.N.&nbsp;Ulenikov",
+                "O.V.&nbsp;Gromova",
+                "E.S.&nbsp;Bekhtereva",
+                "N.I.&nbsp;Nikolaeva",
+                "I.A.&nbsp;Velmuzhova",
+                "M.A.&nbsp;Koshelev"
+              ],
+              "data": "275, 121135",
+              "journal": "Spectrochimica Acta Part A: Molecular and Biomolecular Spectroscopy",
+              "title": "First Study of <sup>76</sup>GeH<sub>4</sub> in the Region of Tetrad of the Strongly Interacting <em>&nu;</em><sub>1</sub> + <em>&nu;</em><sub>2</sub>, <em>&nu;</em><sub>1</sub> + <em>&nu;</em><sub>4</sub>, <em>&nu;</em><sub>2</sub> + <em>&nu;</em><sub>3</sub> and <em>&nu;</em><sub>3</sub> + <em>&nu;</em><sub>4</sub> Ro-Vibrational Bands",
+              "url": "2022Ulenikov.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "R.I.&nbsp;Ovsyannikov",
+                "V.Yu.&nbsp;Makhnev",
+                "N.F.&nbsp;Zobov",
+                "J.&nbsp;Koput",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "156, 164305",
+              "journal": "J. Chem. Phys.",
+              "title": "Highly Accurate HF Dimer <em>ab initio</em> Potential Energy Surface",
+              "url": "2022Ovsyannikov.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "T.M.&nbsp;Rubin",
+                "M.&nbsp;Sarrazin",
+                "N.F.&nbsp;Zobov",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "e2063769",
+              "journal": "Mol. Phys.",
+              "title": "Sub-Percent Accuracy for the Intensity of a Near-Infrared Water Line at 10670&nbsp;cm<sup>-1</sup>: Experiment and Analysis",
+              "url": "2022Rubin.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "K.&nbsp;Bielska",
+                "A.A.&nbsp;Kyuberis",
+                "Z.D.&nbsp;Reed",
+                "G.&nbsp;Li",
+                "A.&nbsp;Cygan",
+                "R.&nbsp;Ciurylo",
+                "E.M.&nbsp;Adkins",
+                "L.&nbsp;Lodi",
+                "N.F.&nbsp;Zobov",
+                "V.&nbsp;Ebert",
+                "D.&nbsp;Lisak",
+                "J.T.&nbsp;Hodges",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "129, 043002",
+              "journal": "Phys. Rev. Lett.",
+              "title": "Subpromille Measurements and Calculations of CO&nbsp;(3&ndash;0) Overtone Line Intensities",
+              "title_supmat": "Supplementary Materials",
+              "url_supmat": "2022Bielska-1.pdf",
+              "url": "2022Bielska.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "T.A.&nbsp;Odintsova",
+                "A.O.&nbsp;Koroleva",
+                "A.A.&nbsp;Simonova",
+                "A.&nbsp;Campargue",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "386, 111603",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "The Atmospheric Continuum in the &ldquo;Terahertz Gap&rdquo; Region (15&ndash;700&nbsp;cm<sup>-1</sup>): Review of Experiments at SOLEIL Synchrotron and Modeling",
+              "url": "2022Odintsova.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "T.A.&nbsp;Galanina",
+                "A.O.&nbsp;Koroleva",
+                "A.A.&nbsp;Simonova",
+                "A.&nbsp;Campargue",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "389, 111691",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "The Water Vapor Self-Continuum in the &ldquo;Terahertz Gap&rdquo; Region (15&ndash;700&nbsp;cm<sup>-1</sup>): Experiment Versus MT_CKD-3.5 Model",
+              "url": "2022Galanina.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "S.&nbsp;Kassi",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "286, 108206",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "The Water Vapor Self-Continuum Absorption at Room Temperature in the 1.25&nbsp;&mu;m Window",
+              "url": "2022Koroleva.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "M.V.&nbsp;Belikovich",
+                "D.S.&nbsp;Makarov",
+                "E.A.&nbsp;Serov",
+                "M.Yu.&nbsp;Kulikov",
+                "A.M.&nbsp;Feigin"
+              ],
+              "data": "14, 6042",
+              "journal": "Remote Sens.",
+              "title": "Validation of Atmospheric Absorption Models within the 20&ndash;60&nbsp;GHz Band by Simultaneous Radiosonde and Microwave Observations: the Advantage of Using ECS Formalism",
+              "url": "2022Belikovich.pdf",
+              "year": "2022"
+            },
+            {
+              "authors": [
+                "M.&nbsp;Toureille",
+                "A.O.&nbsp;Koroleva",
+                "S.N.&nbsp;Mikhailenko",
+                "O.&nbsp;Pirali",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "291, 108326",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Water Vapor Absorption Spectroscopy and Validation Tests of Databases in the Far-Infrared (50&ndash;720&nbsp;cm<sup>-1</sup>). Part&nbsp;1: Natural water",
+              "url": "2022Toureille.pdf",
+              "year": "2022"
             }
           ],
           "title": "2022"
+        }
+      ]
+    },
+    "2023": {
+      "title": "Our scientific articles",
+      "paragraphs": [
+        {
+          "articles": [
+            {
+              "authors": [
+                "M.Yu.&nbsp;Tretyakov",
+                "D.S.&nbsp;Makarov",
+                "E.A.&nbsp;Serov",
+                "I.N.&nbsp;Vilkov",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "T.A.&nbsp;Galanina",
+                "M.A.&nbsp;Koshelev",
+                "A.A.&nbsp;Balashov",
+                "A.A.&nbsp;Simonova",
+                "F.&nbsp;Thibault"
+              ],
+              "data": "25, 1310&ndash;1330",
+              "journal": "Phys. Chem. Chem. Phys.",
+              "title": "Pure Rotational R(0) and R(1) Lines of CO in Ar Baths: Experimental Broadening, Shifting and Mixing Parameters in a Wide Pressure Range Versus <em>ab initio</em> Calculations",
+              "url": "2023Tretyakov.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "S.&nbsp;Kassi",
+                "D.&nbsp;Mondelain",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "296, 108432",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "The Water Vapor Foreign Continuum in the 8100&ndash;8500&nbsp;cm<sup>-1</sup> Spectral Range",
+              "url": "2023Koroleva.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "M.A.&nbsp;Koshelev",
+                "I.N.&nbsp;Vilkov",
+                "T.A.&nbsp;Galanina",
+                "E.A.&nbsp;Serov",
+                "D.S.&nbsp;Makarov",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "298, 108493",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Temperature Behavior of Collisional Parameters of Oxygen Fine-Structure Lines: O<sub>2</sub>&ndash;O<sub>2</sub> Case",
+              "url": "2023Koshelev.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "Ch.A.&nbsp;Bowesman",
+                "I.I.&nbsp;Mizus",
+                "N.F.&nbsp;Zobov",
+                "O.L.&nbsp;Polyansky",
+                "J.&nbsp;Sarka",
+                "B.&nbsp;Poirier",
+                "M.&nbsp;Pezzella",
+                "S.N.&nbsp;Yurchenko",
+                "J.&nbsp;Tennyson"
+              ],
+              "data": "https://doi.org/10.1093/mnras/stad050",
+              "journal": "Mon. Not. R. Astron. Soc.",
+              "title": "ExoMol Line Lists &ndash; L: High-Resolution Line Lists of H<sub>3</sub><sup>+</sup>, H<sub>2</sub>D<sup>+</sup>, D<sub>2</sub>H<sup>+</sup>, and D<sub>3</sub><sup>+</sup>",
+              "url": "2023Bowesman.pdf",
+              "year": "2023"
+            }
+          ],
+          "title": "2023"
         }
       ]
     }

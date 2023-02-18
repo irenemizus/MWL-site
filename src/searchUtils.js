@@ -4,7 +4,7 @@ export default function searchArticleByURL(url, page) {
 		for (let arti in par.articles) {
 			var art = par.articles[arti];
 				
-			if (url === art.url || url === art.url_trans) {
+			if (url === art.url || url === art.url_trans || url === art.url_supmat) {
 				return art;
 			}
 		}
@@ -12,4 +12,4 @@ export default function searchArticleByURL(url, page) {
  	return null;
 }
 	
-	
+
