@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 import StaffCatButtons from './StaffCatButtons';
+import ClickButton from "./ClickButton";
 
 import './Page.css';
-import ClickButton from "./ClickButton";
+import './ArticlePagesList.css';
 
 export default class StaffPage extends Component {
 	constructor(props) {
@@ -28,10 +29,7 @@ export default class StaffPage extends Component {
 				let curImgKey = this.state.photoKeys[i]
 				console.log(curImgKey);
 				let buttonView;
-				let prefix = '/people/';
 
-				//let myTabClick = tabClick.bind(this, curImgKey);
-				//if (this.props.location.pathname === prefix + curImgKey) {
 				let tabClick = () => {
 					console.log(curImgKey)
 					this.setState(
@@ -42,14 +40,7 @@ export default class StaffPage extends Component {
 					);
 				}
 
-				buttonView = <ClickButton title={curImgKey} active={this.state.selectedKey === curImgKey} handler={tabClick}/>;
-
-					//image = <div><img className="foto_team" alt="" src={'/img/foto/' + this.props.photos[i].url}></img></div>;
-				//}
-				// else {
-				// 	buttonView = <PageButton colors={this.props.colors} key={i} index={curImgKey}
-				// 							 title={curImgKey} prefix={prefix}/>;
-				// }
+				buttonView = <ClickButton title={curImgKey} active={this.state.selectedKey === curImgKey} handler={tabClick} colors="light"/>;
 
 				photoButtons.push(buttonView);
 			}
@@ -58,7 +49,7 @@ export default class StaffPage extends Component {
 
 		return (
 				<div className="foto_frame">
-					<div>{photoButtons}</div>
+					<div style={{"margin": "5pt"}}>{photoButtons}</div>
 					<div>{image}</div>
 					<StaffCatButtons colors="light" staffCatTitles={this.props.staffCatTitles} location={this.props.location} />
 				</div>

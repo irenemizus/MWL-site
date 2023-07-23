@@ -16,11 +16,13 @@ export default class ClickButton extends Component {
 	render() {
 		var buttonStyle;
 	
-		if (this.props.active || this.props.linkfrom) {
+		if (this.props.active) {
 			buttonStyle = "page_button_active";
 		} else {
-			if (this.props.colors === "dark") buttonStyle = "page_button_dark";
-			else buttonStyle = "page_button_light";
+			if (this.props.colors === "dark")
+				buttonStyle = "page_button_dark";
+			else
+				buttonStyle = "page_button_light";
 		}
 
 		var title = renderHTML(this.state.title)
