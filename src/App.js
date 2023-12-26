@@ -213,7 +213,7 @@ class Footer extends Component {
 									contact <a href="mailto:irene.mizus@gmail.com">webmaster</a><br />
 							</div>
 							<div className="contacts">
-								Last update 10.02.23
+								Last update 26.12.23
 							</div>
 						</div>
 					)

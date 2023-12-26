@@ -16,6 +16,13 @@
   left: 0;
   right: 0;
   top: 0;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .App-menu {
@@ -28,6 +35,13 @@
   width: 100vw;
   position: relative;
   left: 180pt;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .App-intro {
@@ -62,6 +76,13 @@
   top: 120pt;
   /*background-color: rgba(30,60,100,0.7);*/
   background-color: #546279;
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 .main_pane_frame {
@@ -166,7 +187,7 @@
 
 .menu_item_active,
 .menu_item {
-  padding: 2pt 8pt 2pt 0pt;
+  padding: 2pt 8pt 2pt 0;
 }
 
 .menu_item_active a {

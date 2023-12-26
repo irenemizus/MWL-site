@@ -17,15 +17,17 @@ export default class PageButton extends Component {
 	
 	render() {
 		var buttonStyle;
-	
-		if (this.props.active || this.props.linkfrom) {
-			buttonStyle = "page_button_active";
+
+		if (!this.props.disabled && this.props.active) {
+			buttonStyle = "page_button_active_enabled";
+		} else if (this.props.active || this.props.linkfrom) {
+			buttonStyle = "page_button_active_disabled";
 		} else {
 			if (this.props.colors === "dark") buttonStyle = "page_button_dark";
 			else buttonStyle = "page_button_light";
 		}
 
-		var title = renderHTML(this.state.title)
+		var title = renderHTML(this.state.title);
 		var boxStyle = { 
 			"width": "100%"
 		}
@@ -38,17 +40,24 @@ export default class PageButton extends Component {
 		}		
 		
 		var linkStyle = {"display": "block", "textAlign": "center"}
-		
+
+		var the_link;
+		if (this.props.disabled) {
+			the_link = <div style={linkStyle}>{title}</div>;
+		} else {
+			the_link = <Link style={linkStyle} to={this.state.prefix + renderHTML(this.state.index)}>{title}</Link>;
+		}
+
 		if (this.props.active) {
 			return (
 				<div style={boxStyle} className={buttonStyle}>
-					<div style={linkStyle}>{title}</div>
+					{the_link}
 				</div>
 			)
 		} else {
 			return (
 				<div style={boxStyle} className={buttonStyle}>
-					<Link style={linkStyle} to={this.state.prefix + renderHTML(this.state.index)}>{title}</Link>
+					{the_link}
 				</div>
 			)
 		}		

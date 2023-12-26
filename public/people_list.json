@@ -336,7 +336,7 @@
           "full_name": "Dmitriy&nbsp;Sergeyevich&nbsp;Makarov",
           "short_name": "Dmitriy&nbsp;S.&nbsp;Makarov",
           "acad_degree": "Ph.D. in Physics",
-          "position": "Researcher",
+          "position": "Senior Researcher",
           "email": "dmak&nbsp;(at)&nbsp;ipfran.ru",
           "tel": "+7 (831) 416-48-66",
           "biography": "<p>Dmitriy Sergeyevich Makarov was born on 23.04.1984 in Nizhny Novgorod.</p> <p>Graduated from the Radiophysical department of the Nizhny Novgorod State  University in 2007 with master's degree in radiophysics.</p> <p>Started working at the Microwave Spectroscopy laboratory in 2004 as a  laboratory assistant. Took Ph.D. course from 2007 to 2010. Received Ph.D. degree in physics in 2011. The theme of the Ph.D. thesis is &ldquo;Millimeter-wave spectrum of molecular oxygen: measurements and the absorption profile modeling in a broad temperature range&rdquo;.</p> <p>Major interests: quantum radiophysics, molecular spectroscopy, line and band profile shape analysis, millimeter- and  submillimeter-wave technique.</p>",
@@ -431,16 +431,6 @@
     "PhD_stud": {
       "title": "Ph.D. students",
       "staff": {
-        "balashov": {
-          "short_name": "Aleksander&nbsp;A.&nbsp;Balashov",
-          "position": "Ph.D. Student",
-          "biography": "<p>Aleksander Balashov was born in N.&nbsp;Novgorod, Russia, November 2, 1995.</p> <p>Studying at the Radiophysics faculty of Nizhny Novgorod State University since 2013. And since 2016 making coursework along the absorption of radiation in the atmosphere in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS.</p>",
-          "photo": {
-            "filename": "Balashov.jpg",
-            "position": {"x": 0.47, "y": 0.45},
-            "scale": 1.2
-          }
-        },
         "koroleva": {
           "short_name": "Aleksandra&nbsp;O.&nbsp;Koroleva (Zibarova)",
           "position": "Ph.D. Student",
@@ -457,7 +447,7 @@
     "stud": {
       "title": "Students",
       "staff":{
-        "amerhanov": {
+        "amerkhanov": {
           "short_name": "Ilya&nbsp;S.&nbsp;Amerkhanov",
           "email": "i.amerhanov&nbsp;(at)&nbsp;ipfran.ru",
           "biography": "<p>Ilya Sergeevich Amerkhanov was born in the city of Vladimir, Russia, August 13, 2002. He finished school in his hometown of Gus-Khrustalny with a golden medal in 2020. The same year he entered the faculty of Advanced School of General and Applied Physics, Nizhny Novgorod. Since June 2022, he has been working for the Laboratory of Microwave Spectroscopy.</p><p>Ilya is an active person. He played in the regional classic volleyball team and was into beach volleyball as well. He was fond of athletics and performed at All-Russian competitions.</p>",
@@ -604,6 +594,19 @@
             "scale": 1.2
           }
         },
+        "shkaev": {
+          "full_name": "Aleksander&nbsp;Petrovich&nbsp;Shkaev",
+          "short_name": "Aleksander&nbsp;P.&nbsp;Shkaev",
+          "biography": "<p>A.P.&nbsp;Shkaev was born in Batumi city, USSR, on June 20, 1947. His father was a military officer, so the family often changed their place of residence. He graduated from high school in the Barmino village (Gorky region) in 1964. In 1965 he entered the Gorky City Polytechnical Institute named after A.A. Zhdanov and received a master diploma of radio engineer in 1970. On graduation he was employed at the Radiophysical Research Institute (RRI). In April 1977 the Institute of Applied Physics (IAP) branched off from the RRI and A.P. Shkaev moved over to it together with many other employees. Since that time he was with IAP as an engineer, senior engineer and leading engineer until August 2023. He was never the employee of our Laboratory but permanently helped us with various sophisticated radio devices. His close collaboration with us started in 1994, when the Laboratory initiated the development of Phase-Locked Loop systems for continuously scanning broad band molecular spectroscopy in the subterahertz spectral range (see [<a href=\"index.html#/list/1995\" target=\"_blank\">Ref.&nbsp;1 (1995)</a>] as the first result of this break-through). His <a href=\"index.html#/instrum/devices/dev012\" target=\"_blank\">&ldquo;BWO Synchronizer&rdquo;</a> is one of the key elements of the system. It successfully operates with minor modifications not only in all our spectrometers but also in many spectroscopic and other research laboratories around the world.</p>",
+          "photo": {
+            "filename": "Shkaev.jpg",
+            "position": {
+              "x": 0.5,
+              "y": 0.45
+            },
+            "scale": 0.9
+          }
+        },
         "shirin": {
           "short_name": "Sergey&nbsp;V.&nbsp;Shirin",
           "email": "shirin&nbsp;(at)&nbsp;ipfran.ru",
@@ -678,9 +681,7 @@
         "makhnev": {
           "full_name": "Vladimir&nbsp;Yurievich&nbsp;Makhnev",
           "short_name": "Vladimir&nbsp;Yu.&nbsp;Makhnev",
-          "position": "Junior Researcher",
           "email": "makhnev&nbsp;(at)&nbsp;ipfran.ru",
-          "tel": "+7 (831) 416-49-32",
           "biography": "<p>Vladimir Makhnev was born in the Gorky region on 17 July 1992.</p> <p>Graduated from the HSGAP (Higher School of General and Applied Physics) &mdash; Faculty of Nizhny Novgorod State University &mdash; in 2015 as Master of Physics (paper topic: &ldquo;Investigation of stratospheric warming influence on ozone structure in the middle atmosphere by microwave radiometry methods&rdquo;). After that he started working in the Laboratory of Microwave Spectroscopy at the IAP RAS as a Junior Researcher.</p> <p>From August 2015 to June 2019 he was a postgraduate student. The topic of his Ph.D. thesis was &ldquo;High-precision quantum-chemical calculations of spectra of molecular system HCN/HNC&rdquo;, scientific supervisor &mdash; Dr.&nbsp;O.L.&nbsp;Polyansky (IAP RAS (Russia) and UCL (UK)). The thesis was defended Ph.D. in October 2021. Since 2022 he is on a postdoctoral position in the Center for Astrophysics, Harvard & Smithsonian, USA.</p><p>Main interests &mdash; <em>ab initio</em> calculation of rovibrational spectra of light molecules with a small number of atoms.</p> <p><strong>Scientific visits:</strong></p> <table> <tr> <td><p>August &mdash; September 2016 (1 month)</p></td> <td><p>University College London, London (UK)</p></td> </tr> <tr> <td><p>November 2019 (2 weeks)</p></td> <td><p>Justus Liebig University Giessen, Giessen (Germany)</p></td> </tr> <tr> <td><p>November &mdash; December 2019 (5 weeks)</p></td> <td><p>PTB, Braunschweig (Germany)</p></td> </tr> </table>",
           "photo": {
             "filename": "makhnev.jpg",
@@ -695,6 +696,15 @@
             "2018Makhnev-1.pdf",
             "2021Mellau.pdf"
           ]
+        },
+        "balashov": {
+          "short_name": "Aleksander&nbsp;A.&nbsp;Balashov",
+          "biography": "<p>Aleksander Balashov was born in N.&nbsp;Novgorod, Russia, November 2, 1995.</p> <p>Studying at the Radiophysics faculty of Nizhny Novgorod State University since 2013. And since 2016 making coursework along the absorption of radiation in the atmosphere in the Microwave Spectroscopy laboratory of the Institute of Applied Physics RAS.</p><p>In 2021&ndash;2023 he was joint PhD student of IAP RAS and Nicolaus Copernicus University (Torun, Poland). PhD thesis entitled &ldquo;High-resolution spectroscopy of the 6<sup>th</sup> overtone band of carbon monoxide&rdquo; was defended in Torun in October, 16 2023.</p>",
+          "photo": {
+            "filename": "Balashov.jpg",
+            "position": {"x": 0.47, "y": 0.45},
+            "scale": 1.2
+          }
         }
       }
     },

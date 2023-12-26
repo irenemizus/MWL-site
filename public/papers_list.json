@@ -9555,6 +9555,133 @@
               "title": "ExoMol Line Lists &ndash; L: High-Resolution Line Lists of H<sub>3</sub><sup>+</sup>, H<sub>2</sub>D<sup>+</sup>, D<sub>2</sub>H<sup>+</sup>, and D<sub>3</sub><sup>+</sup>",
               "url": "2023Bowesman.pdf",
               "year": "2023"
+            },
+            {
+              "authors": [
+                "R.I.&nbsp;Ovsyannikov",
+                "M.Yu.&nbsp;Tretyakov",
+                "M.A.&nbsp;Koshelev",
+                "T.A.&nbsp;Galanina"
+              ],
+              "data": "36(7), 523&ndash;533",
+              "data_trans": "36(6), 601&ndash;612",
+              "journal": "Optika Atmosfery i Okeana",
+              "journal_trans": "Atmospheric and Oceanic Optics",
+              "language": "in Russian",
+              "language_trans": "in English",
+              "title": "On the Uncertainty of the Calculated Intensities of Water Vapor Lines in the Sub-THz Frequency Range",
+              "url": "2023Ovsyannikov.pdf",
+              "url_trans": "2023Ovsyannikov-1.pdf",
+              "year": "2023",
+              "year_trans": "2023"
+            },
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "S.N.&nbsp;Mikhailenko",
+                "S.&nbsp;Kassi",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "298, 108489",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Frequency Comb-Referenced Cavity Ring-Down Spectroscopy of Natural Water Between 8041 and 8633&nbsp;cm<sup>-1</sup>",
+              "url": "2023Koroleva-1.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "G.Yu.&nbsp;Golubyatnikov",
+                "O.L.&nbsp;Polyansky",
+                "N.F.&nbsp;Zobov",
+                "J.&nbsp;Tennyson",
+                "R.I.&nbsp;Ovsyannikov",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "397, 111836",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "H<sub>2</sub>O&mdash;HF Dimer Rotational Spectra: New Measurements and Re-Analysis",
+              "url": "2023Golubyatnikov.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "A.A.&nbsp;Balashov",
+                "K.&nbsp;Bielska",
+                "G.&nbsp;Li",
+                "A.A.&nbsp;Kyuberis",
+                "S.&nbsp;Wojtewicz",
+                "J.&nbsp;Domysławska",
+                "R.&nbsp;Ciurylo",
+                "N.F.&nbsp;Zobov",
+                "D.&nbsp;Lisak",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "158, 234306",
+              "journal": "J. Chem. Phys.",
+              "title": "Measurement and Calculation of CO (7&mdash;0) Overtone Line Intensities",
+              "url": "2023Balashov.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "H.&nbsp;Fleurbaey",
+                "A.O.&nbsp;Koroleva",
+                "S.&nbsp;Kassi",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "25, 14749&ndash;14756",
+              "journal": "Phys. Chem. Chem. Phys.",
+              "title": "The High-Accuracy Spectroscopy of H<sub>2</sub> Rovibrational Transitions in the (2&mdash;0) Band Near 1.2&nbsp;&mu;m",
+              "url": "2023Fleurbaey.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "D.S.&nbsp;Makarov",
+                "E.A.&nbsp;Serov",
+                "T.A.&nbsp;Galanina",
+                "A.O.&nbsp;Koroleva",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "395, 111792",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "The Molecular Oxygen 118-GHz Line Intensity Revision",
+              "url": "2023Makarov.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "M.V.&nbsp;Pavlov",
+                "A.P.&nbsp;Bavrina",
+                "V.I.&nbsp;Plekhanov",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "A.G.&nbsp;Orlova",
+                "P.V.&nbsp;Subochev",
+                "D.A.&nbsp;Davydova",
+                "I.V.&nbsp;Turchin",
+                "A.V.&nbsp;Maslennikova"
+              ],
+              "data": "25(12)",
+              "journal": "Breast Cancer Research",
+              "title": "Changes in the Tumor Oxygenation but not in the Tumor Volume and Tumor Vascularization Reflect Early Response of Breast Cancer to Neoadjuvant Chemotherapy",
+              "url": "2023Pavlov.pdf",
+              "year": "2023"
+            },
+            {
+              "authors": [
+                "T.I.&nbsp;Kalganova",
+                "A.V.&nbsp;Maslennikova",
+                "A.G.&nbsp;Orlova",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "I.P.&nbsp;Ivanova",
+                "I.V.&nbsp;Turchin"
+              ],
+              "data": "20, 025601",
+              "journal": "Laser Phys. Lett.",
+              "title": "The Study of Oxygenation Dynamics During Experimental Tumor Growth Using Frequency-Domain Diffuse Optical Spectroscopy",
+              "url": "2023Kalganova.pdf",
+              "year": "2023"
             }
           ],
           "title": "2023"

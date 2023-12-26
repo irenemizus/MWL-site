@@ -248,7 +248,7 @@
         		"preview_img": { 
         			"filename": "12.jpg",
         			"position": {"x": 0.5, "y": 0.5},
-        			"scale": 1.0		
+        			"scale": 0.65
         		},
         		"full_title": "Device&nbsp;012",
         		"structure": [

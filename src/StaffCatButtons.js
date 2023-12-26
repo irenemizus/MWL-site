@@ -44,10 +44,13 @@ export default class StaffCatButtons extends Component {
     		let prefix = '/people/';
     		
     		if (location.pathname === prefix + categoryId && i === categoryId) {
-   				buttonView = <PageButton active={true} key={i} index={i} title={curPageTitle} prefix={prefix}/>;
+   				buttonView = <PageButton disabled={true} active={true} key={i} index={i} title={curPageTitle} prefix={prefix}/>;
+			} else if (location.pathname.includes("/" + i + "/")) {
+				// We are inside a subtree
+				buttonView = <PageButton disabled={false} active={true} key={i} index={i} title={curPageTitle} prefix={prefix}/>;
    			} else if (location.pathname === prefix + link_from + "/" + url && i === link_from) {
-   				buttonView = <PageButton key={i} index={i} title={curPageTitle} prefix={prefix} linkfrom={link_from}/>;
-   			} else {    		
+				buttonView = <PageButton key={i} index={i} title={curPageTitle} prefix={prefix} linkfrom={link_from}/>;
+			} else {
    				buttonView = <PageButton colors={this.props.colors} key={i} index={i} title={curPageTitle} prefix={prefix}/>;
     		}		 
     		
