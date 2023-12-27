@@ -17,7 +17,7 @@ export default class ClickButton extends Component {
 		var buttonStyle;
 	
 		if (this.props.active) {
-			buttonStyle = "page_button_active";
+			buttonStyle = "page_button_active_disabled";
 		} else {
 			if (this.props.colors === "dark")
 				buttonStyle = "page_button_dark";
