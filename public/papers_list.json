@@ -8732,7 +8732,7 @@
                 "M.N.&nbsp;Gorman",
                 "C.&nbsp;Hill",
                 "A.E.&nbsp;Lynas-Gray",
-                "T.&nbsp;Mellor",
+                "T.M.&nbsp;Mellor",
                 "L.K.&nbsp;McKemmish",
                 "A.&nbsp;Owens",
                 "O.L.&nbsp;Polyansky",
@@ -9685,6 +9685,257 @@
             }
           ],
           "title": "2023"
+        }
+      ]
+    },
+    "2024": {
+      "title": "Our scientific articles",
+      "paragraphs": [
+        {
+          "articles": [
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "S.&nbsp;Kassi",
+                "H.&nbsp;Fleurbaey",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "318, 108948",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "The Collision-Induced Absorption of H<sub>2</sub> Near 1.20&nbsp;&mu;m: Subatmospheric Measurements and Validation Tests of Calculations",
+              "url": "2024Koroleva.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "I.A.&nbsp;Velmuzhova",
+                "M.A.&nbsp;Koshelev",
+                "A.P.&nbsp;Velmuzhov",
+                "O.N.&nbsp;Ulenikov",
+                "O.V.&nbsp;Gromova"
+              ],
+              "data": "402, 111914",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "Thermodynamic Functions of Germane Isotopologues <sup>A</sup>GeH<sub>4</sub> (A&nbsp;=&nbsp;70, 72, 73, 74, 76) Calculated from High-Resolution IR Spectra",
+              "url": "2024Velmuzhova.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "A.E.&nbsp;Lynas-Gray",
+                "O.L.&nbsp;Polyansky",
+                "J.&nbsp;Tennyson",
+                "S.N.&nbsp;Yurchenko",
+                "N.F.&nbsp;Zobov"
+              ],
+              "data": "535, 1439&ndash;1448",
+              "journal": "Mon. Not. R. Astron. Soc.",
+              "title": "ExoMol Line Lists &ndash; LXII. Ro-Vibrational Energy Levels and Line Strengths for the Propadienediylidene (C<sub>3</sub>) in its Ground Electronic State",
+              "url": "2024Lynas-Gray.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "J.&nbsp;Tennyson",
+                "S.N.&nbsp;Yurchenko",
+                "J.&nbsp;Zhang",
+                "Ch.A.&nbsp;Bowesman",
+                "R.P.&nbsp;Brady",
+                "J.&nbsp;Buldyreva",
+                "K.L.&nbsp;Chubb",
+                "R.R.&nbsp;Gamache",
+                "M.N.&nbsp;Gorman",
+                "E.R.&nbsp;Guest",
+                "C.&nbsp;Hill",
+                "K.&nbsp;Kefala",
+                "A.E.&nbsp;Lynas-Gray",
+                "T.M.&nbsp;Mellor",
+                "L.K.&nbsp;McKemmish",
+                "G.B.&nbsp;Mitev",
+                "I.I.&nbsp;Mizus",
+                "A.&nbsp;Owens",
+                "Zh.&nbsp;Peng",
+                "A.N.&nbsp;Perri",
+                "M.&nbsp;Pezzella",
+                "O.L.&nbsp;Polyansky",
+                "Q.&nbsp;Qu",
+                "M.&nbsp;Semenov",
+                "O.&nbsp;Smola",
+                "A.&nbsp;Sokolov",
+                "W.&nbsp;Somogyi",
+                "A.&nbsp;Upadhyay",
+                "S.&nbsp;Wright",
+                "N.F.&nbsp;Zobov"
+              ],
+              "data": "326, 109083",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "The 2024 Release of the ExoMol Database: Molecular Line Lists for Exoplanet and Other Hot Atmospheres",
+              "url": "2024Tennyson.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "S.P.&nbsp;Belov",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "I.I.&nbsp;Leonov",
+                "T.A.&nbsp;Galanina",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "67(7), 595&ndash;606",
+              "journal": "Izv. VUZov. Radiofizika",
+              "language": "in Russian",
+              "title": "Advancing the Sensitivity of Highly Selective Gas Analysis by the Example of CO Molecule",
+              "url": "2024Belov.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "E.V.&nbsp;Karlovets",
+                "S.N.&nbsp;Mikhailenko",
+                "A.O.&nbsp;Koroleva",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "314, 108829",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Water Vapor Absorption Spectroscopy and Validation Tests of Databases in the Far-Infrared (50&ndash;720&nbsp;cm<sup>-1</sup>). Part 2: H<sub>2</sub><sup>17</sup>O and HD<sup>17</sup>O",
+              "url": "2024Karlovets.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "S.N.&nbsp;Mikhailenko",
+                "E.V.&nbsp;Karlovets",
+                "A.O.&nbsp;Koroleva",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "53, 023102",
+              "journal": "J. Phys. Chem. Ref. Data",
+              "title": "The Far Infrared Absorption Spectrum of D<sub>2</sub><sup>16</sup>O, D<sub>2</sub><sup>17</sup>O, and D<sub>2</sub><sup>18</sup>O: Experimental Line Positions, Empirical Energy Levels and Recommended Line Lists",
+              "url": "2024Mikhailenko.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "S.N.&nbsp;Mikhailenko",
+                "E.V.&nbsp;Karlovets",
+                "A.O.&nbsp;Koroleva",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "29, 5508",
+              "journal": "Molecules",
+              "title": "The Far-Infrared Absorption Spectrum of HD<sup>16</sup>O: Experimental Line Positions, Accurate Empirical Energy Levels, and a Recommended Line List",
+              "url": "2024Mikhailenko-1.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "T.A.&nbsp;Galanina",
+                "A.O.&nbsp;Koroleva",
+                "I.S.&nbsp;Amerkhanov",
+                "E.A.&nbsp;Serov",
+                "M.A.&nbsp;Koshelev",
+                "M.Yu.&nbsp;Tretyakov",
+                "D.N.&nbsp;Chistikov",
+                "A.A.&nbsp;Finenko",
+                "A.A.&nbsp;Vigasin"
+              ],
+              "data": "26, 15032",
+              "journal": "Phys. Chem. Chem. Phys.",
+              "title": "On the Nature of Sub-THz Continuum Absorption in CO<sub>2</sub> Gas, Its Mixture with Ar, and in Pure Water Vapor",
+              "url": "2024Galanina.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "E.A.&nbsp;Serov",
+                "T.A.&nbsp;Galanina",
+                "A.O.&nbsp;Koroleva",
+                "D.S.&nbsp;Makarov",
+                "I.S.&nbsp;Amerkhanov",
+                "M.A.&nbsp;Koshelev",
+                "M.Yu.&nbsp;Tretyakov",
+                "D.N.&nbsp;Chistikov",
+                "A.A.&nbsp;Finenko",
+                "A.A.&nbsp;Vigasin"
+              ],
+              "data": "328, 109172",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Continuum Absorption in Pure N<sub>2</sub> Gas and in Its Mixture With Ar",
+              "url": "2024Serov.pdf",
+              "year": "2024"
+            },
+            {
+              "authors": [
+                "A.N.&nbsp;Kuftin",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "I.N.&nbsp;Vilkov",
+                "A.P.&nbsp;Fokin",
+                "Yu.V.&nbsp;Novozhilova",
+                "M.Yu.&nbsp;Glyavin",
+                "G.G.&nbsp;Denisov"
+              ],
+              "data": "71(11), 7061&ndash;7065",
+              "journal": "IEEE Transactions on Electron Devices",
+              "title": "Experimental Study of Extended Operating Zone of a 170&nbsp;GHz/1&nbsp;MW Gyrotron Locked by a Narrowband External Signal",
+              "url": "2024Kuftin.pdf",
+              "year": "2023"
+            }
+          ],
+          "title": "2024"
+        }
+      ]
+    },
+    "2025": {
+      "title": "Our scientific articles",
+      "paragraphs": [
+        {
+          "articles": [
+            {
+              "authors": [
+                "L.N.&nbsp;Sinitsa",
+                "N.F.&nbsp;Zobov",
+                "M.A.&nbsp;Rogov",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "407, 111965",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "Study of HD<sup>17</sup>O Spectrum. Theory and Experiment",
+              "url": "2025Sinitsa.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "M.A.&nbsp;Koshelev",
+                "I.N.&nbsp;Vilkov",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "A.Yu.&nbsp;Sekacheva",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "330, 109220",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Line-Shape Parameters of the Oxygen First Rotational Triplet",
+              "url": "2025Koshelev.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "M.Yu.&nbsp;Tretyakov",
+                "T.A.&nbsp;Galanina",
+                "A.O.&nbsp;Koroleva",
+                "D.S.&nbsp;Makarov",
+                "D.N.&nbsp;Chistikov",
+                "A.A.&nbsp;Finenko",
+                "A.A.&nbsp;Vigasin"
+              ],
+              "data": "333, 109319",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Atmospheric Water Vapor Continuum Model for the Sub-THz Range",
+              "url": "2025Tretyakov.pdf",
+              "year": "2025"
+            }
+          ],
+          "title": "2025"
         }
       ]
     }
