@@ -7971,9 +7971,9 @@
                 "V.M.&nbsp;Devi",
                 "T.&nbsp;Furtenbacher",
                 "J.J.&nbsp;Harrison",
-                "J.&#8209;M.&nbsp;Hartman",
+                "J.&#8209;M.&nbsp;Hartmann",
                 "A.&nbsp;Jolly",
-                "J.T.&nbsp;Johnson",
+                "T.J.&nbsp;Johnson",
                 "T.&nbsp;Karman",
                 "I.&nbsp;Kleiner",
                 "A.A.&nbsp;Kyuberis",
@@ -9215,7 +9215,7 @@
                 "A.&nbsp;Foltynowicz",
                 "T.&nbsp;Furtenbacher",
                 "J.J.&nbsp;Harrison",
-                "J.&#8209;M.&nbsp;Hartman",
+                "J.&#8209;M.&nbsp;Hartmann",
                 "V.&#8209;M.&nbsp;Horneman",
                 "X.&nbsp;Huang",
                 "T.&nbsp;Karman",
@@ -9933,9 +9933,437 @@
               "title": "Atmospheric Water Vapor Continuum Model for the Sub-THz Range",
               "url": "2025Tretyakov.pdf",
               "year": "2025"
+            },
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "T.A.&nbsp;Galanina",
+                "M.A.&nbsp;Koshelev",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "27, 13618&ndash;13628",
+              "journal": "Phys. Chem. Chem. Phys.",
+              "title": "CO&mdash;Ar Continuum Under the Rotational Band: Can Super-Lorentzian Wings Be Involved?",
+              "url": "2025Koroleva.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "D.S.&nbsp;Makarov",
+                "I.N.&nbsp;Vilkov",
+                "T.A.&nbsp;Galanina",
+                "E.A.&nbsp;Serov",
+                "M.A.&nbsp;Koshelev",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "337, 109379",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Collisional Parameters of the Pure Rotational R(0) Line of CO in N<sub>2</sub>: Experiment Versus Theory",
+              "url": "2025Makarov.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "J.&nbsp;Terragni",
+                "I.E.&nbsp;Gordon",
+                "E.M.&nbsp;Adkins",
+                "C.&nbsp;Boulet",
+                "A.&nbsp;Campargue",
+                "D.N.&nbsp;Chistikov",
+                "A.A.&nbsp;Finenko",
+                "H.&nbsp;Finkenzeller",
+                "H.&nbsp;Fleurbaey",
+                "R.J.&nbsp;Hargreaves",
+                "R.K.&nbsp;Hanson",
+                "J.&#8209;M.&nbsp;Hartmann",
+                "A.&nbsp;Klingberg",
+                "E.&nbsp;Kohler",
+                "A.O.&nbsp;Koroleva",
+                "D.&nbsp;Mondelain",
+                "G.&nbsp;Piccioni",
+                "S.&nbsp;Stefani",
+                "C.L.&nbsp;Strand",
+                "H.&nbsp;Tran",
+                "M.&nbsp;Turbet",
+                "A.A.&nbsp;Vigasin",
+                "F.&nbsp;Vitali",
+                "R.&nbsp;Volkamer",
+                "C.&nbsp;Wei"
+              ],
+              "data": "347, 109631",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Collision Induced Absorption in HITRAN2024: Enhanced and Improved Data for Atmospheric and Planetary Studies",
+              "url": "2025Terragni.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "S.N.&nbsp;Mikhailenko",
+                "A.O.&nbsp;Koroleva",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "54, 023103",
+              "journal": "J. Phys. Chem. Ref. Data",
+              "title": "Empirical Energy Levels and Line Lists of HD<sup>17</sup>O and HD<sup>18</sup>O from the Analysis of Far Infrared Absorption Spectra",
+              "url": "2025Mikhailenko.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "S.N.&nbsp;Mikhailenko",
+                "A.O.&nbsp;Koroleva",
+                "A.&nbsp;Campargue"
+              ],
+              "data": "347, 109638",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Empirical Energy Levels and Line Lists of D<sub>2</sub><sup>17</sup>O, and D<sub>2</sub><sup>18</sup>O from the Analysis of Far Infrared Absorption Spectra (50&ndash;720&nbsp;cm<sup>-1</sup>)",
+              "url": "2025Mikhailenko-1.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "I.I.&nbsp;Mizus",
+                "M.A.&nbsp;Rogov",
+                "N.F.&nbsp;Zobov",
+                "V.Yu.&nbsp;Makhnev",
+                "R.I.&nbsp;Ovsyannikov",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "344, 109463",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Approaching Experimental Accuracy for Triatomic Spectra Using Variational Calculations: Potential Energy and Dipole Moment Surfaces of <sup>14</sup>N<sub>2</sub><sup>16</sup>O",
+              "url": "2025Mizus.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "I.I.&nbsp;Mizus",
+                "M.A.&nbsp;Rogov",
+                "N.F.&nbsp;Zobov",
+                "R.I.&nbsp;Ovsyannikov",
+                "E.I.&nbsp;Lebedev",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "411&ndash;412, 112034",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "Calculated <sup>14</sup>N<sub>2</sub><sup>16</sup>O Line Intensities Using Radau Coordinates and an Accurate Potential Energy Surface",
+              "url": "2025Mizus-1.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "J.&#8209;K.&nbsp;Li",
+                "J.&nbsp;Wang",
+                "R.&#8209;H.&nbsp;Yin",
+                "Q.&nbsp;Huang",
+                "Y.&nbsp;Tan",
+                "C.&#8209;L.&nbsp;Hu",
+                "Y.R.&nbsp;Sun",
+                "O.L.&nbsp;Polyansky",
+                "N.F.&nbsp;Zobov",
+                "E.I.&nbsp;Lebedev",
+                "R.&nbsp;Stosch",
+                "J.&nbsp;Tennyson",
+                "G.&nbsp;Li",
+                "S.&#8209;M.&nbsp;Hu"
+              ],
+              "data": "11, eadz6560",
+              "journal": "Sci. Adv.",
+              "title": "Unprecedented Accuracy in Molecular Line-Intensity Ratios from Frequency-Based Measurements",
+              "url": "2025Li.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "N.F.&nbsp;Zobov",
+                "R.I.&nbsp;Ovsyannikov",
+                "M.A.&nbsp;Rogov",
+                "E.I.&nbsp;Lebedev",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "345, 109510",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "CO Line Intensities: Towards Subpercent Accuracy of Intensities of All Bands",
+              "url": "2025Zobov.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "P.V.&nbsp;Subochev",
+                "X.L.&nbsp;Dean&#8209;Ben",
+                "Z.&nbsp;Chen",
+                "M.B.&nbsp;Prudnikov",
+                "V.A.&nbsp;Vorobev",
+                "A.A.&nbsp;Kurnikov",
+                "A.G.&nbsp;Orlova",
+                "A.S.&nbsp;Postnikova",
+                "A.V.&nbsp;Kharitonov",
+                "M.D.&nbsp;Proyavin",
+                "R.I.&nbsp;Ovsyannikov",
+                "A.G.&nbsp;Sanin",
+                "M.Yu.&nbsp;Kirillin",
+                "F.&nbsp;Montero&nbsp;de&nbsp;Espinosa",
+                "I.V.&nbsp;Turchin",
+                "D.&nbsp;Razansky"
+              ],
+              "data": "14, 239",
+              "journal": "Light Sci Appl.",
+              "title": "Ultrawideband High Density Polymer-Based Spherical Array for Real-Time Functional Optoacoustic Micro-Angiography",
+              "url": "2025Subochev.pdf",
+              "year": "2025"
+            },
+            {
+              "authors": [
+                "A.V.&nbsp;Kirsanov",
+                "A.P.&nbsp;Fokin",
+                "A.N.&nbsp;Kuftin",
+                "A.A.&nbsp;Ananichev",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "B.Z.&nbsp;Movshevich",
+                "A.S.&nbsp;Zuev",
+                "V.N.&nbsp;Manuilov",
+                "E.M.&nbsp;Tai",
+                "M.Yu.&nbsp;Glyavin",
+                "G.G.&nbsp;Denisov"
+              ],
+              "data": "72(10), 5759&ndash;5762",
+              "journal": "IEEE Transactions on Electron Devices",
+              "title": "Experimental Study of a Stabilized 230-GHz Gyrotron-Driver for Frequency Locking of Megawatt-Level Gyrotrons",
+              "url": "2025Kirsanov.pdf",
+              "year": "2025"
             }
           ],
           "title": "2025"
+        }
+      ]
+    },
+    "2026": {
+      "title": "Our scientific articles",
+      "paragraphs": [
+        {
+          "articles": [
+            {
+              "authors": [
+                "A.O.&nbsp;Koroleva",
+                "T.A.&nbsp;Galanina",
+                "I.S.&nbsp;Amerkhanov",
+                "E.A.&nbsp;Serov",
+                "A.Yu.&nbsp;Sekacheva",
+                "M.A.&nbsp;Koshelev",
+                "D.N.&nbsp;Chistikov",
+                "A.A.&nbsp;Finenko",
+                "M.Yu.&nbsp;Tretyakov"
+              ],
+              "data": "353, 109841",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Continuum Absorption of Millimeter Waves by CH<sub>4</sub>&ndash;X (X=CH<sub>4</sub>, N<sub>2</sub>, CO<sub>2</sub>)",
+              "url": "2026Koroleva.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "M.A.&nbsp;Koshelev",
+                "I.N.&nbsp;Vilkov",
+                "D.S.&nbsp;Makarov",
+                "G.Yu.&nbsp;Golubyatnikov",
+                "A.O.&nbsp;Koroleva",
+                "T.A.&nbsp;Galanina"
+              ],
+              "data": "353, 109854",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Beyond-Voigt Collisional Parameters of SubTHz H<sub>2</sub>O Lines for Atmospheric Applications",
+              "url": "2026Koshelev.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "A.A.&nbsp;Finenko",
+                "D.N.&nbsp;Chistikov",
+                "A.O.&nbsp;Koroleva",
+                "A.A.&nbsp;Vigasin"
+              ],
+              "data": "352, 109810",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Trajectory-Based Far Infrared Collision-Induced Absorption Spectra of CH<sub>4</sub>&ndash;CO<sub>2</sub> in the Temperature Range from 70&nbsp;K to 400&nbsp;K",
+              "url": "2026Finenko.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "A.A.&nbsp;Vigasin",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "352, 109803",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "Mikhail Tretyakov’s Scientific Legacy",
+              "url": "2026Vigasin.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "R.I.&nbsp;Ovsyannikov",
+                "A.N.&nbsp;Perri",
+                "I.I.&nbsp;Mizus",
+                "J.&nbsp;Tennyson",
+                "S.N.&nbsp;Yurchenko",
+                "A.O.&nbsp;Mitrushchenkov",
+                "N.F.&nbsp;Zobov",
+                "M.A.&nbsp;Rogov",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "415, 112068",
+              "journal": "J. Mol. Spectrosc.",
+              "title": "High-Accuracy Solution of the Rovibrational Schrödinger Equation for Triatomic Molecules",
+              "url": "2026Ovsyannikov.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "N.F.&nbsp;Zobov",
+                "I.I.&nbsp;Mizus",
+                "R.I.&nbsp;Ovsyannikov",
+                "M.A.&nbsp;Rogov",
+                "J.&nbsp;Tennyson",
+                "M.&nbsp;Pezzella",
+                "S.N.&nbsp;Yurchenko",
+                "R.R.&nbsp;Gamache",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "354, 109833",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "An Assigned Room Temperature Line List for H<sub>2</sub><sup>16</sup>O",
+              "url": "2026Zobov.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "I.E.&nbsp;Gordon",
+                "L.S.&nbsp;Rothman",
+                "R.J.&nbsp;Hargreaves",
+                "F.M.&nbsp;Gomez",
+                "T.&nbsp;Bertin",
+                "C.&nbsp;Hill",
+                "R.V.&nbsp;Kochanov",
+                "Y.&nbsp;Tan",
+                "P.&nbsp;Wcislo",
+                "V.Yu.&nbsp;Makhnev",
+                "P.F.&nbsp;Bernath",
+                "M.&nbsp;Birk",
+                "V.&nbsp;Boudon",
+                "A.&nbsp;Campargue",
+                "A.&nbsp;Coustenis",
+                "B.J.&nbsp;Drouin",
+                "R.R.&nbsp;Gamache",
+                "J.T.&nbsp;Hodges",
+                "D.&nbsp;Jacquemart",
+                "E.J.&nbsp;Mlawer",
+                "A.V.&nbsp;Nikitin",
+                "V.I.&nbsp;Perevalov",
+                "M.&nbsp;Rotger",
+                "S.&nbsp;Robert",
+                "J.&nbsp;Tennyson",
+                "G.C.&nbsp;Toon",
+                "H.&nbsp;Tran",
+                "V.G.&nbsp;Tyuterev",
+                "E.M.&nbsp;Adkins",
+                "A.&nbsp;Barbe",
+                "D.M.&nbsp;Bailey",
+                "K.&nbsp;Bielska",
+                "L.&nbsp;Bizzocchi",
+                "T.A.&nbsp;Blake",
+                "Ch.A.&nbsp;Bowesman",
+                "P.&nbsp;Cacciani",
+                "P.&nbsp;Cermak",
+                "A.G.&nbsp;Csaszar",
+                "L.&nbsp;Denis",
+                "S.C.&nbsp;Egbert",
+                "O.&nbsp;Egorov",
+                "A.Yu.&nbsp;Ermilov",
+                "A.J.&nbsp;Fleisher",
+                "H.&nbsp;Fleurbaey",
+                "A.&nbsp;Foltynowicz",
+                "T.&nbsp;Furtenbacher",
+                "M.&nbsp;Germann",
+                "E.R.&nbsp;Guest",
+                "J.J.&nbsp;Harrison",
+                "J.&#8209;M.&nbsp;Hartmann",
+                "A.&nbsp;Hjältén",
+                "S.&#8209;M.&nbsp;Hu",
+                "X.&nbsp;Huang",
+                "T.J.&nbsp;Johnson",
+                "H.&nbsp;Jóźwiak",
+                "S.&nbsp;Kassi",
+                "M.V.&nbsp;Khan",
+                "F.&nbsp;Kwabia-Tchana",
+                "T.J.&nbsp;Lee",
+                "D.&nbsp;Lisak",
+                "A.&#8209;W.&nbsp;Liu",
+                "O.M.&nbsp;Lyulin",
+                "N.A.&nbsp;Malarich",
+                "L.&nbsp;Manceron",
+                "A.A.&nbsp;Marinina",
+                "S.T.&nbsp;Massie",
+                "J.&nbsp;Mascio",
+                "E.S.&nbsp;Medvedev",
+                "V.V.&nbsp;Meshkov",
+                "G.Ch.&nbsp;Mellau",
+                "M.&nbsp;Melosso",
+                "S.N.&nbsp;Mikhailenko",
+                "D.&nbsp;Mondelain",
+                "H.S.P.&nbsp;Muller",
+                "M.&nbsp;O’Donnell",
+                "A.&nbsp;Owens",
+                "A.&nbsp;Perrin",
+                "O.L.&nbsp;Polyansky",
+                "P.L.&nbsp;Raston",
+                "Z.D.&nbsp;Reed",
+                "M.&nbsp;Rey",
+                "C.&nbsp;Richard",
+                "G.B.&nbsp;Rieker",
+                "C.&nbsp;Röske",
+                "S.W.&nbsp;Sharpe",
+                "E.&nbsp;Starikova",
+                "N.&nbsp;Stolarczyk",
+                "A.V.&nbsp;Stolyarov",
+                "K.&nbsp;Sung",
+                "F.&nbsp;Tamassia",
+                "J.&nbsp;Terragni",
+                "V.G.&nbsp;Ushakov",
+                "S.&nbsp;Vasilchenko",
+                "B.&nbsp;Vispoel",
+                "K.L.&nbsp;Vodopyanov",
+                "G.&nbsp;Wagner",
+                "S.&nbsp;Wojtewicz",
+                "S.N.&nbsp;Yurchenko",
+                "N.F.&nbsp;Zobov"
+              ],
+              "data": "353, 109807",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "The HITRAN2024 Molecular Spectroscopic Database",
+              "url": "2026Gordon.pdf",
+              "year": "2026"
+            },
+            {
+              "authors": [
+                "M.A.&nbsp;Rogov",
+                "N.F.&nbsp;Zobov",
+                "I.I.&nbsp;Mizus",
+                "R.I.&nbsp;Ovsyannikov",
+                "J.&nbsp;Tennyson",
+                "O.L.&nbsp;Polyansky"
+              ],
+              "data": "354, 109863",
+              "journal": "J. Quant. Spectrosc. Rad. Trans.",
+              "title": "A Further Step Towards a Calculated Room Temperature Line List for H<sub>2</sub><sup>16</sup>O with Experimental Accuracy",
+              "url": "2026Rogov.pdf",
+              "year": "2026"
+            }
+          ],
+          "title": "2026"
         }
       ]
     }
