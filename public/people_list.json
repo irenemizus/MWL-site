@@ -289,7 +289,7 @@
           "tel": "+7 (831) 416-48-66",
           "biography": "<p>Dmitriy Sergeyevich Makarov was born on 23.04.1984 in Nizhny Novgorod.</p> <p>Graduated from the Radiophysical department of the Nizhny Novgorod State  University in 2007 with master's degree in radiophysics.</p> <p>Started working at the Microwave Spectroscopy laboratory in 2004 as a  laboratory assistant. Took Ph.D. course from 2007 to 2010. Received Ph.D. degree in physics in 2011. The theme of the Ph.D. thesis is &ldquo;Millimeter-wave spectrum of molecular oxygen: measurements and the absorption profile modeling in a broad temperature range&rdquo;.</p> <p>Major interests: quantum radiophysics, molecular spectroscopy, line and band profile shape analysis, millimeter- and  submillimeter-wave technique.</p>",
           "photo": {
-            "filename": "Makarov1.jpg",
+            "filename": "Makarov.jpg",
             "position": {
               "x": 0.6,
               "y": 0.2
@@ -397,7 +397,7 @@
           "short_name": "Mikhail&nbsp;A.&nbsp;Rogov",
           "position": "Ph.D. Student",
           "email": "rogow.mixail2014&nbsp;(at)&nbsp;yandex.ru",
-          "biography": "<p></p>",
+          "biography": "<p>Mikhail Rogov was born in Nizhny Novgorod. He graduated from the Faculty of Radiophysics at Lobachevsky State University of Nizhny Novgorod and holds a master's degree in radiophysics. Since 2023, he has been working in the Microwave Gas Spectroscopy Department.</p>",
           "photo": {
             "filename": "Rogov.jpg",
             "position": {"x": 0.5, "y": 0.0},
